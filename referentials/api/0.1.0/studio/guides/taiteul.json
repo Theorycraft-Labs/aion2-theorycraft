@@ -2,16 +2,22 @@
   "metadata": {
     "guide_id": "taiteul",
     "guide_title": "타이틀",
+    "guide_title_en": "Titles",
     "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%ED%83%80%EC%9D%B4%ED%8B%80",
     "top_category": "성장과 수집",
+    "top_category_en": "Progression and Collection",
     "sub_category": "수집 콘텐츠",
+    "sub_category_en": "Collection Content",
     "priority": "P2",
     "action": "parse_support",
+    "action_label_en": "Support",
     "topic": "gear_nuance",
+    "topic_label_en": "Support & Nuance",
     "crawled_at": "2026-02-13T18:16:27+00:00",
     "referential_version": "0.1.0",
-    "schema_version": "studio_v1",
-    "generated_at": "2026-02-13T20:59:53+00:00",
+    "schema_version": "studio_v2",
+    "translation_target": "en",
+    "generated_at": "2026-02-13T21:29:44+00:00",
     "source_facts_file": "exports/facts/gear_nuance__support__taiteul.json"
   },
   "summary": {
@@ -65,9 +71,22 @@
         "source_section": "타이틀 소개",
         "raw_text": "타이틀 바로가기 | 타이틀 화면으로 이동할 수 있다."
       },
+      "i18n": {
+        "entity_en": "title 바로가기",
+        "value_en": "title 화면으로 이동할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "movement",
+          "title_system",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_barogagi",
         "search_text": "타이틀 타이틀 소개 타이틀 바로가기 타이틀 화면으로 이동할 수 있다. movement title_system info",
+        "search_text_en": "titles title overview title 바로가기 title 화면으로 이동할 수 있다. movement title_system info",
         "chips": [
           "movement",
           "title_system",
@@ -94,9 +113,21 @@
         "source_section": "타이틀 소개",
         "raw_text": "적용 타이틀 | 현재 플레이어가 적용받고 있는 타이틀명이 노출된다."
       },
+      "i18n": {
+        "entity_en": "적용 title",
+        "value_en": "현재 플레이어가 적용받고 있는 title명이 노출된다.",
+        "conditions_en": [],
+        "tags_en": [
+          "title_system",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "jeokyong_taiteul",
         "search_text": "타이틀 타이틀 소개 적용 타이틀 현재 플레이어가 적용받고 있는 타이틀명이 노출된다. title_system info",
+        "search_text_en": "titles title overview 적용 title 현재 플레이어가 적용받고 있는 title명이 노출된다. title_system info",
         "chips": [
           "title_system",
           "info",
@@ -128,9 +159,21 @@
         "source_section": "타이틀 소개",
         "raw_text": "적용 타이틀 | X | 1개"
       },
+      "i18n": {
+        "entity_en": "적용 title",
+        "value_en": "X / 1개",
+        "conditions_en": [],
+        "tags_en": [
+          "title_system",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jeokyong_taiteul",
         "search_text": "타이틀 타이틀 소개 적용 타이틀 x / 1개 title_system info",
+        "search_text_en": "titles title overview 적용 title x / 1개 title_system info",
         "chips": [
           "title_system",
           "info",
@@ -164,9 +207,23 @@
         "source_section": "타이틀 소개",
         "raw_text": "장착 효과 | O | 3개(최대)"
       },
+      "i18n": {
+        "entity_en": "장착 효과",
+        "value_en": "O / 3개(최대)",
+        "conditions_en": [],
+        "tags_en": [
+          "nuance",
+          "recommendation",
+          "info",
+          "title_system"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jangchak_hyogwa",
         "search_text": "타이틀 타이틀 소개 장착 효과 o / 3개(최대) nuance recommendation info title_system",
+        "search_text_en": "titles title overview 장착 효과 o / 3개(최대) nuance recommendation info title_system",
         "chips": [
           "nuance",
           "recommendation",
@@ -195,9 +252,23 @@
         "source_section": "타이틀 소개",
         "raw_text": "보유 효과 | O | -"
       },
+      "i18n": {
+        "entity_en": "보유 효과",
+        "value_en": "O / -",
+        "conditions_en": [],
+        "tags_en": [
+          "nuance",
+          "recommendation",
+          "info",
+          "title_system"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "boyu_hyogwa",
         "search_text": "타이틀 타이틀 소개 보유 효과 o / - nuance recommendation info title_system",
+        "search_text_en": "titles title overview 보유 효과 o / - nuance recommendation info title_system",
         "chips": [
           "nuance",
           "recommendation",
@@ -225,9 +296,22 @@
         "source_section": "타이틀 소개",
         "raw_text": "카테고리 | 전체 | 전체 타이틀 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "카테고리",
+        "value_en": "전체 / 전체 title list을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "kategori",
         "search_text": "타이틀 타이틀 소개 카테고리 전체 / 전체 타이틀 목록을 확인할 수 있다. title_system list info",
+        "search_text_en": "titles title overview 카테고리 전체 / 전체 title list을 can be checked. title_system list info",
         "chips": [
           "title_system",
           "list",
@@ -256,9 +340,23 @@
         "source_section": "타이틀 소개",
         "raw_text": "일대기 | 특정 퀘스트 완료 보상을 통해 확득 할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "일대기",
+        "value_en": "특정 퀘스트 완료 reward을 통해 확득 할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "ildaegi",
         "search_text": "타이틀 타이틀 소개 일대기 특정 퀘스트 완료 보상을 통해 확득 할 수 있는 타이틀 목록 drop title_system list info",
+        "search_text_en": "titles title overview 일대기 특정 퀘스트 완료 reward을 통해 확득 할 수 있는 title list drop title_system list info",
         "chips": [
           "drop",
           "title_system",
@@ -288,9 +386,23 @@
         "source_section": "타이틀 소개",
         "raw_text": "일대기 | 특정 퀘스트 완료 보상을 통해 확득 할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "일대기",
+        "value_en": "특정 퀘스트 완료 reward을 통해 확득 할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "ildaegi",
         "search_text": "타이틀 타이틀 소개 일대기 특정 퀘스트 완료 보상을 통해 확득 할 수 있는 타이틀 목록 drop title_system list info",
+        "search_text_en": "titles title overview 일대기 특정 퀘스트 완료 reward을 통해 확득 할 수 있는 title list drop title_system list info",
         "chips": [
           "drop",
           "title_system",
@@ -320,9 +432,23 @@
         "source_section": "타이틀 소개",
         "raw_text": "성장 | 캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "성장",
+        "value_en": "캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "seongjang",
         "search_text": "타이틀 타이틀 소개 성장 캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 타이틀 목록 drop title_system list info",
+        "search_text_en": "titles title overview 성장 캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 title list drop title_system list info",
         "chips": [
           "drop",
           "title_system",
@@ -352,9 +478,23 @@
         "source_section": "타이틀 소개",
         "raw_text": "성장 | 캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "성장",
+        "value_en": "캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "seongjang",
         "search_text": "타이틀 타이틀 소개 성장 캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 타이틀 목록 drop title_system list info",
+        "search_text_en": "titles title overview 성장 캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 title list drop title_system list info",
         "chips": [
           "drop",
           "title_system",
@@ -384,9 +524,23 @@
         "source_section": "타이틀 소개",
         "raw_text": "성장 | 캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "성장",
+        "value_en": "캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "seongjang",
         "search_text": "타이틀 타이틀 소개 성장 캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 타이틀 목록 drop title_system list info",
+        "search_text_en": "titles title overview 성장 캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 title list drop title_system list info",
         "chips": [
           "drop",
           "title_system",
@@ -416,9 +570,23 @@
         "source_section": "타이틀 소개",
         "raw_text": "도전 | 전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "도전",
+        "value_en": "전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "dojeon",
         "search_text": "타이틀 타이틀 소개 도전 전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 타이틀 목록 drop title_system list info",
+        "search_text_en": "titles title overview 도전 전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 title list drop title_system list info",
         "chips": [
           "drop",
           "title_system",
@@ -448,9 +616,23 @@
         "source_section": "타이틀 소개",
         "raw_text": "도전 | 전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "도전",
+        "value_en": "전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "dojeon",
         "search_text": "타이틀 타이틀 소개 도전 전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 타이틀 목록 drop title_system list info",
+        "search_text_en": "titles title overview 도전 전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 title list drop title_system list info",
         "chips": [
           "drop",
           "title_system",
@@ -483,9 +665,26 @@
         "source_section": "타이틀 소개",
         "raw_text": "탐험 | 주둔지, 봉인던전 등 클리어를 통해 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "탐험",
+        "value_en": "주둔지, 봉인dungeon 등 클리어를 통해 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "control",
+          "dungeon",
+          "drop",
+          "outpost",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "tamheom",
         "search_text": "타이틀 타이틀 소개 탐험 주둔지, 봉인던전 등 클리어를 통해 획득할 수 있는 타이틀 목록 control dungeon drop outpost title_system list info",
+        "search_text_en": "titles title overview 탐험 주둔지, 봉인dungeon 등 클리어를 통해 획득할 수 있는 title list control dungeon drop outpost title_system list info",
         "chips": [
           "control",
           "dungeon",
@@ -521,9 +720,26 @@
         "source_section": "타이틀 소개",
         "raw_text": "탐험 | 주둔지, 봉인던전 등 클리어를 통해 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "탐험",
+        "value_en": "주둔지, 봉인dungeon 등 클리어를 통해 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "control",
+          "dungeon",
+          "drop",
+          "outpost",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "tamheom",
         "search_text": "타이틀 타이틀 소개 탐험 주둔지, 봉인던전 등 클리어를 통해 획득할 수 있는 타이틀 목록 control dungeon drop outpost title_system list info",
+        "search_text_en": "titles title overview 탐험 주둔지, 봉인dungeon 등 클리어를 통해 획득할 수 있는 title list control dungeon drop outpost title_system list info",
         "chips": [
           "control",
           "dungeon",
@@ -557,9 +773,24 @@
         "source_section": "타이틀 소개",
         "raw_text": "격돌 | 원정 콘텐츠 클리어를 통해 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "격돌",
+        "value_en": "expedition 콘텐츠 클리어를 통해 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "title_system",
+          "expedition",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gyeokdol",
         "search_text": "타이틀 타이틀 소개 격돌 원정 콘텐츠 클리어를 통해 획득할 수 있는 타이틀 목록 drop title_system expedition list info",
+        "search_text_en": "titles title overview 격돌 expedition 콘텐츠 클리어를 통해 획득할 수 있는 title list drop title_system expedition list info",
         "chips": [
           "drop",
           "title_system",
@@ -591,9 +822,24 @@
         "source_section": "타이틀 소개",
         "raw_text": "격돌 | 원정 콘텐츠 클리어를 통해 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "격돌",
+        "value_en": "expedition 콘텐츠 클리어를 통해 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "title_system",
+          "expedition",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gyeokdol",
         "search_text": "타이틀 타이틀 소개 격돌 원정 콘텐츠 클리어를 통해 획득할 수 있는 타이틀 목록 drop title_system expedition list info",
+        "search_text_en": "titles title overview 격돌 expedition 콘텐츠 클리어를 통해 획득할 수 있는 title list drop title_system expedition list info",
         "chips": [
           "drop",
           "title_system",
@@ -625,9 +871,24 @@
         "source_section": "타이틀 소개",
         "raw_text": "자원 | 기타 경제 활동이나, 제작, 채집 등 활동으로 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "자원",
+        "value_en": "기타 경제 활동이나, crafting, 채집 등 활동으로 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "craft",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jawon",
         "search_text": "타이틀 타이틀 소개 자원 기타 경제 활동이나, 제작, 채집 등 활동으로 획득할 수 있는 타이틀 목록 drop craft title_system list info",
+        "search_text_en": "titles title overview 자원 기타 경제 활동이나, crafting, 채집 등 활동으로 획득할 수 있는 title list drop craft title_system list info",
         "chips": [
           "drop",
           "craft",
@@ -659,9 +920,24 @@
         "source_section": "타이틀 소개",
         "raw_text": "자원 | 기타 경제 활동이나, 제작, 채집 등 활동으로 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "자원",
+        "value_en": "기타 경제 활동이나, crafting, 채집 등 활동으로 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "craft",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jawon",
         "search_text": "타이틀 타이틀 소개 자원 기타 경제 활동이나, 제작, 채집 등 활동으로 획득할 수 있는 타이틀 목록 drop craft title_system list info",
+        "search_text_en": "titles title overview 자원 기타 경제 활동이나, crafting, 채집 등 활동으로 획득할 수 있는 title list drop craft title_system list info",
         "chips": [
           "drop",
           "craft",
@@ -691,9 +967,22 @@
         "source_section": "타이틀 소개",
         "raw_text": "타이틀 목록 | 타이틀 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "title list",
+        "value_en": "title list을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_mokrok",
         "search_text": "타이틀 타이틀 소개 타이틀 목록 타이틀 목록을 확인할 수 있다. title_system list info",
+        "search_text_en": "titles title overview title list title list을 can be checked. title_system list info",
         "chips": [
           "title_system",
           "list",
@@ -720,9 +1009,21 @@
         "source_section": "타이틀 소개",
         "raw_text": "장착 현황 및 타이틀 정보 | 적용 타이틀 및 장착 중인 타이틀 효과 정보를 확인할 수 있다. 선택한 타이틀의 상세 정보를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "장착 현황 및 title information",
+        "value_en": "적용 title 및 장착 중인 title 효과 information를 can be checked. 선택한 title의 상세 information를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "title_system",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "jangchak_hyeonhwang_mit_taiteul_jeongbo",
         "search_text": "타이틀 타이틀 소개 장착 현황 및 타이틀 정보 적용 타이틀 및 장착 중인 타이틀 효과 정보를 확인할 수 있다. 선택한 타이틀의 상세 정보를 확인할 수 있다. title_system info",
+        "search_text_en": "titles title overview 장착 현황 및 title information 적용 title 및 장착 중인 title 효과 information를 can be checked. 선택한 title의 상세 information를 can be checked. title_system info",
         "chips": [
           "title_system",
           "info",
@@ -755,9 +1056,22 @@
         "source_section": "타이틀 소개",
         "raw_text": "타이틀 프리셋 | 프리셋을 최대 3개까지 설정할 수 있다."
       },
+      "i18n": {
+        "entity_en": "title 프리셋",
+        "value_en": "프리셋을 최대 3개까지 can be configured.",
+        "conditions_en": [],
+        "tags_en": [
+          "title_system",
+          "preset",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_peuriset",
         "search_text": "타이틀 타이틀 소개 타이틀 프리셋 프리셋을 최대 3개까지 설정할 수 있다. title_system preset info",
+        "search_text_en": "titles title overview title 프리셋 프리셋을 최대 3개까지 can be configured. title_system preset info",
         "chips": [
           "title_system",
           "preset",
@@ -784,9 +1098,21 @@
         "source_section": "타이틀 소개",
         "raw_text": "타이틀 필터 및 검색 | 타이틀 필터를 설정하거나, 검색할 수 있다."
       },
+      "i18n": {
+        "entity_en": "title filter 및 검색",
+        "value_en": "title filter를 설정하거나, 검색할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "title_system",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_pilteo_mit_geomsaek",
         "search_text": "타이틀 타이틀 소개 타이틀 필터 및 검색 타이틀 필터를 설정하거나, 검색할 수 있다. title_system info",
+        "search_text_en": "titles title overview title filter 및 검색 title filter를 설정하거나, 검색할 수 있다. title_system info",
         "chips": [
           "title_system",
           "info",
@@ -812,9 +1138,21 @@
         "source_section": "타이틀 소개",
         "raw_text": "수집 현황 및 스탯 필터 | 타이틀 수집 현황과 특정 스탯을 부여하는 타이틀을 필터링할 수 있다."
       },
+      "i18n": {
+        "entity_en": "수집 현황 및 스탯 filter",
+        "value_en": "title 수집 현황과 특정 스탯을 부여하는 title을 filter링할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "title_system",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "sujip_hyeonhwang_mit_seutaet_pilteo",
         "search_text": "타이틀 타이틀 소개 수집 현황 및 스탯 필터 타이틀 수집 현황과 특정 스탯을 부여하는 타이틀을 필터링할 수 있다. title_system info",
+        "search_text_en": "titles title overview 수집 현황 및 스탯 filter title 수집 현황과 특정 스탯을 부여하는 title을 filter링할 수 있다. title_system info",
         "chips": [
           "title_system",
           "info",
@@ -840,9 +1178,21 @@
         "source_section": "타이틀 소개",
         "raw_text": "전체 적용 효과 | 적용중인 타이틀 효과를 세부적으로 확인할 수 있다"
       },
+      "i18n": {
+        "entity_en": "전체 적용 효과",
+        "value_en": "적용중인 title 효과를 세부적으로 can be checked",
+        "conditions_en": [],
+        "tags_en": [
+          "title_system",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jeonche_jeokyong_hyogwa",
         "search_text": "타이틀 타이틀 소개 전체 적용 효과 적용중인 타이틀 효과를 세부적으로 확인할 수 있다 title_system info",
+        "search_text_en": "titles title overview 전체 적용 효과 적용중인 title 효과를 세부적으로 can be checked title_system info",
         "chips": [
           "title_system",
           "info",
@@ -869,9 +1219,22 @@
         "source_section": "타이틀 소개",
         "raw_text": "타이틀 화면으로 이동할 수 있다."
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "title 화면으로 이동할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "movement",
+          "title_system",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 타이틀 화면으로 이동할 수 있다. movement title_system info",
+        "search_text_en": "titles title overview title overview title 화면으로 이동할 수 있다. movement title_system info",
         "chips": [
           "movement",
           "title_system",
@@ -898,9 +1261,21 @@
         "source_section": "타이틀 소개",
         "raw_text": "현재 플레이어가 적용받고 있는 타이틀명이 노출된다."
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "현재 플레이어가 적용받고 있는 title명이 노출된다.",
+        "conditions_en": [],
+        "tags_en": [
+          "title_system",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 현재 플레이어가 적용받고 있는 타이틀명이 노출된다. title_system info",
+        "search_text_en": "titles title overview title overview 현재 플레이어가 적용받고 있는 title명이 노출된다. title_system info",
         "chips": [
           "title_system",
           "info",
@@ -927,9 +1302,22 @@
         "source_section": "타이틀 소개",
         "raw_text": "전체 타이틀 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "전체 title list을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 전체 타이틀 목록을 확인할 수 있다. title_system list info",
+        "search_text_en": "titles title overview title overview 전체 title list을 can be checked. title_system list info",
         "chips": [
           "title_system",
           "list",
@@ -958,9 +1346,23 @@
         "source_section": "타이틀 소개",
         "raw_text": "특정 퀘스트 완료 보상을 통해 확득 할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "특정 퀘스트 완료 reward을 통해 확득 할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 특정 퀘스트 완료 보상을 통해 확득 할 수 있는 타이틀 목록 drop title_system list info",
+        "search_text_en": "titles title overview title overview 특정 퀘스트 완료 reward을 통해 확득 할 수 있는 title list drop title_system list info",
         "chips": [
           "drop",
           "title_system",
@@ -990,9 +1392,23 @@
         "source_section": "타이틀 소개",
         "raw_text": "특정 퀘스트 완료 보상을 통해 확득 할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "특정 퀘스트 완료 reward을 통해 확득 할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 특정 퀘스트 완료 보상을 통해 확득 할 수 있는 타이틀 목록 drop title_system list info",
+        "search_text_en": "titles title overview title overview 특정 퀘스트 완료 reward을 통해 확득 할 수 있는 title list drop title_system list info",
         "chips": [
           "drop",
           "title_system",
@@ -1022,9 +1438,23 @@
         "source_section": "타이틀 소개",
         "raw_text": "캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 타이틀 목록 drop title_system list info",
+        "search_text_en": "titles title overview title overview 캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 title list drop title_system list info",
         "chips": [
           "drop",
           "title_system",
@@ -1054,9 +1484,23 @@
         "source_section": "타이틀 소개",
         "raw_text": "캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 타이틀 목록 drop title_system list info",
+        "search_text_en": "titles title overview title overview 캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 title list drop title_system list info",
         "chips": [
           "drop",
           "title_system",
@@ -1086,9 +1530,23 @@
         "source_section": "타이틀 소개",
         "raw_text": "캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 타이틀 목록 drop title_system list info",
+        "search_text_en": "titles title overview title overview 캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 title list drop title_system list info",
         "chips": [
           "drop",
           "title_system",
@@ -1118,9 +1576,23 @@
         "source_section": "타이틀 소개",
         "raw_text": "전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 타이틀 목록 drop title_system list info",
+        "search_text_en": "titles title overview title overview 전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 title list drop title_system list info",
         "chips": [
           "drop",
           "title_system",
@@ -1150,9 +1622,23 @@
         "source_section": "타이틀 소개",
         "raw_text": "전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 타이틀 목록 drop title_system list info",
+        "search_text_en": "titles title overview title overview 전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 title list drop title_system list info",
         "chips": [
           "drop",
           "title_system",
@@ -1185,9 +1671,26 @@
         "source_section": "타이틀 소개",
         "raw_text": "주둔지, 봉인던전 등 클리어를 통해 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "주둔지, 봉인dungeon 등 클리어를 통해 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "control",
+          "dungeon",
+          "drop",
+          "outpost",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 주둔지, 봉인던전 등 클리어를 통해 획득할 수 있는 타이틀 목록 control dungeon drop outpost title_system list info",
+        "search_text_en": "titles title overview title overview 주둔지, 봉인dungeon 등 클리어를 통해 획득할 수 있는 title list control dungeon drop outpost title_system list info",
         "chips": [
           "control",
           "dungeon",
@@ -1223,9 +1726,26 @@
         "source_section": "타이틀 소개",
         "raw_text": "주둔지, 봉인던전 등 클리어를 통해 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "주둔지, 봉인dungeon 등 클리어를 통해 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "control",
+          "dungeon",
+          "drop",
+          "outpost",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 주둔지, 봉인던전 등 클리어를 통해 획득할 수 있는 타이틀 목록 control dungeon drop outpost title_system list info",
+        "search_text_en": "titles title overview title overview 주둔지, 봉인dungeon 등 클리어를 통해 획득할 수 있는 title list control dungeon drop outpost title_system list info",
         "chips": [
           "control",
           "dungeon",
@@ -1259,9 +1779,24 @@
         "source_section": "타이틀 소개",
         "raw_text": "원정 콘텐츠 클리어를 통해 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "expedition 콘텐츠 클리어를 통해 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "title_system",
+          "expedition",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 원정 콘텐츠 클리어를 통해 획득할 수 있는 타이틀 목록 drop title_system expedition list info",
+        "search_text_en": "titles title overview title overview expedition 콘텐츠 클리어를 통해 획득할 수 있는 title list drop title_system expedition list info",
         "chips": [
           "drop",
           "title_system",
@@ -1293,9 +1828,24 @@
         "source_section": "타이틀 소개",
         "raw_text": "원정 콘텐츠 클리어를 통해 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "expedition 콘텐츠 클리어를 통해 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "title_system",
+          "expedition",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 원정 콘텐츠 클리어를 통해 획득할 수 있는 타이틀 목록 drop title_system expedition list info",
+        "search_text_en": "titles title overview title overview expedition 콘텐츠 클리어를 통해 획득할 수 있는 title list drop title_system expedition list info",
         "chips": [
           "drop",
           "title_system",
@@ -1327,9 +1877,24 @@
         "source_section": "타이틀 소개",
         "raw_text": "기타 경제 활동이나, 제작, 채집 등 활동으로 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "기타 경제 활동이나, crafting, 채집 등 활동으로 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "craft",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 기타 경제 활동이나, 제작, 채집 등 활동으로 획득할 수 있는 타이틀 목록 drop craft title_system list info",
+        "search_text_en": "titles title overview title overview 기타 경제 활동이나, crafting, 채집 등 활동으로 획득할 수 있는 title list drop craft title_system list info",
         "chips": [
           "drop",
           "craft",
@@ -1361,9 +1926,24 @@
         "source_section": "타이틀 소개",
         "raw_text": "기타 경제 활동이나, 제작, 채집 등 활동으로 획득할 수 있는 타이틀 목록"
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "기타 경제 활동이나, crafting, 채집 등 활동으로 획득할 수 있는 title list",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "craft",
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 기타 경제 활동이나, 제작, 채집 등 활동으로 획득할 수 있는 타이틀 목록 drop craft title_system list info",
+        "search_text_en": "titles title overview title overview 기타 경제 활동이나, crafting, 채집 등 활동으로 획득할 수 있는 title list drop craft title_system list info",
         "chips": [
           "drop",
           "craft",
@@ -1393,9 +1973,22 @@
         "source_section": "타이틀 소개",
         "raw_text": "타이틀 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "title list을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "title_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 타이틀 목록을 확인할 수 있다. title_system list info",
+        "search_text_en": "titles title overview title overview title list을 can be checked. title_system list info",
         "chips": [
           "title_system",
           "list",
@@ -1422,9 +2015,21 @@
         "source_section": "타이틀 소개",
         "raw_text": "장착 현황 및 타이틀 정보"
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "장착 현황 및 title information",
+        "conditions_en": [],
+        "tags_en": [
+          "title_system",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 장착 현황 및 타이틀 정보 title_system info",
+        "search_text_en": "titles title overview title overview 장착 현황 및 title information title_system info",
         "chips": [
           "title_system",
           "info",
@@ -1450,9 +2055,21 @@
         "source_section": "타이틀 소개",
         "raw_text": "적용 타이틀 및 장착 중인 타이틀 효과 정보를 확인할 수 있다. 선택한 타이틀의 상세 정보를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "적용 title 및 장착 중인 title 효과 information를 can be checked. 선택한 title의 상세 information를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "title_system",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 적용 타이틀 및 장착 중인 타이틀 효과 정보를 확인할 수 있다. 선택한 타이틀의 상세 정보를 확인할 수 있다. title_system info",
+        "search_text_en": "titles title overview title overview 적용 title 및 장착 중인 title 효과 information를 can be checked. 선택한 title의 상세 information를 can be checked. title_system info",
         "chips": [
           "title_system",
           "info",
@@ -1478,9 +2095,21 @@
         "source_section": "타이틀 소개",
         "raw_text": "타이틀 필터 및 검색"
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "title filter 및 검색",
+        "conditions_en": [],
+        "tags_en": [
+          "title_system",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 타이틀 필터 및 검색 title_system info",
+        "search_text_en": "titles title overview title overview title filter 및 검색 title_system info",
         "chips": [
           "title_system",
           "info",
@@ -1506,9 +2135,21 @@
         "source_section": "타이틀 소개",
         "raw_text": "타이틀 필터를 설정하거나, 검색할 수 있다."
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "title filter를 설정하거나, 검색할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "title_system",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 타이틀 필터를 설정하거나, 검색할 수 있다. title_system info",
+        "search_text_en": "titles title overview title overview title filter를 설정하거나, 검색할 수 있다. title_system info",
         "chips": [
           "title_system",
           "info",
@@ -1537,9 +2178,24 @@
         "source_section": "타이틀 소개",
         "raw_text": "수집 현황 및 스탯 필터"
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "수집 현황 및 스탯 filter",
+        "conditions_en": [],
+        "tags_en": [
+          "nuance",
+          "recommendation",
+          "info",
+          "title_system",
+          "filter"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 수집 현황 및 스탯 필터 nuance recommendation info title_system filter",
+        "search_text_en": "titles title overview title overview 수집 현황 및 스탯 filter nuance recommendation info title_system filter",
         "chips": [
           "nuance",
           "recommendation",
@@ -1567,9 +2223,21 @@
         "source_section": "타이틀 소개",
         "raw_text": "타이틀 수집 현황과 특정 스탯을 부여하는 타이틀을 필터링할 수 있다."
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "title 수집 현황과 특정 스탯을 부여하는 title을 filter링할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "title_system",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 타이틀 수집 현황과 특정 스탯을 부여하는 타이틀을 필터링할 수 있다. title_system info",
+        "search_text_en": "titles title overview title overview title 수집 현황과 특정 스탯을 부여하는 title을 filter링할 수 있다. title_system info",
         "chips": [
           "title_system",
           "info",
@@ -1595,9 +2263,21 @@
         "source_section": "타이틀 소개",
         "raw_text": "적용중인 타이틀 효과를 세부적으로 확인할 수 있다"
       },
+      "i18n": {
+        "entity_en": "title overview",
+        "value_en": "적용중인 title 효과를 세부적으로 can be checked",
+        "conditions_en": [],
+        "tags_en": [
+          "title_system",
+          "info"
+        ],
+        "source_section_en": "Title Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "taiteul_sogae",
         "search_text": "타이틀 타이틀 소개 타이틀 소개 적용중인 타이틀 효과를 세부적으로 확인할 수 있다 title_system info",
+        "search_text_en": "titles title overview title overview 적용중인 title 효과를 세부적으로 can be checked title_system info",
         "chips": [
           "title_system",
           "info",

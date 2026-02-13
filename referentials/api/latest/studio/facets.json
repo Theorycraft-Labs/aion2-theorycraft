@@ -1,11 +1,16 @@
 {
-  "generated_at": "2026-02-13T20:59:53+00:00",
-  "parser_version": "studio_v1",
-  "schema_version": "studio_v1",
+  "generated_at": "2026-02-13T21:29:44+00:00",
+  "parser_version": "studio_v2",
+  "schema_version": "studio_v2",
   "referential_version": "0.1.0",
   "summary": {
     "facts_total": 947,
-    "guides_total": 29
+    "guides_total": 29,
+    "translation_status": {
+      "translated": 90,
+      "partial": 342,
+      "untranslated": 602
+    }
   },
   "facets": {
     "by_fact_type": {

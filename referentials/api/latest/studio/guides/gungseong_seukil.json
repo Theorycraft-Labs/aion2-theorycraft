@@ -2,16 +2,22 @@
   "metadata": {
     "guide_id": "gungseong_seukil",
     "guide_title": "궁성 스킬",
+    "guide_title_en": "Ranger Skills",
     "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EA%B6%81%EC%84%B1%20%EC%8A%A4%ED%82%AC",
     "top_category": "스킬",
+    "top_category_en": "Skills",
     "sub_category": "클래스 별 스킬 정보",
+    "sub_category_en": "Class Skill Information",
     "priority": "P1",
     "action": "parse_skills_class",
+    "action_label_en": "Skills Class",
     "topic": "skills",
+    "topic_label_en": "Skills",
     "crawled_at": "2026-02-13T18:15:27+00:00",
     "referential_version": "0.1.0",
-    "schema_version": "studio_v1",
-    "generated_at": "2026-02-13T20:59:53+00:00",
+    "schema_version": "studio_v2",
+    "translation_target": "en",
+    "generated_at": "2026-02-13T21:29:44+00:00",
     "source_facts_file": "exports/facts/skills__skills_class__gungseong_seukil.json"
   },
   "summary": {
@@ -69,9 +75,27 @@
         "source_section": "마스터리 스킬",
         "raw_text": "저격 - 연사 - 나선 화살 | 적들에게 피해를 주고, 정신력을 회복합니다. | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "저격 - 연사 - 나선 화살",
+        "value_en": "적들에게 피해를 주고, 정신력을 회복합니다.",
+        "conditions_en": [
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "damage",
+          "heal",
+          "resource",
+          "movement",
+          "mobility_cast",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jeogyeok_yeonsa_naseon_hwasal",
         "search_text": "궁성 스킬 마스터리 스킬 저격 - 연사 - 나선 화살 적들에게 피해를 주고, 정신력을 회복합니다. damage heal resource movement mobility_cast mastery 이동 가능",
+        "search_text_en": "ranger skills mastery skills 저격 - 연사 - 나선 화살 적들에게 피해를 주고, 정신력을 회복합니다. damage heal resource movement mobility_cast mastery usable while moving",
         "chips": [
           "damage",
           "heal",
@@ -103,9 +127,23 @@
         "source_section": "마스터리 스킬",
         "raw_text": "저격 - 연사 - 나선 화살 | 적들에게 피해를 주고, 정신력을 회복합니다. | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "저격 - 연사 - 나선 화살",
+        "value_en": "사용 조건: 이동 가능",
+        "conditions_en": [
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jeogyeok_yeonsa_naseon_hwasal",
         "search_text": "궁성 스킬 마스터리 스킬 저격 - 연사 - 나선 화살 사용 조건: 이동 가능 movement mobility_cast 이동 가능",
+        "search_text_en": "ranger skills mastery skills 저격 - 연사 - 나선 화살 사용 조건: 이동 가능 movement mobility_cast usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -136,9 +174,26 @@
         "source_section": "마스터리 스킬",
         "raw_text": "속사 | 대상을 중심으로 적들에게 피해를 줍니다. 그로기 게이지 피해 | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "속사",
+        "value_en": "대상을 중심으로 적들에게 피해를 줍니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "movement",
+          "mobility_cast",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "soksa",
         "search_text": "궁성 스킬 마스터리 스킬 속사 대상을 중심으로 적들에게 피해를 줍니다. 그로기 게이지 피해 damage stagger movement mobility_cast mastery 이동 가능",
+        "search_text_en": "ranger skills mastery skills 속사 대상을 중심으로 적들에게 피해를 줍니다. 그로기 게이지 피해 damage stagger movement mobility_cast mastery usable while moving",
         "chips": [
           "damage",
           "stagger",
@@ -169,9 +224,23 @@
         "source_section": "마스터리 스킬",
         "raw_text": "속사 | 대상을 중심으로 적들에게 피해를 줍니다. 그로기 게이지 피해 | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "속사",
+        "value_en": "사용 조건: 이동 가능",
+        "conditions_en": [
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "soksa",
         "search_text": "궁성 스킬 마스터리 스킬 속사 사용 조건: 이동 가능 movement mobility_cast 이동 가능",
+        "search_text_en": "ranger skills mastery skills 속사 사용 조건: 이동 가능 movement mobility_cast usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -199,9 +268,23 @@
         "source_section": "마스터리 스킬",
         "raw_text": "올가미 화살 | 대상을 중심으로 적들에게 피해를 주고, 이동 속도가 감소되는 둔화 상태로 만듭니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "올가미 화살",
+        "value_en": "대상을 중심으로 적들에게 피해를 주고, 이동 속도가 감소되는 둔화 상태로 만듭니다. 그로기 게이지 피해",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "movement",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "olgami_hwasal",
         "search_text": "궁성 스킬 마스터리 스킬 올가미 화살 대상을 중심으로 적들에게 피해를 주고, 이동 속도가 감소되는 둔화 상태로 만듭니다. 그로기 게이지 피해 damage stagger movement mastery",
+        "search_text_en": "ranger skills mastery skills 올가미 화살 대상을 중심으로 적들에게 피해를 주고, 이동 속도가 감소되는 둔화 상태로 만듭니다. 그로기 게이지 피해 damage stagger movement mastery",
         "chips": [
           "damage",
           "stagger",
@@ -231,9 +314,23 @@
         "source_section": "마스터리 스킬",
         "raw_text": "표적 화살 | 대상에게 피해를 주고, 자신은 입력 방향으로 이동합니다. 대상은 치명타 저항이 감소하는 표적 상태가 됩니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "표적 화살",
+        "value_en": "대상에게 피해를 주고, 자신은 입력 방향으로 이동합니다. 대상은 치명타 저항이 감소하는 표적 상태가 됩니다. 그로기 게이지 피해",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "movement",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "pyojeok_hwasal",
         "search_text": "궁성 스킬 마스터리 스킬 표적 화살 대상에게 피해를 주고, 자신은 입력 방향으로 이동합니다. 대상은 치명타 저항이 감소하는 표적 상태가 됩니다. 그로기 게이지 피해 damage stagger movement mastery",
+        "search_text_en": "ranger skills mastery skills 표적 화살 대상에게 피해를 주고, 자신은 입력 방향으로 이동합니다. 대상은 치명타 저항이 감소하는 표적 상태가 됩니다. 그로기 게이지 피해 damage stagger movement mastery",
         "chips": [
           "damage",
           "stagger",
@@ -270,9 +367,24 @@
         "source_section": "마스터리 스킬",
         "raw_text": "송곳 화살 | 치명타 적중 시 대상을 중심으로 적들에게 피해를 주고, 정신력을 회복합니다. 대상은 1초 간격으로 피해를 받는 출혈 상태가 됩니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "송곳 화살",
+        "value_en": "치명타 적중 시 대상을 중심으로 적들에게 피해를 주고, 정신력을 회복합니다. 대상은 1초 간격으로 피해를 받는 출혈 상태가 됩니다. 그로기 게이지 피해",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "heal",
+          "resource",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "songgot_hwasal",
         "search_text": "궁성 스킬 마스터리 스킬 송곳 화살 치명타 적중 시 대상을 중심으로 적들에게 피해를 주고, 정신력을 회복합니다. 대상은 1초 간격으로 피해를 받는 출혈 상태가 됩니다. 그로기 게이지 피해 damage stagger heal resource mastery",
+        "search_text_en": "ranger skills mastery skills 송곳 화살 치명타 적중 시 대상을 중심으로 적들에게 피해를 주고, 정신력을 회복합니다. 대상은 1초 간격으로 피해를 받는 출혈 상태가 됩니다. 그로기 게이지 피해 damage stagger heal resource mastery",
         "chips": [
           "damage",
           "stagger",
@@ -302,9 +414,22 @@
         "source_section": "마스터리 스킬",
         "raw_text": "화살 난사 | 그로기 상태인 대상에게 피해를 줍니다. | -"
       },
+      "i18n": {
+        "entity_en": "화살 난사",
+        "value_en": "그로기 상태인 대상에게 피해를 줍니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "hwasal_nansa",
         "search_text": "궁성 스킬 마스터리 스킬 화살 난사 그로기 상태인 대상에게 피해를 줍니다. damage stagger mastery",
+        "search_text_en": "ranger skills mastery skills 화살 난사 그로기 상태인 대상에게 피해를 줍니다. damage stagger mastery",
         "chips": [
           "damage",
           "stagger",
@@ -343,9 +468,27 @@
         "source_section": "마스터리 스킬",
         "raw_text": "광풍 화살 | 적들에게 피해를 주고, 자신은 광풍 상태가 됩니다. [광풍]: 전투 속도가 7%만큼 증가 그로기 게이지 피해 | 차지 스킬"
       },
+      "i18n": {
+        "entity_en": "광풍 화살",
+        "value_en": "적들에게 피해를 주고, 자신은 광풍 상태가 됩니다. [광풍]: 전투 속도가 7%만큼 증가 그로기 게이지 피해",
+        "conditions_en": [
+          "Charge skill"
+        ],
+        "tags_en": [
+          "skill_system",
+          "damage",
+          "stagger",
+          "movement",
+          "charge_skill",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gwangpung_hwasal",
         "search_text": "궁성 스킬 마스터리 스킬 광풍 화살 적들에게 피해를 주고, 자신은 광풍 상태가 됩니다. [광풍]: 전투 속도가 7%만큼 증가 그로기 게이지 피해 skill_system damage stagger movement charge_skill mastery 차지 스킬",
+        "search_text_en": "ranger skills mastery skills 광풍 화살 적들에게 피해를 주고, 자신은 광풍 상태가 됩니다. [광풍]: 전투 속도가 7%만큼 증가 그로기 게이지 피해 skill_system damage stagger movement charge_skill mastery charge skill",
         "chips": [
           "skill_system",
           "damage",
@@ -383,9 +526,23 @@
         "source_section": "마스터리 스킬",
         "raw_text": "광풍 화살 | 적들에게 피해를 주고, 자신은 광풍 상태가 됩니다. [광풍]: 전투 속도가 7%만큼 증가 그로기 게이지 피해 | 차지 스킬"
       },
+      "i18n": {
+        "entity_en": "광풍 화살",
+        "value_en": "사용 조건: 차지 skill",
+        "conditions_en": [
+          "사용 조건: 차지 skill"
+        ],
+        "tags_en": [
+          "skill_system",
+          "charge_skill"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gwangpung_hwasal",
         "search_text": "궁성 스킬 마스터리 스킬 광풍 화살 사용 조건: 차지 스킬 skill_system charge_skill 사용 조건: 차지 스킬",
+        "search_text_en": "ranger skills mastery skills 광풍 화살 사용 조건: 차지 skill skill_system charge_skill 사용 조건: 차지 skill",
         "chips": [
           "skill_system",
           "charge_skill",
@@ -422,9 +579,26 @@
         "source_section": "마스터리 스킬",
         "raw_text": "폭발의 덫 | 자신 근처에 범위형 함정을 설치합니다. 적이 다가오면 적들에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "폭발의 덫",
+        "value_en": "자신 근처에 범위형 함정을 설치합니다. 적이 다가오면 적들에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "자신 근처에 범위형 함정을 설치합니다. 적이 다가오면 적들에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "stun",
+          "chance",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "pokbalui_deot",
         "search_text": "궁성 스킬 마스터리 스킬 폭발의 덫 자신 근처에 범위형 함정을 설치합니다. 적이 다가오면 적들에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해 damage stagger stun chance mastery 자신 근처에 범위형 함정을 설치합니다. 적이 다가오면 적들에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해",
+        "search_text_en": "ranger skills mastery skills 폭발의 덫 자신 근처에 범위형 함정을 설치합니다. 적이 다가오면 적들에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해 damage stagger stun chance mastery 자신 근처에 범위형 함정을 설치합니다. 적이 다가오면 적들에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해",
         "chips": [
           "damage",
           "stagger",
@@ -455,9 +629,23 @@
         "source_section": "마스터리 스킬",
         "raw_text": "파열 화살 | 둔화, 속박 상태의 대상을 중심으로 적들에게 피해를 줍니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "파열 화살",
+        "value_en": "둔화, 속박 상태의 대상을 중심으로 적들에게 피해를 줍니다. 그로기 게이지 피해",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "control",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "payeol_hwasal",
         "search_text": "궁성 스킬 마스터리 스킬 파열 화살 둔화, 속박 상태의 대상을 중심으로 적들에게 피해를 줍니다. 그로기 게이지 피해 damage stagger control mastery",
+        "search_text_en": "ranger skills mastery skills 파열 화살 둔화, 속박 상태의 대상을 중심으로 적들에게 피해를 줍니다. 그로기 게이지 피해 damage stagger control mastery",
         "chips": [
           "damage",
           "stagger",
@@ -496,9 +684,26 @@
         "source_section": "마스터리 스킬",
         "raw_text": "제압 화살 | 표적 상태의 대상에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "제압 화살",
+        "value_en": "표적 상태의 대상에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "표적 상태의 대상에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "stun",
+          "chance",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jeap_hwasal",
         "search_text": "궁성 스킬 마스터리 스킬 제압 화살 표적 상태의 대상에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해 damage stagger stun chance mastery 표적 상태의 대상에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해",
+        "search_text_en": "ranger skills mastery skills 제압 화살 표적 상태의 대상에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해 damage stagger stun chance mastery 표적 상태의 대상에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해",
         "chips": [
           "damage",
           "stagger",
@@ -533,9 +738,27 @@
         "source_section": "마스터리 스킬",
         "raw_text": "조준 화살 | 대상에게 피해를 줍니다. 대상이 표적 상태일 경우 피해가 증가합니다. 그로기 게이지 피해 | 차지 스킬"
       },
+      "i18n": {
+        "entity_en": "조준 화살",
+        "value_en": "대상에게 피해를 줍니다. 대상이 표적 상태일 경우 피해가 증가합니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "대상에게 피해를 줍니다. 대상이 표적 상태일 경우 피해가 증가합니다. 그로기 게이지 피해",
+          "Charge skill"
+        ],
+        "tags_en": [
+          "skill_system",
+          "damage",
+          "stagger",
+          "charge_skill",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jojun_hwasal",
         "search_text": "궁성 스킬 마스터리 스킬 조준 화살 대상에게 피해를 줍니다. 대상이 표적 상태일 경우 피해가 증가합니다. 그로기 게이지 피해 skill_system damage stagger charge_skill mastery 대상에게 피해를 줍니다. 대상이 표적 상태일 경우 피해가 증가합니다. 그로기 게이지 피해 차지 스킬",
+        "search_text_en": "ranger skills mastery skills 조준 화살 대상에게 피해를 줍니다. 대상이 표적 상태일 경우 피해가 증가합니다. 그로기 게이지 피해 skill_system damage stagger charge_skill mastery 대상에게 피해를 줍니다. 대상이 표적 상태일 경우 피해가 증가합니다. 그로기 게이지 피해 charge skill",
         "chips": [
           "skill_system",
           "damage",
@@ -566,9 +789,23 @@
         "source_section": "마스터리 스킬",
         "raw_text": "조준 화살 | 대상에게 피해를 줍니다. 대상이 표적 상태일 경우 피해가 증가합니다. 그로기 게이지 피해 | 차지 스킬"
       },
+      "i18n": {
+        "entity_en": "조준 화살",
+        "value_en": "사용 조건: 차지 skill",
+        "conditions_en": [
+          "사용 조건: 차지 skill"
+        ],
+        "tags_en": [
+          "skill_system",
+          "charge_skill"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jojun_hwasal",
         "search_text": "궁성 스킬 마스터리 스킬 조준 화살 사용 조건: 차지 스킬 skill_system charge_skill 사용 조건: 차지 스킬",
+        "search_text_en": "ranger skills mastery skills 조준 화살 사용 조건: 차지 skill skill_system charge_skill 사용 조건: 차지 skill",
         "chips": [
           "skill_system",
           "charge_skill",
@@ -598,9 +835,25 @@
         "source_section": "마스터리 스킬",
         "raw_text": "충격 해제 - 번개 화살 | 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 번개 화살: 대상에게 피해를 주고, 기절 상태로 만듭니다. | -"
       },
+      "i18n": {
+        "entity_en": "충격 해제 - 번개 화살",
+        "value_en": "자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 번개 화살: 대상에게 피해를 주고, 기절 상태로 만듭니다.",
+        "conditions_en": [
+          "자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 번개 화살: 대상에게 피해를 주고, 기절 상태로 만듭니다."
+        ],
+        "tags_en": [
+          "damage",
+          "stun",
+          "control",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "chunggyeok_haeje_beongae_hwasal",
         "search_text": "궁성 스킬 마스터리 스킬 충격 해제 - 번개 화살 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 번개 화살: 대상에게 피해를 주고, 기절 상태로 만듭니다. damage stun control mastery 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 번개 화살: 대상에게 피해를 주고, 기절 상태로 만듭니다.",
+        "search_text_en": "ranger skills mastery skills 충격 해제 - 번개 화살 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 번개 화살: 대상에게 피해를 주고, 기절 상태로 만듭니다. damage stun control mastery 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 번개 화살: 대상에게 피해를 주고, 기절 상태로 만듭니다.",
         "chips": [
           "damage",
           "stun",
@@ -628,9 +881,21 @@
         "source_section": "패시브 스킬",
         "raw_text": "경계의 눈 | 자신의 회피, 최대 생명력이 증가하고, 회피 성공 시 생명력을 즉시 회복합니다. | -"
       },
+      "i18n": {
+        "entity_en": "경계의 눈",
+        "value_en": "자신의 회피, 최대 생명력이 증가하고, 회피 성공 시 생명력을 즉시 회복합니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "heal",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gyeonggyeui_nun",
         "search_text": "궁성 스킬 패시브 스킬 경계의 눈 자신의 회피, 최대 생명력이 증가하고, 회피 성공 시 생명력을 즉시 회복합니다. heal passive",
+        "search_text_en": "ranger skills 패시브 skill 경계의 눈 자신의 회피, 최대 생명력이 증가하고, 회피 성공 시 생명력을 즉시 회복합니다. heal passive",
         "chips": [
           "heal",
           "passive",
@@ -659,9 +924,24 @@
         "source_section": "패시브 스킬",
         "raw_text": "집중 포화 | 지속 피해를 입는 대상에게 일정 확률로 피해를 줍니다. | -"
       },
+      "i18n": {
+        "entity_en": "집중 포화",
+        "value_en": "지속 피해를 입는 대상에게 일정 확률로 피해를 줍니다.",
+        "conditions_en": [
+          "지속 피해를 입는 대상에게 일정 확률로 피해를 줍니다."
+        ],
+        "tags_en": [
+          "damage",
+          "chance",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jipjung_pohwa",
         "search_text": "궁성 스킬 패시브 스킬 집중 포화 지속 피해를 입는 대상에게 일정 확률로 피해를 줍니다. damage chance passive 지속 피해를 입는 대상에게 일정 확률로 피해를 줍니다.",
+        "search_text_en": "ranger skills 패시브 skill 집중 포화 지속 피해를 입는 대상에게 일정 확률로 피해를 줍니다. damage chance passive 지속 피해를 입는 대상에게 일정 확률로 피해를 줍니다.",
         "chips": [
           "damage",
           "chance",
@@ -689,9 +969,22 @@
         "source_section": "패시브 스킬",
         "raw_text": "바람의 활력 | 최대 행동력이 증가하고, 공격을 받을 때마다 일정 시간 동안 이동 속도가 증가합니다. | -"
       },
+      "i18n": {
+        "entity_en": "바람의 활력",
+        "value_en": "최대 행동력이 증가하고, 공격을 받을 때마다 일정 시간 동안 이동 속도가 증가합니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "resource",
+          "movement",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "baramui_hwalryeok",
         "search_text": "궁성 스킬 패시브 스킬 바람의 활력 최대 행동력이 증가하고, 공격을 받을 때마다 일정 시간 동안 이동 속도가 증가합니다. resource movement passive",
+        "search_text_en": "ranger skills 패시브 skill 바람의 활력 최대 행동력이 증가하고, 공격을 받을 때마다 일정 시간 동안 이동 속도가 증가합니다. resource movement passive",
         "chips": [
           "resource",
           "movement",
@@ -718,9 +1011,21 @@
         "source_section": "패시브 스킬",
         "raw_text": "집중의 눈 | 자신의 명중, 피해 증폭, 강타가 증가합니다. | -"
       },
+      "i18n": {
+        "entity_en": "집중의 눈",
+        "value_en": "자신의 명중, 피해 증폭, 강타가 증가합니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jipjungui_nun",
         "search_text": "궁성 스킬 패시브 스킬 집중의 눈 자신의 명중, 피해 증폭, 강타가 증가합니다. damage passive",
+        "search_text_en": "ranger skills 패시브 skill 집중의 눈 자신의 명중, 피해 증폭, 강타가 증가합니다. damage passive",
         "chips": [
           "damage",
           "passive",
@@ -746,9 +1051,21 @@
         "source_section": "패시브 스킬",
         "raw_text": "사냥꾼의 결의 | 자신의 치명타 피해 증폭이 증가합니다. | -"
       },
+      "i18n": {
+        "entity_en": "사냥꾼의 결의",
+        "value_en": "자신의 치명타 피해 증폭이 증가합니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "sanyangkkunui_gyeolui",
         "search_text": "궁성 스킬 패시브 스킬 사냥꾼의 결의 자신의 치명타 피해 증폭이 증가합니다. damage passive",
+        "search_text_en": "ranger skills 패시브 skill 사냥꾼의 결의 자신의 치명타 피해 증폭이 증가합니다. damage passive",
         "chips": [
           "damage",
           "passive",
@@ -773,9 +1090,20 @@
         "source_section": "패시브 스킬",
         "raw_text": "저항의 결의 | 자신의 육체계 저항이 증가합니다. | -"
       },
+      "i18n": {
+        "entity_en": "저항의 결의",
+        "value_en": "자신의 육체계 저항이 증가합니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jeohangui_gyeolui",
         "search_text": "궁성 스킬 패시브 스킬 저항의 결의 자신의 육체계 저항이 증가합니다. passive",
+        "search_text_en": "ranger skills 패시브 skill 저항의 결의 자신의 육체계 저항이 증가합니다. passive",
         "chips": [
           "passive",
           "skill",
@@ -804,9 +1132,25 @@
         "source_section": "패시브 스킬",
         "raw_text": "속박의 눈 | 둔화, 속박 상태의 대상에게 공격을 적중시킬 때마다 일정 확률로 피해를 줍니다. | -"
       },
+      "i18n": {
+        "entity_en": "속박의 눈",
+        "value_en": "둔화, 속박 상태의 대상에게 공격을 적중시킬 때마다 일정 확률로 피해를 줍니다.",
+        "conditions_en": [
+          "둔화, 속박 상태의 대상에게 공격을 적중시킬 때마다 일정 확률로 피해를 줍니다."
+        ],
+        "tags_en": [
+          "damage",
+          "control",
+          "chance",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "sokbakui_nun",
         "search_text": "궁성 스킬 패시브 스킬 속박의 눈 둔화, 속박 상태의 대상에게 공격을 적중시킬 때마다 일정 확률로 피해를 줍니다. damage control chance passive 둔화, 속박 상태의 대상에게 공격을 적중시킬 때마다 일정 확률로 피해를 줍니다.",
+        "search_text_en": "ranger skills 패시브 skill 속박의 눈 둔화, 속박 상태의 대상에게 공격을 적중시킬 때마다 일정 확률로 피해를 줍니다. damage control chance passive 둔화, 속박 상태의 대상에게 공격을 적중시킬 때마다 일정 확률로 피해를 줍니다.",
         "chips": [
           "damage",
           "control",
@@ -837,9 +1181,24 @@
         "source_section": "패시브 스킬",
         "raw_text": "근접 사격 | 근접한 대상에게 공격을 적중시킬 때마다 일정 확률로 밀려난 상태로 만들고, 멀리 있는 대상에게 공격을 적중 시킬 때마다 일정 확률로 추가 피해를 줍니다. | -"
       },
+      "i18n": {
+        "entity_en": "근접 사격",
+        "value_en": "근접한 대상에게 공격을 적중시킬 때마다 일정 확률로 밀려난 상태로 만들고, 멀리 있는 대상에게 공격을 적중 시킬 때마다 일정 확률로 추가 피해를 줍니다.",
+        "conditions_en": [
+          "근접한 대상에게 공격을 적중시킬 때마다 일정 확률로 밀려난 상태로 만들고, 멀리 있는 대상에게 공격을 적중 시킬 때마다 일정 확률로 추가 피해를 줍니다."
+        ],
+        "tags_en": [
+          "damage",
+          "chance",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "geunjeop_sagyeok",
         "search_text": "궁성 스킬 패시브 스킬 근접 사격 근접한 대상에게 공격을 적중시킬 때마다 일정 확률로 밀려난 상태로 만들고, 멀리 있는 대상에게 공격을 적중 시킬 때마다 일정 확률로 추가 피해를 줍니다. damage chance passive 근접한 대상에게 공격을 적중시킬 때마다 일정 확률로 밀려난 상태로 만들고, 멀리 있는 대상에게 공격을 적중 시킬 때마다 일정 확률로 추가 피해를 줍니다.",
+        "search_text_en": "ranger skills 패시브 skill 근접 사격 근접한 대상에게 공격을 적중시킬 때마다 일정 확률로 밀려난 상태로 만들고, 멀리 있는 대상에게 공격을 적중 시킬 때마다 일정 확률로 추가 피해를 줍니다. damage chance passive 근접한 대상에게 공격을 적중시킬 때마다 일정 확률로 밀려난 상태로 만들고, 멀리 있는 대상에게 공격을 적중 시킬 때마다 일정 확률로 추가 피해를 줍니다.",
         "chips": [
           "damage",
           "chance",
@@ -881,9 +1240,25 @@
         "source_section": "패시브 스킬",
         "raw_text": "회생의 계약 | 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. 생명력이 일정량 이하일 때 생명력을 즉시 회복합니다. | -"
       },
+      "i18n": {
+        "entity_en": "회생의 계약",
+        "value_en": "자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. 생명력이 일정량 이하일 때 생명력을 즉시 회복합니다.",
+        "conditions_en": [
+          "자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. 생명력이 일정량 이하일 때 생명력을 즉시 회복합니다."
+        ],
+        "tags_en": [
+          "damage",
+          "control",
+          "heal",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "hoesaengui_gyeyak",
         "search_text": "궁성 스킬 패시브 스킬 회생의 계약 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. 생명력이 일정량 이하일 때 생명력을 즉시 회복합니다. damage control heal passive 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. 생명력이 일정량 이하일 때 생명력을 즉시 회복합니다.",
+        "search_text_en": "ranger skills 패시브 skill 회생의 계약 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. 생명력이 일정량 이하일 때 생명력을 즉시 회복합니다. damage control heal passive 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. 생명력이 일정량 이하일 때 생명력을 즉시 회복합니다.",
         "chips": [
           "damage",
           "control",
@@ -914,9 +1289,24 @@
         "source_section": "패시브 스킬",
         "raw_text": "사냥꾼의 혼 | 치명타 시 일정 확률로 피해를 줍니다. | -"
       },
+      "i18n": {
+        "entity_en": "사냥꾼의 혼",
+        "value_en": "치명타 시 일정 확률로 피해를 줍니다.",
+        "conditions_en": [
+          "치명타 시 일정 확률로 피해를 줍니다."
+        ],
+        "tags_en": [
+          "damage",
+          "chance",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "sanyangkkunui_hon",
         "search_text": "궁성 스킬 패시브 스킬 사냥꾼의 혼 치명타 시 일정 확률로 피해를 줍니다. damage chance passive 치명타 시 일정 확률로 피해를 줍니다.",
+        "search_text_en": "ranger skills 패시브 skill 사냥꾼의 혼 치명타 시 일정 확률로 피해를 줍니다. damage chance passive 치명타 시 일정 확률로 피해를 줍니다.",
         "chips": [
           "damage",
           "chance",
@@ -954,9 +1344,26 @@
         "source_section": "스티그마 스킬",
         "raw_text": "화살 폭풍 | 대상을 중심으로 적들에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "화살 폭풍",
+        "value_en": "대상을 중심으로 적들에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "대상을 중심으로 적들에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "stun",
+          "chance",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "hwasal_pokpung",
         "search_text": "궁성 스킬 스티그마 스킬 화살 폭풍 대상을 중심으로 적들에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해 damage stagger stun chance stigma 대상을 중심으로 적들에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해",
+        "search_text_en": "ranger skills stigma skills 화살 폭풍 대상을 중심으로 적들에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해 damage stagger stun chance stigma 대상을 중심으로 적들에게 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해",
         "chips": [
           "damage",
           "stagger",
@@ -984,9 +1391,20 @@
         "source_section": "스티그마 스킬",
         "raw_text": "바이젤의 권능 | 일정 시간 동안 자신의 공격력이 증가합니다. | -"
       },
+      "i18n": {
+        "entity_en": "바이젤의 권능",
+        "value_en": "일정 시간 동안 자신의 공격력이 증가합니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "baijelui_gwonneung",
         "search_text": "궁성 스킬 스티그마 스킬 바이젤의 권능 일정 시간 동안 자신의 공격력이 증가합니다. stigma",
+        "search_text_en": "ranger skills stigma skills 바이젤의 권능 일정 시간 동안 자신의 공격력이 증가합니다. stigma",
         "chips": [
           "stigma",
           "skill",
@@ -1011,9 +1429,21 @@
         "source_section": "스티그마 스킬",
         "raw_text": "축복의 활 | 일정 시간 동안 자신과 주변 파티원들의 치명타를 증가시킵니다. | -"
       },
+      "i18n": {
+        "entity_en": "축복의 활",
+        "value_en": "일정 시간 동안 자신과 주변 party원들의 치명타를 증가시킵니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "party",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "chukbokui_hwal",
         "search_text": "궁성 스킬 스티그마 스킬 축복의 활 일정 시간 동안 자신과 주변 파티원들의 치명타를 증가시킵니다. party stigma",
+        "search_text_en": "ranger skills stigma skills 축복의 활 일정 시간 동안 자신과 주변 party원들의 치명타를 증가시킵니다. party stigma",
         "chips": [
           "party",
           "stigma",
@@ -1040,9 +1470,22 @@
         "source_section": "스티그마 스킬",
         "raw_text": "기습 차기 | 대상의 뒤로 이동하여 피해를 주고 밀려난 상태로 만듭니다. 자신은 후방으로 이동합니다. | -"
       },
+      "i18n": {
+        "entity_en": "기습 차기",
+        "value_en": "대상의 뒤로 이동하여 피해를 주고 밀려난 상태로 만듭니다. 자신은 후방으로 이동합니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "movement",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "giseup_chagi",
         "search_text": "궁성 스킬 스티그마 스킬 기습 차기 대상의 뒤로 이동하여 피해를 주고 밀려난 상태로 만듭니다. 자신은 후방으로 이동합니다. damage movement stigma",
+        "search_text_en": "ranger skills stigma skills 기습 차기 대상의 뒤로 이동하여 피해를 주고 밀려난 상태로 만듭니다. 자신은 후방으로 이동합니다. damage movement stigma",
         "chips": [
           "damage",
           "movement",
@@ -1070,9 +1513,22 @@
         "source_section": "스티그마 스킬",
         "raw_text": "결박의 덫 | 자신 근처에 범위형 함정을 설치합니다. 함정은 일정 시간 동안 작동하며 적이 다가오면 적들에게 피해를 주고 공중 속박 상태로 만듭니다. | -"
       },
+      "i18n": {
+        "entity_en": "결박의 덫",
+        "value_en": "자신 근처에 범위형 함정을 설치합니다. 함정은 일정 시간 동안 작동하며 적이 다가오면 적들에게 피해를 주고 공중 속박 상태로 만듭니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "control",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gyeolbakui_deot",
         "search_text": "궁성 스킬 스티그마 스킬 결박의 덫 자신 근처에 범위형 함정을 설치합니다. 함정은 일정 시간 동안 작동하며 적이 다가오면 적들에게 피해를 주고 공중 속박 상태로 만듭니다. damage control stigma",
+        "search_text_en": "ranger skills stigma skills 결박의 덫 자신 근처에 범위형 함정을 설치합니다. 함정은 일정 시간 동안 작동하며 적이 다가오면 적들에게 피해를 주고 공중 속박 상태로 만듭니다. damage control stigma",
         "chips": [
           "damage",
           "control",
@@ -1098,9 +1554,20 @@
         "source_section": "스티그마 스킬",
         "raw_text": "수면 화살 | 대상을 수면 상태로 만들고 방어력을 감소시킵니다. 대상이 공격을 받으면 수면이 해제됩니다. | -"
       },
+      "i18n": {
+        "entity_en": "수면 화살",
+        "value_en": "대상을 수면 상태로 만들고 방어력을 감소시킵니다. 대상이 공격을 받으면 수면이 해제됩니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "sumyeon_hwasal",
         "search_text": "궁성 스킬 스티그마 스킬 수면 화살 대상을 수면 상태로 만들고 방어력을 감소시킵니다. 대상이 공격을 받으면 수면이 해제됩니다. stigma",
+        "search_text_en": "ranger skills stigma skills 수면 화살 대상을 수면 상태로 만들고 방어력을 감소시킵니다. 대상이 공격을 받으면 수면이 해제됩니다. stigma",
         "chips": [
           "stigma",
           "skill",
@@ -1128,9 +1595,24 @@
         "source_section": "스티그마 스킬",
         "raw_text": "은신 | 일정 시간 동안 은신 상태가 됩니다. 전투 상태에서 사용할 수 없으며, 은신 후 전투 상태가 되면 효과가 해제됩니다. | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "은신",
+        "value_en": "일정 시간 동안 은신 상태가 됩니다. 전투 상태에서 사용할 수 없으며, 은신 후 전투 상태가 되면 효과가 해제됩니다.",
+        "conditions_en": [
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "eunsin",
         "search_text": "궁성 스킬 스티그마 스킬 은신 일정 시간 동안 은신 상태가 됩니다. 전투 상태에서 사용할 수 없으며, 은신 후 전투 상태가 되면 효과가 해제됩니다. movement mobility_cast stigma 이동 가능",
+        "search_text_en": "ranger skills stigma skills 은신 일정 시간 동안 은신 상태가 됩니다. 전투 상태에서 사용할 수 없으며, 은신 후 전투 상태가 되면 효과가 해제됩니다. movement mobility_cast stigma usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -1159,9 +1641,23 @@
         "source_section": "스티그마 스킬",
         "raw_text": "은신 | 일정 시간 동안 은신 상태가 됩니다. 전투 상태에서 사용할 수 없으며, 은신 후 전투 상태가 되면 효과가 해제됩니다. | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "은신",
+        "value_en": "사용 조건: 이동 가능",
+        "conditions_en": [
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "eunsin",
         "search_text": "궁성 스킬 스티그마 스킬 은신 사용 조건: 이동 가능 movement mobility_cast 이동 가능",
+        "search_text_en": "ranger skills stigma skills 은신 사용 조건: 이동 가능 movement mobility_cast usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -1198,9 +1694,26 @@
         "source_section": "스티그마 스킬",
         "raw_text": "봉인 화살 | 대상에게 피해를 주고, 일정 확률로 봉인 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "봉인 화살",
+        "value_en": "대상에게 피해를 주고, 일정 확률로 봉인 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "대상에게 피해를 주고, 일정 확률로 봉인 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "control",
+          "chance",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bongin_hwasal",
         "search_text": "궁성 스킬 스티그마 스킬 봉인 화살 대상에게 피해를 주고, 일정 확률로 봉인 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해 damage stagger control chance stigma 대상에게 피해를 주고, 일정 확률로 봉인 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해",
+        "search_text_en": "ranger skills stigma skills 봉인 화살 대상에게 피해를 주고, 일정 확률로 봉인 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해 damage stagger control chance stigma 대상에게 피해를 주고, 일정 확률로 봉인 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해",
         "chips": [
           "damage",
           "stagger",
@@ -1239,9 +1752,25 @@
         "source_section": "스티그마 스킬",
         "raw_text": "대자연의 숨결 | 일정 시간 동안 PC에게 받는 마법 피해가 10%만큼 감소합니다. | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "대자연의 숨결",
+        "value_en": "일정 시간 동안 PC에게 받는 마법 피해가 10%만큼 감소합니다.",
+        "conditions_en": [
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "damage",
+          "movement",
+          "mobility_cast",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "daejayeonui_sumgyeol",
         "search_text": "궁성 스킬 스티그마 스킬 대자연의 숨결 일정 시간 동안 pc에게 받는 마법 피해가 10%만큼 감소합니다. damage movement mobility_cast stigma 이동 가능",
+        "search_text_en": "ranger skills stigma skills 대자연의 숨결 일정 시간 동안 pc에게 받는 마법 피해가 10%만큼 감소합니다. damage movement mobility_cast stigma usable while moving",
         "chips": [
           "damage",
           "movement",
@@ -1277,9 +1806,23 @@
         "source_section": "스티그마 스킬",
         "raw_text": "대자연의 숨결 | 일정 시간 동안 PC에게 받는 마법 피해가 10%만큼 감소합니다. | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "대자연의 숨결",
+        "value_en": "사용 조건: 이동 가능",
+        "conditions_en": [
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "daejayeonui_sumgyeol",
         "search_text": "궁성 스킬 스티그마 스킬 대자연의 숨결 사용 조건: 이동 가능 movement mobility_cast 이동 가능",
+        "search_text_en": "ranger skills stigma skills 대자연의 숨결 사용 조건: 이동 가능 movement mobility_cast usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -1306,9 +1849,22 @@
         "source_section": "스티그마 스킬",
         "raw_text": "그리폰 화살 | 그리폰이 날아가는 경로 내 적들에게 피해를 줍니다. 적들은 일정 시간 동안 불 속성 지속 피해를 받습니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "그리폰 화살",
+        "value_en": "그리폰이 날아가는 경로 내 적들에게 피해를 줍니다. 적들은 일정 시간 동안 불 속성 지속 피해를 받습니다. 그로기 게이지 피해",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "geuripon_hwasal",
         "search_text": "궁성 스킬 스티그마 스킬 그리폰 화살 그리폰이 날아가는 경로 내 적들에게 피해를 줍니다. 적들은 일정 시간 동안 불 속성 지속 피해를 받습니다. 그로기 게이지 피해 damage stagger stigma",
+        "search_text_en": "ranger skills stigma skills 그리폰 화살 그리폰이 날아가는 경로 내 적들에게 피해를 줍니다. 적들은 일정 시간 동안 불 속성 지속 피해를 받습니다. 그로기 게이지 피해 damage stagger stigma",
         "chips": [
           "damage",
           "stagger",
@@ -1340,9 +1896,26 @@
         "source_section": "스티그마 스킬",
         "raw_text": "폭발 화살 | 대상을 중심으로 적들에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다. | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "폭발 화살",
+        "value_en": "대상을 중심으로 적들에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다.",
+        "conditions_en": [
+          "대상을 중심으로 적들에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다.",
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "damage",
+          "movement",
+          "mobility_cast",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "pokbal_hwasal",
         "search_text": "궁성 스킬 스티그마 스킬 폭발 화살 대상을 중심으로 적들에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다. damage movement mobility_cast stigma 대상을 중심으로 적들에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다. 이동 가능",
+        "search_text_en": "ranger skills stigma skills 폭발 화살 대상을 중심으로 적들에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다. damage movement mobility_cast stigma 대상을 중심으로 적들에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다. usable while moving",
         "chips": [
           "damage",
           "movement",
@@ -1372,9 +1945,23 @@
         "source_section": "스티그마 스킬",
         "raw_text": "폭발 화살 | 대상을 중심으로 적들에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다. | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "폭발 화살",
+        "value_en": "사용 조건: 이동 가능",
+        "conditions_en": [
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "pokbal_hwasal",
         "search_text": "궁성 스킬 스티그마 스킬 폭발 화살 사용 조건: 이동 가능 movement mobility_cast 이동 가능",
+        "search_text_en": "ranger skills stigma skills 폭발 화살 사용 조건: 이동 가능 movement mobility_cast usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -1411,9 +1998,26 @@
         "source_section": "스티그마 스킬",
         "raw_text": "강습 강타 | 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다. | -"
       },
+      "i18n": {
+        "entity_en": "강습 강타",
+        "value_en": "대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다.",
+        "conditions_en": [
+          "대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다."
+        ],
+        "tags_en": [
+          "damage",
+          "stun",
+          "resource",
+          "chance",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gangseup_gangta",
         "search_text": "궁성 스킬 스티그마 스킬 강습 강타 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다. damage stun resource chance stigma 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다.",
+        "search_text_en": "ranger skills stigma skills 강습 강타 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다. damage stun resource chance stigma 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다.",
         "chips": [
           "damage",
           "stun",

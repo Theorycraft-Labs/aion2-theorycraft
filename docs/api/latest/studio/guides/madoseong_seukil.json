@@ -2,16 +2,22 @@
   "metadata": {
     "guide_id": "madoseong_seukil",
     "guide_title": "마도성 스킬",
+    "guide_title_en": "Sorcerer Skills",
     "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EB%A7%88%EB%8F%84%EC%84%B1%20%EC%8A%A4%ED%82%AC",
     "top_category": "스킬",
+    "top_category_en": "Skills",
     "sub_category": "클래스 별 스킬 정보",
+    "sub_category_en": "Class Skill Information",
     "priority": "P1",
     "action": "parse_skills_class",
+    "action_label_en": "Skills Class",
     "topic": "skills",
+    "topic_label_en": "Skills",
     "crawled_at": "2026-02-13T18:15:30+00:00",
     "referential_version": "0.1.0",
-    "schema_version": "studio_v1",
-    "generated_at": "2026-02-13T20:59:53+00:00",
+    "schema_version": "studio_v2",
+    "translation_target": "en",
+    "generated_at": "2026-02-13T21:29:44+00:00",
     "source_facts_file": "exports/facts/skills__skills_class__madoseong_seukil.json"
   },
   "summary": {
@@ -71,9 +77,27 @@
         "source_section": "마스터리 스킬",
         "raw_text": "불꽃 화살 - 작렬 - 열화 | 대상에게 피해를 주고, 정신력을 회복합니다. | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "불꽃 화살 - 작렬 - 열화",
+        "value_en": "대상에게 피해를 주고, 정신력을 회복합니다.",
+        "conditions_en": [
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "damage",
+          "heal",
+          "resource",
+          "movement",
+          "mobility_cast",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bulkkot_hwasal_jakryeol_yeolhwa",
         "search_text": "마도성 스킬 마스터리 스킬 불꽃 화살 - 작렬 - 열화 대상에게 피해를 주고, 정신력을 회복합니다. damage heal resource movement mobility_cast mastery 이동 가능",
+        "search_text_en": "sorcerer skills mastery skills 불꽃 화살 - 작렬 - 열화 대상에게 피해를 주고, 정신력을 회복합니다. damage heal resource movement mobility_cast mastery usable while moving",
         "chips": [
           "damage",
           "heal",
@@ -105,9 +129,23 @@
         "source_section": "마스터리 스킬",
         "raw_text": "불꽃 화살 - 작렬 - 열화 | 대상에게 피해를 주고, 정신력을 회복합니다. | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "불꽃 화살 - 작렬 - 열화",
+        "value_en": "사용 조건: 이동 가능",
+        "conditions_en": [
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bulkkot_hwasal_jakryeol_yeolhwa",
         "search_text": "마도성 스킬 마스터리 스킬 불꽃 화살 - 작렬 - 열화 사용 조건: 이동 가능 movement mobility_cast 이동 가능",
+        "search_text_en": "sorcerer skills mastery skills 불꽃 화살 - 작렬 - 열화 사용 조건: 이동 가능 movement mobility_cast usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -140,9 +178,28 @@
         "source_section": "마스터리 스킬",
         "raw_text": "얼음 사슬 - 냉기 파동 | 대상을 중심으로 적들에게 물속성 피해를 주고 일정 확률로 둔화 상태로 만듭니다. 그로기 게이지 피해 | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "얼음 사슬 - 냉기 파동",
+        "value_en": "대상을 중심으로 적들에게 물속성 피해를 주고 일정 확률로 둔화 상태로 만듭니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "대상을 중심으로 적들에게 물속성 피해를 주고 일정 확률로 둔화 상태로 만듭니다. 그로기 게이지 피해",
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "movement",
+          "chance",
+          "mobility_cast",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "eoleum_saseul_naenggi_padong",
         "search_text": "마도성 스킬 마스터리 스킬 얼음 사슬 - 냉기 파동 대상을 중심으로 적들에게 물속성 피해를 주고 일정 확률로 둔화 상태로 만듭니다. 그로기 게이지 피해 damage stagger movement chance mobility_cast mastery 대상을 중심으로 적들에게 물속성 피해를 주고 일정 확률로 둔화 상태로 만듭니다. 그로기 게이지 피해 이동 가능",
+        "search_text_en": "sorcerer skills mastery skills 얼음 사슬 - 냉기 파동 대상을 중심으로 적들에게 물속성 피해를 주고 일정 확률로 둔화 상태로 만듭니다. 그로기 게이지 피해 damage stagger movement chance mobility_cast mastery 대상을 중심으로 적들에게 물속성 피해를 주고 일정 확률로 둔화 상태로 만듭니다. 그로기 게이지 피해 usable while moving",
         "chips": [
           "damage",
           "stagger",
@@ -174,9 +231,23 @@
         "source_section": "마스터리 스킬",
         "raw_text": "얼음 사슬 - 냉기 파동 | 대상을 중심으로 적들에게 물속성 피해를 주고 일정 확률로 둔화 상태로 만듭니다. 그로기 게이지 피해 | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "얼음 사슬 - 냉기 파동",
+        "value_en": "사용 조건: 이동 가능",
+        "conditions_en": [
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "eoleum_saseul_naenggi_padong",
         "search_text": "마도성 스킬 마스터리 스킬 얼음 사슬 - 냉기 파동 사용 조건: 이동 가능 movement mobility_cast 이동 가능",
+        "search_text_en": "sorcerer skills mastery skills 얼음 사슬 - 냉기 파동 사용 조건: 이동 가능 movement mobility_cast usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -203,9 +274,22 @@
         "source_section": "마스터리 스킬",
         "raw_text": "불꽃 작살 | 대상에게 불속성 피해를 줍니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "불꽃 작살",
+        "value_en": "대상에게 불속성 피해를 줍니다. 그로기 게이지 피해",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bulkkot_jaksal",
         "search_text": "마도성 스킬 마스터리 스킬 불꽃 작살 대상에게 불속성 피해를 줍니다. 그로기 게이지 피해 damage stagger mastery",
+        "search_text_en": "sorcerer skills mastery skills 불꽃 작살 대상에게 불속성 피해를 줍니다. 그로기 게이지 피해 damage stagger mastery",
         "chips": [
           "damage",
           "stagger",
@@ -243,9 +327,26 @@
         "source_section": "마스터리 스킬",
         "raw_text": "혹한의 바람 | 대상의 위치에 혹한의 바람을 소환합니다. 혹한의 바람 주변 적들에게 물속성 피해를 주고 일정 확률로 속박 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 속박이 적중됩니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "혹한의 바람",
+        "value_en": "대상의 위치에 혹한의 바람을 소환합니다. 혹한의 바람 주변 적들에게 물속성 피해를 주고 일정 확률로 속박 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 속박이 적중됩니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "대상의 위치에 혹한의 바람을 소환합니다. 혹한의 바람 주변 적들에게 물속성 피해를 주고 일정 확률로 속박 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 속박이 적중됩니다. 그로기 게이지 피해"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "control",
+          "chance",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "hokhanui_baram",
         "search_text": "마도성 스킬 마스터리 스킬 혹한의 바람 대상의 위치에 혹한의 바람을 소환합니다. 혹한의 바람 주변 적들에게 물속성 피해를 주고 일정 확률로 속박 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 속박이 적중됩니다. 그로기 게이지 피해 damage stagger control chance mastery 대상의 위치에 혹한의 바람을 소환합니다. 혹한의 바람 주변 적들에게 물속성 피해를 주고 일정 확률로 속박 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 속박이 적중됩니다. 그로기 게이지 피해",
+        "search_text_en": "sorcerer skills mastery skills 혹한의 바람 대상의 위치에 혹한의 바람을 소환합니다. 혹한의 바람 주변 적들에게 물속성 피해를 주고 일정 확률로 속박 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 속박이 적중됩니다. 그로기 게이지 피해 damage stagger control chance mastery 대상의 위치에 혹한의 바람을 소환합니다. 혹한의 바람 주변 적들에게 물속성 피해를 주고 일정 확률로 속박 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 속박이 적중됩니다. 그로기 게이지 피해",
         "chips": [
           "damage",
           "stagger",
@@ -277,9 +378,24 @@
         "source_section": "마스터리 스킬",
         "raw_text": "불꽃 폭발 | 불의 표식인 대상에게 불속성 피해를 주고 정신력을 회복합니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "불꽃 폭발",
+        "value_en": "불의 표식인 대상에게 불속성 피해를 주고 정신력을 회복합니다. 그로기 게이지 피해",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "heal",
+          "resource",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bulkkot_pokbal",
         "search_text": "마도성 스킬 마스터리 스킬 불꽃 폭발 불의 표식인 대상에게 불속성 피해를 주고 정신력을 회복합니다. 그로기 게이지 피해 damage stagger heal resource mastery",
+        "search_text_en": "sorcerer skills mastery skills 불꽃 폭발 불의 표식인 대상에게 불속성 피해를 주고 정신력을 회복합니다. 그로기 게이지 피해 damage stagger heal resource mastery",
         "chips": [
           "damage",
           "stagger",
@@ -309,9 +425,22 @@
         "source_section": "마스터리 스킬",
         "raw_text": "화염 난사 | 그로기 상태인 대상에게 불속성 피해를 줍니다. | -"
       },
+      "i18n": {
+        "entity_en": "화염 난사",
+        "value_en": "그로기 상태인 대상에게 불속성 피해를 줍니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "hwayeom_nansa",
         "search_text": "마도성 스킬 마스터리 스킬 화염 난사 그로기 상태인 대상에게 불속성 피해를 줍니다. damage stagger mastery",
+        "search_text_en": "sorcerer skills mastery skills 화염 난사 그로기 상태인 대상에게 불속성 피해를 줍니다. damage stagger mastery",
         "chips": [
           "damage",
           "stagger",
@@ -349,9 +478,26 @@
         "source_section": "마스터리 스킬",
         "raw_text": "빙결 | 대상을 중심으로 적들에게 물속성 피해를 주고, 일정 확률로 빙결 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 빙결이 적중됩니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "빙결",
+        "value_en": "대상을 중심으로 적들에게 물속성 피해를 주고, 일정 확률로 빙결 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 빙결이 적중됩니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "대상을 중심으로 적들에게 물속성 피해를 주고, 일정 확률로 빙결 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 빙결이 적중됩니다. 그로기 게이지 피해"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "control",
+          "chance",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "binggyeol",
         "search_text": "마도성 스킬 마스터리 스킬 빙결 대상을 중심으로 적들에게 물속성 피해를 주고, 일정 확률로 빙결 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 빙결이 적중됩니다. 그로기 게이지 피해 damage stagger control chance mastery 대상을 중심으로 적들에게 물속성 피해를 주고, 일정 확률로 빙결 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 빙결이 적중됩니다. 그로기 게이지 피해",
+        "search_text_en": "sorcerer skills mastery skills 빙결 대상을 중심으로 적들에게 물속성 피해를 주고, 일정 확률로 빙결 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 빙결이 적중됩니다. 그로기 게이지 피해 damage stagger control chance mastery 대상을 중심으로 적들에게 물속성 피해를 주고, 일정 확률로 빙결 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 빙결이 적중됩니다. 그로기 게이지 피해",
         "chips": [
           "damage",
           "stagger",
@@ -384,9 +530,25 @@
         "source_section": "마스터리 스킬",
         "raw_text": "겨울의 속박 | 자신을 중심으로 적들에게 물속성 피해를 주고 둔화 상태로 만듭니다. | 논타겟"
       },
+      "i18n": {
+        "entity_en": "겨울의 속박",
+        "value_en": "자신을 중심으로 적들에게 물속성 피해를 주고 둔화 상태로 만듭니다.",
+        "conditions_en": [
+          "Non-targeted"
+        ],
+        "tags_en": [
+          "damage",
+          "control",
+          "no_target",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gyeoului_sokbak",
         "search_text": "마도성 스킬 마스터리 스킬 겨울의 속박 자신을 중심으로 적들에게 물속성 피해를 주고 둔화 상태로 만듭니다. damage control no_target mastery 논타겟",
+        "search_text_en": "sorcerer skills mastery skills 겨울의 속박 자신을 중심으로 적들에게 물속성 피해를 주고 둔화 상태로 만듭니다. damage control no_target mastery non-targeted",
         "chips": [
           "damage",
           "control",
@@ -415,9 +577,22 @@
         "source_section": "마스터리 스킬",
         "raw_text": "겨울의 속박 | 자신을 중심으로 적들에게 물속성 피해를 주고 둔화 상태로 만듭니다. | 논타겟"
       },
+      "i18n": {
+        "entity_en": "겨울의 속박",
+        "value_en": "사용 조건: 논타겟",
+        "conditions_en": [
+          "사용 조건: 논타겟"
+        ],
+        "tags_en": [
+          "no_target"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gyeoului_sokbak",
         "search_text": "마도성 스킬 마스터리 스킬 겨울의 속박 사용 조건: 논타겟 no_target 사용 조건: 논타겟",
+        "search_text_en": "sorcerer skills mastery skills 겨울의 속박 사용 조건: 논타겟 no_target 사용 조건: 논타겟",
         "chips": [
           "no_target",
           "constraint",
@@ -444,9 +619,23 @@
         "source_section": "마스터리 스킬",
         "raw_text": "빙결 폭발 | 빙결 상태의 대상을 중심으로 적들에게 물속성 피해를 줍니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "빙결 폭발",
+        "value_en": "빙결 상태의 대상을 중심으로 적들에게 물속성 피해를 줍니다. 그로기 게이지 피해",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "control",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "binggyeol_pokbal",
         "search_text": "마도성 스킬 마스터리 스킬 빙결 폭발 빙결 상태의 대상을 중심으로 적들에게 물속성 피해를 줍니다. 그로기 게이지 피해 damage stagger control mastery",
+        "search_text_en": "sorcerer skills mastery skills 빙결 폭발 빙결 상태의 대상을 중심으로 적들에게 물속성 피해를 줍니다. 그로기 게이지 피해 damage stagger control mastery",
         "chips": [
           "damage",
           "stagger",
@@ -478,9 +667,25 @@
         "source_section": "마스터리 스킬",
         "raw_text": "집중의 기원 | 자신의 공격력 및 명중이 증가합니다. | 논타겟/이동 가능"
       },
+      "i18n": {
+        "entity_en": "집중의 기원",
+        "value_en": "자신의 공격력 및 명중이 증가합니다.",
+        "conditions_en": [
+          "Non-targeted / Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast",
+          "no_target",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jipjungui_giwon",
         "search_text": "마도성 스킬 마스터리 스킬 집중의 기원 자신의 공격력 및 명중이 증가합니다. movement mobility_cast no_target mastery 논타겟/이동 가능",
+        "search_text_en": "sorcerer skills mastery skills 집중의 기원 자신의 공격력 및 명중이 증가합니다. movement mobility_cast no_target mastery non-targeted / usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -511,9 +716,24 @@
         "source_section": "마스터리 스킬",
         "raw_text": "집중의 기원 | 자신의 공격력 및 명중이 증가합니다. | 논타겟/이동 가능"
       },
+      "i18n": {
+        "entity_en": "집중의 기원",
+        "value_en": "사용 조건: 논타겟/이동 가능",
+        "conditions_en": [
+          "Non-targeted / Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast",
+          "no_target"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jipjungui_giwon",
         "search_text": "마도성 스킬 마스터리 스킬 집중의 기원 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target 논타겟/이동 가능",
+        "search_text_en": "sorcerer skills mastery skills 집중의 기원 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target non-targeted / usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -545,9 +765,26 @@
         "source_section": "마스터리 스킬",
         "raw_text": "지옥의 화염 | 대상을 중심으로 적들에게 불속성 피해를 줍니다. 그로기 게이지 피해 | 차지 스킬"
       },
+      "i18n": {
+        "entity_en": "지옥의 화염",
+        "value_en": "대상을 중심으로 적들에게 불속성 피해를 줍니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "Charge skill"
+        ],
+        "tags_en": [
+          "skill_system",
+          "damage",
+          "stagger",
+          "charge_skill",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jiokui_hwayeom",
         "search_text": "마도성 스킬 마스터리 스킬 지옥의 화염 대상을 중심으로 적들에게 불속성 피해를 줍니다. 그로기 게이지 피해 skill_system damage stagger charge_skill mastery 차지 스킬",
+        "search_text_en": "sorcerer skills mastery skills 지옥의 화염 대상을 중심으로 적들에게 불속성 피해를 줍니다. 그로기 게이지 피해 skill_system damage stagger charge_skill mastery charge skill",
         "chips": [
           "skill_system",
           "damage",
@@ -578,9 +815,23 @@
         "source_section": "마스터리 스킬",
         "raw_text": "지옥의 화염 | 대상을 중심으로 적들에게 불속성 피해를 줍니다. 그로기 게이지 피해 | 차지 스킬"
       },
+      "i18n": {
+        "entity_en": "지옥의 화염",
+        "value_en": "사용 조건: 차지 skill",
+        "conditions_en": [
+          "사용 조건: 차지 skill"
+        ],
+        "tags_en": [
+          "skill_system",
+          "charge_skill"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jiokui_hwayeom",
         "search_text": "마도성 스킬 마스터리 스킬 지옥의 화염 사용 조건: 차지 스킬 skill_system charge_skill 사용 조건: 차지 스킬",
+        "search_text_en": "sorcerer skills mastery skills 지옥의 화염 사용 조건: 차지 skill skill_system charge_skill 사용 조건: 차지 skill",
         "chips": [
           "skill_system",
           "charge_skill",
@@ -609,9 +860,24 @@
         "source_section": "마스터리 스킬",
         "raw_text": "충격 해제 - 저주: 고목 | 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 저주: 고목: 대상을 나무로 변이시키고, 불속성 내성을 감소시킵니다. 공격을 받으면 효과가 사라집니다. | -"
       },
+      "i18n": {
+        "entity_en": "충격 해제 - 저주: 고목",
+        "value_en": "자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 저주: 고목: 대상을 나무로 변이시키고, 불속성 내성을 감소시킵니다. 공격을 받으면 효과가 사라집니다.",
+        "conditions_en": [
+          "자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 저주: 고목: 대상을 나무로 변이시키고, 불속성 내성을 감소시킵니다. 공격을 받으면 효과가 사라집니다."
+        ],
+        "tags_en": [
+          "stun",
+          "control",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "chunggyeok_haeje_jeoju_gomok",
         "search_text": "마도성 스킬 마스터리 스킬 충격 해제 - 저주: 고목 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 저주: 고목: 대상을 나무로 변이시키고, 불속성 내성을 감소시킵니다. 공격을 받으면 효과가 사라집니다. stun control mastery 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 저주: 고목: 대상을 나무로 변이시키고, 불속성 내성을 감소시킵니다. 공격을 받으면 효과가 사라집니다.",
+        "search_text_en": "sorcerer skills mastery skills 충격 해제 - 저주: 고목 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 저주: 고목: 대상을 나무로 변이시키고, 불속성 내성을 감소시킵니다. 공격을 받으면 효과가 사라집니다. stun control mastery 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 저주: 고목: 대상을 나무로 변이시키고, 불속성 내성을 감소시킵니다. 공격을 받으면 효과가 사라집니다.",
         "chips": [
           "stun",
           "control",
@@ -641,9 +907,24 @@
         "source_section": "패시브 스킬",
         "raw_text": "불의 표식 | 불속성 공격이 적중할 때마다 일정 확률로 대상에게 불의 표식을 새깁니다. 불의 표식 상태에서 불속성 피해를 받을 경우 추가 피해를 입습니다. [불의 표식]: 공격력이 감소하고, 불속성 피해를 받을 경우 일정 확률로 추가 피해를 받는 상태입니다. | -"
       },
+      "i18n": {
+        "entity_en": "불의 표식",
+        "value_en": "불속성 공격이 적중할 때마다 일정 확률로 대상에게 불의 표식을 새깁니다. 불의 표식 상태에서 불속성 피해를 받을 경우 추가 피해를 입습니다. [불의 표식]: 공격력이 감소하고, 불속성 피해를 받을 경우 일정 확률로 추가 피해를 받는 상태입니다.",
+        "conditions_en": [
+          "불속성 공격이 적중할 때마다 일정 확률로 대상에게 불의 표식을 새깁니다. 불의 표식 상태에서 불속성 피해를 받을 경우 추가 피해를 입습니다. [불의 표식]: 공격력이 감소하고, 불속성 피해를 받을 경우 일정 확률로 추가 피해를 받는 상태입니다."
+        ],
+        "tags_en": [
+          "damage",
+          "chance",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bului_pyosik",
         "search_text": "마도성 스킬 패시브 스킬 불의 표식 불속성 공격이 적중할 때마다 일정 확률로 대상에게 불의 표식을 새깁니다. 불의 표식 상태에서 불속성 피해를 받을 경우 추가 피해를 입습니다. [불의 표식]: 공격력이 감소하고, 불속성 피해를 받을 경우 일정 확률로 추가 피해를 받는 상태입니다. damage chance passive 불속성 공격이 적중할 때마다 일정 확률로 대상에게 불의 표식을 새깁니다. 불의 표식 상태에서 불속성 피해를 받을 경우 추가 피해를 입습니다. [불의 표식]: 공격력이 감소하고, 불속성 피해를 받을 경우 일정 확률로 추가 피해를 받는 상태입니다.",
+        "search_text_en": "sorcerer skills 패시브 skill 불의 표식 불속성 공격이 적중할 때마다 일정 확률로 대상에게 불의 표식을 새깁니다. 불의 표식 상태에서 불속성 피해를 받을 경우 추가 피해를 입습니다. [불의 표식]: 공격력이 감소하고, 불속성 피해를 받을 경우 일정 확률로 추가 피해를 받는 상태입니다. damage chance passive 불속성 공격이 적중할 때마다 일정 확률로 대상에게 불의 표식을 새깁니다. 불의 표식 상태에서 불속성 피해를 받을 경우 추가 피해를 입습니다. [불의 표식]: 공격력이 감소하고, 불속성 피해를 받을 경우 일정 확률로 추가 피해를 받는 상태입니다.",
         "chips": [
           "damage",
           "chance",
@@ -671,9 +952,22 @@
         "source_section": "패시브 스킬",
         "raw_text": "대지의 로브 | 최대 정신력과 정신력 자연 회복이 증가합니다. | -"
       },
+      "i18n": {
+        "entity_en": "대지의 로브",
+        "value_en": "최대 정신력과 정신력 자연 회복이 증가합니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "heal",
+          "resource",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "daejiui_robeu",
         "search_text": "마도성 스킬 패시브 스킬 대지의 로브 최대 정신력과 정신력 자연 회복이 증가합니다. heal resource passive",
+        "search_text_en": "sorcerer skills 패시브 skill 대지의 로브 최대 정신력과 정신력 자연 회복이 증가합니다. heal resource passive",
         "chips": [
           "heal",
           "resource",
@@ -703,9 +997,24 @@
         "source_section": "패시브 스킬",
         "raw_text": "냉기 소환 | 둔화 상태의 대상에게 공격이 적중할 때마다 일정 확률로 피해를 줍니다. | -"
       },
+      "i18n": {
+        "entity_en": "냉기 소환",
+        "value_en": "둔화 상태의 대상에게 공격이 적중할 때마다 일정 확률로 피해를 줍니다.",
+        "conditions_en": [
+          "둔화 상태의 대상에게 공격이 적중할 때마다 일정 확률로 피해를 줍니다."
+        ],
+        "tags_en": [
+          "damage",
+          "chance",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "naenggi_sohwan",
         "search_text": "마도성 스킬 패시브 스킬 냉기 소환 둔화 상태의 대상에게 공격이 적중할 때마다 일정 확률로 피해를 줍니다. damage chance passive 둔화 상태의 대상에게 공격이 적중할 때마다 일정 확률로 피해를 줍니다.",
+        "search_text_en": "sorcerer skills 패시브 skill 냉기 소환 둔화 상태의 대상에게 공격이 적중할 때마다 일정 확률로 피해를 줍니다. damage chance passive 둔화 상태의 대상에게 공격이 적중할 때마다 일정 확률로 피해를 줍니다.",
         "chips": [
           "damage",
           "chance",
@@ -732,9 +1041,21 @@
         "source_section": "패시브 스킬",
         "raw_text": "불꽃의 로브 | 자신의 명중, 피해 증폭, 강타가 증가합니다. | -"
       },
+      "i18n": {
+        "entity_en": "불꽃의 로브",
+        "value_en": "자신의 명중, 피해 증폭, 강타가 증가합니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bulkkotui_robeu",
         "search_text": "마도성 스킬 패시브 스킬 불꽃의 로브 자신의 명중, 피해 증폭, 강타가 증가합니다. damage passive",
+        "search_text_en": "sorcerer skills 패시브 skill 불꽃의 로브 자신의 명중, 피해 증폭, 강타가 증가합니다. damage passive",
         "chips": [
           "damage",
           "passive",
@@ -764,9 +1085,25 @@
         "source_section": "패시브 스킬",
         "raw_text": "정기 흡수 | 공격이 적중할 때마다 정신력을 회복하고, 일정 확률로 막기 및 회피를 감소시킵니다. | -"
       },
+      "i18n": {
+        "entity_en": "정기 흡수",
+        "value_en": "공격이 적중할 때마다 정신력을 회복하고, 일정 확률로 막기 및 회피를 감소시킵니다.",
+        "conditions_en": [
+          "공격이 적중할 때마다 정신력을 회복하고, 일정 확률로 막기 및 회피를 감소시킵니다."
+        ],
+        "tags_en": [
+          "heal",
+          "resource",
+          "chance",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jeonggi_heupsu",
         "search_text": "마도성 스킬 패시브 스킬 정기 흡수 공격이 적중할 때마다 정신력을 회복하고, 일정 확률로 막기 및 회피를 감소시킵니다. heal resource chance passive 공격이 적중할 때마다 정신력을 회복하고, 일정 확률로 막기 및 회피를 감소시킵니다.",
+        "search_text_en": "sorcerer skills 패시브 skill 정기 흡수 공격이 적중할 때마다 정신력을 회복하고, 일정 확률로 막기 및 회피를 감소시킵니다. heal resource chance passive 공격이 적중할 때마다 정신력을 회복하고, 일정 확률로 막기 및 회피를 감소시킵니다.",
         "chips": [
           "heal",
           "resource",
@@ -793,9 +1130,20 @@
         "source_section": "패시브 스킬",
         "raw_text": "저항의 은혜 | 자신의 정신계 및 충격계 저항이 증가합니다. | -"
       },
+      "i18n": {
+        "entity_en": "저항의 은혜",
+        "value_en": "자신의 정신계 및 충격계 저항이 증가합니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jeohangui_eunhye",
         "search_text": "마도성 스킬 패시브 스킬 저항의 은혜 자신의 정신계 및 충격계 저항이 증가합니다. passive",
+        "search_text_en": "sorcerer skills 패시브 skill 저항의 은혜 자신의 정신계 및 충격계 저항이 증가합니다. passive",
         "chips": [
           "passive",
           "skill",
@@ -820,9 +1168,21 @@
         "source_section": "패시브 스킬",
         "raw_text": "냉기의 로브 | 적이 자신을 공격할 때마다 이동 속도를 감소시키는 둔화 상태로 만듭니다. | -"
       },
+      "i18n": {
+        "entity_en": "냉기의 로브",
+        "value_en": "적이 자신을 공격할 때마다 이동 속도를 감소시키는 둔화 상태로 만듭니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "movement",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "naenggiui_robeu",
         "search_text": "마도성 스킬 패시브 스킬 냉기의 로브 적이 자신을 공격할 때마다 이동 속도를 감소시키는 둔화 상태로 만듭니다. movement passive",
+        "search_text_en": "sorcerer skills 패시브 skill 냉기의 로브 적이 자신을 공격할 때마다 이동 속도를 감소시키는 둔화 상태로 만듭니다. movement passive",
         "chips": [
           "movement",
           "passive",
@@ -853,9 +1213,26 @@
         "source_section": "패시브 스킬",
         "raw_text": "강화의 은혜 | 자신의 최대 정신력이 일정량 이상일 때 피해 증폭이 증가하며, 공격 적중 시 일정 확률로 피해를 줍니다. | -"
       },
+      "i18n": {
+        "entity_en": "enhancement의 은혜",
+        "value_en": "자신의 최대 정신력이 일정량 이상일 때 피해 증폭이 증가하며, 공격 적중 시 일정 확률로 피해를 줍니다.",
+        "conditions_en": [
+          "자신의 최대 정신력이 일정량 이상일 때 피해 증폭이 증가하며, 공격 적중 시 일정 확률로 피해를 줍니다."
+        ],
+        "tags_en": [
+          "damage",
+          "resource",
+          "upgrade",
+          "chance",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "ganghwaui_eunhye",
         "search_text": "마도성 스킬 패시브 스킬 강화의 은혜 자신의 최대 정신력이 일정량 이상일 때 피해 증폭이 증가하며, 공격 적중 시 일정 확률로 피해를 줍니다. damage resource upgrade chance passive 자신의 최대 정신력이 일정량 이상일 때 피해 증폭이 증가하며, 공격 적중 시 일정 확률로 피해를 줍니다.",
+        "search_text_en": "sorcerer skills 패시브 skill enhancement의 은혜 자신의 최대 정신력이 일정량 이상일 때 피해 증폭이 증가하며, 공격 적중 시 일정 확률로 피해를 줍니다. damage resource upgrade chance passive 자신의 최대 정신력이 일정량 이상일 때 피해 증폭이 증가하며, 공격 적중 시 일정 확률로 피해를 줍니다.",
         "chips": [
           "damage",
           "resource",
@@ -899,9 +1276,25 @@
         "source_section": "패시브 스킬",
         "raw_text": "회생의 계약 | 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. 생명력이 일정량 이하일 때 생명력을 즉시 회복합니다 | -"
       },
+      "i18n": {
+        "entity_en": "회생의 계약",
+        "value_en": "자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. 생명력이 일정량 이하일 때 생명력을 즉시 회복합니다",
+        "conditions_en": [
+          "자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. 생명력이 일정량 이하일 때 생명력을 즉시 회복합니다"
+        ],
+        "tags_en": [
+          "damage",
+          "control",
+          "heal",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "hoesaengui_gyeyak",
         "search_text": "마도성 스킬 패시브 스킬 회생의 계약 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. 생명력이 일정량 이하일 때 생명력을 즉시 회복합니다 damage control heal passive 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. 생명력이 일정량 이하일 때 생명력을 즉시 회복합니다",
+        "search_text_en": "sorcerer skills 패시브 skill 회생의 계약 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. 생명력이 일정량 이하일 때 생명력을 즉시 회복합니다 damage control heal passive 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. 생명력이 일정량 이하일 때 생명력을 즉시 회복합니다",
         "chips": [
           "damage",
           "control",
@@ -931,9 +1324,23 @@
         "source_section": "패시브 스킬",
         "raw_text": "생기 증발 | 적중 시 대상의 생명력이 일정량 초과일 경우, 피해를 줍니다. | -"
       },
+      "i18n": {
+        "entity_en": "생기 증발",
+        "value_en": "적중 시 대상의 생명력이 일정량 초과일 경우, 피해를 줍니다.",
+        "conditions_en": [
+          "적중 시 대상의 생명력이 일정량 초과일 경우, 피해를 줍니다."
+        ],
+        "tags_en": [
+          "damage",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "saenggi_jeungbal",
         "search_text": "마도성 스킬 패시브 스킬 생기 증발 적중 시 대상의 생명력이 일정량 초과일 경우, 피해를 줍니다. damage passive 적중 시 대상의 생명력이 일정량 초과일 경우, 피해를 줍니다.",
+        "search_text_en": "sorcerer skills 패시브 skill 생기 증발 적중 시 대상의 생명력이 일정량 초과일 경우, 피해를 줍니다. damage passive 적중 시 대상의 생명력이 일정량 초과일 경우, 피해를 줍니다.",
         "chips": [
           "damage",
           "passive",
@@ -960,9 +1367,22 @@
         "source_section": "스티그마 스킬",
         "raw_text": "신성 폭발 | 대상에게 불속성 피해를 줍니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "신성 폭발",
+        "value_en": "대상에게 불속성 피해를 줍니다. 그로기 게이지 피해",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "sinseong_pokbal",
         "search_text": "마도성 스킬 스티그마 스킬 신성 폭발 대상에게 불속성 피해를 줍니다. 그로기 게이지 피해 damage stagger stigma",
+        "search_text_en": "sorcerer skills stigma skills 신성 폭발 대상에게 불속성 피해를 줍니다. 그로기 게이지 피해 damage stagger stigma",
         "chips": [
           "damage",
           "stagger",
@@ -995,9 +1415,27 @@
         "source_section": "스티그마 스킬",
         "raw_text": "강철 보호막 | 피해를 막아주는 보호막을 생성합니다. 그 동안 피해 내성이 증가합니다. | 논타겟/이동 가능"
       },
+      "i18n": {
+        "entity_en": "강철 보호막",
+        "value_en": "피해를 막아주는 보호막을 생성합니다. 그 동안 피해 내성이 증가합니다.",
+        "conditions_en": [
+          "Non-targeted / Usable while moving"
+        ],
+        "tags_en": [
+          "damage",
+          "shield",
+          "movement",
+          "mobility_cast",
+          "no_target",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gangcheol_bohomak",
         "search_text": "마도성 스킬 스티그마 스킬 강철 보호막 피해를 막아주는 보호막을 생성합니다. 그 동안 피해 내성이 증가합니다. damage shield movement mobility_cast no_target stigma 논타겟/이동 가능",
+        "search_text_en": "sorcerer skills stigma skills 강철 보호막 피해를 막아주는 보호막을 생성합니다. 그 동안 피해 내성이 증가합니다. damage shield movement mobility_cast no_target stigma non-targeted / usable while moving",
         "chips": [
           "damage",
           "shield",
@@ -1030,9 +1468,24 @@
         "source_section": "스티그마 스킬",
         "raw_text": "강철 보호막 | 피해를 막아주는 보호막을 생성합니다. 그 동안 피해 내성이 증가합니다. | 논타겟/이동 가능"
       },
+      "i18n": {
+        "entity_en": "강철 보호막",
+        "value_en": "사용 조건: 논타겟/이동 가능",
+        "conditions_en": [
+          "Non-targeted / Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast",
+          "no_target"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gangcheol_bohomak",
         "search_text": "마도성 스킬 스티그마 스킬 강철 보호막 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target 논타겟/이동 가능",
+        "search_text_en": "sorcerer skills stigma skills 강철 보호막 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target non-targeted / usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -1064,9 +1517,26 @@
         "source_section": "스티그마 스킬",
         "raw_text": "원소 강화 | 자신의 불속성 및 물속성 공격력이 증가합니다. | 논타겟/이동 가능"
       },
+      "i18n": {
+        "entity_en": "원소 enhancement",
+        "value_en": "자신의 불속성 및 물속성 공격력이 증가합니다.",
+        "conditions_en": [
+          "Non-targeted / Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "upgrade",
+          "mobility_cast",
+          "no_target",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "wonso_ganghwa",
         "search_text": "마도성 스킬 스티그마 스킬 원소 강화 자신의 불속성 및 물속성 공격력이 증가합니다. movement upgrade mobility_cast no_target stigma 논타겟/이동 가능",
+        "search_text_en": "sorcerer skills stigma skills 원소 enhancement 자신의 불속성 및 물속성 공격력이 증가합니다. movement upgrade mobility_cast no_target stigma non-targeted / usable while moving",
         "chips": [
           "movement",
           "upgrade",
@@ -1098,9 +1568,24 @@
         "source_section": "스티그마 스킬",
         "raw_text": "원소 강화 | 자신의 불속성 및 물속성 공격력이 증가합니다. | 논타겟/이동 가능"
       },
+      "i18n": {
+        "entity_en": "원소 enhancement",
+        "value_en": "사용 조건: 논타겟/이동 가능",
+        "conditions_en": [
+          "Non-targeted / Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast",
+          "no_target"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "wonso_ganghwa",
         "search_text": "마도성 스킬 스티그마 스킬 원소 강화 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target 논타겟/이동 가능",
+        "search_text_en": "sorcerer skills stigma skills 원소 enhancement 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target non-targeted / usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -1128,9 +1613,22 @@
         "source_section": "스티그마 스킬",
         "raw_text": "저주: 나무 | 대상을 나무로 변이시키고, 불속성 내성을 감소시킵니다. 공격을 받으면 변이 효과가 사라집니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "저주: 나무",
+        "value_en": "대상을 나무로 변이시키고, 불속성 내성을 감소시킵니다. 공격을 받으면 변이 효과가 사라집니다. 그로기 게이지 피해",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jeoju_namu",
         "search_text": "마도성 스킬 스티그마 스킬 저주: 나무 대상을 나무로 변이시키고, 불속성 내성을 감소시킵니다. 공격을 받으면 변이 효과가 사라집니다. 그로기 게이지 피해 damage stagger stigma",
+        "search_text_en": "sorcerer skills stigma skills 저주: 나무 대상을 나무로 변이시키고, 불속성 내성을 감소시킵니다. 공격을 받으면 변이 효과가 사라집니다. 그로기 게이지 피해 damage stagger stigma",
         "chips": [
           "damage",
           "stagger",
@@ -1165,9 +1663,29 @@
         "source_section": "스티그마 스킬",
         "raw_text": "빙설의 갑주 | 일정 시간 동안 자신의 피해 내성이 증가하고, 일정 확률로 자신을 공격하는 적들을 일정 시간 동안 빙결 상태로 만듭니다. | 논타겟/이동 가능"
       },
+      "i18n": {
+        "entity_en": "빙설의 갑주",
+        "value_en": "일정 시간 동안 자신의 피해 내성이 증가하고, 일정 확률로 자신을 공격하는 적들을 일정 시간 동안 빙결 상태로 만듭니다.",
+        "conditions_en": [
+          "일정 시간 동안 자신의 피해 내성이 증가하고, 일정 확률로 자신을 공격하는 적들을 일정 시간 동안 빙결 상태로 만듭니다.",
+          "Non-targeted / Usable while moving"
+        ],
+        "tags_en": [
+          "damage",
+          "control",
+          "movement",
+          "chance",
+          "mobility_cast",
+          "no_target",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bingseolui_gapju",
         "search_text": "마도성 스킬 스티그마 스킬 빙설의 갑주 일정 시간 동안 자신의 피해 내성이 증가하고, 일정 확률로 자신을 공격하는 적들을 일정 시간 동안 빙결 상태로 만듭니다. damage control movement chance mobility_cast no_target stigma 일정 시간 동안 자신의 피해 내성이 증가하고, 일정 확률로 자신을 공격하는 적들을 일정 시간 동안 빙결 상태로 만듭니다. 논타겟/이동 가능",
+        "search_text_en": "sorcerer skills stigma skills 빙설의 갑주 일정 시간 동안 자신의 피해 내성이 증가하고, 일정 확률로 자신을 공격하는 적들을 일정 시간 동안 빙결 상태로 만듭니다. damage control movement chance mobility_cast no_target stigma 일정 시간 동안 자신의 피해 내성이 증가하고, 일정 확률로 자신을 공격하는 적들을 일정 시간 동안 빙결 상태로 만듭니다. non-targeted / usable while moving",
         "chips": [
           "damage",
           "control",
@@ -1201,9 +1719,24 @@
         "source_section": "스티그마 스킬",
         "raw_text": "빙설의 갑주 | 일정 시간 동안 자신의 피해 내성이 증가하고, 일정 확률로 자신을 공격하는 적들을 일정 시간 동안 빙결 상태로 만듭니다. | 논타겟/이동 가능"
       },
+      "i18n": {
+        "entity_en": "빙설의 갑주",
+        "value_en": "사용 조건: 논타겟/이동 가능",
+        "conditions_en": [
+          "Non-targeted / Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast",
+          "no_target"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bingseolui_gapju",
         "search_text": "마도성 스킬 스티그마 스킬 빙설의 갑주 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target 논타겟/이동 가능",
+        "search_text_en": "sorcerer skills stigma skills 빙설의 갑주 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target non-targeted / usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -1241,9 +1774,26 @@
         "source_section": "스티그마 스킬",
         "raw_text": "영혼 동결 | 대상에게 물속성 피해를 주고, 일정 확률로 봉인 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "영혼 동결",
+        "value_en": "대상에게 물속성 피해를 주고, 일정 확률로 봉인 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "대상에게 물속성 피해를 주고, 일정 확률로 봉인 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "control",
+          "chance",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "yeonghon_donggyeol",
         "search_text": "마도성 스킬 스티그마 스킬 영혼 동결 대상에게 물속성 피해를 주고, 일정 확률로 봉인 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해 damage stagger control chance stigma 대상에게 물속성 피해를 주고, 일정 확률로 봉인 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해",
+        "search_text_en": "sorcerer skills stigma skills 영혼 동결 대상에게 물속성 피해를 주고, 일정 확률로 봉인 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해 damage stagger control chance stigma 대상에게 물속성 피해를 주고, 일정 확률로 봉인 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해",
         "chips": [
           "damage",
           "stagger",
@@ -1276,9 +1826,25 @@
         "source_section": "스티그마 스킬",
         "raw_text": "냉기 폭풍 | 대상을 중심으로 적들에게 물속성 피해를 주고 둔화 상태로 만듭니다. 대상의 위치에서 지속적으로 동상 상태로 만드는 냉기 폭풍을 소환합니다. [동상]: 일정 간격으로 물속성 지속 피해를 줍니다. 대상이 이동 상태일 경우 지속 피해량이 증가합니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "냉기 폭풍",
+        "value_en": "대상을 중심으로 적들에게 물속성 피해를 주고 둔화 상태로 만듭니다. 대상의 위치에서 지속적으로 동상 상태로 만드는 냉기 폭풍을 소환합니다. [동상]: 일정 간격으로 물속성 지속 피해를 줍니다. 대상이 이동 상태일 경우 지속 피해량이 증가합니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "대상을 중심으로 적들에게 물속성 피해를 주고 둔화 상태로 만듭니다. 대상의 위치에서 지속적으로 동상 상태로 만드는 냉기 폭풍을 소환합니다. [동상]: 일정 간격으로 물속성 지속 피해를 줍니다. 대상이 이동 상태일 경우 지속 피해량이 증가합니다. 그로기 게이지 피해"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "movement",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "naenggi_pokpung",
         "search_text": "마도성 스킬 스티그마 스킬 냉기 폭풍 대상을 중심으로 적들에게 물속성 피해를 주고 둔화 상태로 만듭니다. 대상의 위치에서 지속적으로 동상 상태로 만드는 냉기 폭풍을 소환합니다. [동상]: 일정 간격으로 물속성 지속 피해를 줍니다. 대상이 이동 상태일 경우 지속 피해량이 증가합니다. 그로기 게이지 피해 damage stagger movement stigma 대상을 중심으로 적들에게 물속성 피해를 주고 둔화 상태로 만듭니다. 대상의 위치에서 지속적으로 동상 상태로 만드는 냉기 폭풍을 소환합니다. [동상]: 일정 간격으로 물속성 지속 피해를 줍니다. 대상이 이동 상태일 경우 지속 피해량이 증가합니다. 그로기 게이지 피해",
+        "search_text_en": "sorcerer skills stigma skills 냉기 폭풍 대상을 중심으로 적들에게 물속성 피해를 주고 둔화 상태로 만듭니다. 대상의 위치에서 지속적으로 동상 상태로 만드는 냉기 폭풍을 소환합니다. [동상]: 일정 간격으로 물속성 지속 피해를 줍니다. 대상이 이동 상태일 경우 지속 피해량이 증가합니다. 그로기 게이지 피해 damage stagger movement stigma 대상을 중심으로 적들에게 물속성 피해를 주고 둔화 상태로 만듭니다. 대상의 위치에서 지속적으로 동상 상태로 만드는 냉기 폭풍을 소환합니다. [동상]: 일정 간격으로 물속성 지속 피해를 줍니다. 대상이 이동 상태일 경우 지속 피해량이 증가합니다. 그로기 게이지 피해",
         "chips": [
           "damage",
           "stagger",
@@ -1309,9 +1875,24 @@
         "source_section": "스티그마 스킬",
         "raw_text": "불의 장벽 | 일정 시간 동안 대상의 위치에 불의 장벽을 소환합니다. 범위 내 적들에게 피해를 주고 잔불 상태로 만듭니다. [잔불]: 일정 간격으로 불속성 지속 피해, 대상이 이동 상태일 경우 지속 피해량 증가 | -"
       },
+      "i18n": {
+        "entity_en": "불의 장벽",
+        "value_en": "일정 시간 동안 대상의 위치에 불의 장벽을 소환합니다. 범위 내 적들에게 피해를 주고 잔불 상태로 만듭니다. [잔불]: 일정 간격으로 불속성 지속 피해, 대상이 이동 상태일 경우 지속 피해량 증가",
+        "conditions_en": [
+          "일정 시간 동안 대상의 위치에 불의 장벽을 소환합니다. 범위 내 적들에게 피해를 주고 잔불 상태로 만듭니다. [잔불]: 일정 간격으로 불속성 지속 피해, 대상이 이동 상태일 경우 지속 피해량 증가"
+        ],
+        "tags_en": [
+          "damage",
+          "movement",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bului_jangbyeok",
         "search_text": "마도성 스킬 스티그마 스킬 불의 장벽 일정 시간 동안 대상의 위치에 불의 장벽을 소환합니다. 범위 내 적들에게 피해를 주고 잔불 상태로 만듭니다. [잔불]: 일정 간격으로 불속성 지속 피해, 대상이 이동 상태일 경우 지속 피해량 증가 damage movement stigma 일정 시간 동안 대상의 위치에 불의 장벽을 소환합니다. 범위 내 적들에게 피해를 주고 잔불 상태로 만듭니다. [잔불]: 일정 간격으로 불속성 지속 피해, 대상이 이동 상태일 경우 지속 피해량 증가",
+        "search_text_en": "sorcerer skills stigma skills 불의 장벽 일정 시간 동안 대상의 위치에 불의 장벽을 소환합니다. 범위 내 적들에게 피해를 주고 잔불 상태로 만듭니다. [잔불]: 일정 간격으로 불속성 지속 피해, 대상이 이동 상태일 경우 지속 피해량 증가 damage movement stigma 일정 시간 동안 대상의 위치에 불의 장벽을 소환합니다. 범위 내 적들에게 피해를 주고 잔불 상태로 만듭니다. [잔불]: 일정 간격으로 불속성 지속 피해, 대상이 이동 상태일 경우 지속 피해량 증가",
         "chips": [
           "damage",
           "movement",
@@ -1350,9 +1931,27 @@
         "source_section": "스티그마 스킬",
         "raw_text": "루미엘의 공간 | 자신을 중심으로 적들에게 피해를 주고, 일정 확률로 공중 속박 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 공중 속박이 적중됩니다. | 논타겟"
       },
+      "i18n": {
+        "entity_en": "루미엘의 공간",
+        "value_en": "자신을 중심으로 적들에게 피해를 주고, 일정 확률로 공중 속박 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 공중 속박이 적중됩니다.",
+        "conditions_en": [
+          "자신을 중심으로 적들에게 피해를 주고, 일정 확률로 공중 속박 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 공중 속박이 적중됩니다.",
+          "Non-targeted"
+        ],
+        "tags_en": [
+          "damage",
+          "control",
+          "chance",
+          "no_target",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "rumielui_gonggan",
         "search_text": "마도성 스킬 스티그마 스킬 루미엘의 공간 자신을 중심으로 적들에게 피해를 주고, 일정 확률로 공중 속박 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 공중 속박이 적중됩니다. damage control chance no_target stigma 자신을 중심으로 적들에게 피해를 주고, 일정 확률로 공중 속박 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 공중 속박이 적중됩니다. 논타겟",
+        "search_text_en": "sorcerer skills stigma skills 루미엘의 공간 자신을 중심으로 적들에게 피해를 주고, 일정 확률로 공중 속박 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 공중 속박이 적중됩니다. damage control chance no_target stigma 자신을 중심으로 적들에게 피해를 주고, 일정 확률로 공중 속박 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 공중 속박이 적중됩니다. non-targeted",
         "chips": [
           "damage",
           "control",
@@ -1388,9 +1987,22 @@
         "source_section": "스티그마 스킬",
         "raw_text": "루미엘의 공간 | 자신을 중심으로 적들에게 피해를 주고, 일정 확률로 공중 속박 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 공중 속박이 적중됩니다. | 논타겟"
       },
+      "i18n": {
+        "entity_en": "루미엘의 공간",
+        "value_en": "사용 조건: 논타겟",
+        "conditions_en": [
+          "사용 조건: 논타겟"
+        ],
+        "tags_en": [
+          "no_target"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "rumielui_gonggan",
         "search_text": "마도성 스킬 스티그마 스킬 루미엘의 공간 사용 조건: 논타겟 no_target 사용 조건: 논타겟",
+        "search_text_en": "sorcerer skills stigma skills 루미엘의 공간 사용 조건: 논타겟 no_target 사용 조건: 논타겟",
         "chips": [
           "no_target",
           "constraint",
@@ -1419,9 +2031,25 @@
         "source_section": "스티그마 스킬",
         "raw_text": "지연 폭발 | 대상에게 일정 시간 뒤에 불속성 피해를 줍니다. 지연 시간 동안 대상의 피해 내성이 감소합니다. | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "지연 폭발",
+        "value_en": "대상에게 일정 시간 뒤에 불속성 피해를 줍니다. 지연 시간 동안 대상의 피해 내성이 감소합니다.",
+        "conditions_en": [
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "damage",
+          "movement",
+          "mobility_cast",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jiyeon_pokbal",
         "search_text": "마도성 스킬 스티그마 스킬 지연 폭발 대상에게 일정 시간 뒤에 불속성 피해를 줍니다. 지연 시간 동안 대상의 피해 내성이 감소합니다. damage movement mobility_cast stigma 이동 가능",
+        "search_text_en": "sorcerer skills stigma skills 지연 폭발 대상에게 일정 시간 뒤에 불속성 피해를 줍니다. 지연 시간 동안 대상의 피해 내성이 감소합니다. damage movement mobility_cast stigma usable while moving",
         "chips": [
           "damage",
           "movement",
@@ -1451,9 +2079,23 @@
         "source_section": "스티그마 스킬",
         "raw_text": "지연 폭발 | 대상에게 일정 시간 뒤에 불속성 피해를 줍니다. 지연 시간 동안 대상의 피해 내성이 감소합니다. | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "지연 폭발",
+        "value_en": "사용 조건: 이동 가능",
+        "conditions_en": [
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jiyeon_pokbal",
         "search_text": "마도성 스킬 스티그마 스킬 지연 폭발 사용 조건: 이동 가능 movement mobility_cast 이동 가능",
+        "search_text_en": "sorcerer skills stigma skills 지연 폭발 사용 조건: 이동 가능 movement mobility_cast usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -1484,9 +2126,26 @@
         "source_section": "스티그마 스킬",
         "raw_text": "빙하 강타 | 대상을 중심으로 적들에게 물속성 피해를 줍니다. 그로기 게이지 피해 | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "빙하 강타",
+        "value_en": "대상을 중심으로 적들에게 물속성 피해를 줍니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "movement",
+          "mobility_cast",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bingha_gangta",
         "search_text": "마도성 스킬 스티그마 스킬 빙하 강타 대상을 중심으로 적들에게 물속성 피해를 줍니다. 그로기 게이지 피해 damage stagger movement mobility_cast stigma 이동 가능",
+        "search_text_en": "sorcerer skills stigma skills 빙하 강타 대상을 중심으로 적들에게 물속성 피해를 줍니다. 그로기 게이지 피해 damage stagger movement mobility_cast stigma usable while moving",
         "chips": [
           "damage",
           "stagger",
@@ -1517,9 +2176,23 @@
         "source_section": "스티그마 스킬",
         "raw_text": "빙하 강타 | 대상을 중심으로 적들에게 물속성 피해를 줍니다. 그로기 게이지 피해 | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "빙하 강타",
+        "value_en": "사용 조건: 이동 가능",
+        "conditions_en": [
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bingha_gangta",
         "search_text": "마도성 스킬 스티그마 스킬 빙하 강타 사용 조건: 이동 가능 movement mobility_cast 이동 가능",
+        "search_text_en": "sorcerer skills stigma skills 빙하 강타 사용 조건: 이동 가능 movement mobility_cast usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -1556,9 +2229,26 @@
         "source_section": "스티그마 스킬",
         "raw_text": "강습 폭격 | 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 빙결 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 빙결이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다. | -"
       },
+      "i18n": {
+        "entity_en": "강습 폭격",
+        "value_en": "대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 빙결 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 빙결이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다.",
+        "conditions_en": [
+          "대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 빙결 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 빙결이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다."
+        ],
+        "tags_en": [
+          "damage",
+          "control",
+          "resource",
+          "chance",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gangseup_pokgyeok",
         "search_text": "마도성 스킬 스티그마 스킬 강습 폭격 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 빙결 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 빙결이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다. damage control resource chance stigma 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 빙결 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 빙결이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다.",
+        "search_text_en": "sorcerer skills stigma skills 강습 폭격 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 빙결 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 빙결이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다. damage control resource chance stigma 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 빙결 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 빙결이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다.",
         "chips": [
           "damage",
           "control",

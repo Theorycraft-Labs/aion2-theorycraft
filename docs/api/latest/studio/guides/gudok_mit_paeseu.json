@@ -2,16 +2,22 @@
   "metadata": {
     "guide_id": "gudok_mit_paeseu",
     "guide_title": "구독 및 패스",
+    "guide_title_en": "Subscription and Pass",
     "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EA%B5%AC%EB%8F%85%20%EB%B0%8F%20%ED%8C%A8%EC%8A%A4",
     "top_category": "주요 시스템",
+    "top_category_en": "Core Systems",
     "sub_category": "구독 및 데바 패스",
+    "sub_category_en": "Subscription and Deva Pass",
     "priority": "P2",
     "action": "parse_support",
+    "action_label_en": "Support",
     "topic": "gear_nuance",
+    "topic_label_en": "Support & Nuance",
     "crawled_at": "2026-02-13T18:16:31+00:00",
     "referential_version": "0.1.0",
-    "schema_version": "studio_v1",
-    "generated_at": "2026-02-13T20:59:53+00:00",
+    "schema_version": "studio_v2",
+    "translation_target": "en",
+    "generated_at": "2026-02-13T21:29:44+00:00",
     "source_facts_file": "exports/facts/gear_nuance__support__gudok_mit_paeseu.json"
   },
   "summary": {
@@ -59,9 +65,23 @@
         "source_section": "산들바람 멤버십",
         "raw_text": "산들바람 상회’는 구독자 전용 기능으로, 원격으로 이용할 수 있는 상점입니다. [상점] > [산들바람 상회] 어느 장소에서든 소모품이나, 던전 도전/충전권, 제작 재료 등을 키나로 구매할 수 있습니다."
       },
+      "i18n": {
+        "entity_en": "산들바람 상회’는 subscription자 전용 기능으로, 원격으로 이용할 수 있는 상점입니다. [상점] > [산들바람 상회] 어느 장소에서든 소모품이나, dungeon 도전/충전권, crafting 재료 등을 키나로 구매할 수 있습니다.",
+        "value_en": "산들바람 상회’는 subscription자 전용 기능으로, 원격으로 이용할 수 있는 상점입니다. [상점] > [산들바람 상회] 어느 장소에서든 소모품이나, dungeon 도전/충전권, crafting 재료 등을 키나로 구매할 수 있습니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "dungeon",
+          "craft",
+          "membership",
+          "material"
+        ],
+        "source_section_en": "산들바람 멤버십",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "sandeulbaram_sanghoeneun_gudokja_jeonyong_gineungeuro_wongyeokeuro_iyonghal_su_itneun_sangjeomipnida_sangjeom_sandeulbaram_sanghoe_eoneu_jangsoeseodeun_somopumina_deonjeon_dojeon_chungjeongwon_jejak_jaeryo_deungeul_kinaro_gumaehal_su_itseupnida",
         "search_text": "구독 및 패스 산들바람 멤버십 산들바람 상회’는 구독자 전용 기능으로, 원격으로 이용할 수 있는 상점입니다. [상점] > [산들바람 상회] 어느 장소에서든 소모품이나, 던전 도전/충전권, 제작 재료 등을 키나로 구매할 수 있습니다. 산들바람 상회’는 구독자 전용 기능으로, 원격으로 이용할 수 있는 상점입니다. [상점] > [산들바람 상회] 어느 장소에서든 소모품이나, 던전 도전/충전권, 제작 재료 등을 키나로 구매할 수 있습니다. dungeon craft membership material",
+        "search_text_en": "subscription and pass 산들바람 멤버십 산들바람 상회’는 subscription자 전용 기능으로, 원격으로 이용할 수 있는 상점입니다. [상점] > [산들바람 상회] 어느 장소에서든 소모품이나, dungeon 도전/충전권, crafting 재료 등을 키나로 구매할 수 있습니다. 산들바람 상회’는 subscription자 전용 기능으로, 원격으로 이용할 수 있는 상점입니다. [상점] > [산들바람 상회] 어느 장소에서든 소모품이나, dungeon 도전/충전권, crafting 재료 등을 키나로 구매할 수 있습니다. dungeon craft membership material",
         "chips": [
           "dungeon",
           "craft",
@@ -91,9 +111,23 @@
         "source_section": "산들바람 멤버십",
         "raw_text": "산들바람 상회’는 구독자 전용 기능으로, 원격으로 이용할 수 있는 상점입니다. [상점] > [산들바람 상회] 어느 장소에서든 소모품이나, 던전 도전/충전권, 제작 재료 등을 키나로 구매할 수 있습니다."
       },
+      "i18n": {
+        "entity_en": "산들바람 상회’는 subscription자 전용 기능으로, 원격으로 이용할 수 있는 상점입니다. [상점] > [산들바람 상회] 어느 장소에서든 소모품이나, dungeon 도전/충전권, crafting 재료 등을 키나로 구매할 수 있습니다.",
+        "value_en": "산들바람 상회’는 subscription자 전용 기능으로, 원격으로 이용할 수 있는 상점입니다. [상점] > [산들바람 상회] 어느 장소에서든 소모품이나, dungeon 도전/충전권, crafting 재료 등을 키나로 구매할 수 있습니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "dungeon",
+          "craft",
+          "membership",
+          "material"
+        ],
+        "source_section_en": "산들바람 멤버십",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "sandeulbaram_sanghoeneun_gudokja_jeonyong_gineungeuro_wongyeokeuro_iyonghal_su_itneun_sangjeomipnida_sangjeom_sandeulbaram_sanghoe_eoneu_jangsoeseodeun_somopumina_deonjeon_dojeon_chungjeongwon_jejak_jaeryo_deungeul_kinaro_gumaehal_su_itseupnida",
         "search_text": "구독 및 패스 산들바람 멤버십 산들바람 상회’는 구독자 전용 기능으로, 원격으로 이용할 수 있는 상점입니다. [상점] > [산들바람 상회] 어느 장소에서든 소모품이나, 던전 도전/충전권, 제작 재료 등을 키나로 구매할 수 있습니다. 산들바람 상회’는 구독자 전용 기능으로, 원격으로 이용할 수 있는 상점입니다. [상점] > [산들바람 상회] 어느 장소에서든 소모품이나, 던전 도전/충전권, 제작 재료 등을 키나로 구매할 수 있습니다. dungeon craft membership material",
+        "search_text_en": "subscription and pass 산들바람 멤버십 산들바람 상회’는 subscription자 전용 기능으로, 원격으로 이용할 수 있는 상점입니다. [상점] > [산들바람 상회] 어느 장소에서든 소모품이나, dungeon 도전/충전권, crafting 재료 등을 키나로 구매할 수 있습니다. 산들바람 상회’는 subscription자 전용 기능으로, 원격으로 이용할 수 있는 상점입니다. [상점] > [산들바람 상회] 어느 장소에서든 소모품이나, dungeon 도전/충전권, crafting 재료 등을 키나로 구매할 수 있습니다. dungeon craft membership material",
         "chips": [
           "dungeon",
           "craft",
@@ -120,9 +154,20 @@
         "source_section": "산들바람 멤버십",
         "raw_text": "산들바람 상회’는 구독자 전용 기능으로, 원격으로 이용할 수 있는 상점입니다. [상점] > [산들바람 상회]"
       },
+      "i18n": {
+        "entity_en": "산들바람 멤버십",
+        "value_en": "산들바람 상회’는 subscription자 전용 기능으로, 원격으로 이용할 수 있는 상점입니다. [상점] > [산들바람 상회]",
+        "conditions_en": [],
+        "tags_en": [
+          "membership"
+        ],
+        "source_section_en": "산들바람 멤버십",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "sandeulbaram_membeosip",
         "search_text": "구독 및 패스 산들바람 멤버십 산들바람 멤버십 산들바람 상회’는 구독자 전용 기능으로, 원격으로 이용할 수 있는 상점입니다. [상점] > [산들바람 상회] membership",
+        "search_text_en": "subscription and pass 산들바람 멤버십 산들바람 멤버십 산들바람 상회’는 subscription자 전용 기능으로, 원격으로 이용할 수 있는 상점입니다. [상점] > [산들바람 상회] membership",
         "chips": [
           "membership",
           "recommendation",
@@ -148,9 +193,22 @@
         "source_section": "산들바람 멤버십",
         "raw_text": "어느 장소에서든 소모품이나, 던전 도전/충전권, 제작 재료 등을 키나로 구매할 수 있습니다."
       },
+      "i18n": {
+        "entity_en": "산들바람 멤버십",
+        "value_en": "어느 장소에서든 소모품이나, dungeon 도전/충전권, crafting 재료 등을 키나로 구매할 수 있습니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "dungeon",
+          "craft",
+          "material"
+        ],
+        "source_section_en": "산들바람 멤버십",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "sandeulbaram_membeosip",
         "search_text": "구독 및 패스 산들바람 멤버십 산들바람 멤버십 어느 장소에서든 소모품이나, 던전 도전/충전권, 제작 재료 등을 키나로 구매할 수 있습니다. dungeon craft material",
+        "search_text_en": "subscription and pass 산들바람 멤버십 산들바람 멤버십 어느 장소에서든 소모품이나, dungeon 도전/충전권, crafting 재료 등을 키나로 구매할 수 있습니다. dungeon craft material",
         "chips": [
           "dungeon",
           "craft",
@@ -178,9 +236,22 @@
         "source_section": "산들바람 멤버십",
         "raw_text": "어느 장소에서든 소모품이나, 던전 도전/충전권, 제작 재료 등을 키나로 구매할 수 있습니다."
       },
+      "i18n": {
+        "entity_en": "산들바람 멤버십",
+        "value_en": "어느 장소에서든 소모품이나, dungeon 도전/충전권, crafting 재료 등을 키나로 구매할 수 있습니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "dungeon",
+          "craft",
+          "material"
+        ],
+        "source_section_en": "산들바람 멤버십",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "sandeulbaram_membeosip",
         "search_text": "구독 및 패스 산들바람 멤버십 산들바람 멤버십 어느 장소에서든 소모품이나, 던전 도전/충전권, 제작 재료 등을 키나로 구매할 수 있습니다. dungeon craft material",
+        "search_text_en": "subscription and pass 산들바람 멤버십 산들바람 멤버십 어느 장소에서든 소모품이나, dungeon 도전/충전권, crafting 재료 등을 키나로 구매할 수 있습니다. dungeon craft material",
         "chips": [
           "dungeon",
           "craft",
@@ -207,9 +278,21 @@
         "source_section": "데바 패스 소개",
         "raw_text": "진행중인 데바 패스 정보 | 진행중인 데바 패스의 명칭과 기간, 배너 이미지를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "진행중인 데바 pass information",
+        "value_en": "진행중인 데바 pass의 명칭과 기간, 배너 이미지를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "info",
+          "membership"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "jinhaengjungin_deba_paeseu_jeongbo",
         "search_text": "구독 및 패스 데바 패스 소개 진행중인 데바 패스 정보 진행중인 데바 패스의 명칭과 기간, 배너 이미지를 확인할 수 있다. info membership",
+        "search_text_en": "subscription and pass 데바 pass overview 진행중인 데바 pass information 진행중인 데바 pass의 명칭과 기간, 배너 이미지를 can be checked. info membership",
         "chips": [
           "info",
           "membership",
@@ -237,9 +320,23 @@
         "source_section": "데바 패스 소개",
         "raw_text": "선택한 데바 패스 정보 | 선택한 데바 패스 진행도와, 보상 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "선택한 데바 pass information",
+        "value_en": "선택한 데바 pass 진행도와, reward list을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "list",
+          "info",
+          "membership"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "seontaekhan_deba_paeseu_jeongbo",
         "search_text": "구독 및 패스 데바 패스 소개 선택한 데바 패스 정보 선택한 데바 패스 진행도와, 보상 목록을 확인할 수 있다. drop list info membership",
+        "search_text_en": "subscription and pass 데바 pass overview 선택한 데바 pass information 선택한 데바 pass 진행도와, reward list을 can be checked. drop list info membership",
         "chips": [
           "drop",
           "list",
@@ -269,9 +366,23 @@
         "source_section": "데바 패스 소개",
         "raw_text": "선택한 데바 패스 정보 | 선택한 데바 패스 진행도와, 보상 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "선택한 데바 pass information",
+        "value_en": "선택한 데바 pass 진행도와, reward list을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "list",
+          "info",
+          "membership"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "seontaekhan_deba_paeseu_jeongbo",
         "search_text": "구독 및 패스 데바 패스 소개 선택한 데바 패스 정보 선택한 데바 패스 진행도와, 보상 목록을 확인할 수 있다. drop list info membership",
+        "search_text_en": "subscription and pass 데바 pass overview 선택한 데바 pass information 선택한 데바 pass 진행도와, reward list을 can be checked. drop list info membership",
         "chips": [
           "drop",
           "list",
@@ -300,9 +411,22 @@
         "source_section": "데바 패스 소개",
         "raw_text": "데바 패스 진행도 | 획득 경험치와 레벨, 최대 획득 경험치 등의 정보를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "데바 pass 진행도",
+        "value_en": "획득 경험치와 level, 최대 획득 경험치 등의 information를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "info",
+          "membership"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_jinhaengdo",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 진행도 획득 경험치와 레벨, 최대 획득 경험치 등의 정보를 확인할 수 있다. drop info membership",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass 진행도 획득 경험치와 level, 최대 획득 경험치 등의 information를 can be checked. drop info membership",
         "chips": [
           "drop",
           "info",
@@ -330,9 +454,22 @@
         "source_section": "데바 패스 소개",
         "raw_text": "데바 패스 진행도 | 획득 경험치와 레벨, 최대 획득 경험치 등의 정보를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "데바 pass 진행도",
+        "value_en": "획득 경험치와 level, 최대 획득 경험치 등의 information를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "info",
+          "membership"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_jinhaengdo",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 진행도 획득 경험치와 레벨, 최대 획득 경험치 등의 정보를 확인할 수 있다. drop info membership",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass 진행도 획득 경험치와 level, 최대 획득 경험치 등의 information를 can be checked. drop info membership",
         "chips": [
           "drop",
           "info",
@@ -360,9 +497,22 @@
         "source_section": "데바 패스 소개",
         "raw_text": "데바 패스 진행도 | 획득 경험치와 레벨, 최대 획득 경험치 등의 정보를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "데바 pass 진행도",
+        "value_en": "획득 경험치와 level, 최대 획득 경험치 등의 information를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "info",
+          "membership"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_jinhaengdo",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 진행도 획득 경험치와 레벨, 최대 획득 경험치 등의 정보를 확인할 수 있다. drop info membership",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass 진행도 획득 경험치와 level, 최대 획득 경험치 등의 information를 can be checked. drop info membership",
         "chips": [
           "drop",
           "info",
@@ -391,9 +541,23 @@
         "source_section": "데바 패스 소개",
         "raw_text": "패스 보상 목록 | 데바 패스의 레벨별 보상 목록 및 진행도를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "pass reward list",
+        "value_en": "데바 pass의 level별 reward list 및 진행도를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "list",
+          "membership",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "paeseu_bosang_mokrok",
         "search_text": "구독 및 패스 데바 패스 소개 패스 보상 목록 데바 패스의 레벨별 보상 목록 및 진행도를 확인할 수 있다. drop list membership info",
+        "search_text_en": "subscription and pass 데바 pass overview pass reward list 데바 pass의 level별 reward list 및 진행도를 can be checked. drop list membership info",
         "chips": [
           "drop",
           "list",
@@ -423,9 +587,23 @@
         "source_section": "데바 패스 소개",
         "raw_text": "패스 보상 목록 | 데바 패스의 레벨별 보상 목록 및 진행도를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "pass reward list",
+        "value_en": "데바 pass의 level별 reward list 및 진행도를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "list",
+          "membership",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "paeseu_bosang_mokrok",
         "search_text": "구독 및 패스 데바 패스 소개 패스 보상 목록 데바 패스의 레벨별 보상 목록 및 진행도를 확인할 수 있다. drop list membership info",
+        "search_text_en": "subscription and pass 데바 pass overview pass reward list 데바 pass의 level별 reward list 및 진행도를 can be checked. drop list membership info",
         "chips": [
           "drop",
           "list",
@@ -455,9 +633,23 @@
         "source_section": "데바 패스 소개",
         "raw_text": "패스 보상 목록 | 데바 패스의 레벨별 보상 목록 및 진행도를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "pass reward list",
+        "value_en": "데바 pass의 level별 reward list 및 진행도를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "list",
+          "membership",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "paeseu_bosang_mokrok",
         "search_text": "구독 및 패스 데바 패스 소개 패스 보상 목록 데바 패스의 레벨별 보상 목록 및 진행도를 확인할 수 있다. drop list membership info",
+        "search_text_en": "subscription and pass 데바 pass overview pass reward list 데바 pass의 level별 reward list 및 진행도를 can be checked. drop list membership info",
         "chips": [
           "drop",
           "list",
@@ -485,9 +677,21 @@
         "source_section": "데바 패스 소개",
         "raw_text": "보상 및 전체 보상 받기 | 특정 레벨의 보상을 획득하거나, 달성한 보상을 일괄 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "reward 및 전체 reward 받기",
+        "value_en": "특정 level의 reward을 획득하거나, 달성한 reward을 일괄 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "bosang_mit_jeonche_bosang_batgi",
         "search_text": "구독 및 패스 데바 패스 소개 보상 및 전체 보상 받기 특정 레벨의 보상을 획득하거나, 달성한 보상을 일괄 획득할 수 있다. drop info",
+        "search_text_en": "subscription and pass 데바 pass overview reward 및 전체 reward 받기 특정 level의 reward을 획득하거나, 달성한 reward을 일괄 can be obtained. drop info",
         "chips": [
           "drop",
           "info",
@@ -513,9 +717,21 @@
         "source_section": "데바 패스 소개",
         "raw_text": "보상 및 전체 보상 받기 | 특정 레벨의 보상을 획득하거나, 달성한 보상을 일괄 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "reward 및 전체 reward 받기",
+        "value_en": "특정 level의 reward을 획득하거나, 달성한 reward을 일괄 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "bosang_mit_jeonche_bosang_batgi",
         "search_text": "구독 및 패스 데바 패스 소개 보상 및 전체 보상 받기 특정 레벨의 보상을 획득하거나, 달성한 보상을 일괄 획득할 수 있다. drop info",
+        "search_text_en": "subscription and pass 데바 pass overview reward 및 전체 reward 받기 특정 level의 reward을 획득하거나, 달성한 reward을 일괄 can be obtained. drop info",
         "chips": [
           "drop",
           "info",
@@ -541,9 +757,21 @@
         "source_section": "데바 패스 소개",
         "raw_text": "보상 및 전체 보상 받기 | 특정 레벨의 보상을 획득하거나, 달성한 보상을 일괄 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "reward 및 전체 reward 받기",
+        "value_en": "특정 level의 reward을 획득하거나, 달성한 reward을 일괄 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "bosang_mit_jeonche_bosang_batgi",
         "search_text": "구독 및 패스 데바 패스 소개 보상 및 전체 보상 받기 특정 레벨의 보상을 획득하거나, 달성한 보상을 일괄 획득할 수 있다. drop info",
+        "search_text_en": "subscription and pass 데바 pass overview reward 및 전체 reward 받기 특정 level의 reward을 획득하거나, 달성한 reward을 일괄 can be obtained. drop info",
         "chips": [
           "drop",
           "info",
@@ -570,9 +798,22 @@
         "source_section": "데바 패스 소개",
         "raw_text": "현재 패스 레벨 구입 | 재화를 소비하여, 즉시 현재 패스 레벨 보상을 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "현재 pass level 구입",
+        "value_en": "재화를 소비하여, 즉시 현재 pass level reward을 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "membership",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "hyeonjae_paeseu_rebel_guip",
         "search_text": "구독 및 패스 데바 패스 소개 현재 패스 레벨 구입 재화를 소비하여, 즉시 현재 패스 레벨 보상을 획득할 수 있다. drop membership info",
+        "search_text_en": "subscription and pass 데바 pass overview 현재 pass level 구입 재화를 소비하여, 즉시 현재 pass level reward을 can be obtained. drop membership info",
         "chips": [
           "drop",
           "membership",
@@ -600,9 +841,22 @@
         "source_section": "데바 패스 소개",
         "raw_text": "현재 패스 레벨 구입 | 재화를 소비하여, 즉시 현재 패스 레벨 보상을 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "현재 pass level 구입",
+        "value_en": "재화를 소비하여, 즉시 현재 pass level reward을 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "membership",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "hyeonjae_paeseu_rebel_guip",
         "search_text": "구독 및 패스 데바 패스 소개 현재 패스 레벨 구입 재화를 소비하여, 즉시 현재 패스 레벨 보상을 획득할 수 있다. drop membership info",
+        "search_text_en": "subscription and pass 데바 pass overview 현재 pass level 구입 재화를 소비하여, 즉시 현재 pass level reward을 can be obtained. drop membership info",
         "chips": [
           "drop",
           "membership",
@@ -630,9 +884,22 @@
         "source_section": "데바 패스 소개",
         "raw_text": "현재 패스 레벨 구입 | 재화를 소비하여, 즉시 현재 패스 레벨 보상을 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "현재 pass level 구입",
+        "value_en": "재화를 소비하여, 즉시 현재 pass level reward을 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "membership",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "hyeonjae_paeseu_rebel_guip",
         "search_text": "구독 및 패스 데바 패스 소개 현재 패스 레벨 구입 재화를 소비하여, 즉시 현재 패스 레벨 보상을 획득할 수 있다. drop membership info",
+        "search_text_en": "subscription and pass 데바 pass overview 현재 pass level 구입 재화를 소비하여, 즉시 현재 pass level reward을 can be obtained. drop membership info",
         "chips": [
           "drop",
           "membership",
@@ -659,9 +926,21 @@
         "source_section": "데바 패스 소개",
         "raw_text": "진행중인 데바 패스 정보"
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "진행중인 데바 pass information",
+        "conditions_en": [],
+        "tags_en": [
+          "info",
+          "membership"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 진행중인 데바 패스 정보 info membership",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview 진행중인 데바 pass information info membership",
         "chips": [
           "info",
           "membership",
@@ -687,9 +966,21 @@
         "source_section": "데바 패스 소개",
         "raw_text": "진행중인 데바 패스의 명칭과 기간, 배너 이미지를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "진행중인 데바 pass의 명칭과 기간, 배너 이미지를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "membership",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 진행중인 데바 패스의 명칭과 기간, 배너 이미지를 확인할 수 있다. membership info",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview 진행중인 데바 pass의 명칭과 기간, 배너 이미지를 can be checked. membership info",
         "chips": [
           "membership",
           "info",
@@ -715,9 +1006,21 @@
         "source_section": "데바 패스 소개",
         "raw_text": "선택한 데바 패스 정보"
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "선택한 데바 pass information",
+        "conditions_en": [],
+        "tags_en": [
+          "info",
+          "membership"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 선택한 데바 패스 정보 info membership",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview 선택한 데바 pass information info membership",
         "chips": [
           "info",
           "membership",
@@ -745,9 +1048,23 @@
         "source_section": "데바 패스 소개",
         "raw_text": "선택한 데바 패스 진행도와, 보상 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "선택한 데바 pass 진행도와, reward list을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "list",
+          "membership",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 선택한 데바 패스 진행도와, 보상 목록을 확인할 수 있다. drop list membership info",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview 선택한 데바 pass 진행도와, reward list을 can be checked. drop list membership info",
         "chips": [
           "drop",
           "list",
@@ -777,9 +1094,23 @@
         "source_section": "데바 패스 소개",
         "raw_text": "선택한 데바 패스 진행도와, 보상 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "선택한 데바 pass 진행도와, reward list을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "list",
+          "membership",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 선택한 데바 패스 진행도와, 보상 목록을 확인할 수 있다. drop list membership info",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview 선택한 데바 pass 진행도와, reward list을 can be checked. drop list membership info",
         "chips": [
           "drop",
           "list",
@@ -807,9 +1138,21 @@
         "source_section": "데바 패스 소개",
         "raw_text": "획득 경험치와 레벨, 최대 획득 경험치 등의 정보를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "획득 경험치와 level, 최대 획득 경험치 등의 information를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 획득 경험치와 레벨, 최대 획득 경험치 등의 정보를 확인할 수 있다. drop info",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview 획득 경험치와 level, 최대 획득 경험치 등의 information를 can be checked. drop info",
         "chips": [
           "drop",
           "info",
@@ -835,9 +1178,21 @@
         "source_section": "데바 패스 소개",
         "raw_text": "획득 경험치와 레벨, 최대 획득 경험치 등의 정보를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "획득 경험치와 level, 최대 획득 경험치 등의 information를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 획득 경험치와 레벨, 최대 획득 경험치 등의 정보를 확인할 수 있다. drop info",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview 획득 경험치와 level, 최대 획득 경험치 등의 information를 can be checked. drop info",
         "chips": [
           "drop",
           "info",
@@ -863,9 +1218,21 @@
         "source_section": "데바 패스 소개",
         "raw_text": "획득 경험치와 레벨, 최대 획득 경험치 등의 정보를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "획득 경험치와 level, 최대 획득 경험치 등의 information를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 획득 경험치와 레벨, 최대 획득 경험치 등의 정보를 확인할 수 있다. drop info",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview 획득 경험치와 level, 최대 획득 경험치 등의 information를 can be checked. drop info",
         "chips": [
           "drop",
           "info",
@@ -893,9 +1260,23 @@
         "source_section": "데바 패스 소개",
         "raw_text": "데바 패스의 레벨별 보상 목록 및 진행도를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "데바 pass의 level별 reward list 및 진행도를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "list",
+          "membership",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 데바 패스의 레벨별 보상 목록 및 진행도를 확인할 수 있다. drop list membership info",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview 데바 pass의 level별 reward list 및 진행도를 can be checked. drop list membership info",
         "chips": [
           "drop",
           "list",
@@ -925,9 +1306,23 @@
         "source_section": "데바 패스 소개",
         "raw_text": "데바 패스의 레벨별 보상 목록 및 진행도를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "데바 pass의 level별 reward list 및 진행도를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "list",
+          "membership",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 데바 패스의 레벨별 보상 목록 및 진행도를 확인할 수 있다. drop list membership info",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview 데바 pass의 level별 reward list 및 진행도를 can be checked. drop list membership info",
         "chips": [
           "drop",
           "list",
@@ -957,9 +1352,23 @@
         "source_section": "데바 패스 소개",
         "raw_text": "데바 패스의 레벨별 보상 목록 및 진행도를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "데바 pass의 level별 reward list 및 진행도를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "list",
+          "membership",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 데바 패스의 레벨별 보상 목록 및 진행도를 확인할 수 있다. drop list membership info",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview 데바 pass의 level별 reward list 및 진행도를 can be checked. drop list membership info",
         "chips": [
           "drop",
           "list",
@@ -987,9 +1396,21 @@
         "source_section": "데바 패스 소개",
         "raw_text": "보상 및 전체 보상 받기"
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "reward 및 전체 reward 받기",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 보상 및 전체 보상 받기 drop info",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview reward 및 전체 reward 받기 drop info",
         "chips": [
           "drop",
           "info",
@@ -1015,9 +1436,21 @@
         "source_section": "데바 패스 소개",
         "raw_text": "보상 및 전체 보상 받기"
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "reward 및 전체 reward 받기",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 보상 및 전체 보상 받기 drop info",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview reward 및 전체 reward 받기 drop info",
         "chips": [
           "drop",
           "info",
@@ -1043,9 +1476,21 @@
         "source_section": "데바 패스 소개",
         "raw_text": "특정 레벨의 보상을 획득하거나, 달성한 보상을 일괄 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "특정 level의 reward을 획득하거나, 달성한 reward을 일괄 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 특정 레벨의 보상을 획득하거나, 달성한 보상을 일괄 획득할 수 있다. drop info",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview 특정 level의 reward을 획득하거나, 달성한 reward을 일괄 can be obtained. drop info",
         "chips": [
           "drop",
           "info",
@@ -1071,9 +1516,21 @@
         "source_section": "데바 패스 소개",
         "raw_text": "특정 레벨의 보상을 획득하거나, 달성한 보상을 일괄 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "특정 level의 reward을 획득하거나, 달성한 reward을 일괄 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 특정 레벨의 보상을 획득하거나, 달성한 보상을 일괄 획득할 수 있다. drop info",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview 특정 level의 reward을 획득하거나, 달성한 reward을 일괄 can be obtained. drop info",
         "chips": [
           "drop",
           "info",
@@ -1099,9 +1556,21 @@
         "source_section": "데바 패스 소개",
         "raw_text": "특정 레벨의 보상을 획득하거나, 달성한 보상을 일괄 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "특정 level의 reward을 획득하거나, 달성한 reward을 일괄 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 특정 레벨의 보상을 획득하거나, 달성한 보상을 일괄 획득할 수 있다. drop info",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview 특정 level의 reward을 획득하거나, 달성한 reward을 일괄 can be obtained. drop info",
         "chips": [
           "drop",
           "info",
@@ -1127,9 +1596,21 @@
         "source_section": "데바 패스 소개",
         "raw_text": "현재 패스 레벨 구입"
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "현재 pass level 구입",
+        "conditions_en": [],
+        "tags_en": [
+          "membership",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 현재 패스 레벨 구입 membership info",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview 현재 pass level 구입 membership info",
         "chips": [
           "membership",
           "info",
@@ -1155,9 +1636,21 @@
         "source_section": "데바 패스 소개",
         "raw_text": "현재 패스 레벨 구입"
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "현재 pass level 구입",
+        "conditions_en": [],
+        "tags_en": [
+          "membership",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 현재 패스 레벨 구입 membership info",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview 현재 pass level 구입 membership info",
         "chips": [
           "membership",
           "info",
@@ -1184,9 +1677,22 @@
         "source_section": "데바 패스 소개",
         "raw_text": "재화를 소비하여, 즉시 현재 패스 레벨 보상을 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "재화를 소비하여, 즉시 현재 pass level reward을 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "membership",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 재화를 소비하여, 즉시 현재 패스 레벨 보상을 획득할 수 있다. drop membership info",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview 재화를 소비하여, 즉시 현재 pass level reward을 can be obtained. drop membership info",
         "chips": [
           "drop",
           "membership",
@@ -1214,9 +1720,22 @@
         "source_section": "데바 패스 소개",
         "raw_text": "재화를 소비하여, 즉시 현재 패스 레벨 보상을 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "재화를 소비하여, 즉시 현재 pass level reward을 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "membership",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 재화를 소비하여, 즉시 현재 패스 레벨 보상을 획득할 수 있다. drop membership info",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview 재화를 소비하여, 즉시 현재 pass level reward을 can be obtained. drop membership info",
         "chips": [
           "drop",
           "membership",
@@ -1244,9 +1763,22 @@
         "source_section": "데바 패스 소개",
         "raw_text": "재화를 소비하여, 즉시 현재 패스 레벨 보상을 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "데바 pass overview",
+        "value_en": "재화를 소비하여, 즉시 현재 pass level reward을 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "membership",
+          "info"
+        ],
+        "source_section_en": "데바 pass overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "deba_paeseu_sogae",
         "search_text": "구독 및 패스 데바 패스 소개 데바 패스 소개 재화를 소비하여, 즉시 현재 패스 레벨 보상을 획득할 수 있다. drop membership info",
+        "search_text_en": "subscription and pass 데바 pass overview 데바 pass overview 재화를 소비하여, 즉시 현재 pass level reward을 can be obtained. drop membership info",
         "chips": [
           "drop",
           "membership",

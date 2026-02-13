@@ -2,16 +2,22 @@
   "metadata": {
     "guide_id": "jangbi",
     "guide_title": "장비",
+    "guide_title_en": "Equipment",
     "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EC%9E%A5%EB%B9%84",
     "top_category": "아이템",
+    "top_category_en": "Items",
     "sub_category": "장비",
+    "sub_category_en": "Equipment",
     "priority": "P1",
     "action": "parse_gear_acquisition",
+    "action_label_en": "Gear Acquisition",
     "topic": "gear_acquisition",
+    "topic_label_en": "Gear Acquisition",
     "crawled_at": "2026-02-13T18:16:00+00:00",
     "referential_version": "0.1.0",
-    "schema_version": "studio_v1",
-    "generated_at": "2026-02-13T20:59:53+00:00",
+    "schema_version": "studio_v2",
+    "translation_target": "en",
+    "generated_at": "2026-02-13T21:29:44+00:00",
     "source_facts_file": "exports/facts/gear_acquisition__gear_acquisition__jangbi.json"
   },
   "summary": {
@@ -52,9 +58,21 @@
         "source_section": "장신구",
         "raw_text": "귀걸이 | 공격력/방어력/피해 증폭 등의 효과를 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "귀걸이",
+        "value_en": "공격력/방어력/피해 증폭 등의 효과를 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "drop"
+        ],
+        "source_section_en": "장신구",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gwigeoli",
         "search_text": "장비 장신구 귀걸이 공격력/방어력/피해 증폭 등의 효과를 획득할 수 있다. damage drop",
+        "search_text_en": "equipment 장신구 귀걸이 공격력/방어력/피해 증폭 등의 효과를 can be obtained. damage drop",
         "chips": [
           "damage",
           "drop",
@@ -80,9 +98,21 @@
         "source_section": "장신구",
         "raw_text": "목걸이 | 공격력/방어력/피해 증폭 등의 효과를 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "목걸이",
+        "value_en": "공격력/방어력/피해 증폭 등의 효과를 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "drop"
+        ],
+        "source_section_en": "장신구",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "mokgeoli",
         "search_text": "장비 장신구 목걸이 공격력/방어력/피해 증폭 등의 효과를 획득할 수 있다. damage drop",
+        "search_text_en": "equipment 장신구 목걸이 공격력/방어력/피해 증폭 등의 효과를 can be obtained. damage drop",
         "chips": [
           "damage",
           "drop",
@@ -107,9 +137,20 @@
         "source_section": "장신구",
         "raw_text": "반지 | 공격력/방어력 등의 효과를 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "반지",
+        "value_en": "공격력/방어력 등의 효과를 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop"
+        ],
+        "source_section_en": "장신구",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "banji",
         "search_text": "장비 장신구 반지 공격력/방어력 등의 효과를 획득할 수 있다. drop",
+        "search_text_en": "equipment 장신구 반지 공격력/방어력 등의 효과를 can be obtained. drop",
         "chips": [
           "drop",
           "gear_source",
@@ -134,9 +175,21 @@
         "source_section": "장신구",
         "raw_text": "팔찌 | 피해 증폭/피해 내성 등의 효과를 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "팔찌",
+        "value_en": "피해 증폭/피해 내성 등의 효과를 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "drop"
+        ],
+        "source_section_en": "장신구",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "paljji",
         "search_text": "장비 장신구 팔찌 피해 증폭/피해 내성 등의 효과를 획득할 수 있다. damage drop",
+        "search_text_en": "equipment 장신구 팔찌 피해 증폭/피해 내성 등의 효과를 can be obtained. damage drop",
         "chips": [
           "damage",
           "drop",
@@ -162,9 +215,21 @@
         "source_section": "장신구",
         "raw_text": "공격력/방어력/피해 증폭 등의 효과를 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "장신구",
+        "value_en": "공격력/방어력/피해 증폭 등의 효과를 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "drop"
+        ],
+        "source_section_en": "장신구",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jangsingu",
         "search_text": "장비 장신구 장신구 공격력/방어력/피해 증폭 등의 효과를 획득할 수 있다. damage drop",
+        "search_text_en": "equipment 장신구 장신구 공격력/방어력/피해 증폭 등의 효과를 can be obtained. damage drop",
         "chips": [
           "damage",
           "drop",
@@ -189,9 +254,20 @@
         "source_section": "장신구",
         "raw_text": "공격력/방어력 등의 효과를 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "장신구",
+        "value_en": "공격력/방어력 등의 효과를 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop"
+        ],
+        "source_section_en": "장신구",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jangsingu",
         "search_text": "장비 장신구 장신구 공격력/방어력 등의 효과를 획득할 수 있다. drop",
+        "search_text_en": "equipment 장신구 장신구 공격력/방어력 등의 효과를 can be obtained. drop",
         "chips": [
           "drop",
           "gear_source",
@@ -216,9 +292,21 @@
         "source_section": "장신구",
         "raw_text": "피해 증폭/피해 내성 등의 효과를 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "장신구",
+        "value_en": "피해 증폭/피해 내성 등의 효과를 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "drop"
+        ],
+        "source_section_en": "장신구",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jangsingu",
         "search_text": "장비 장신구 장신구 피해 증폭/피해 내성 등의 효과를 획득할 수 있다. damage drop",
+        "search_text_en": "equipment 장신구 장신구 피해 증폭/피해 내성 등의 효과를 can be obtained. damage drop",
         "chips": [
           "damage",
           "drop",
@@ -244,9 +332,21 @@
         "source_section": "허리띠/아뮬렛",
         "raw_text": "허리띠 | 생명력/생명력 물약 회복 증가 등의 효과를 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "허리띠",
+        "value_en": "생명력/생명력 물약 회복 증가 등의 효과를 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "heal",
+          "drop"
+        ],
+        "source_section_en": "허리띠/아뮬렛",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "heoritti",
         "search_text": "장비 허리띠/아뮬렛 허리띠 생명력/생명력 물약 회복 증가 등의 효과를 획득할 수 있다. heal drop",
+        "search_text_en": "equipment 허리띠/아뮬렛 허리띠 생명력/생명력 물약 회복 증가 등의 효과를 can be obtained. heal drop",
         "chips": [
           "heal",
           "drop",
@@ -274,9 +374,23 @@
         "source_section": "허리띠/아뮬렛",
         "raw_text": "아뮬렛 | 무기 피해 증폭/관통/봉혼석 추가 피해 등의 효과를 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "아뮬렛",
+        "value_en": "무기 피해 증폭/관통/봉혼석 추가 피해 등의 효과를 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "drop",
+          "upgrade",
+          "soulstone_system"
+        ],
+        "source_section_en": "허리띠/아뮬렛",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "amyulret",
         "search_text": "장비 허리띠/아뮬렛 아뮬렛 무기 피해 증폭/관통/봉혼석 추가 피해 등의 효과를 획득할 수 있다. damage drop upgrade soulstone_system",
+        "search_text_en": "equipment 허리띠/아뮬렛 아뮬렛 무기 피해 증폭/관통/봉혼석 추가 피해 등의 효과를 can be obtained. damage drop upgrade soulstone_system",
         "chips": [
           "damage",
           "drop",
@@ -304,9 +418,21 @@
         "source_section": "허리띠/아뮬렛",
         "raw_text": "생명력/생명력 물약 회복 증가 등의 효과를 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "허리띠/아뮬렛",
+        "value_en": "생명력/생명력 물약 회복 증가 등의 효과를 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "heal",
+          "drop"
+        ],
+        "source_section_en": "허리띠/아뮬렛",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "heoritti_amyulret",
         "search_text": "장비 허리띠/아뮬렛 허리띠/아뮬렛 생명력/생명력 물약 회복 증가 등의 효과를 획득할 수 있다. heal drop",
+        "search_text_en": "equipment 허리띠/아뮬렛 허리띠/아뮬렛 생명력/생명력 물약 회복 증가 등의 효과를 can be obtained. heal drop",
         "chips": [
           "heal",
           "drop",
@@ -334,9 +460,23 @@
         "source_section": "허리띠/아뮬렛",
         "raw_text": "무기 피해 증폭/관통/봉혼석 추가 피해 등의 효과를 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "허리띠/아뮬렛",
+        "value_en": "무기 피해 증폭/관통/봉혼석 추가 피해 등의 효과를 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "drop",
+          "upgrade",
+          "soulstone_system"
+        ],
+        "source_section_en": "허리띠/아뮬렛",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "heoritti_amyulret",
         "search_text": "장비 허리띠/아뮬렛 허리띠/아뮬렛 무기 피해 증폭/관통/봉혼석 추가 피해 등의 효과를 획득할 수 있다. damage drop upgrade soulstone_system",
+        "search_text_en": "equipment 허리띠/아뮬렛 허리띠/아뮬렛 무기 피해 증폭/관통/봉혼석 추가 피해 등의 효과를 can be obtained. damage drop upgrade soulstone_system",
         "chips": [
           "damage",
           "drop",

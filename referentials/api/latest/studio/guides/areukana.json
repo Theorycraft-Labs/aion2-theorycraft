@@ -2,16 +2,22 @@
   "metadata": {
     "guide_id": "areukana",
     "guide_title": "아르카나",
+    "guide_title_en": "Arcana",
     "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
     "top_category": "성장과 수집",
+    "top_category_en": "Progression and Collection",
     "sub_category": "장비 및 강화",
+    "sub_category_en": "Equipment and Enhancement",
     "priority": "P1",
     "action": "parse_gear_progression",
+    "action_label_en": "Gear Progression",
     "topic": "gear_progression",
+    "topic_label_en": "Gear Progression",
     "crawled_at": "2026-02-13T18:15:09+00:00",
     "referential_version": "0.1.0",
-    "schema_version": "studio_v1",
-    "generated_at": "2026-02-13T20:59:53+00:00",
+    "schema_version": "studio_v2",
+    "translation_target": "en",
+    "generated_at": "2026-02-13T21:29:44+00:00",
     "source_facts_file": "exports/facts/gear_progression__gear_progression__areukana.json"
   },
   "summary": {
@@ -60,9 +66,22 @@
         "source_section": "아르카나 소개",
         "raw_text": "부위 | 세트"
       },
+      "i18n": {
+        "entity_en": "부위",
+        "value_en": "세트",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "info",
+          "arcana"
+        ],
+        "source_section_en": "Arcana Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "buwi",
         "search_text": "아르카나 아르카나 소개 부위 세트 upgrade info arcana",
+        "search_text_en": "arcana arcana overview 부위 세트 upgrade info arcana",
         "chips": [
           "upgrade",
           "info",
@@ -90,9 +109,22 @@
         "source_section": "아르카나 소개",
         "raw_text": "- | 활력 | 마력"
       },
+      "i18n": {
+        "entity_en": "활력",
+        "value_en": "활력 / 마력",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "info",
+          "arcana"
+        ],
+        "source_section_en": "Arcana Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "hwalryeok",
         "search_text": "아르카나 아르카나 소개 활력 활력 / 마력 upgrade info arcana",
+        "search_text_en": "arcana arcana overview 활력 활력 / 마력 upgrade info arcana",
         "chips": [
           "upgrade",
           "info",
@@ -120,9 +152,22 @@
         "source_section": "아르카나 소개",
         "raw_text": "성배 | 시간[시엘] | 공간[이스라펠]"
       },
+      "i18n": {
+        "entity_en": "성배",
+        "value_en": "시간[시엘] / 공간[이스라펠]",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "info",
+          "arcana"
+        ],
+        "source_section_en": "Arcana Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "seongbae",
         "search_text": "아르카나 아르카나 소개 성배 시간[시엘] / 공간[이스라펠] upgrade info arcana",
+        "search_text_en": "arcana arcana overview 성배 시간[시엘] / 공간[이스라펠] upgrade info arcana",
         "chips": [
           "upgrade",
           "info",
@@ -150,9 +195,22 @@
         "source_section": "아르카나 소개",
         "raw_text": "양피지 | 생명[유스티엘] | 운명[마르쿠탄]"
       },
+      "i18n": {
+        "entity_en": "양피지",
+        "value_en": "생명[유스티엘] / 운명[마르쿠탄]",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "info",
+          "arcana"
+        ],
+        "source_section_en": "Arcana Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "yangpiji",
         "search_text": "아르카나 아르카나 소개 양피지 생명[유스티엘] / 운명[마르쿠탄] upgrade info arcana",
+        "search_text_en": "arcana arcana overview 양피지 생명[유스티엘] / 운명[마르쿠탄] upgrade info arcana",
         "chips": [
           "upgrade",
           "info",
@@ -180,9 +238,22 @@
         "source_section": "아르카나 소개",
         "raw_text": "나침반 | 자유[바이젤] | 죽음[트리니엘]"
       },
+      "i18n": {
+        "entity_en": "나침반",
+        "value_en": "자유[바이젤] / 죽음[트리니엘]",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "info",
+          "arcana"
+        ],
+        "source_section_en": "Arcana Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "nachimban",
         "search_text": "아르카나 아르카나 소개 나침반 자유[바이젤] / 죽음[트리니엘] upgrade info arcana",
+        "search_text_en": "arcana arcana overview 나침반 자유[바이젤] / 죽음[트리니엘] upgrade info arcana",
         "chips": [
           "upgrade",
           "info",
@@ -210,9 +281,22 @@
         "source_section": "아르카나 소개",
         "raw_text": "종 | 정의[네자칸] | 파괴[지켈]"
       },
+      "i18n": {
+        "entity_en": "정의[네자칸]",
+        "value_en": "정의[네자칸] / 파괴[지켈]",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "info",
+          "arcana"
+        ],
+        "source_section_en": "Arcana Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jeongui_nejakan",
         "search_text": "아르카나 아르카나 소개 정의[네자칸] 정의[네자칸] / 파괴[지켈] upgrade info arcana",
+        "search_text_en": "arcana arcana overview 정의[네자칸] 정의[네자칸] / 파괴[지켈] upgrade info arcana",
         "chips": [
           "upgrade",
           "info",
@@ -240,9 +324,22 @@
         "source_section": "아르카나 소개",
         "raw_text": "거울 | 환상[카이시넬] | 지혜[루미엘]"
       },
+      "i18n": {
+        "entity_en": "거울",
+        "value_en": "환상[카이시넬] / 지혜[루미엘]",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "info",
+          "arcana"
+        ],
+        "source_section_en": "Arcana Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "geoul",
         "search_text": "아르카나 아르카나 소개 거울 환상[카이시넬] / 지혜[루미엘] upgrade info arcana",
+        "search_text_en": "arcana arcana overview 거울 환상[카이시넬] / 지혜[루미엘] upgrade info arcana",
         "chips": [
           "upgrade",
           "info",
@@ -270,9 +367,22 @@
         "source_section": "아르카나 소개",
         "raw_text": "아르카나 | 장착된 아르카나의 전체적인 정보를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "Arcana",
+        "value_en": "장착된 arcana의 전체적인 information를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "info"
+        ],
+        "source_section_en": "Arcana Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "areukana",
         "search_text": "아르카나 아르카나 소개 아르카나 장착된 아르카나의 전체적인 정보를 확인할 수 있다. upgrade arcana info",
+        "search_text_en": "arcana arcana overview arcana 장착된 arcana의 전체적인 information를 can be checked. upgrade arcana info",
         "chips": [
           "upgrade",
           "arcana",
@@ -300,9 +410,22 @@
         "source_section": "아르카나 소개",
         "raw_text": "장착 | 보유한 아르카나를 확인 및 장착할 수 있다."
       },
+      "i18n": {
+        "entity_en": "장착",
+        "value_en": "보유한 arcana를 확인 및 장착할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "info"
+        ],
+        "source_section_en": "Arcana Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jangchak",
         "search_text": "아르카나 아르카나 소개 장착 보유한 아르카나를 확인 및 장착할 수 있다. upgrade arcana info",
+        "search_text_en": "arcana arcana overview 장착 보유한 arcana를 확인 및 장착할 수 있다. upgrade arcana info",
         "chips": [
           "upgrade",
           "arcana",
@@ -330,9 +453,22 @@
         "source_section": "아르카나 소개",
         "raw_text": "추출 | 보유한 아르카나를 확인 및 추출할 수 있다."
       },
+      "i18n": {
+        "entity_en": "extraction",
+        "value_en": "보유한 arcana를 확인 및 extraction할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "info"
+        ],
+        "source_section_en": "Arcana Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "chuchul",
         "search_text": "아르카나 아르카나 소개 추출 보유한 아르카나를 확인 및 추출할 수 있다. upgrade arcana info",
+        "search_text_en": "arcana arcana overview extraction 보유한 arcana를 확인 및 extraction할 수 있다. upgrade arcana info",
         "chips": [
           "upgrade",
           "arcana",
@@ -360,9 +496,22 @@
         "source_section": "아르카나 소개",
         "raw_text": "연성 | 보유한 아르카나의 장착 능력치를 확정으로 변경할 수 있다."
       },
+      "i18n": {
+        "entity_en": "연성",
+        "value_en": "보유한 arcana의 장착 능력치를 확정으로 변경할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "info"
+        ],
+        "source_section_en": "Arcana Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "yeonseong",
         "search_text": "아르카나 아르카나 소개 연성 보유한 아르카나의 장착 능력치를 확정으로 변경할 수 있다. upgrade arcana info",
+        "search_text_en": "arcana arcana overview 연성 보유한 arcana의 장착 능력치를 확정으로 변경할 수 있다. upgrade arcana info",
         "chips": [
           "upgrade",
           "arcana",
@@ -397,9 +546,23 @@
         "source_section": "아르카나 소개",
         "raw_text": "프리셋 선택 | 아르카나 프리셋을 최대 3개 등록하여, 즉시 변환할 수 있다."
       },
+      "i18n": {
+        "entity_en": "프리셋 선택",
+        "value_en": "arcana 프리셋을 최대 3개 등록하여, 즉시 변환할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "preset",
+          "info"
+        ],
+        "source_section_en": "Arcana Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "peuriset_seontaek",
         "search_text": "아르카나 아르카나 소개 프리셋 선택 아르카나 프리셋을 최대 3개 등록하여, 즉시 변환할 수 있다. upgrade arcana preset info",
+        "search_text_en": "arcana arcana overview 프리셋 선택 arcana 프리셋을 최대 3개 등록하여, 즉시 변환할 수 있다. upgrade arcana preset info",
         "chips": [
           "upgrade",
           "arcana",
@@ -428,9 +591,22 @@
         "source_section": "아르카나 소개",
         "raw_text": "장착 아르카나 정보 | 아르카나의 등급, 강화도, 일러스트를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "장착 arcana information",
+        "value_en": "arcana의 grade, enhancement도, 일러스트를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "info"
+        ],
+        "source_section_en": "Arcana Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "jangchak_areukana_jeongbo",
         "search_text": "아르카나 아르카나 소개 장착 아르카나 정보 아르카나의 등급, 강화도, 일러스트를 확인할 수 있다. upgrade arcana info",
+        "search_text_en": "arcana arcana overview 장착 arcana information arcana의 grade, enhancement도, 일러스트를 can be checked. upgrade arcana info",
         "chips": [
           "upgrade",
           "arcana",
@@ -458,9 +634,22 @@
         "source_section": "아르카나 소개",
         "raw_text": "장착 능력치 | 장착한 아르카나가 부여중인 능력치를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "장착 능력치",
+        "value_en": "장착한 arcana가 부여중인 능력치를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "info"
+        ],
+        "source_section_en": "Arcana Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jangchak_neungryeokchi",
         "search_text": "아르카나 아르카나 소개 장착 능력치 장착한 아르카나가 부여중인 능력치를 확인할 수 있다. upgrade arcana info",
+        "search_text_en": "arcana arcana overview 장착 능력치 장착한 arcana가 부여중인 능력치를 can be checked. upgrade arcana info",
         "chips": [
           "upgrade",
           "arcana",
@@ -490,9 +679,24 @@
         "source_section": "아르카나 소개",
         "raw_text": "세트 효과 | 동일한 아르카나를 장착했을 경우 발생하는 세트 효과를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "세트 효과",
+        "value_en": "동일한 arcana를 장착했을 경우 발생하는 세트 효과를 can be checked.",
+        "conditions_en": [
+          "동일한 arcana를 장착했을 경우 발생하는 세트 효과를 can be checked."
+        ],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "info"
+        ],
+        "source_section_en": "Arcana Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "seteu_hyogwa",
         "search_text": "아르카나 아르카나 소개 세트 효과 동일한 아르카나를 장착했을 경우 발생하는 세트 효과를 확인할 수 있다. upgrade arcana info 동일한 아르카나를 장착했을 경우 발생하는 세트 효과를 확인할 수 있다.",
+        "search_text_en": "arcana arcana overview 세트 효과 동일한 arcana를 장착했을 경우 발생하는 세트 효과를 can be checked. upgrade arcana info 동일한 arcana를 장착했을 경우 발생하는 세트 효과를 can be checked.",
         "chips": [
           "upgrade",
           "arcana",
@@ -522,9 +726,24 @@
         "source_section": "아르카나 소개",
         "raw_text": "빠른 장착 | 아르카나를 장착하지 않은 경우, 보유 중인 아르카나를 즉시 자동 장착한다."
       },
+      "i18n": {
+        "entity_en": "빠른 장착",
+        "value_en": "arcana를 장착하지 않은 경우, 보유 중인 arcana를 즉시 자동 장착한다.",
+        "conditions_en": [
+          "arcana를 장착하지 않은 경우, 보유 중인 arcana를 즉시 자동 장착한다."
+        ],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "info"
+        ],
+        "source_section_en": "Arcana Overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "ppareun_jangchak",
         "search_text": "아르카나 아르카나 소개 빠른 장착 아르카나를 장착하지 않은 경우, 보유 중인 아르카나를 즉시 자동 장착한다. upgrade arcana info 아르카나를 장착하지 않은 경우, 보유 중인 아르카나를 즉시 자동 장착한다.",
+        "search_text_en": "arcana arcana overview 빠른 장착 arcana를 장착하지 않은 경우, 보유 중인 arcana를 즉시 자동 장착한다. upgrade arcana info arcana를 장착하지 않은 경우, 보유 중인 arcana를 즉시 자동 장착한다.",
         "chips": [
           "upgrade",
           "arcana",
@@ -552,9 +771,22 @@
         "source_section": "아르카나 소개",
         "raw_text": "아르카나의 등급, 강화도, 일러스트를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "arcana overview",
+        "value_en": "arcana의 grade, enhancement도, 일러스트를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "info"
+        ],
+        "source_section_en": "Arcana Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "areukana_sogae",
         "search_text": "아르카나 아르카나 소개 아르카나 소개 아르카나의 등급, 강화도, 일러스트를 확인할 수 있다. upgrade arcana info",
+        "search_text_en": "arcana arcana overview arcana overview arcana의 grade, enhancement도, 일러스트를 can be checked. upgrade arcana info",
         "chips": [
           "upgrade",
           "arcana",
@@ -584,9 +816,24 @@
         "source_section": "아르카나 소개",
         "raw_text": "동일한 아르카나를 장착했을 경우 발생하는 세트 효과를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "arcana overview",
+        "value_en": "동일한 arcana를 장착했을 경우 발생하는 세트 효과를 can be checked.",
+        "conditions_en": [
+          "동일한 arcana를 장착했을 경우 발생하는 세트 효과를 can be checked."
+        ],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "info"
+        ],
+        "source_section_en": "Arcana Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "areukana_sogae",
         "search_text": "아르카나 아르카나 소개 아르카나 소개 동일한 아르카나를 장착했을 경우 발생하는 세트 효과를 확인할 수 있다. upgrade arcana info 동일한 아르카나를 장착했을 경우 발생하는 세트 효과를 확인할 수 있다.",
+        "search_text_en": "arcana arcana overview arcana overview 동일한 arcana를 장착했을 경우 발생하는 세트 효과를 can be checked. upgrade arcana info 동일한 arcana를 장착했을 경우 발생하는 세트 효과를 can be checked.",
         "chips": [
           "upgrade",
           "arcana",
@@ -616,9 +863,24 @@
         "source_section": "아르카나 소개",
         "raw_text": "아르카나를 장착하지 않은 경우, 보유 중인 아르카나를 즉시 자동 장착한다."
       },
+      "i18n": {
+        "entity_en": "arcana overview",
+        "value_en": "arcana를 장착하지 않은 경우, 보유 중인 arcana를 즉시 자동 장착한다.",
+        "conditions_en": [
+          "arcana를 장착하지 않은 경우, 보유 중인 arcana를 즉시 자동 장착한다."
+        ],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "info"
+        ],
+        "source_section_en": "Arcana Overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "areukana_sogae",
         "search_text": "아르카나 아르카나 소개 아르카나 소개 아르카나를 장착하지 않은 경우, 보유 중인 아르카나를 즉시 자동 장착한다. upgrade arcana info 아르카나를 장착하지 않은 경우, 보유 중인 아르카나를 즉시 자동 장착한다.",
+        "search_text_en": "arcana arcana overview arcana overview arcana를 장착하지 않은 경우, 보유 중인 arcana를 즉시 자동 장착한다. upgrade arcana info arcana를 장착하지 않은 경우, 보유 중인 arcana를 즉시 자동 장착한다.",
         "chips": [
           "upgrade",
           "arcana",
@@ -646,9 +908,22 @@
         "source_section": "장착",
         "raw_text": "아르카나 목록 | 보유 아르카나 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "arcana list",
+        "value_en": "보유 arcana list을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "list"
+        ],
+        "source_section_en": "장착",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "areukana_mokrok",
         "search_text": "아르카나 장착 아르카나 목록 보유 아르카나 목록을 확인할 수 있다. upgrade arcana list",
+        "search_text_en": "arcana 장착 arcana list 보유 arcana list을 can be checked. upgrade arcana list",
         "chips": [
           "upgrade",
           "arcana",
@@ -681,9 +956,21 @@
         "source_section": "장착",
         "raw_text": "아르카나 타입 | 총 5종(성배, 양피지, 나침반, 종, 거울)의 아르카나 유형을 필터로 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "arcana 타입",
+        "value_en": "총 5종(성배, 양피지, 나침반, 종, 거울)의 arcana 유형을 filter로 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "장착",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "areukana_taip",
         "search_text": "아르카나 장착 아르카나 타입 총 5종(성배, 양피지, 나침반, 종, 거울)의 아르카나 유형을 필터로 확인할 수 있다. upgrade arcana",
+        "search_text_en": "arcana 장착 arcana 타입 총 5종(성배, 양피지, 나침반, 종, 거울)의 arcana 유형을 filter로 can be checked. upgrade arcana",
         "chips": [
           "upgrade",
           "arcana",
@@ -709,9 +996,21 @@
         "source_section": "장착",
         "raw_text": "대상 아르카나 이미지 | 클릭한 아르카나의 이미지를 보여준다."
       },
+      "i18n": {
+        "entity_en": "대상 arcana 이미지",
+        "value_en": "클릭한 arcana의 이미지를 보여준다.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "장착",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "daesang_areukana_imiji",
         "search_text": "아르카나 장착 대상 아르카나 이미지 클릭한 아르카나의 이미지를 보여준다. upgrade arcana",
+        "search_text_en": "arcana 장착 대상 arcana 이미지 클릭한 arcana의 이미지를 보여준다. upgrade arcana",
         "chips": [
           "upgrade",
           "arcana",
@@ -737,9 +1036,21 @@
         "source_section": "장착",
         "raw_text": "아이템 레벨 | 클릭한 아르카나의 레벨을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "아이템 level",
+        "value_en": "클릭한 arcana의 level을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "장착",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "aitem_rebel",
         "search_text": "아르카나 장착 아이템 레벨 클릭한 아르카나의 레벨을 확인할 수 있다. upgrade arcana",
+        "search_text_en": "arcana 장착 아이템 level 클릭한 arcana의 level을 can be checked. upgrade arcana",
         "chips": [
           "upgrade",
           "arcana",
@@ -766,9 +1077,22 @@
         "source_section": "장착",
         "raw_text": "대상 아르카나 정보 | 클릭한 아르카나의 명칭, 강화도, 경험치, 장착 능력치, 세트효과 등을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "대상 arcana information",
+        "value_en": "클릭한 arcana의 명칭, enhancement도, 경험치, 장착 능력치, 세트효과 등을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "info"
+        ],
+        "source_section_en": "장착",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "daesang_areukana_jeongbo",
         "search_text": "아르카나 장착 대상 아르카나 정보 클릭한 아르카나의 명칭, 강화도, 경험치, 장착 능력치, 세트효과 등을 확인할 수 있다. upgrade arcana info",
+        "search_text_en": "arcana 장착 대상 arcana information 클릭한 arcana의 명칭, enhancement도, 경험치, 장착 능력치, 세트효과 등을 can be checked. upgrade arcana info",
         "chips": [
           "upgrade",
           "arcana",
@@ -796,9 +1120,22 @@
         "source_section": "장착",
         "raw_text": "필터 | 세트 효과 유형별, 스탯 유형별 필터링을 할 수 있다."
       },
+      "i18n": {
+        "entity_en": "filter",
+        "value_en": "세트 효과 유형별, 스탯 유형별 filter링을 할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "filter",
+          "set_effect"
+        ],
+        "source_section_en": "장착",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "pilteo",
         "search_text": "아르카나 장착 필터 세트 효과 유형별, 스탯 유형별 필터링을 할 수 있다. upgrade filter set_effect",
+        "search_text_en": "arcana 장착 filter 세트 효과 유형별, 스탯 유형별 filter링을 할 수 있다. upgrade filter set_effect",
         "chips": [
           "upgrade",
           "filter",
@@ -825,9 +1162,21 @@
         "source_section": "장착",
         "raw_text": "장착 해제 및 강화 | 아르카나를 장착/장착 해제하거나, 강화할 수 있다."
       },
+      "i18n": {
+        "entity_en": "장착 해제 및 enhancement",
+        "value_en": "arcana를 장착/장착 해제하거나, enhancement할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "장착",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jangchak_haeje_mit_ganghwa",
         "search_text": "아르카나 장착 장착 해제 및 강화 아르카나를 장착/장착 해제하거나, 강화할 수 있다. upgrade arcana",
+        "search_text_en": "arcana 장착 장착 해제 및 enhancement arcana를 장착/장착 해제하거나, enhancement할 수 있다. upgrade arcana",
         "chips": [
           "upgrade",
           "arcana",
@@ -853,9 +1202,21 @@
         "source_section": "장착",
         "raw_text": "클릭한 아르카나의 레벨을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "장착",
+        "value_en": "클릭한 arcana의 level을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "장착",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jangchak",
         "search_text": "아르카나 장착 장착 클릭한 아르카나의 레벨을 확인할 수 있다. upgrade arcana",
+        "search_text_en": "arcana 장착 장착 클릭한 arcana의 level을 can be checked. upgrade arcana",
         "chips": [
           "upgrade",
           "arcana",
@@ -881,9 +1242,21 @@
         "source_section": "장착",
         "raw_text": "클릭한 아르카나의 명칭, 강화도, 경험치, 장착 능력치, 세트효과 등을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "장착",
+        "value_en": "클릭한 arcana의 명칭, enhancement도, 경험치, 장착 능력치, 세트효과 등을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "장착",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jangchak",
         "search_text": "아르카나 장착 장착 클릭한 아르카나의 명칭, 강화도, 경험치, 장착 능력치, 세트효과 등을 확인할 수 있다. upgrade arcana",
+        "search_text_en": "arcana 장착 장착 클릭한 arcana의 명칭, enhancement도, 경험치, 장착 능력치, 세트효과 등을 can be checked. upgrade arcana",
         "chips": [
           "upgrade",
           "arcana",
@@ -909,9 +1282,21 @@
         "source_section": "장착",
         "raw_text": "장착 해제 및 강화"
       },
+      "i18n": {
+        "entity_en": "장착",
+        "value_en": "장착 해제 및 enhancement",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "enhancement"
+        ],
+        "source_section_en": "장착",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jangchak",
         "search_text": "아르카나 장착 장착 장착 해제 및 강화 upgrade enhancement",
+        "search_text_en": "arcana 장착 장착 장착 해제 및 enhancement upgrade enhancement",
         "chips": [
           "upgrade",
           "enhancement",
@@ -937,9 +1322,21 @@
         "source_section": "장착",
         "raw_text": "아르카나를 장착/장착 해제하거나, 강화할 수 있다."
       },
+      "i18n": {
+        "entity_en": "장착",
+        "value_en": "arcana를 장착/장착 해제하거나, enhancement할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "장착",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jangchak",
         "search_text": "아르카나 장착 장착 아르카나를 장착/장착 해제하거나, 강화할 수 있다. upgrade arcana",
+        "search_text_en": "arcana 장착 장착 arcana를 장착/장착 해제하거나, enhancement할 수 있다. upgrade arcana",
         "chips": [
           "upgrade",
           "arcana",
@@ -967,9 +1364,23 @@
         "source_section": "강화",
         "raw_text": "설정된 재료 아르카나 | 아르카나 강화에 선택된 재료 아르카나 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "설정된 재료 arcana",
+        "value_en": "arcana enhancement에 선택된 재료 arcana list을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "list",
+          "material"
+        ],
+        "source_section_en": "enhancement",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "seoljeongdoen_jaeryo_areukana",
         "search_text": "아르카나 강화 설정된 재료 아르카나 아르카나 강화에 선택된 재료 아르카나 목록을 확인할 수 있다. upgrade arcana list material",
+        "search_text_en": "arcana enhancement 설정된 재료 arcana arcana enhancement에 선택된 재료 arcana list을 can be checked. upgrade arcana list material",
         "chips": [
           "upgrade",
           "arcana",
@@ -999,9 +1410,23 @@
         "source_section": "강화",
         "raw_text": "강화 단계 | 강화에 선택된 아르카나의 강화 단계 및 필요 경험치 및 상승량을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "enhancement 단계",
+        "value_en": "enhancement에 선택된 arcana의 enhancement 단계 및 필요 경험치 및 상승량을 can be checked.",
+        "conditions_en": [
+          "enhancement에 선택된 arcana의 enhancement 단계 및 필요 경험치 및 상승량을 can be checked."
+        ],
+        "tags_en": [
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "enhancement",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "ganghwa_dangye",
         "search_text": "아르카나 강화 강화 단계 강화에 선택된 아르카나의 강화 단계 및 필요 경험치 및 상승량을 확인할 수 있다. upgrade arcana 강화에 선택된 아르카나의 강화 단계 및 필요 경험치 및 상승량을 확인할 수 있다.",
+        "search_text_en": "arcana enhancement enhancement 단계 enhancement에 선택된 arcana의 enhancement 단계 및 필요 경험치 및 상승량을 can be checked. upgrade arcana enhancement에 선택된 arcana의 enhancement 단계 및 필요 경험치 및 상승량을 can be checked.",
         "chips": [
           "upgrade",
           "arcana",
@@ -1027,9 +1452,21 @@
         "source_section": "강화",
         "raw_text": "장착 효과 | 강화에 선택된 아르카나의 현재 장착 효과를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "장착 효과",
+        "value_en": "enhancement에 선택된 arcana의 현재 장착 효과를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "enhancement",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jangchak_hyogwa",
         "search_text": "아르카나 강화 장착 효과 강화에 선택된 아르카나의 현재 장착 효과를 확인할 수 있다. upgrade arcana",
+        "search_text_en": "arcana enhancement 장착 효과 enhancement에 선택된 arcana의 현재 장착 효과를 can be checked. upgrade arcana",
         "chips": [
           "upgrade",
           "arcana",
@@ -1056,9 +1493,22 @@
         "source_section": "강화",
         "raw_text": "편의 기능 | 선택 재료 초기화, 동일 아르카나 일괄 선택, 다음 단계 및 최대 단계까지 강화 기능이다."
       },
+      "i18n": {
+        "entity_en": "편의 기능",
+        "value_en": "선택 재료 초기화, 동일 arcana 일괄 선택, 다음 단계 및 최대 단계까지 enhancement 기능이다.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "material"
+        ],
+        "source_section_en": "enhancement",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "pyeonui_gineung",
         "search_text": "아르카나 강화 편의 기능 선택 재료 초기화, 동일 아르카나 일괄 선택, 다음 단계 및 최대 단계까지 강화 기능이다. upgrade arcana material",
+        "search_text_en": "arcana enhancement 편의 기능 선택 재료 초기화, 동일 arcana 일괄 선택, 다음 단계 및 최대 단계까지 enhancement 기능이다. upgrade arcana material",
         "chips": [
           "upgrade",
           "arcana",
@@ -1085,9 +1535,21 @@
         "source_section": "강화",
         "raw_text": "취소/강화 | 강화를 진행하거나 취소할 수 있다."
       },
+      "i18n": {
+        "entity_en": "취소/enhancement",
+        "value_en": "enhancement를 진행하거나 취소할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "enhancement"
+        ],
+        "source_section_en": "enhancement",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "chwiso_ganghwa",
         "search_text": "아르카나 강화 취소/강화 강화를 진행하거나 취소할 수 있다. upgrade enhancement",
+        "search_text_en": "arcana enhancement 취소/enhancement enhancement를 진행하거나 취소할 수 있다. upgrade enhancement",
         "chips": [
           "upgrade",
           "enhancement",
@@ -1115,9 +1577,23 @@
         "source_section": "강화",
         "raw_text": "아르카나 강화에 선택된 재료 아르카나 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "enhancement",
+        "value_en": "arcana enhancement에 선택된 재료 arcana list을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "list",
+          "material"
+        ],
+        "source_section_en": "enhancement",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "ganghwa",
         "search_text": "아르카나 강화 강화 아르카나 강화에 선택된 재료 아르카나 목록을 확인할 수 있다. upgrade arcana list material",
+        "search_text_en": "arcana enhancement enhancement arcana enhancement에 선택된 재료 arcana list을 can be checked. upgrade arcana list material",
         "chips": [
           "upgrade",
           "arcana",
@@ -1147,9 +1623,23 @@
         "source_section": "강화",
         "raw_text": "강화에 선택된 아르카나의 강화 단계 및 필요 경험치 및 상승량을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "enhancement",
+        "value_en": "enhancement에 선택된 arcana의 enhancement 단계 및 필요 경험치 및 상승량을 can be checked.",
+        "conditions_en": [
+          "enhancement에 선택된 arcana의 enhancement 단계 및 필요 경험치 및 상승량을 can be checked."
+        ],
+        "tags_en": [
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "enhancement",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "ganghwa",
         "search_text": "아르카나 강화 강화 강화에 선택된 아르카나의 강화 단계 및 필요 경험치 및 상승량을 확인할 수 있다. upgrade arcana 강화에 선택된 아르카나의 강화 단계 및 필요 경험치 및 상승량을 확인할 수 있다.",
+        "search_text_en": "arcana enhancement enhancement enhancement에 선택된 arcana의 enhancement 단계 및 필요 경험치 및 상승량을 can be checked. upgrade arcana enhancement에 선택된 arcana의 enhancement 단계 및 필요 경험치 및 상승량을 can be checked.",
         "chips": [
           "upgrade",
           "arcana",
@@ -1177,9 +1667,23 @@
         "source_section": "강화",
         "raw_text": "강화에 선택된 아르카나의 강화 단계 및 필요 경험치 및 상승량을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "enhancement",
+        "value_en": "enhancement에 선택된 arcana의 enhancement 단계 및 필요 경험치 및 상승량을 can be checked.",
+        "conditions_en": [
+          "enhancement에 선택된 arcana의 enhancement 단계 및 필요 경험치 및 상승량을 can be checked."
+        ],
+        "tags_en": [
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "enhancement",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "ganghwa",
         "search_text": "아르카나 강화 강화 강화에 선택된 아르카나의 강화 단계 및 필요 경험치 및 상승량을 확인할 수 있다. upgrade arcana 강화에 선택된 아르카나의 강화 단계 및 필요 경험치 및 상승량을 확인할 수 있다.",
+        "search_text_en": "arcana enhancement enhancement enhancement에 선택된 arcana의 enhancement 단계 및 필요 경험치 및 상승량을 can be checked. upgrade arcana enhancement에 선택된 arcana의 enhancement 단계 및 필요 경험치 및 상승량을 can be checked.",
         "chips": [
           "upgrade",
           "arcana",
@@ -1205,9 +1709,21 @@
         "source_section": "강화",
         "raw_text": "강화에 선택된 아르카나의 현재 장착 효과를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "enhancement",
+        "value_en": "enhancement에 선택된 arcana의 현재 장착 효과를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "enhancement",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "ganghwa",
         "search_text": "아르카나 강화 강화 강화에 선택된 아르카나의 현재 장착 효과를 확인할 수 있다. upgrade arcana",
+        "search_text_en": "arcana enhancement enhancement enhancement에 선택된 arcana의 현재 장착 효과를 can be checked. upgrade arcana",
         "chips": [
           "upgrade",
           "arcana",
@@ -1234,9 +1750,22 @@
         "source_section": "강화",
         "raw_text": "선택 재료 초기화, 동일 아르카나 일괄 선택, 다음 단계 및 최대 단계까지 강화 기능이다."
       },
+      "i18n": {
+        "entity_en": "enhancement",
+        "value_en": "선택 재료 초기화, 동일 arcana 일괄 선택, 다음 단계 및 최대 단계까지 enhancement 기능이다.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "material"
+        ],
+        "source_section_en": "enhancement",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "ganghwa",
         "search_text": "아르카나 강화 강화 선택 재료 초기화, 동일 아르카나 일괄 선택, 다음 단계 및 최대 단계까지 강화 기능이다. upgrade arcana material",
+        "search_text_en": "arcana enhancement enhancement 선택 재료 초기화, 동일 arcana 일괄 선택, 다음 단계 및 최대 단계까지 enhancement 기능이다. upgrade arcana material",
         "chips": [
           "upgrade",
           "arcana",
@@ -1263,9 +1792,21 @@
         "source_section": "강화",
         "raw_text": "강화를 진행하거나 취소할 수 있다."
       },
+      "i18n": {
+        "entity_en": "enhancement",
+        "value_en": "enhancement를 진행하거나 취소할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "enhancement"
+        ],
+        "source_section_en": "enhancement",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "ganghwa",
         "search_text": "아르카나 강화 강화 강화를 진행하거나 취소할 수 있다. upgrade enhancement",
+        "search_text_en": "arcana enhancement enhancement enhancement를 진행하거나 취소할 수 있다. upgrade enhancement",
         "chips": [
           "upgrade",
           "enhancement",
@@ -1292,9 +1833,22 @@
         "source_section": "추출",
         "raw_text": "추출 후 획득 아이템 | 아르카나 추출 후 획득할 아이템 이미지를 보여준다."
       },
+      "i18n": {
+        "entity_en": "extraction 후 획득 아이템",
+        "value_en": "arcana extraction 후 획득할 아이템 이미지를 보여준다.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "extraction",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "chuchul_hu_hoekdeuk_aitem",
         "search_text": "아르카나 추출 추출 후 획득 아이템 아르카나 추출 후 획득할 아이템 이미지를 보여준다. drop upgrade arcana",
+        "search_text_en": "arcana extraction extraction 후 획득 아이템 arcana extraction 후 획득할 아이템 이미지를 보여준다. drop upgrade arcana",
         "chips": [
           "drop",
           "upgrade",
@@ -1327,9 +1881,21 @@
         "source_section": "추출",
         "raw_text": "획득까지 추출 진행도 | 추출 진행도를 확인할 수 있으며, 100%에 도달하면 표기된 아이템을 획득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "획득까지 extraction 진행도",
+        "value_en": "extraction 진행도를 확인할 수 있으며, 100%에 도달하면 표기된 아이템을 can be obtained.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "upgrade"
+        ],
+        "source_section_en": "extraction",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "hoekdeukkkaji_chuchul_jinhaengdo",
         "search_text": "아르카나 추출 획득까지 추출 진행도 추출 진행도를 확인할 수 있으며, 100%에 도달하면 표기된 아이템을 획득할 수 있다. drop upgrade",
+        "search_text_en": "arcana extraction 획득까지 extraction 진행도 extraction 진행도를 확인할 수 있으며, 100%에 도달하면 표기된 아이템을 can be obtained. drop upgrade",
         "chips": [
           "drop",
           "upgrade",
@@ -1356,9 +1922,22 @@
         "source_section": "추출",
         "raw_text": "추출 선택한 아르카나 | 추출을 위해 선택된 아르카나 목록이며, 등급에 따라 추출 진행도가 상승한다."
       },
+      "i18n": {
+        "entity_en": "extraction 선택한 arcana",
+        "value_en": "extraction을 위해 선택된 arcana list이며, grade에 따라 extraction 진행도가 상승한다.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "list"
+        ],
+        "source_section_en": "extraction",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "chuchul_seontaekhan_areukana",
         "search_text": "아르카나 추출 추출 선택한 아르카나 추출을 위해 선택된 아르카나 목록이며, 등급에 따라 추출 진행도가 상승한다. upgrade arcana list",
+        "search_text_en": "arcana extraction extraction 선택한 arcana extraction을 위해 선택된 arcana list이며, grade에 따라 extraction 진행도가 상승한다. upgrade arcana list",
         "chips": [
           "upgrade",
           "arcana",
@@ -1386,9 +1965,22 @@
         "source_section": "추출",
         "raw_text": "편의기능 | 선택된 아르카나 목록을 초기화하거나, 등급별 분류 혹은 일괄 등록할 수 있다"
       },
+      "i18n": {
+        "entity_en": "편의기능",
+        "value_en": "선택된 arcana list을 초기화하거나, grade별 분류 혹은 일괄 등록할 수 있다",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "list"
+        ],
+        "source_section_en": "extraction",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "pyeonuigineung",
         "search_text": "아르카나 추출 편의기능 선택된 아르카나 목록을 초기화하거나, 등급별 분류 혹은 일괄 등록할 수 있다 upgrade arcana list",
+        "search_text_en": "arcana extraction 편의기능 선택된 arcana list을 초기화하거나, grade별 분류 혹은 일괄 등록할 수 있다 upgrade arcana list",
         "chips": [
           "upgrade",
           "arcana",
@@ -1415,9 +2007,21 @@
         "source_section": "추출",
         "raw_text": "추출 | 버튼 클릭 시 아르카나 추출이 진행되며, 등급에 따라 진행도가 상승한다."
       },
+      "i18n": {
+        "entity_en": "extraction",
+        "value_en": "버튼 클릭 시 arcana extraction이 진행되며, grade에 따라 진행도가 상승한다.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "extraction",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "chuchul",
         "search_text": "아르카나 추출 추출 버튼 클릭 시 아르카나 추출이 진행되며, 등급에 따라 진행도가 상승한다. upgrade arcana",
+        "search_text_en": "arcana extraction extraction 버튼 클릭 시 arcana extraction이 진행되며, grade에 따라 진행도가 상승한다. upgrade arcana",
         "chips": [
           "upgrade",
           "arcana",
@@ -1443,9 +2047,21 @@
         "source_section": "연성",
         "raw_text": "대상 아르카나 | 선택된 아르카나 이미지와 강화 등급을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "대상 arcana",
+        "value_en": "선택된 arcana 이미지와 enhancement grade을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "연성",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "daesang_areukana",
         "search_text": "아르카나 연성 대상 아르카나 선택된 아르카나 이미지와 강화 등급을 확인할 수 있다. upgrade arcana",
+        "search_text_en": "arcana 연성 대상 arcana 선택된 arcana 이미지와 enhancement grade을 can be checked. upgrade arcana",
         "chips": [
           "upgrade",
           "arcana",
@@ -1472,9 +2088,22 @@
         "source_section": "연성",
         "raw_text": "아르카나 세부 정보 | 선택된 아르카나의 아이템 레벨, 명칭, 강화 단계, 능력치. 세트 효과 등 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "arcana 세부 information",
+        "value_en": "선택된 arcana의 아이템 level, 명칭, enhancement 단계, 능력치. 세트 효과 등 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana",
+          "info"
+        ],
+        "source_section_en": "연성",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "areukana_sebu_jeongbo",
         "search_text": "아르카나 연성 아르카나 세부 정보 선택된 아르카나의 아이템 레벨, 명칭, 강화 단계, 능력치. 세트 효과 등 확인할 수 있다. upgrade arcana info",
+        "search_text_en": "arcana 연성 arcana 세부 information 선택된 arcana의 아이템 level, 명칭, enhancement 단계, 능력치. 세트 효과 등 can be checked. upgrade arcana info",
         "chips": [
           "upgrade",
           "arcana",
@@ -1501,9 +2130,21 @@
         "source_section": "연성",
         "raw_text": "아르카나 타입 선택 | 연성할 아르카나 타입을 선택할 수 있다."
       },
+      "i18n": {
+        "entity_en": "arcana 타입 선택",
+        "value_en": "연성할 arcana 타입을 선택할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "연성",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "areukana_taip_seontaek",
         "search_text": "아르카나 연성 아르카나 타입 선택 연성할 아르카나 타입을 선택할 수 있다. upgrade arcana",
+        "search_text_en": "arcana 연성 arcana 타입 선택 연성할 arcana 타입을 선택할 수 있다. upgrade arcana",
         "chips": [
           "upgrade",
           "arcana",
@@ -1529,9 +2170,21 @@
         "source_section": "연성",
         "raw_text": "능력치 선택 | 선택된 아르카나의 주요 능력과 추가 능력을 설정할 수 있다."
       },
+      "i18n": {
+        "entity_en": "능력치 선택",
+        "value_en": "선택된 arcana의 주요 능력과 추가 능력을 can be configured.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "연성",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "neungryeokchi_seontaek",
         "search_text": "아르카나 연성 능력치 선택 선택된 아르카나의 주요 능력과 추가 능력을 설정할 수 있다. upgrade arcana",
+        "search_text_en": "arcana 연성 능력치 선택 선택된 arcana의 주요 능력과 추가 능력을 can be configured. upgrade arcana",
         "chips": [
           "upgrade",
           "arcana",
@@ -1557,9 +2210,21 @@
         "source_section": "연성",
         "raw_text": "연성 | 아르카나를 연성한다. 연성에는 ‘신비로운 결정’과 키나를 소모한다."
       },
+      "i18n": {
+        "entity_en": "연성",
+        "value_en": "arcana를 연성한다. 연성에는 ‘신비로운 결정’과 키나를 소모한다.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "연성",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "yeonseong",
         "search_text": "아르카나 연성 연성 아르카나를 연성한다. 연성에는 ‘신비로운 결정’과 키나를 소모한다. upgrade arcana",
+        "search_text_en": "arcana 연성 연성 arcana를 연성한다. 연성에는 ‘신비로운 결정’과 키나를 소모한다. upgrade arcana",
         "chips": [
           "upgrade",
           "arcana",
@@ -1585,9 +2250,21 @@
         "source_section": "연성",
         "raw_text": "선택된 아르카나 이미지와 강화 등급을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "연성",
+        "value_en": "선택된 arcana 이미지와 enhancement grade을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "연성",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "yeonseong",
         "search_text": "아르카나 연성 연성 선택된 아르카나 이미지와 강화 등급을 확인할 수 있다. upgrade arcana",
+        "search_text_en": "arcana 연성 연성 선택된 arcana 이미지와 enhancement grade을 can be checked. upgrade arcana",
         "chips": [
           "upgrade",
           "arcana",
@@ -1613,9 +2290,21 @@
         "source_section": "연성",
         "raw_text": "선택된 아르카나의 아이템 레벨, 명칭, 강화 단계, 능력치. 세트 효과 등 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "연성",
+        "value_en": "선택된 arcana의 아이템 level, 명칭, enhancement 단계, 능력치. 세트 효과 등 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "arcana"
+        ],
+        "source_section_en": "연성",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "yeonseong",
         "search_text": "아르카나 연성 연성 선택된 아르카나의 아이템 레벨, 명칭, 강화 단계, 능력치. 세트 효과 등 확인할 수 있다. upgrade arcana",
+        "search_text_en": "arcana 연성 연성 선택된 arcana의 아이템 level, 명칭, enhancement 단계, 능력치. 세트 효과 등 can be checked. upgrade arcana",
         "chips": [
           "upgrade",
           "arcana",

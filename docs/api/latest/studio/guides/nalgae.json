@@ -2,16 +2,22 @@
   "metadata": {
     "guide_id": "nalgae",
     "guide_title": "날개",
+    "guide_title_en": "Wings",
     "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EB%82%A0%EA%B0%9C",
     "top_category": "성장과 수집",
+    "top_category_en": "Progression and Collection",
     "sub_category": "수집 콘텐츠",
+    "sub_category_en": "Collection Content",
     "priority": "P2",
     "action": "parse_support",
+    "action_label_en": "Support",
     "topic": "gear_nuance",
+    "topic_label_en": "Support & Nuance",
     "crawled_at": "2026-02-13T18:16:22+00:00",
     "referential_version": "0.1.0",
-    "schema_version": "studio_v1",
-    "generated_at": "2026-02-13T20:59:53+00:00",
+    "schema_version": "studio_v2",
+    "translation_target": "en",
+    "generated_at": "2026-02-13T21:29:44+00:00",
     "source_facts_file": "exports/facts/gear_nuance__support__nalgae.json"
   },
   "summary": {
@@ -50,9 +56,22 @@
         "source_section": "날개 소개",
         "raw_text": "날개 목록 | 전체 날개 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "wings list",
+        "value_en": "전체 wings list을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "wing_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "wings overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "nalgae_mokrok",
         "search_text": "날개 날개 소개 날개 목록 전체 날개 목록을 확인할 수 있다. wing_system list info",
+        "search_text_en": "wings wings overview wings list 전체 wings list을 can be checked. wing_system list info",
         "chips": [
           "wing_system",
           "list",
@@ -80,9 +99,22 @@
         "source_section": "날개 소개",
         "raw_text": "날개 외형 미리 보기 | 날개 목록 중 선택한 날개의 외형을 미리 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "wings 외형 미리 보기",
+        "value_en": "wings list 중 선택한 wings의 외형을 미리 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "wing_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "wings overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "nalgae_oehyeong_miri_bogi",
         "search_text": "날개 날개 소개 날개 외형 미리 보기 날개 목록 중 선택한 날개의 외형을 미리 확인할 수 있다. wing_system list info",
+        "search_text_en": "wings wings overview wings 외형 미리 보기 wings list 중 선택한 wings의 외형을 미리 can be checked. wing_system list info",
         "chips": [
           "wing_system",
           "list",
@@ -109,9 +141,21 @@
         "source_section": "날개 소개",
         "raw_text": "날개 정보 및 보유 효과 | 날개 상세 정보와 보유 효과를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "wings information 및 보유 효과",
+        "value_en": "wings 상세 information와 보유 효과를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "wing_system",
+          "info"
+        ],
+        "source_section_en": "wings overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "nalgae_jeongbo_mit_boyu_hyogwa",
         "search_text": "날개 날개 소개 날개 정보 및 보유 효과 날개 상세 정보와 보유 효과를 확인할 수 있다. wing_system info",
+        "search_text_en": "wings wings overview wings information 및 보유 효과 wings 상세 information와 보유 효과를 can be checked. wing_system info",
         "chips": [
           "wing_system",
           "info",
@@ -137,9 +181,21 @@
         "source_section": "날개 소개",
         "raw_text": "날개 정보 | 날개 상세 정보를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "wings information",
+        "value_en": "wings 상세 information를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "wing_system",
+          "info"
+        ],
+        "source_section_en": "wings overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "nalgae_jeongbo",
         "search_text": "날개 날개 소개 날개 정보 날개 상세 정보를 확인할 수 있다. wing_system info",
+        "search_text_en": "wings wings overview wings information wings 상세 information를 can be checked. wing_system info",
         "chips": [
           "wing_system",
           "info",
@@ -165,9 +221,21 @@
         "source_section": "날개 소개",
         "raw_text": "외형 장착/해제 | 날개의 외형만 장착/해제할 수 있다. (장착 효과 미적용)"
       },
+      "i18n": {
+        "entity_en": "외형 장착/해제",
+        "value_en": "wings의 외형만 장착/해제할 수 있다. (장착 효과 미적용)",
+        "conditions_en": [],
+        "tags_en": [
+          "wing_system",
+          "info"
+        ],
+        "source_section_en": "wings overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "oehyeong_jangchak_haeje",
         "search_text": "날개 날개 소개 외형 장착/해제 날개의 외형만 장착/해제할 수 있다. (장착 효과 미적용) wing_system info",
+        "search_text_en": "wings wings overview 외형 장착/해제 wings의 외형만 장착/해제할 수 있다. (장착 효과 미적용) wing_system info",
         "chips": [
           "wing_system",
           "info",
@@ -193,9 +261,21 @@
         "source_section": "날개 소개",
         "raw_text": "장착 | 날개를 장착할 수 있다. (장착 효과 적용)"
       },
+      "i18n": {
+        "entity_en": "장착",
+        "value_en": "wings를 장착할 수 있다. (장착 효과 적용)",
+        "conditions_en": [],
+        "tags_en": [
+          "wing_system",
+          "info"
+        ],
+        "source_section_en": "wings overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jangchak",
         "search_text": "날개 날개 소개 장착 날개를 장착할 수 있다. (장착 효과 적용) wing_system info",
+        "search_text_en": "wings wings overview 장착 wings를 장착할 수 있다. (장착 효과 적용) wing_system info",
         "chips": [
           "wing_system",
           "info",
@@ -222,9 +302,22 @@
         "source_section": "날개 소개",
         "raw_text": "전체 날개 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "wings overview",
+        "value_en": "전체 wings list을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "wing_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "wings overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "nalgae_sogae",
         "search_text": "날개 날개 소개 날개 소개 전체 날개 목록을 확인할 수 있다. wing_system list info",
+        "search_text_en": "wings wings overview wings overview 전체 wings list을 can be checked. wing_system list info",
         "chips": [
           "wing_system",
           "list",
@@ -251,9 +344,21 @@
         "source_section": "날개 소개",
         "raw_text": "날개 외형 미리 보기"
       },
+      "i18n": {
+        "entity_en": "wings overview",
+        "value_en": "wings 외형 미리 보기",
+        "conditions_en": [],
+        "tags_en": [
+          "wing_system",
+          "info"
+        ],
+        "source_section_en": "wings overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "nalgae_sogae",
         "search_text": "날개 날개 소개 날개 소개 날개 외형 미리 보기 wing_system info",
+        "search_text_en": "wings wings overview wings overview wings 외형 미리 보기 wing_system info",
         "chips": [
           "wing_system",
           "info",
@@ -280,9 +385,22 @@
         "source_section": "날개 소개",
         "raw_text": "날개 목록 중 선택한 날개의 외형을 미리 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "wings overview",
+        "value_en": "wings list 중 선택한 wings의 외형을 미리 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "wing_system",
+          "list",
+          "info"
+        ],
+        "source_section_en": "wings overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "nalgae_sogae",
         "search_text": "날개 날개 소개 날개 소개 날개 목록 중 선택한 날개의 외형을 미리 확인할 수 있다. wing_system list info",
+        "search_text_en": "wings wings overview wings overview wings list 중 선택한 wings의 외형을 미리 can be checked. wing_system list info",
         "chips": [
           "wing_system",
           "list",
@@ -309,9 +427,21 @@
         "source_section": "날개 소개",
         "raw_text": "날개 정보 및 보유 효과"
       },
+      "i18n": {
+        "entity_en": "wings overview",
+        "value_en": "wings information 및 보유 효과",
+        "conditions_en": [],
+        "tags_en": [
+          "wing_system",
+          "info"
+        ],
+        "source_section_en": "wings overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "nalgae_sogae",
         "search_text": "날개 날개 소개 날개 소개 날개 정보 및 보유 효과 wing_system info",
+        "search_text_en": "wings wings overview wings overview wings information 및 보유 효과 wing_system info",
         "chips": [
           "wing_system",
           "info",
@@ -337,9 +467,21 @@
         "source_section": "날개 소개",
         "raw_text": "날개 상세 정보와 보유 효과를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "wings overview",
+        "value_en": "wings 상세 information와 보유 효과를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "wing_system",
+          "info"
+        ],
+        "source_section_en": "wings overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "nalgae_sogae",
         "search_text": "날개 날개 소개 날개 소개 날개 상세 정보와 보유 효과를 확인할 수 있다. wing_system info",
+        "search_text_en": "wings wings overview wings overview wings 상세 information와 보유 효과를 can be checked. wing_system info",
         "chips": [
           "wing_system",
           "info",
@@ -365,9 +507,21 @@
         "source_section": "날개 소개",
         "raw_text": "날개 상세 정보를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "wings overview",
+        "value_en": "wings 상세 information를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "wing_system",
+          "info"
+        ],
+        "source_section_en": "wings overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "nalgae_sogae",
         "search_text": "날개 날개 소개 날개 소개 날개 상세 정보를 확인할 수 있다. wing_system info",
+        "search_text_en": "wings wings overview wings overview wings 상세 information를 can be checked. wing_system info",
         "chips": [
           "wing_system",
           "info",
@@ -393,9 +547,21 @@
         "source_section": "날개 소개",
         "raw_text": "날개의 외형만 장착/해제할 수 있다. (장착 효과 미적용)"
       },
+      "i18n": {
+        "entity_en": "wings overview",
+        "value_en": "wings의 외형만 장착/해제할 수 있다. (장착 효과 미적용)",
+        "conditions_en": [],
+        "tags_en": [
+          "wing_system",
+          "info"
+        ],
+        "source_section_en": "wings overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "nalgae_sogae",
         "search_text": "날개 날개 소개 날개 소개 날개의 외형만 장착/해제할 수 있다. (장착 효과 미적용) wing_system info",
+        "search_text_en": "wings wings overview wings overview wings의 외형만 장착/해제할 수 있다. (장착 효과 미적용) wing_system info",
         "chips": [
           "wing_system",
           "info",
@@ -421,9 +587,21 @@
         "source_section": "날개 소개",
         "raw_text": "날개를 장착할 수 있다. (장착 효과 적용)"
       },
+      "i18n": {
+        "entity_en": "wings overview",
+        "value_en": "wings를 장착할 수 있다. (장착 효과 적용)",
+        "conditions_en": [],
+        "tags_en": [
+          "wing_system",
+          "info"
+        ],
+        "source_section_en": "wings overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "nalgae_sogae",
         "search_text": "날개 날개 소개 날개 소개 날개를 장착할 수 있다. (장착 효과 적용) wing_system info",
+        "search_text_en": "wings wings overview wings overview wings를 장착할 수 있다. (장착 효과 적용) wing_system info",
         "chips": [
           "wing_system",
           "info",

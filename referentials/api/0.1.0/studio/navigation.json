@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-13T20:59:53+00:00",
-  "parser_version": "studio_v1",
-  "schema_version": "studio_v1",
+  "generated_at": "2026-02-13T21:29:44+00:00",
+  "parser_version": "studio_v2",
+  "schema_version": "studio_v2",
   "referential_version": "0.1.0",
   "default_version_mode": "latest",
   "pages": [

@@ -2,16 +2,22 @@
   "metadata": {
     "guide_id": "debanion",
     "guide_title": "데바니온",
+    "guide_title_en": "Devanion",
     "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EB%8D%B0%EB%B0%94%EB%8B%88%EC%98%A8",
     "top_category": "성장과 수집",
+    "top_category_en": "Progression and Collection",
     "sub_category": "성장 콘텐츠",
+    "sub_category_en": "Progression Content",
     "priority": "P1",
     "action": "parse_gear_progression",
+    "action_label_en": "Gear Progression",
     "topic": "gear_progression",
+    "topic_label_en": "Gear Progression",
     "crawled_at": "2026-02-13T18:15:01+00:00",
     "referential_version": "0.1.0",
-    "schema_version": "studio_v1",
-    "generated_at": "2026-02-13T20:59:53+00:00",
+    "schema_version": "studio_v2",
+    "translation_target": "en",
+    "generated_at": "2026-02-13T21:29:44+00:00",
     "source_facts_file": "exports/facts/gear_progression__gear_progression__debanion.json"
   },
   "summary": {
@@ -63,9 +69,22 @@
         "source_section": "데바니온 소개",
         "raw_text": "데바니온 종류 | 총 6종류의 데바니온 보드를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "devanion 종류",
+        "value_en": "총 6종류의 devanion 보드를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "devanion",
+          "info"
+        ],
+        "source_section_en": "devanion overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "debanion_jongryu",
         "search_text": "데바니온 데바니온 소개 데바니온 종류 총 6종류의 데바니온 보드를 확인할 수 있다. upgrade devanion info",
+        "search_text_en": "devanion devanion overview devanion 종류 총 6종류의 devanion 보드를 can be checked. upgrade devanion info",
         "chips": [
           "upgrade",
           "devanion",
@@ -93,9 +112,22 @@
         "source_section": "데바니온 소개",
         "raw_text": "보유 포인트 및 재화 | 보유중인 데바니온 포인트와 재화 정보를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "보유 포인트 및 재화",
+        "value_en": "보유중인 devanion 포인트와 재화 information를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "devanion",
+          "info"
+        ],
+        "source_section_en": "devanion overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "boyu_pointeu_mit_jaehwa",
         "search_text": "데바니온 데바니온 소개 보유 포인트 및 재화 보유중인 데바니온 포인트와 재화 정보를 확인할 수 있다. upgrade devanion info",
+        "search_text_en": "devanion devanion overview 보유 포인트 및 재화 보유중인 devanion 포인트와 재화 information를 can be checked. upgrade devanion info",
         "chips": [
           "upgrade",
           "devanion",
@@ -123,9 +155,22 @@
         "source_section": "데바니온 소개",
         "raw_text": "데바니온 보드 | 선택한 데바니온 보드와 습득한 노드 종류를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "devanion 보드",
+        "value_en": "선택한 devanion 보드와 습득한 노드 종류를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "devanion",
+          "info"
+        ],
+        "source_section_en": "devanion overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "debanion_bodeu",
         "search_text": "데바니온 데바니온 소개 데바니온 보드 선택한 데바니온 보드와 습득한 노드 종류를 확인할 수 있다. upgrade devanion info",
+        "search_text_en": "devanion devanion overview devanion 보드 선택한 devanion 보드와 습득한 노드 종류를 can be checked. upgrade devanion info",
         "chips": [
           "upgrade",
           "devanion",
@@ -153,9 +198,22 @@
         "source_section": "데바니온 소개",
         "raw_text": "노드 및 보드 효과 정보 | 선택한 노드 및 보드의 세부 정보를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "노드 및 보드 효과 information",
+        "value_en": "선택한 노드 및 보드의 세부 information를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "info",
+          "upgrade",
+          "devanion"
+        ],
+        "source_section_en": "devanion overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "nodeu_mit_bodeu_hyogwa_jeongbo",
         "search_text": "데바니온 데바니온 소개 노드 및 보드 효과 정보 선택한 노드 및 보드의 세부 정보를 확인할 수 있다. info upgrade devanion",
+        "search_text_en": "devanion devanion overview 노드 및 보드 효과 information 선택한 노드 및 보드의 세부 information를 can be checked. info upgrade devanion",
         "chips": [
           "info",
           "upgrade",
@@ -183,9 +241,22 @@
         "source_section": "데바니온 소개",
         "raw_text": "보드 초기화/노드 습득 | 선택한 보드 노드를 전체 초기화하거나, 특정한 노드를 습득할 수 있다."
       },
+      "i18n": {
+        "entity_en": "보드 초기화/노드 습득",
+        "value_en": "선택한 보드 노드를 전체 초기화하거나, 특정한 노드를 습득할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "upgrade",
+          "info",
+          "devanion"
+        ],
+        "source_section_en": "devanion overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bodeu_chogihwa_nodeu_seupdeuk",
         "search_text": "데바니온 데바니온 소개 보드 초기화/노드 습득 선택한 보드 노드를 전체 초기화하거나, 특정한 노드를 습득할 수 있다. upgrade info devanion",
+        "search_text_en": "devanion devanion overview 보드 초기화/노드 습득 선택한 보드 노드를 전체 초기화하거나, 특정한 노드를 습득할 수 있다. upgrade info devanion",
         "chips": [
           "upgrade",
           "info",
@@ -211,9 +282,20 @@
         "source_section": "네자칸",
         "raw_text": "- ‘네자칸’ 보드의 주요 효과로는 전투 속도 증가, 재사용 시간 감소가 있습니다."
       },
+      "i18n": {
+        "entity_en": "네자칸",
+        "value_en": "- ‘네자칸’ 보드의 주요 효과로는 전투 속도 증가, 재사용 시간 감소가 있습니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "movement"
+        ],
+        "source_section_en": "네자칸",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "nejakan",
         "search_text": "데바니온 네자칸 네자칸 - ‘네자칸’ 보드의 주요 효과로는 전투 속도 증가, 재사용 시간 감소가 있습니다. movement",
+        "search_text_en": "devanion 네자칸 네자칸 - ‘네자칸’ 보드의 주요 효과로는 전투 속도 증가, 재사용 시간 감소가 있습니다. movement",
         "chips": [
           "movement",
           "gear_upgrade",
@@ -246,9 +328,23 @@
         "source_section": "네자칸",
         "raw_text": "- 노드 습득에 필요한 최소 캐릭터 레벨은 12입니다."
       },
+      "i18n": {
+        "entity_en": "네자칸",
+        "value_en": "- 노드 습득에 필요한 최소 캐릭터 level은 12입니다.",
+        "conditions_en": [
+          "- 노드 습득에 필요한 최소 캐릭터 level은 12입니다."
+        ],
+        "tags_en": [
+          "progression",
+          "upgrade"
+        ],
+        "source_section_en": "네자칸",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "nejakan",
         "search_text": "데바니온 네자칸 네자칸 - 노드 습득에 필요한 최소 캐릭터 레벨은 12입니다. progression upgrade - 노드 습득에 필요한 최소 캐릭터 레벨은 12입니다.",
+        "search_text_en": "devanion 네자칸 네자칸 - 노드 습득에 필요한 최소 캐릭터 level은 12입니다. progression upgrade - 노드 습득에 필요한 최소 캐릭터 level은 12입니다.",
         "chips": [
           "progression",
           "upgrade",
@@ -282,9 +378,23 @@
         "source_section": "네자칸",
         "raw_text": "- 노드 습득에 필요한 최소 캐릭터 레벨은 12입니다."
       },
+      "i18n": {
+        "entity_en": "네자칸",
+        "value_en": "- 노드 습득에 필요한 최소 캐릭터 level은 12입니다.",
+        "conditions_en": [
+          "- 노드 습득에 필요한 최소 캐릭터 level은 12입니다."
+        ],
+        "tags_en": [
+          "nuance",
+          "constraint"
+        ],
+        "source_section_en": "네자칸",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "nejakan",
         "search_text": "데바니온 네자칸 네자칸 - 노드 습득에 필요한 최소 캐릭터 레벨은 12입니다. nuance constraint - 노드 습득에 필요한 최소 캐릭터 레벨은 12입니다.",
+        "search_text_en": "devanion 네자칸 네자칸 - 노드 습득에 필요한 최소 캐릭터 level은 12입니다. nuance constraint - 노드 습득에 필요한 최소 캐릭터 level은 12입니다.",
         "chips": [
           "nuance",
           "constraint",

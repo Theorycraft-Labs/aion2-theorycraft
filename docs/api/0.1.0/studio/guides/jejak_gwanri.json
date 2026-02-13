@@ -2,16 +2,22 @@
   "metadata": {
     "guide_id": "jejak_gwanri",
     "guide_title": "제작 관리",
+    "guide_title_en": "Crafting Management",
     "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EC%A0%9C%EC%9E%91%20%EA%B4%80%EB%A6%AC",
     "top_category": "채집과 제작",
+    "top_category_en": "Gathering and Crafting",
     "sub_category": "제작",
+    "sub_category_en": "Crafting",
     "priority": "P1",
     "action": "parse_gear_acquisition",
+    "action_label_en": "Gear Acquisition",
     "topic": "gear_acquisition",
+    "topic_label_en": "Gear Acquisition",
     "crawled_at": "2026-02-13T18:16:07+00:00",
     "referential_version": "0.1.0",
-    "schema_version": "studio_v1",
-    "generated_at": "2026-02-13T20:59:53+00:00",
+    "schema_version": "studio_v2",
+    "translation_target": "en",
+    "generated_at": "2026-02-13T21:29:44+00:00",
     "source_facts_file": "exports/facts/gear_acquisition__gear_acquisition__jejak_gwanri.json"
   },
   "summary": {
@@ -55,9 +61,22 @@
         "source_section": "제작 관리 소개",
         "raw_text": "메인 카테고리 | 대장, 갑옷, 세공, 연급, 요리 카테고리 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "메인 카테고리",
+        "value_en": "대장, 갑옷, 세공, 연급, 요리 카테고리 list을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "list",
+          "info",
+          "crafting"
+        ],
+        "source_section_en": "crafting 관리 overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "mein_kategori",
         "search_text": "제작 관리 제작 관리 소개 메인 카테고리 대장, 갑옷, 세공, 연급, 요리 카테고리 목록을 확인할 수 있다. list info crafting",
+        "search_text_en": "crafting management crafting 관리 overview 메인 카테고리 대장, 갑옷, 세공, 연급, 요리 카테고리 list을 can be checked. list info crafting",
         "chips": [
           "list",
           "info",
@@ -84,9 +103,21 @@
         "source_section": "제작 관리 소개",
         "raw_text": "제작 숙련도 | 각 제작 카테고리의 숙련도(등급,레벨,경험치) 정보를 확인할 수 있습니다."
       },
+      "i18n": {
+        "entity_en": "crafting 숙련도",
+        "value_en": "각 crafting 카테고리의 숙련도(grade,level,경험치) information를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "craft",
+          "info"
+        ],
+        "source_section_en": "crafting 관리 overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "jejak_sukryeondo",
         "search_text": "제작 관리 제작 관리 소개 제작 숙련도 각 제작 카테고리의 숙련도(등급,레벨,경험치) 정보를 확인할 수 있습니다. craft info",
+        "search_text_en": "crafting management crafting 관리 overview crafting 숙련도 각 crafting 카테고리의 숙련도(grade,level,경험치) information를 can be checked. craft info",
         "chips": [
           "craft",
           "info",
@@ -113,9 +144,22 @@
         "source_section": "제작 관리 소개",
         "raw_text": "제작 아이템 목록 | 제작 도안 목록 : 제작 도안 목록에서 제작을 원하는 아이템을 선택할 수 있다."
       },
+      "i18n": {
+        "entity_en": "crafting 아이템 list",
+        "value_en": "crafting 도안 list : crafting 도안 list에서 crafting을 원하는 아이템을 선택할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "craft",
+          "list",
+          "info"
+        ],
+        "source_section_en": "crafting 관리 overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "jejak_aitem_mokrok",
         "search_text": "제작 관리 제작 관리 소개 제작 아이템 목록 제작 도안 목록 : 제작 도안 목록에서 제작을 원하는 아이템을 선택할 수 있다. craft list info",
+        "search_text_en": "crafting management crafting 관리 overview crafting 아이템 list crafting 도안 list : crafting 도안 list에서 crafting을 원하는 아이템을 선택할 수 있다. craft list info",
         "chips": [
           "craft",
           "list",
@@ -143,9 +187,22 @@
         "source_section": "제작 관리 소개",
         "raw_text": "제작 대상 아이템 | 목록에서 선택한 제작 아이템 정보를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "crafting 대상 아이템",
+        "value_en": "list에서 선택한 crafting 아이템 information를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "craft",
+          "list",
+          "info"
+        ],
+        "source_section_en": "crafting 관리 overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "jejak_daesang_aitem",
         "search_text": "제작 관리 제작 관리 소개 제작 대상 아이템 목록에서 선택한 제작 아이템 정보를 확인할 수 있다. craft list info",
+        "search_text_en": "crafting management crafting 관리 overview crafting 대상 아이템 list에서 선택한 crafting 아이템 information를 can be checked. craft list info",
         "chips": [
           "craft",
           "list",
@@ -176,9 +233,25 @@
         "source_section": "제작 관리 소개",
         "raw_text": "제작 재료 | 선택된 대상 아이템 제작을 위해 필요한 재료 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "crafting 재료",
+        "value_en": "선택된 대상 아이템 crafting을 위해 필요한 재료 list을 can be checked.",
+        "conditions_en": [
+          "선택된 대상 아이템 crafting을 위해 필요한 재료 list을 can be checked."
+        ],
+        "tags_en": [
+          "craft",
+          "list",
+          "material",
+          "info"
+        ],
+        "source_section_en": "crafting 관리 overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "jejak_jaeryo",
         "search_text": "제작 관리 제작 관리 소개 제작 재료 선택된 대상 아이템 제작을 위해 필요한 재료 목록을 확인할 수 있다. craft list material info 선택된 대상 아이템 제작을 위해 필요한 재료 목록을 확인할 수 있다.",
+        "search_text_en": "crafting management crafting 관리 overview crafting 재료 선택된 대상 아이템 crafting을 위해 필요한 재료 list을 can be checked. craft list material info 선택된 대상 아이템 crafting을 위해 필요한 재료 list을 can be checked.",
         "chips": [
           "craft",
           "list",
@@ -210,9 +283,25 @@
         "source_section": "제작 관리 소개",
         "raw_text": "콤보 | 제작 아이템의 콤보 발동 확률과 발동 시 획득 아이템을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "콤보",
+        "value_en": "crafting 아이템의 콤보 발동 확률과 발동 시 획득 아이템을 can be checked.",
+        "conditions_en": [
+          "crafting 아이템의 콤보 발동 확률과 발동 시 획득 아이템을 can be checked."
+        ],
+        "tags_en": [
+          "drop",
+          "craft",
+          "chance",
+          "info"
+        ],
+        "source_section_en": "crafting 관리 overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "kombo",
         "search_text": "제작 관리 제작 관리 소개 콤보 제작 아이템의 콤보 발동 확률과 발동 시 획득 아이템을 확인할 수 있다. drop craft chance info 제작 아이템의 콤보 발동 확률과 발동 시 획득 아이템을 확인할 수 있다.",
+        "search_text_en": "crafting management crafting 관리 overview 콤보 crafting 아이템의 콤보 발동 확률과 발동 시 획득 아이템을 can be checked. drop craft chance info crafting 아이템의 콤보 발동 확률과 발동 시 획득 아이템을 can be checked.",
         "chips": [
           "drop",
           "craft",
@@ -241,9 +330,22 @@
         "source_section": "제작 관리 소개",
         "raw_text": "정렬 옵션 | 제작 목록을 정렬하거나, 제작 아이템명을 입력하여 검색할 수 있다."
       },
+      "i18n": {
+        "entity_en": "sorting 옵션",
+        "value_en": "crafting list을 sorting하거나, crafting 아이템명을 입력하여 검색할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "craft",
+          "list",
+          "info"
+        ],
+        "source_section_en": "crafting 관리 overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "jeongryeol_opsyeon",
         "search_text": "제작 관리 제작 관리 소개 정렬 옵션 제작 목록을 정렬하거나, 제작 아이템명을 입력하여 검색할 수 있다. craft list info",
+        "search_text_en": "crafting management crafting 관리 overview sorting 옵션 crafting list을 sorting하거나, crafting 아이템명을 입력하여 검색할 수 있다. craft list info",
         "chips": [
           "craft",
           "list",
@@ -270,9 +372,21 @@
         "source_section": "제작 관리 소개",
         "raw_text": "제작 개수 설정 및 실행 | 제작 개수 설정과 제작 실행을 할 수 있다."
       },
+      "i18n": {
+        "entity_en": "crafting 개수 설정 및 실행",
+        "value_en": "crafting 개수 설정과 crafting 실행을 할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "craft",
+          "info"
+        ],
+        "source_section_en": "crafting 관리 overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "jejak_gaesu_seoljeong_mit_silhaeng",
         "search_text": "제작 관리 제작 관리 소개 제작 개수 설정 및 실행 제작 개수 설정과 제작 실행을 할 수 있다. craft info",
+        "search_text_en": "crafting management crafting 관리 overview crafting 개수 설정 및 실행 crafting 개수 설정과 crafting 실행을 할 수 있다. craft info",
         "chips": [
           "craft",
           "info",
@@ -298,9 +412,21 @@
         "source_section": "제작 관리 소개",
         "raw_text": "각 제작 카테고리의 숙련도(등급,레벨,경험치) 정보를 확인할 수 있습니다."
       },
+      "i18n": {
+        "entity_en": "crafting 관리 overview",
+        "value_en": "각 crafting 카테고리의 숙련도(grade,level,경험치) information를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "craft",
+          "info"
+        ],
+        "source_section_en": "crafting 관리 overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "jejak_gwanri_sogae",
         "search_text": "제작 관리 제작 관리 소개 제작 관리 소개 각 제작 카테고리의 숙련도(등급,레벨,경험치) 정보를 확인할 수 있습니다. craft info",
+        "search_text_en": "crafting management crafting 관리 overview crafting 관리 overview 각 crafting 카테고리의 숙련도(grade,level,경험치) information를 can be checked. craft info",
         "chips": [
           "craft",
           "info",
@@ -327,9 +453,22 @@
         "source_section": "제작 관리 소개",
         "raw_text": "제작 도안 목록 : 제작 도안 목록에서 제작을 원하는 아이템을 선택할 수 있다."
       },
+      "i18n": {
+        "entity_en": "crafting 관리 overview",
+        "value_en": "crafting 도안 list : crafting 도안 list에서 crafting을 원하는 아이템을 선택할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "craft",
+          "list",
+          "info"
+        ],
+        "source_section_en": "crafting 관리 overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "jejak_gwanri_sogae",
         "search_text": "제작 관리 제작 관리 소개 제작 관리 소개 제작 도안 목록 : 제작 도안 목록에서 제작을 원하는 아이템을 선택할 수 있다. craft list info",
+        "search_text_en": "crafting management crafting 관리 overview crafting 관리 overview crafting 도안 list : crafting 도안 list에서 crafting을 원하는 아이템을 선택할 수 있다. craft list info",
         "chips": [
           "craft",
           "list",
@@ -357,9 +496,22 @@
         "source_section": "제작 관리 소개",
         "raw_text": "목록에서 선택한 제작 아이템 정보를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "crafting 관리 overview",
+        "value_en": "list에서 선택한 crafting 아이템 information를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "craft",
+          "list",
+          "info"
+        ],
+        "source_section_en": "crafting 관리 overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "jejak_gwanri_sogae",
         "search_text": "제작 관리 제작 관리 소개 제작 관리 소개 목록에서 선택한 제작 아이템 정보를 확인할 수 있다. craft list info",
+        "search_text_en": "crafting management crafting 관리 overview crafting 관리 overview list에서 선택한 crafting 아이템 information를 can be checked. craft list info",
         "chips": [
           "craft",
           "list",
@@ -390,9 +542,25 @@
         "source_section": "제작 관리 소개",
         "raw_text": "선택된 대상 아이템 제작을 위해 필요한 재료 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "crafting 관리 overview",
+        "value_en": "선택된 대상 아이템 crafting을 위해 필요한 재료 list을 can be checked.",
+        "conditions_en": [
+          "선택된 대상 아이템 crafting을 위해 필요한 재료 list을 can be checked."
+        ],
+        "tags_en": [
+          "craft",
+          "list",
+          "material",
+          "info"
+        ],
+        "source_section_en": "crafting 관리 overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "jejak_gwanri_sogae",
         "search_text": "제작 관리 제작 관리 소개 제작 관리 소개 선택된 대상 아이템 제작을 위해 필요한 재료 목록을 확인할 수 있다. craft list material info 선택된 대상 아이템 제작을 위해 필요한 재료 목록을 확인할 수 있다.",
+        "search_text_en": "crafting management crafting 관리 overview crafting 관리 overview 선택된 대상 아이템 crafting을 위해 필요한 재료 list을 can be checked. craft list material info 선택된 대상 아이템 crafting을 위해 필요한 재료 list을 can be checked.",
         "chips": [
           "craft",
           "list",
@@ -424,9 +592,25 @@
         "source_section": "제작 관리 소개",
         "raw_text": "제작 아이템의 콤보 발동 확률과 발동 시 획득 아이템을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "crafting 관리 overview",
+        "value_en": "crafting 아이템의 콤보 발동 확률과 발동 시 획득 아이템을 can be checked.",
+        "conditions_en": [
+          "crafting 아이템의 콤보 발동 확률과 발동 시 획득 아이템을 can be checked."
+        ],
+        "tags_en": [
+          "drop",
+          "craft",
+          "chance",
+          "info"
+        ],
+        "source_section_en": "crafting 관리 overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "jejak_gwanri_sogae",
         "search_text": "제작 관리 제작 관리 소개 제작 관리 소개 제작 아이템의 콤보 발동 확률과 발동 시 획득 아이템을 확인할 수 있다. drop craft chance info 제작 아이템의 콤보 발동 확률과 발동 시 획득 아이템을 확인할 수 있다.",
+        "search_text_en": "crafting management crafting 관리 overview crafting 관리 overview crafting 아이템의 콤보 발동 확률과 발동 시 획득 아이템을 can be checked. drop craft chance info crafting 아이템의 콤보 발동 확률과 발동 시 획득 아이템을 can be checked.",
         "chips": [
           "drop",
           "craft",
@@ -455,9 +639,22 @@
         "source_section": "제작 관리 소개",
         "raw_text": "제작 목록을 정렬하거나, 제작 아이템명을 입력하여 검색할 수 있다."
       },
+      "i18n": {
+        "entity_en": "crafting 관리 overview",
+        "value_en": "crafting list을 sorting하거나, crafting 아이템명을 입력하여 검색할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "craft",
+          "list",
+          "info"
+        ],
+        "source_section_en": "crafting 관리 overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "jejak_gwanri_sogae",
         "search_text": "제작 관리 제작 관리 소개 제작 관리 소개 제작 목록을 정렬하거나, 제작 아이템명을 입력하여 검색할 수 있다. craft list info",
+        "search_text_en": "crafting management crafting 관리 overview crafting 관리 overview crafting list을 sorting하거나, crafting 아이템명을 입력하여 검색할 수 있다. craft list info",
         "chips": [
           "craft",
           "list",
@@ -484,9 +681,21 @@
         "source_section": "제작 관리 소개",
         "raw_text": "제작 개수 설정 및 실행"
       },
+      "i18n": {
+        "entity_en": "crafting 관리 overview",
+        "value_en": "crafting 개수 설정 및 실행",
+        "conditions_en": [],
+        "tags_en": [
+          "craft",
+          "info"
+        ],
+        "source_section_en": "crafting 관리 overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "jejak_gwanri_sogae",
         "search_text": "제작 관리 제작 관리 소개 제작 관리 소개 제작 개수 설정 및 실행 craft info",
+        "search_text_en": "crafting management crafting 관리 overview crafting 관리 overview crafting 개수 설정 및 실행 craft info",
         "chips": [
           "craft",
           "info",
@@ -512,9 +721,21 @@
         "source_section": "제작 관리 소개",
         "raw_text": "제작 개수 설정과 제작 실행을 할 수 있다."
       },
+      "i18n": {
+        "entity_en": "crafting 관리 overview",
+        "value_en": "crafting 개수 설정과 crafting 실행을 할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "craft",
+          "info"
+        ],
+        "source_section_en": "crafting 관리 overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "jejak_gwanri_sogae",
         "search_text": "제작 관리 제작 관리 소개 제작 관리 소개 제작 개수 설정과 제작 실행을 할 수 있다. craft info",
+        "search_text_en": "crafting management crafting 관리 overview crafting 관리 overview crafting 개수 설정과 crafting 실행을 할 수 있다. craft info",
         "chips": [
           "craft",
           "info",

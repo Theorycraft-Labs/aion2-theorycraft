@@ -2,16 +2,22 @@
   "metadata": {
     "guide_id": "geomseong_seukil",
     "guide_title": "검성 스킬",
+    "guide_title_en": "Gladiator Skills",
     "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EA%B2%80%EC%84%B1%20%EC%8A%A4%ED%82%AC",
     "top_category": "스킬",
+    "top_category_en": "Skills",
     "sub_category": "클래스 별 스킬 정보",
+    "sub_category_en": "Class Skill Information",
     "priority": "P1",
     "action": "parse_skills_class",
+    "action_label_en": "Skills Class",
     "topic": "skills",
+    "topic_label_en": "Skills",
     "crawled_at": "2026-02-13T18:15:24+00:00",
     "referential_version": "0.1.0",
-    "schema_version": "studio_v1",
-    "generated_at": "2026-02-13T20:59:53+00:00",
+    "schema_version": "studio_v2",
+    "translation_target": "en",
+    "generated_at": "2026-02-13T21:29:44+00:00",
     "source_facts_file": "exports/facts/skills__skills_class__geomseong_seukil.json"
   },
   "summary": {
@@ -73,9 +79,28 @@
         "source_section": "마스터리 스킬",
         "raw_text": "예리한 일격 - 파열의 일격 - 분노의 일격 | 적들에게 피해를 주고 적대치를 증가시킵니다. 정신력을 회복합니다. | 논타겟/이동 가능"
       },
+      "i18n": {
+        "entity_en": "예리한 일격 - 파열의 일격 - 분노의 일격",
+        "value_en": "적들에게 피해를 주고 적대치를 증가시킵니다. 정신력을 회복합니다.",
+        "conditions_en": [
+          "Non-targeted / Usable while moving"
+        ],
+        "tags_en": [
+          "damage",
+          "heal",
+          "resource",
+          "movement",
+          "mobility_cast",
+          "no_target",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "yerihan_ilgyeok_payeolui_ilgyeok_bunnoui_ilgyeok",
         "search_text": "검성 스킬 마스터리 스킬 예리한 일격 - 파열의 일격 - 분노의 일격 적들에게 피해를 주고 적대치를 증가시킵니다. 정신력을 회복합니다. damage heal resource movement mobility_cast no_target mastery 논타겟/이동 가능",
+        "search_text_en": "gladiator skills mastery skills 예리한 일격 - 파열의 일격 - 분노의 일격 적들에게 피해를 주고 적대치를 증가시킵니다. 정신력을 회복합니다. damage heal resource movement mobility_cast no_target mastery non-targeted / usable while moving",
         "chips": [
           "damage",
           "heal",
@@ -109,9 +134,24 @@
         "source_section": "마스터리 스킬",
         "raw_text": "예리한 일격 - 파열의 일격 - 분노의 일격 | 적들에게 피해를 주고 적대치를 증가시킵니다. 정신력을 회복합니다. | 논타겟/이동 가능"
       },
+      "i18n": {
+        "entity_en": "예리한 일격 - 파열의 일격 - 분노의 일격",
+        "value_en": "사용 조건: 논타겟/이동 가능",
+        "conditions_en": [
+          "Non-targeted / Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast",
+          "no_target"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "yerihan_ilgyeok_payeolui_ilgyeok_bunnoui_ilgyeok",
         "search_text": "검성 스킬 마스터리 스킬 예리한 일격 - 파열의 일격 - 분노의 일격 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target 논타겟/이동 가능",
+        "search_text_en": "gladiator skills mastery skills 예리한 일격 - 파열의 일격 - 분노의 일격 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target non-targeted / usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -142,9 +182,25 @@
         "source_section": "마스터리 스킬",
         "raw_text": "절단의 맹타 - 격파의 맹타 | 적들에게 피해를 주고 적대치를 증가시킵니다. 그로기 게이지 피해 | 논타겟"
       },
+      "i18n": {
+        "entity_en": "절단의 맹타 - 격파의 맹타",
+        "value_en": "적들에게 피해를 주고 적대치를 증가시킵니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "Non-targeted"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "no_target",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jeoldanui_maengta_gyeokpaui_maengta",
         "search_text": "검성 스킬 마스터리 스킬 절단의 맹타 - 격파의 맹타 적들에게 피해를 주고 적대치를 증가시킵니다. 그로기 게이지 피해 damage stagger no_target mastery 논타겟",
+        "search_text_en": "gladiator skills mastery skills 절단의 맹타 - 격파의 맹타 적들에게 피해를 주고 적대치를 증가시킵니다. 그로기 게이지 피해 damage stagger no_target mastery non-targeted",
         "chips": [
           "damage",
           "stagger",
@@ -173,9 +229,22 @@
         "source_section": "마스터리 스킬",
         "raw_text": "절단의 맹타 - 격파의 맹타 | 적들에게 피해를 주고 적대치를 증가시킵니다. 그로기 게이지 피해 | 논타겟"
       },
+      "i18n": {
+        "entity_en": "절단의 맹타 - 격파의 맹타",
+        "value_en": "사용 조건: 논타겟",
+        "conditions_en": [
+          "사용 조건: 논타겟"
+        ],
+        "tags_en": [
+          "no_target"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jeoldanui_maengta_gyeokpaui_maengta",
         "search_text": "검성 스킬 마스터리 스킬 절단의 맹타 - 격파의 맹타 사용 조건: 논타겟 no_target 사용 조건: 논타겟",
+        "search_text_en": "gladiator skills mastery skills 절단의 맹타 - 격파의 맹타 사용 조건: 논타겟 no_target 사용 조건: 논타겟",
         "chips": [
           "no_target",
           "constraint",
@@ -201,9 +270,22 @@
         "source_section": "마스터리 스킬",
         "raw_text": "도약 찍기 | 대상에게 도약하여 피해를 줍니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "도약 찍기",
+        "value_en": "대상에게 도약하여 피해를 줍니다. 그로기 게이지 피해",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "doyak_jjikgi",
         "search_text": "검성 스킬 마스터리 스킬 도약 찍기 대상에게 도약하여 피해를 줍니다. 그로기 게이지 피해 damage stagger mastery",
+        "search_text_en": "gladiator skills mastery skills 도약 찍기 대상에게 도약하여 피해를 줍니다. 그로기 게이지 피해 damage stagger mastery",
         "chips": [
           "damage",
           "stagger",
@@ -233,9 +315,24 @@
         "source_section": "마스터리 스킬",
         "raw_text": "유린의 검 | 대상에게 피해를 주고 넘어짐 상태로 만듭니다. 행동불가 면역 대상일 경우 모션이 변경됩니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "유린의 검",
+        "value_en": "대상에게 피해를 주고 넘어짐 상태로 만듭니다. 행동불가 면역 대상일 경우 모션이 변경됩니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "대상에게 피해를 주고 넘어짐 상태로 만듭니다. 행동불가 면역 대상일 경우 모션이 변경됩니다. 그로기 게이지 피해"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "yurinui_geom",
         "search_text": "검성 스킬 마스터리 스킬 유린의 검 대상에게 피해를 주고 넘어짐 상태로 만듭니다. 행동불가 면역 대상일 경우 모션이 변경됩니다. 그로기 게이지 피해 damage stagger mastery 대상에게 피해를 주고 넘어짐 상태로 만듭니다. 행동불가 면역 대상일 경우 모션이 변경됩니다. 그로기 게이지 피해",
+        "search_text_en": "gladiator skills mastery skills 유린의 검 대상에게 피해를 주고 넘어짐 상태로 만듭니다. 행동불가 면역 대상일 경우 모션이 변경됩니다. 그로기 게이지 피해 damage stagger mastery 대상에게 피해를 주고 넘어짐 상태로 만듭니다. 행동불가 면역 대상일 경우 모션이 변경됩니다. 그로기 게이지 피해",
         "chips": [
           "damage",
           "stagger",
@@ -266,9 +363,25 @@
         "source_section": "마스터리 스킬",
         "raw_text": "내려찍기 | 넘어짐 상태의 대상에게 피해를 줍니다. | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "내려찍기",
+        "value_en": "넘어짐 상태의 대상에게 피해를 줍니다.",
+        "conditions_en": [
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "damage",
+          "movement",
+          "mobility_cast",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "naeryeojjikgi",
         "search_text": "검성 스킬 마스터리 스킬 내려찍기 넘어짐 상태의 대상에게 피해를 줍니다. damage movement mobility_cast mastery 이동 가능",
+        "search_text_en": "gladiator skills mastery skills 내려찍기 넘어짐 상태의 대상에게 피해를 줍니다. damage movement mobility_cast mastery usable while moving",
         "chips": [
           "damage",
           "movement",
@@ -298,9 +411,23 @@
         "source_section": "마스터리 스킬",
         "raw_text": "내려찍기 | 넘어짐 상태의 대상에게 피해를 줍니다. | 이동 가능"
       },
+      "i18n": {
+        "entity_en": "내려찍기",
+        "value_en": "사용 조건: 이동 가능",
+        "conditions_en": [
+          "Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "naeryeojjikgi",
         "search_text": "검성 스킬 마스터리 스킬 내려찍기 사용 조건: 이동 가능 movement mobility_cast 이동 가능",
+        "search_text_en": "gladiator skills mastery skills 내려찍기 사용 조건: 이동 가능 movement mobility_cast usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -327,9 +454,22 @@
         "source_section": "마스터리 스킬",
         "raw_text": "검기 난무 | 그로기 상태인 대상에게 피해를 줍니다. | -"
       },
+      "i18n": {
+        "entity_en": "검기 난무",
+        "value_en": "그로기 상태인 대상에게 피해를 줍니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "geomgi_nanmu",
         "search_text": "검성 스킬 마스터리 스킬 검기 난무 그로기 상태인 대상에게 피해를 줍니다. damage stagger mastery",
+        "search_text_en": "gladiator skills mastery skills 검기 난무 그로기 상태인 대상에게 피해를 줍니다. damage stagger mastery",
         "chips": [
           "damage",
           "stagger",
@@ -367,9 +507,26 @@
         "source_section": "마스터리 스킬",
         "raw_text": "발목 베기 | 막기 성공 시 대상을 중심으로 적들에게 피해를 주고, 일정 확률로 속박 상태로 만듭니다. 대상이 NPC일 경우 100% 확률로 속박이 적중됩니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "발목 베기",
+        "value_en": "막기 성공 시 대상을 중심으로 적들에게 피해를 주고, 일정 확률로 속박 상태로 만듭니다. 대상이 NPC일 경우 100% 확률로 속박이 적중됩니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "막기 성공 시 대상을 중심으로 적들에게 피해를 주고, 일정 확률로 속박 상태로 만듭니다. 대상이 NPC일 경우 100% 확률로 속박이 적중됩니다. 그로기 게이지 피해"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "control",
+          "chance",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "balmok_begi",
         "search_text": "검성 스킬 마스터리 스킬 발목 베기 막기 성공 시 대상을 중심으로 적들에게 피해를 주고, 일정 확률로 속박 상태로 만듭니다. 대상이 npc일 경우 100% 확률로 속박이 적중됩니다. 그로기 게이지 피해 damage stagger control chance mastery 막기 성공 시 대상을 중심으로 적들에게 피해를 주고, 일정 확률로 속박 상태로 만듭니다. 대상이 npc일 경우 100% 확률로 속박이 적중됩니다. 그로기 게이지 피해",
+        "search_text_en": "gladiator skills mastery skills 발목 베기 막기 성공 시 대상을 중심으로 적들에게 피해를 주고, 일정 확률로 속박 상태로 만듭니다. 대상이 npc일 경우 100% 확률로 속박이 적중됩니다. 그로기 게이지 피해 damage stagger control chance mastery 막기 성공 시 대상을 중심으로 적들에게 피해를 주고, 일정 확률로 속박 상태로 만듭니다. 대상이 npc일 경우 100% 확률로 속박이 적중됩니다. 그로기 게이지 피해",
         "chips": [
           "damage",
           "stagger",
@@ -402,9 +559,25 @@
         "source_section": "마스터리 스킬",
         "raw_text": "분쇄 파동 - 광폭 파동 | 자신을 중심으로 적들에게 피해를 줍니다. 그로기 게이지 피해 | 논타겟"
       },
+      "i18n": {
+        "entity_en": "분쇄 파동 - 광폭 파동",
+        "value_en": "자신을 중심으로 적들에게 피해를 줍니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "Non-targeted"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "no_target",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bunswae_padong_gwangpok_padong",
         "search_text": "검성 스킬 마스터리 스킬 분쇄 파동 - 광폭 파동 자신을 중심으로 적들에게 피해를 줍니다. 그로기 게이지 피해 damage stagger no_target mastery 논타겟",
+        "search_text_en": "gladiator skills mastery skills 분쇄 파동 - 광폭 파동 자신을 중심으로 적들에게 피해를 줍니다. 그로기 게이지 피해 damage stagger no_target mastery non-targeted",
         "chips": [
           "damage",
           "stagger",
@@ -433,9 +606,22 @@
         "source_section": "마스터리 스킬",
         "raw_text": "분쇄 파동 - 광폭 파동 | 자신을 중심으로 적들에게 피해를 줍니다. 그로기 게이지 피해 | 논타겟"
       },
+      "i18n": {
+        "entity_en": "분쇄 파동 - 광폭 파동",
+        "value_en": "사용 조건: 논타겟",
+        "conditions_en": [
+          "사용 조건: 논타겟"
+        ],
+        "tags_en": [
+          "no_target"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bunswae_padong_gwangpok_padong",
         "search_text": "검성 스킬 마스터리 스킬 분쇄 파동 - 광폭 파동 사용 조건: 논타겟 no_target 사용 조건: 논타겟",
+        "search_text_en": "gladiator skills mastery skills 분쇄 파동 - 광폭 파동 사용 조건: 논타겟 no_target 사용 조건: 논타겟",
         "chips": [
           "no_target",
           "constraint",
@@ -471,9 +657,26 @@
         "source_section": "마스터리 스킬",
         "raw_text": "돌진 일격 | 긴급 회피 사용 후 대상에게 이동하여 피해를 주고, 일정 확률로 넘어짐 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "돌진 일격",
+        "value_en": "긴급 회피 사용 후 대상에게 이동하여 피해를 주고, 일정 확률로 넘어짐 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "긴급 회피 사용 후 대상에게 이동하여 피해를 주고, 일정 확률로 넘어짐 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "movement",
+          "chance",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "doljin_ilgyeok",
         "search_text": "검성 스킬 마스터리 스킬 돌진 일격 긴급 회피 사용 후 대상에게 이동하여 피해를 주고, 일정 확률로 넘어짐 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해 damage stagger movement chance mastery 긴급 회피 사용 후 대상에게 이동하여 피해를 주고, 일정 확률로 넘어짐 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해",
+        "search_text_en": "gladiator skills mastery skills 돌진 일격 긴급 회피 사용 후 대상에게 이동하여 피해를 주고, 일정 확률로 넘어짐 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해 damage stagger movement chance mastery 긴급 회피 사용 후 대상에게 이동하여 피해를 주고, 일정 확률로 넘어짐 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해",
         "chips": [
           "damage",
           "stagger",
@@ -512,9 +715,25 @@
         "source_section": "마스터리 스킬",
         "raw_text": "공중 결박 | 넘어짐 상태의 대상에게 피해를 주고, 일정 확률로 공중속박 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 공중속박이 적중됩니다. | -"
       },
+      "i18n": {
+        "entity_en": "공중 결박",
+        "value_en": "넘어짐 상태의 대상에게 피해를 주고, 일정 확률로 공중속박 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 공중속박이 적중됩니다.",
+        "conditions_en": [
+          "넘어짐 상태의 대상에게 피해를 주고, 일정 확률로 공중속박 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 공중속박이 적중됩니다."
+        ],
+        "tags_en": [
+          "damage",
+          "control",
+          "chance",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gongjung_gyeolbak",
         "search_text": "검성 스킬 마스터리 스킬 공중 결박 넘어짐 상태의 대상에게 피해를 주고, 일정 확률로 공중속박 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 공중속박이 적중됩니다. damage control chance mastery 넘어짐 상태의 대상에게 피해를 주고, 일정 확률로 공중속박 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 공중속박이 적중됩니다.",
+        "search_text_en": "gladiator skills mastery skills 공중 결박 넘어짐 상태의 대상에게 피해를 주고, 일정 확률로 공중속박 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 공중속박이 적중됩니다. damage control chance mastery 넘어짐 상태의 대상에게 피해를 주고, 일정 확률로 공중속박 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 공중속박이 적중됩니다.",
         "chips": [
           "damage",
           "control",
@@ -546,9 +765,25 @@
         "source_section": "마스터리 스킬",
         "raw_text": "파멸의 맹타 | 대상에게 돌진하여 피해를 주고 자신은 전투 준비 상태가 됩니다. 최대 차지 시 범위 피해를 줍니다. [전투 준비]: 피해 증폭 및 치명타 증가 그로기 게이지 피해 | 차지"
       },
+      "i18n": {
+        "entity_en": "파멸의 맹타",
+        "value_en": "대상에게 돌진하여 피해를 주고 자신은 전투 준비 상태가 됩니다. 최대 차지 시 범위 피해를 줍니다. [전투 준비]: 피해 증폭 및 치명타 증가 그로기 게이지 피해",
+        "conditions_en": [
+          "차지"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "charge_skill",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "pamyeolui_maengta",
         "search_text": "검성 스킬 마스터리 스킬 파멸의 맹타 대상에게 돌진하여 피해를 주고 자신은 전투 준비 상태가 됩니다. 최대 차지 시 범위 피해를 줍니다. [전투 준비]: 피해 증폭 및 치명타 증가 그로기 게이지 피해 damage stagger charge_skill mastery 차지",
+        "search_text_en": "gladiator skills mastery skills 파멸의 맹타 대상에게 돌진하여 피해를 주고 자신은 전투 준비 상태가 됩니다. 최대 차지 시 범위 피해를 줍니다. [전투 준비]: 피해 증폭 및 치명타 증가 그로기 게이지 피해 damage stagger charge_skill mastery 차지",
         "chips": [
           "damage",
           "stagger",
@@ -577,9 +812,22 @@
         "source_section": "마스터리 스킬",
         "raw_text": "파멸의 맹타 | 대상에게 돌진하여 피해를 주고 자신은 전투 준비 상태가 됩니다. 최대 차지 시 범위 피해를 줍니다. [전투 준비]: 피해 증폭 및 치명타 증가 그로기 게이지 피해 | 차지"
       },
+      "i18n": {
+        "entity_en": "파멸의 맹타",
+        "value_en": "사용 조건: 차지",
+        "conditions_en": [
+          "사용 조건: 차지"
+        ],
+        "tags_en": [
+          "charge_skill"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "pamyeolui_maengta",
         "search_text": "검성 스킬 마스터리 스킬 파멸의 맹타 사용 조건: 차지 charge_skill 사용 조건: 차지",
+        "search_text_en": "gladiator skills mastery skills 파멸의 맹타 사용 조건: 차지 charge_skill 사용 조건: 차지",
         "chips": [
           "charge_skill",
           "constraint",
@@ -610,9 +858,27 @@
         "source_section": "마스터리 스킬",
         "raw_text": "충격 해제 - 분노 폭발 | 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. 강인함: 상태이상 저항 증가 (연계기) 분노 폭발: 대상에게 피해를 주고 넘어짐 상태로 만듭니다. | 논타겟"
       },
+      "i18n": {
+        "entity_en": "충격 해제 - 분노 폭발",
+        "value_en": "자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. 강인함: 상태이상 저항 증가 (연계기) 분노 폭발: 대상에게 피해를 주고 넘어짐 상태로 만듭니다.",
+        "conditions_en": [
+          "자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. 강인함: 상태이상 저항 증가 (연계기) 분노 폭발: 대상에게 피해를 주고 넘어짐 상태로 만듭니다.",
+          "Non-targeted"
+        ],
+        "tags_en": [
+          "damage",
+          "stun",
+          "control",
+          "no_target",
+          "mastery"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "chunggyeok_haeje_bunno_pokbal",
         "search_text": "검성 스킬 마스터리 스킬 충격 해제 - 분노 폭발 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. 강인함: 상태이상 저항 증가 (연계기) 분노 폭발: 대상에게 피해를 주고 넘어짐 상태로 만듭니다. damage stun control no_target mastery 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. 강인함: 상태이상 저항 증가 (연계기) 분노 폭발: 대상에게 피해를 주고 넘어짐 상태로 만듭니다. 논타겟",
+        "search_text_en": "gladiator skills mastery skills 충격 해제 - 분노 폭발 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. 강인함: 상태이상 저항 증가 (연계기) 분노 폭발: 대상에게 피해를 주고 넘어짐 상태로 만듭니다. damage stun control no_target mastery 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. 강인함: 상태이상 저항 증가 (연계기) 분노 폭발: 대상에게 피해를 주고 넘어짐 상태로 만듭니다. non-targeted",
         "chips": [
           "damage",
           "stun",
@@ -642,9 +908,22 @@
         "source_section": "마스터리 스킬",
         "raw_text": "충격 해제 - 분노 폭발 | 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. 강인함: 상태이상 저항 증가 (연계기) 분노 폭발: 대상에게 피해를 주고 넘어짐 상태로 만듭니다. | 논타겟"
       },
+      "i18n": {
+        "entity_en": "충격 해제 - 분노 폭발",
+        "value_en": "사용 조건: 논타겟",
+        "conditions_en": [
+          "사용 조건: 논타겟"
+        ],
+        "tags_en": [
+          "no_target"
+        ],
+        "source_section_en": "Mastery Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "chunggyeok_haeje_bunno_pokbal",
         "search_text": "검성 스킬 마스터리 스킬 충격 해제 - 분노 폭발 사용 조건: 논타겟 no_target 사용 조건: 논타겟",
+        "search_text_en": "gladiator skills mastery skills 충격 해제 - 분노 폭발 사용 조건: 논타겟 no_target 사용 조건: 논타겟",
         "chips": [
           "no_target",
           "constraint",
@@ -669,9 +948,21 @@
         "source_section": "패시브 스킬",
         "raw_text": "생존 자세 | 자신의 최대 생명력 및 자연 생명력 회복이 증가합니다. | -"
       },
+      "i18n": {
+        "entity_en": "생존 자세",
+        "value_en": "자신의 최대 생명력 및 자연 생명력 회복이 증가합니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "heal",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "saengjon_jase",
         "search_text": "검성 스킬 패시브 스킬 생존 자세 자신의 최대 생명력 및 자연 생명력 회복이 증가합니다. heal passive",
+        "search_text_en": "gladiator skills 패시브 skill 생존 자세 자신의 최대 생명력 및 자연 생명력 회복이 증가합니다. heal passive",
         "chips": [
           "heal",
           "passive",
@@ -697,9 +988,21 @@
         "source_section": "패시브 스킬",
         "raw_text": "보호의 갑옷 | 자신의 막기가 증가하고, 막기 성공 시 생명력을 회복합니다. | -"
       },
+      "i18n": {
+        "entity_en": "보호의 갑옷",
+        "value_en": "자신의 막기가 증가하고, 막기 성공 시 생명력을 회복합니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "heal",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bohoui_gapot",
         "search_text": "검성 스킬 패시브 스킬 보호의 갑옷 자신의 막기가 증가하고, 막기 성공 시 생명력을 회복합니다. heal passive",
+        "search_text_en": "gladiator skills 패시브 skill 보호의 갑옷 자신의 막기가 증가하고, 막기 성공 시 생명력을 회복합니다. heal passive",
         "chips": [
           "heal",
           "passive",
@@ -729,9 +1032,25 @@
         "source_section": "패시브 스킬",
         "raw_text": "피의 흡수 | 공격 적중 시 피의 흡수 효과를 받습니다. [피의 흡수]: 공격이 적중할 때 마다 피해의 일부만큼 생명력을 회복하고, 일정 확률로 자신의 생명력을 회복합니다. | -"
       },
+      "i18n": {
+        "entity_en": "피의 흡수",
+        "value_en": "공격 적중 시 피의 흡수 효과를 받습니다. [피의 흡수]: 공격이 적중할 때 마다 피해의 일부만큼 생명력을 회복하고, 일정 확률로 자신의 생명력을 회복합니다.",
+        "conditions_en": [
+          "공격 적중 시 피의 흡수 효과를 받습니다. [피의 흡수]: 공격이 적중할 때 마다 피해의 일부만큼 생명력을 회복하고, 일정 확률로 자신의 생명력을 회복합니다."
+        ],
+        "tags_en": [
+          "damage",
+          "heal",
+          "chance",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "piui_heupsu",
         "search_text": "검성 스킬 패시브 스킬 피의 흡수 공격 적중 시 피의 흡수 효과를 받습니다. [피의 흡수]: 공격이 적중할 때 마다 피해의 일부만큼 생명력을 회복하고, 일정 확률로 자신의 생명력을 회복합니다. damage heal chance passive 공격 적중 시 피의 흡수 효과를 받습니다. [피의 흡수]: 공격이 적중할 때 마다 피해의 일부만큼 생명력을 회복하고, 일정 확률로 자신의 생명력을 회복합니다.",
+        "search_text_en": "gladiator skills 패시브 skill 피의 흡수 공격 적중 시 피의 흡수 효과를 받습니다. [피의 흡수]: 공격이 적중할 때 마다 피해의 일부만큼 생명력을 회복하고, 일정 확률로 자신의 생명력을 회복합니다. damage heal chance passive 공격 적중 시 피의 흡수 효과를 받습니다. [피의 흡수]: 공격이 적중할 때 마다 피해의 일부만큼 생명력을 회복하고, 일정 확률로 자신의 생명력을 회복합니다.",
         "chips": [
           "damage",
           "heal",
@@ -758,9 +1077,20 @@
         "source_section": "패시브 스킬",
         "raw_text": "약점 파악 | 자신의 치명타 및 완벽이 증가합니다. | -"
       },
+      "i18n": {
+        "entity_en": "약점 파악",
+        "value_en": "자신의 치명타 및 완벽이 증가합니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "yakjeom_paak",
         "search_text": "검성 스킬 패시브 스킬 약점 파악 자신의 치명타 및 완벽이 증가합니다. passive",
+        "search_text_en": "gladiator skills 패시브 skill 약점 파악 자신의 치명타 및 완벽이 증가합니다. passive",
         "chips": [
           "passive",
           "skill",
@@ -785,9 +1115,21 @@
         "source_section": "패시브 스킬",
         "raw_text": "공격 준비 | 자신의 피해 증폭, 방어력, 명중이 증가합니다. | -"
       },
+      "i18n": {
+        "entity_en": "공격 준비",
+        "value_en": "자신의 피해 증폭, 방어력, 명중이 증가합니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gonggyeok_junbi",
         "search_text": "검성 스킬 패시브 스킬 공격 준비 자신의 피해 증폭, 방어력, 명중이 증가합니다. damage passive",
+        "search_text_en": "gladiator skills 패시브 skill 공격 준비 자신의 피해 증폭, 방어력, 명중이 증가합니다. damage passive",
         "chips": [
           "damage",
           "passive",
@@ -812,9 +1154,20 @@
         "source_section": "패시브 스킬",
         "raw_text": "충격 적중 | 충격계 적중 및 강타가 증가합니다. | -"
       },
+      "i18n": {
+        "entity_en": "충격 적중",
+        "value_en": "충격계 적중 및 강타가 증가합니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "chunggyeok_jeokjung",
         "search_text": "검성 스킬 패시브 스킬 충격 적중 충격계 적중 및 강타가 증가합니다. passive",
+        "search_text_en": "gladiator skills 패시브 skill 충격 적중 충격계 적중 및 강타가 증가합니다. passive",
         "chips": [
           "passive",
           "skill",
@@ -840,9 +1193,22 @@
         "source_section": "패시브 스킬",
         "raw_text": "파괴 충동 | 대상이 충격계 또는 그로기 상태일 때 추가 피해를 줍니다. | -"
       },
+      "i18n": {
+        "entity_en": "파괴 충동",
+        "value_en": "대상이 충격계 또는 그로기 상태일 때 추가 피해를 줍니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "pagoe_chungdong",
         "search_text": "검성 스킬 패시브 스킬 파괴 충동 대상이 충격계 또는 그로기 상태일 때 추가 피해를 줍니다. damage stagger passive",
+        "search_text_en": "gladiator skills 패시브 skill 파괴 충동 대상이 충격계 또는 그로기 상태일 때 추가 피해를 줍니다. damage stagger passive",
         "chips": [
           "damage",
           "stagger",
@@ -869,9 +1235,21 @@
         "source_section": "패시브 스킬",
         "raw_text": "노련한 반격 | 막기 성공 시 자신의 피해 증폭이 증가합니다. | -"
       },
+      "i18n": {
+        "entity_en": "노련한 반격",
+        "value_en": "막기 성공 시 자신의 피해 증폭이 증가합니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "noryeonhan_bangyeok",
         "search_text": "검성 스킬 패시브 스킬 노련한 반격 막기 성공 시 자신의 피해 증폭이 증가합니다. damage passive",
+        "search_text_en": "gladiator skills 패시브 skill 노련한 반격 막기 성공 시 자신의 피해 증폭이 증가합니다. damage passive",
         "chips": [
           "damage",
           "passive",
@@ -911,9 +1289,24 @@
         "source_section": "패시브 스킬",
         "raw_text": "생존 의지 | 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. | -"
       },
+      "i18n": {
+        "entity_en": "생존 의지",
+        "value_en": "자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다.",
+        "conditions_en": [
+          "자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다."
+        ],
+        "tags_en": [
+          "damage",
+          "control",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "saengjon_uiji",
         "search_text": "검성 스킬 패시브 스킬 생존 의지 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. damage control passive 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다.",
+        "search_text_en": "gladiator skills 패시브 skill 생존 의지 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. damage control passive 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다.",
         "chips": [
           "damage",
           "control",
@@ -947,9 +1340,22 @@
         "source_section": "패시브 스킬",
         "raw_text": "살기 파열 | 공격이 적중할 때 마다 살기를 획득합니다. 10회 중첩 시 살기를 삭제하고 자신을 중심으로 적들에게 피해를 주고, 일정 시간 동안 치명타 피해 내성이 감소합니다. | -"
       },
+      "i18n": {
+        "entity_en": "살기 파열",
+        "value_en": "공격이 적중할 때 마다 살기를 획득합니다. 10회 중첩 시 살기를 삭제하고 자신을 중심으로 적들에게 피해를 주고, 일정 시간 동안 치명타 피해 내성이 감소합니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "drop",
+          "passive"
+        ],
+        "source_section_en": "패시브 skill",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "salgi_payeol",
         "search_text": "검성 스킬 패시브 스킬 살기 파열 공격이 적중할 때 마다 살기를 획득합니다. 10회 중첩 시 살기를 삭제하고 자신을 중심으로 적들에게 피해를 주고, 일정 시간 동안 치명타 피해 내성이 감소합니다. damage drop passive",
+        "search_text_en": "gladiator skills 패시브 skill 살기 파열 공격이 적중할 때 마다 살기를 획득합니다. 10회 중첩 시 살기를 삭제하고 자신을 중심으로 적들에게 피해를 주고, 일정 시간 동안 치명타 피해 내성이 감소합니다. damage drop passive",
         "chips": [
           "damage",
           "drop",
@@ -988,9 +1394,27 @@
         "source_section": "스티그마 스킬",
         "raw_text": "분노의 파동 | 자신을 중심으로 적들에게 피해를 주고 공격력을 감소시킵니다. 적들은 일정 확률로 넘어짐 상태가 됩니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해량 감소 | 논타겟"
       },
+      "i18n": {
+        "entity_en": "분노의 파동",
+        "value_en": "자신을 중심으로 적들에게 피해를 주고 공격력을 감소시킵니다. 적들은 일정 확률로 넘어짐 상태가 됩니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해량 감소",
+        "conditions_en": [
+          "자신을 중심으로 적들에게 피해를 주고 공격력을 감소시킵니다. 적들은 일정 확률로 넘어짐 상태가 됩니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해량 감소",
+          "Non-targeted"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "chance",
+          "no_target",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bunnoui_padong",
         "search_text": "검성 스킬 스티그마 스킬 분노의 파동 자신을 중심으로 적들에게 피해를 주고 공격력을 감소시킵니다. 적들은 일정 확률로 넘어짐 상태가 됩니다. 대상이 npc일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해량 감소 damage stagger chance no_target stigma 자신을 중심으로 적들에게 피해를 주고 공격력을 감소시킵니다. 적들은 일정 확률로 넘어짐 상태가 됩니다. 대상이 npc일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해량 감소 논타겟",
+        "search_text_en": "gladiator skills stigma skills 분노의 파동 자신을 중심으로 적들에게 피해를 주고 공격력을 감소시킵니다. 적들은 일정 확률로 넘어짐 상태가 됩니다. 대상이 npc일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해량 감소 damage stagger chance no_target stigma 자신을 중심으로 적들에게 피해를 주고 공격력을 감소시킵니다. 적들은 일정 확률로 넘어짐 상태가 됩니다. 대상이 npc일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해량 감소 non-targeted",
         "chips": [
           "damage",
           "stagger",
@@ -1026,9 +1450,22 @@
         "source_section": "스티그마 스킬",
         "raw_text": "분노의 파동 | 자신을 중심으로 적들에게 피해를 주고 공격력을 감소시킵니다. 적들은 일정 확률로 넘어짐 상태가 됩니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해량 감소 | 논타겟"
       },
+      "i18n": {
+        "entity_en": "분노의 파동",
+        "value_en": "사용 조건: 논타겟",
+        "conditions_en": [
+          "사용 조건: 논타겟"
+        ],
+        "tags_en": [
+          "no_target"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bunnoui_padong",
         "search_text": "검성 스킬 스티그마 스킬 분노의 파동 사용 조건: 논타겟 no_target 사용 조건: 논타겟",
+        "search_text_en": "gladiator skills stigma skills 분노의 파동 사용 조건: 논타겟 no_target 사용 조건: 논타겟",
         "chips": [
           "no_target",
           "constraint",
@@ -1053,9 +1490,21 @@
         "source_section": "스티그마 스킬",
         "raw_text": "돌격 자세 | 자신의 전투 속도가 증가합니다. | -"
       },
+      "i18n": {
+        "entity_en": "돌격 자세",
+        "value_en": "자신의 전투 속도가 증가합니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "movement",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "dolgyeok_jase",
         "search_text": "검성 스킬 스티그마 스킬 돌격 자세 자신의 전투 속도가 증가합니다. movement stigma",
+        "search_text_en": "gladiator skills stigma skills 돌격 자세 자신의 전투 속도가 증가합니다. movement stigma",
         "chips": [
           "movement",
           "stigma",
@@ -1086,9 +1535,26 @@
         "source_section": "스티그마 스킬",
         "raw_text": "지켈의 축복 | 자신과 주변에 있는 파티원들의 공격력이 증가합니다. | 논타겟/이동 가능"
       },
+      "i18n": {
+        "entity_en": "지켈의 축복",
+        "value_en": "자신과 주변에 있는 party원들의 공격력이 증가합니다.",
+        "conditions_en": [
+          "Non-targeted / Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "party",
+          "mobility_cast",
+          "no_target",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jikelui_chukbok",
         "search_text": "검성 스킬 스티그마 스킬 지켈의 축복 자신과 주변에 있는 파티원들의 공격력이 증가합니다. movement party mobility_cast no_target stigma 논타겟/이동 가능",
+        "search_text_en": "gladiator skills stigma skills 지켈의 축복 자신과 주변에 있는 party원들의 공격력이 증가합니다. movement party mobility_cast no_target stigma non-targeted / usable while moving",
         "chips": [
           "movement",
           "party",
@@ -1120,9 +1586,24 @@
         "source_section": "스티그마 스킬",
         "raw_text": "지켈의 축복 | 자신과 주변에 있는 파티원들의 공격력이 증가합니다. | 논타겟/이동 가능"
       },
+      "i18n": {
+        "entity_en": "지켈의 축복",
+        "value_en": "사용 조건: 논타겟/이동 가능",
+        "conditions_en": [
+          "Non-targeted / Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast",
+          "no_target"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jikelui_chukbok",
         "search_text": "검성 스킬 스티그마 스킬 지켈의 축복 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target 논타겟/이동 가능",
+        "search_text_en": "gladiator skills stigma skills 지켈의 축복 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target non-targeted / usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -1155,9 +1636,27 @@
         "source_section": "스티그마 스킬",
         "raw_text": "집중 막기 | 잠시 동안 전방 공격에 대한 막기 피해 감소가 증가하고 확정 무기막기를 합니다. 막기 성공 시 정신력과 행동력을 회복합니다. | 유지형 스킬"
       },
+      "i18n": {
+        "entity_en": "집중 막기",
+        "value_en": "잠시 동안 전방 공격에 대한 막기 피해 감소가 증가하고 확정 무기막기를 합니다. 막기 성공 시 정신력과 행동력을 회복합니다.",
+        "conditions_en": [
+          "Maintained skill"
+        ],
+        "tags_en": [
+          "skill_system",
+          "damage",
+          "heal",
+          "resource",
+          "toggle_skill",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jipjung_makgi",
         "search_text": "검성 스킬 스티그마 스킬 집중 막기 잠시 동안 전방 공격에 대한 막기 피해 감소가 증가하고 확정 무기막기를 합니다. 막기 성공 시 정신력과 행동력을 회복합니다. skill_system damage heal resource toggle_skill stigma 유지형 스킬",
+        "search_text_en": "gladiator skills stigma skills 집중 막기 잠시 동안 전방 공격에 대한 막기 피해 감소가 증가하고 확정 무기막기를 합니다. 막기 성공 시 정신력과 행동력을 회복합니다. skill_system damage heal resource toggle_skill stigma maintained skill",
         "chips": [
           "skill_system",
           "damage",
@@ -1189,9 +1688,23 @@
         "source_section": "스티그마 스킬",
         "raw_text": "집중 막기 | 잠시 동안 전방 공격에 대한 막기 피해 감소가 증가하고 확정 무기막기를 합니다. 막기 성공 시 정신력과 행동력을 회복합니다. | 유지형 스킬"
       },
+      "i18n": {
+        "entity_en": "집중 막기",
+        "value_en": "사용 조건: 유지형 skill",
+        "conditions_en": [
+          "사용 조건: 유지형 skill"
+        ],
+        "tags_en": [
+          "skill_system",
+          "toggle_skill"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jipjung_makgi",
         "search_text": "검성 스킬 스티그마 스킬 집중 막기 사용 조건: 유지형 스킬 skill_system toggle_skill 사용 조건: 유지형 스킬",
+        "search_text_en": "gladiator skills stigma skills 집중 막기 사용 조건: 유지형 skill skill_system toggle_skill 사용 조건: 유지형 skill",
         "chips": [
           "skill_system",
           "toggle_skill",
@@ -1221,9 +1734,25 @@
         "source_section": "스티그마 스킬",
         "raw_text": "균형의 갑옷 | 일정 시간 동안 충격계 저항이 증가합니다. | 논타겟/이동 가능"
       },
+      "i18n": {
+        "entity_en": "균형의 갑옷",
+        "value_en": "일정 시간 동안 충격계 저항이 증가합니다.",
+        "conditions_en": [
+          "Non-targeted / Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast",
+          "no_target",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gyunhyeongui_gapot",
         "search_text": "검성 스킬 스티그마 스킬 균형의 갑옷 일정 시간 동안 충격계 저항이 증가합니다. movement mobility_cast no_target stigma 논타겟/이동 가능",
+        "search_text_en": "gladiator skills stigma skills 균형의 갑옷 일정 시간 동안 충격계 저항이 증가합니다. movement mobility_cast no_target stigma non-targeted / usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -1254,9 +1783,24 @@
         "source_section": "스티그마 스킬",
         "raw_text": "균형의 갑옷 | 일정 시간 동안 충격계 저항이 증가합니다. | 논타겟/이동 가능"
       },
+      "i18n": {
+        "entity_en": "균형의 갑옷",
+        "value_en": "사용 조건: 논타겟/이동 가능",
+        "conditions_en": [
+          "Non-targeted / Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast",
+          "no_target"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gyunhyeongui_gapot",
         "search_text": "검성 스킬 스티그마 스킬 균형의 갑옷 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target 논타겟/이동 가능",
+        "search_text_en": "gladiator skills stigma skills 균형의 갑옷 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target non-targeted / usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -1284,9 +1828,22 @@
         "source_section": "스티그마 스킬",
         "raw_text": "칼날 날리기 - 칼날 화무 | 대상에게 피해를 주고 방어력을 감소시킵니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "칼날 날리기 - 칼날 화무",
+        "value_en": "대상에게 피해를 주고 방어력을 감소시킵니다. 그로기 게이지 피해",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "kalnal_nalrigi_kalnal_hwamu",
         "search_text": "검성 스킬 스티그마 스킬 칼날 날리기 - 칼날 화무 대상에게 피해를 주고 방어력을 감소시킵니다. 그로기 게이지 피해 damage stagger stigma",
+        "search_text_en": "gladiator skills stigma skills 칼날 날리기 - 칼날 화무 대상에게 피해를 주고 방어력을 감소시킵니다. 그로기 게이지 피해 damage stagger stigma",
         "chips": [
           "damage",
           "stagger",
@@ -1321,9 +1878,23 @@
         "source_section": "스티그마 스킬",
         "raw_text": "근성 | 5초 동안 피해를 받지 않으며, 상태이상에 걸리지 않습니다. 일부 강력한 공격은 방어할 수 없습니다. | -"
       },
+      "i18n": {
+        "entity_en": "근성",
+        "value_en": "5초 동안 피해를 받지 않으며, 상태이상에 걸리지 않습니다. 일부 강력한 공격은 방어할 수 없습니다.",
+        "conditions_en": [
+          "5초 동안 피해를 받지 않으며, 상태이상에 걸리지 않습니다. 일부 강력한 공격은 방어할 수 없습니다."
+        ],
+        "tags_en": [
+          "damage",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "geunseong",
         "search_text": "검성 스킬 스티그마 스킬 근성 5초 동안 피해를 받지 않으며, 상태이상에 걸리지 않습니다. 일부 강력한 공격은 방어할 수 없습니다. damage stigma 5초 동안 피해를 받지 않으며, 상태이상에 걸리지 않습니다. 일부 강력한 공격은 방어할 수 없습니다.",
+        "search_text_en": "gladiator skills stigma skills 근성 5초 동안 피해를 받지 않으며, 상태이상에 걸리지 않습니다. 일부 강력한 공격은 방어할 수 없습니다. damage stigma 5초 동안 피해를 받지 않으며, 상태이상에 걸리지 않습니다. 일부 강력한 공격은 방어할 수 없습니다.",
         "chips": [
           "damage",
           "stigma",
@@ -1350,9 +1921,22 @@
         "source_section": "스티그마 스킬",
         "raw_text": "흡혈의 검 | 대상을 올려치며 피해를 주고 내려치며 그 주변 적들에게 피해를 줍니다. 피해의 일부를 생명력으로 흡수합니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "흡혈의 검",
+        "value_en": "대상을 올려치며 피해를 주고 내려치며 그 주변 적들에게 피해를 줍니다. 피해의 일부를 생명력으로 흡수합니다. 그로기 게이지 피해",
+        "conditions_en": [],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "heuphyeolui_geom",
         "search_text": "검성 스킬 스티그마 스킬 흡혈의 검 대상을 올려치며 피해를 주고 내려치며 그 주변 적들에게 피해를 줍니다. 피해의 일부를 생명력으로 흡수합니다. 그로기 게이지 피해 damage stagger stigma",
+        "search_text_en": "gladiator skills stigma skills 흡혈의 검 대상을 올려치며 피해를 주고 내려치며 그 주변 적들에게 피해를 줍니다. 피해의 일부를 생명력으로 흡수합니다. 그로기 게이지 피해 damage stagger stigma",
         "chips": [
           "damage",
           "stagger",
@@ -1382,9 +1966,24 @@
         "source_section": "스티그마 스킬",
         "raw_text": "격노 폭발 | 대상에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다. 정죽 시 [내려찍기]가 활성화 됩니다. 그로기 게이지 피해 | -"
       },
+      "i18n": {
+        "entity_en": "격노 폭발",
+        "value_en": "대상에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다. 정죽 시 [내려찍기]가 활성화 됩니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "대상에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다. 정죽 시 [내려찍기]가 활성화 됩니다. 그로기 게이지 피해"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gyeokno_pokbal",
         "search_text": "검성 스킬 스티그마 스킬 격노 폭발 대상에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다. 정죽 시 [내려찍기]가 활성화 됩니다. 그로기 게이지 피해 damage stagger stigma 대상에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다. 정죽 시 [내려찍기]가 활성화 됩니다. 그로기 게이지 피해",
+        "search_text_en": "gladiator skills stigma skills 격노 폭발 대상에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다. 정죽 시 [내려찍기]가 활성화 됩니다. 그로기 게이지 피해 damage stagger stigma 대상에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다. 정죽 시 [내려찍기]가 활성화 됩니다. 그로기 게이지 피해",
         "chips": [
           "damage",
           "stagger",
@@ -1416,9 +2015,26 @@
         "source_section": "스티그마 스킬",
         "raw_text": "파동의 갑주 | 자신을 중심으로 적들에게 지속적인 피해를 줍니다. | 논타겟/이동 가능"
       },
+      "i18n": {
+        "entity_en": "파동의 갑주",
+        "value_en": "자신을 중심으로 적들에게 지속적인 피해를 줍니다.",
+        "conditions_en": [
+          "Non-targeted / Usable while moving"
+        ],
+        "tags_en": [
+          "damage",
+          "movement",
+          "mobility_cast",
+          "no_target",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "padongui_gapju",
         "search_text": "검성 스킬 스티그마 스킬 파동의 갑주 자신을 중심으로 적들에게 지속적인 피해를 줍니다. damage movement mobility_cast no_target stigma 논타겟/이동 가능",
+        "search_text_en": "gladiator skills stigma skills 파동의 갑주 자신을 중심으로 적들에게 지속적인 피해를 줍니다. damage movement mobility_cast no_target stigma non-targeted / usable while moving",
         "chips": [
           "damage",
           "movement",
@@ -1450,9 +2066,24 @@
         "source_section": "스티그마 스킬",
         "raw_text": "파동의 갑주 | 자신을 중심으로 적들에게 지속적인 피해를 줍니다. | 논타겟/이동 가능"
       },
+      "i18n": {
+        "entity_en": "파동의 갑주",
+        "value_en": "사용 조건: 논타겟/이동 가능",
+        "conditions_en": [
+          "Non-targeted / Usable while moving"
+        ],
+        "tags_en": [
+          "movement",
+          "mobility_cast",
+          "no_target"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "padongui_gapju",
         "search_text": "검성 스킬 스티그마 스킬 파동의 갑주 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target 논타겟/이동 가능",
+        "search_text_en": "gladiator skills stigma skills 파동의 갑주 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target non-targeted / usable while moving",
         "chips": [
           "movement",
           "mobility_cast",
@@ -1490,9 +2121,26 @@
         "source_section": "스티그마 스킬",
         "raw_text": "강제 결박 | 대상에게 피해를 주고 일정 확률로 봉인 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해"
       },
+      "i18n": {
+        "entity_en": "강제 결박",
+        "value_en": "대상에게 피해를 주고 일정 확률로 봉인 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해",
+        "conditions_en": [
+          "대상에게 피해를 주고 일정 확률로 봉인 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해"
+        ],
+        "tags_en": [
+          "damage",
+          "stagger",
+          "control",
+          "chance",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gangje_gyeolbak",
         "search_text": "검성 스킬 스티그마 스킬 강제 결박 대상에게 피해를 주고 일정 확률로 봉인 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해 damage stagger control chance stigma 대상에게 피해를 주고 일정 확률로 봉인 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해",
+        "search_text_en": "gladiator skills stigma skills 강제 결박 대상에게 피해를 주고 일정 확률로 봉인 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해 damage stagger control chance stigma 대상에게 피해를 주고 일정 확률로 봉인 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해",
         "chips": [
           "damage",
           "stagger",
@@ -1531,9 +2179,25 @@
         "source_section": "스티그마 스킬",
         "raw_text": "강습 일격 | 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 넘어짐 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다. | -"
       },
+      "i18n": {
+        "entity_en": "강습 일격",
+        "value_en": "대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 넘어짐 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다.",
+        "conditions_en": [
+          "대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 넘어짐 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다."
+        ],
+        "tags_en": [
+          "damage",
+          "resource",
+          "chance",
+          "stigma"
+        ],
+        "source_section_en": "Stigma Skills",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "gangseup_ilgyeok",
         "search_text": "검성 스킬 스티그마 스킬 강습 일격 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 넘어짐 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 넘어짐이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다. damage resource chance stigma 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 넘어짐 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 넘어짐이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다.",
+        "search_text_en": "gladiator skills stigma skills 강습 일격 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 넘어짐 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 넘어짐이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다. damage resource chance stigma 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 넘어짐 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 넘어짐이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다.",
         "chips": [
           "damage",
           "resource",

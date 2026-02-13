@@ -2,16 +2,22 @@
   "metadata": {
     "guide_id": "bongin_deonjeon_mit_judunji",
     "guide_title": "봉인 던전 및 주둔지",
+    "guide_title_en": "Sealed Dungeons and Outposts",
     "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EB%B4%89%EC%9D%B8%20%EB%8D%98%EC%A0%84%20%EB%B0%8F%20%EC%A3%BC%EB%91%94%EC%A7%80",
     "top_category": "몬스터와 던전",
+    "top_category_en": "Monsters and Dungeons",
     "sub_category": "던전 콘텐츠",
+    "sub_category_en": "Dungeon Content",
     "priority": "P1",
     "action": "parse_gear_acquisition",
+    "action_label_en": "Gear Acquisition",
     "topic": "gear_acquisition",
+    "topic_label_en": "Gear Acquisition",
     "crawled_at": "2026-02-13T18:14:21+00:00",
     "referential_version": "0.1.0",
-    "schema_version": "studio_v1",
-    "generated_at": "2026-02-13T20:59:53+00:00",
+    "schema_version": "studio_v2",
+    "translation_target": "en",
+    "generated_at": "2026-02-13T21:29:44+00:00",
     "source_facts_file": "exports/facts/gear_acquisition__gear_acquisition__bongin_deonjeon_mit_judunji.json"
   },
   "summary": {
@@ -52,9 +58,23 @@
         "source_section": "봉인 던전 소개",
         "raw_text": "월드맵 내 다양한 장소에서 발견할 수 있는 봉인 던전과 주둔지 발견된 봉인 던전 봉인 던전 입구의 모습"
       },
+      "i18n": {
+        "entity_en": "월드맵 내 다양한 장소에서 발견할 수 있는 봉인 dungeon과 주둔지 발견된 봉인 dungeon 봉인 dungeon 입구의 모습",
+        "value_en": "월드맵 내 다양한 장소에서 발견할 수 있는 봉인 dungeon과 주둔지 발견된 봉인 dungeon 봉인 dungeon 입구의 모습",
+        "conditions_en": [],
+        "tags_en": [
+          "control",
+          "dungeon",
+          "outpost",
+          "info"
+        ],
+        "source_section_en": "봉인 dungeon overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "woldeumaep_nae_dayanghan_jangsoeseo_balgyeonhal_su_itneun_bongin_deonjeongwa_judunji_balgyeondoen_bongin_deonjeon_bongin_deonjeon_ipguui_moseup",
         "search_text": "봉인 던전 및 주둔지 봉인 던전 소개 월드맵 내 다양한 장소에서 발견할 수 있는 봉인 던전과 주둔지 발견된 봉인 던전 봉인 던전 입구의 모습 월드맵 내 다양한 장소에서 발견할 수 있는 봉인 던전과 주둔지 발견된 봉인 던전 봉인 던전 입구의 모습 control dungeon outpost info",
+        "search_text_en": "sealed dungeons and outposts 봉인 dungeon overview 월드맵 내 다양한 장소에서 발견할 수 있는 봉인 dungeon과 주둔지 발견된 봉인 dungeon 봉인 dungeon 입구의 모습 월드맵 내 다양한 장소에서 발견할 수 있는 봉인 dungeon과 주둔지 발견된 봉인 dungeon 봉인 dungeon 입구의 모습 control dungeon outpost info",
         "chips": [
           "control",
           "dungeon",
@@ -82,9 +102,21 @@
         "source_section": "봉인 던전 소개",
         "raw_text": "발견된 주둔지"
       },
+      "i18n": {
+        "entity_en": "발견된 주둔지",
+        "value_en": "발견된 주둔지",
+        "conditions_en": [],
+        "tags_en": [
+          "outpost",
+          "info"
+        ],
+        "source_section_en": "봉인 dungeon overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "balgyeondoen_judunji",
         "search_text": "봉인 던전 및 주둔지 봉인 던전 소개 발견된 주둔지 발견된 주둔지 outpost info",
+        "search_text_en": "sealed dungeons and outposts 봉인 dungeon overview 발견된 주둔지 발견된 주둔지 outpost info",
         "chips": [
           "outpost",
           "info",
@@ -110,9 +142,21 @@
         "source_section": "봉인 던전 소개",
         "raw_text": "주둔지 입구의 모습"
       },
+      "i18n": {
+        "entity_en": "주둔지 입구의 모습",
+        "value_en": "주둔지 입구의 모습",
+        "conditions_en": [],
+        "tags_en": [
+          "outpost",
+          "info"
+        ],
+        "source_section_en": "봉인 dungeon overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "judunji_ipguui_moseup",
         "search_text": "봉인 던전 및 주둔지 봉인 던전 소개 주둔지 입구의 모습 주둔지 입구의 모습 outpost info",
+        "search_text_en": "sealed dungeons and outposts 봉인 dungeon overview 주둔지 입구의 모습 주둔지 입구의 모습 outpost info",
         "chips": [
           "outpost",
           "info",

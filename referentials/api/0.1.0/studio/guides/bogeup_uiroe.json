@@ -2,16 +2,22 @@
   "metadata": {
     "guide_id": "bogeup_uiroe",
     "guide_title": "보급 의뢰",
+    "guide_title_en": "Supply Requests",
     "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EB%B3%B4%EA%B8%89%20%EC%9D%98%EB%A2%B0",
     "top_category": "주요 시스템",
+    "top_category_en": "Core Systems",
     "sub_category": "기타 시스템",
+    "sub_category_en": "Other Systems",
     "priority": "P2",
     "action": "parse_support",
+    "action_label_en": "Support",
     "topic": "gear_nuance",
+    "topic_label_en": "Support & Nuance",
     "crawled_at": "2026-02-13T18:16:33+00:00",
     "referential_version": "0.1.0",
-    "schema_version": "studio_v1",
-    "generated_at": "2026-02-13T20:59:53+00:00",
+    "schema_version": "studio_v2",
+    "translation_target": "en",
+    "generated_at": "2026-02-13T21:29:44+00:00",
     "source_facts_file": "exports/facts/gear_nuance__support__bogeup_uiroe.json"
   },
   "summary": {
@@ -53,9 +59,22 @@
         "source_section": "보급 의뢰 소개",
         "raw_text": "보급 의뢰 카테고리 | 각 카테고리의 의뢰 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "supply request 카테고리",
+        "value_en": "각 카테고리의 의뢰 list을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "commission",
+          "list",
+          "info"
+        ],
+        "source_section_en": "supply request overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "bogeup_uiroe_kategori",
         "search_text": "보급 의뢰 보급 의뢰 소개 보급 의뢰 카테고리 각 카테고리의 의뢰 목록을 확인할 수 있다. commission list info",
+        "search_text_en": "supply requests supply request overview supply request 카테고리 각 카테고리의 의뢰 list을 can be checked. commission list info",
         "chips": [
           "commission",
           "list",
@@ -84,9 +103,23 @@
         "source_section": "보급 의뢰 소개",
         "raw_text": "보급 의뢰 목록 | 상세 의뢰 정보와 보상 아이템을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "supply request list",
+        "value_en": "상세 의뢰 information와 reward 아이템을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "commission",
+          "list",
+          "info"
+        ],
+        "source_section_en": "supply request overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "bogeup_uiroe_mokrok",
         "search_text": "보급 의뢰 보급 의뢰 소개 보급 의뢰 목록 상세 의뢰 정보와 보상 아이템을 확인할 수 있다. drop commission list info",
+        "search_text_en": "supply requests supply request overview supply request list 상세 의뢰 information와 reward 아이템을 can be checked. drop commission list info",
         "chips": [
           "drop",
           "commission",
@@ -116,9 +149,23 @@
         "source_section": "보급 의뢰 소개",
         "raw_text": "보급 의뢰 목록 | 상세 의뢰 정보와 보상 아이템을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "supply request list",
+        "value_en": "상세 의뢰 information와 reward 아이템을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "commission",
+          "list",
+          "info"
+        ],
+        "source_section_en": "supply request overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "bogeup_uiroe_mokrok",
         "search_text": "보급 의뢰 보급 의뢰 소개 보급 의뢰 목록 상세 의뢰 정보와 보상 아이템을 확인할 수 있다. drop commission list info",
+        "search_text_en": "supply requests supply request overview supply request list 상세 의뢰 information와 reward 아이템을 can be checked. drop commission list info",
         "chips": [
           "drop",
           "commission",
@@ -146,9 +193,21 @@
         "source_section": "보급 의뢰 소개",
         "raw_text": "의뢰 납품 현황 | 플레이어의 의뢰 납품 기한과 전체 납품 현황을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "의뢰 납품 현황",
+        "value_en": "플레이어의 의뢰 납품 기한과 전체 납품 현황을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "commission",
+          "info"
+        ],
+        "source_section_en": "supply request overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "uiroe_nappum_hyeonhwang",
         "search_text": "보급 의뢰 보급 의뢰 소개 의뢰 납품 현황 플레이어의 의뢰 납품 기한과 전체 납품 현황을 확인할 수 있다. commission info",
+        "search_text_en": "supply requests supply request overview 의뢰 납품 현황 플레이어의 의뢰 납품 기한과 전체 납품 현황을 can be checked. commission info",
         "chips": [
           "commission",
           "info",
@@ -174,9 +233,21 @@
         "source_section": "보급 의뢰 소개",
         "raw_text": "보급 의뢰 카테고리"
       },
+      "i18n": {
+        "entity_en": "supply request overview",
+        "value_en": "supply request 카테고리",
+        "conditions_en": [],
+        "tags_en": [
+          "commission",
+          "info"
+        ],
+        "source_section_en": "supply request overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "bogeup_uiroe_sogae",
         "search_text": "보급 의뢰 보급 의뢰 소개 보급 의뢰 소개 보급 의뢰 카테고리 commission info",
+        "search_text_en": "supply requests supply request overview supply request overview supply request 카테고리 commission info",
         "chips": [
           "commission",
           "info",
@@ -203,9 +274,22 @@
         "source_section": "보급 의뢰 소개",
         "raw_text": "각 카테고리의 의뢰 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "supply request overview",
+        "value_en": "각 카테고리의 의뢰 list을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "commission",
+          "list",
+          "info"
+        ],
+        "source_section_en": "supply request overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "bogeup_uiroe_sogae",
         "search_text": "보급 의뢰 보급 의뢰 소개 보급 의뢰 소개 각 카테고리의 의뢰 목록을 확인할 수 있다. commission list info",
+        "search_text_en": "supply requests supply request overview supply request overview 각 카테고리의 의뢰 list을 can be checked. commission list info",
         "chips": [
           "commission",
           "list",
@@ -233,9 +317,22 @@
         "source_section": "보급 의뢰 소개",
         "raw_text": "상세 의뢰 정보와 보상 아이템을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "supply request overview",
+        "value_en": "상세 의뢰 information와 reward 아이템을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "commission",
+          "info"
+        ],
+        "source_section_en": "supply request overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "bogeup_uiroe_sogae",
         "search_text": "보급 의뢰 보급 의뢰 소개 보급 의뢰 소개 상세 의뢰 정보와 보상 아이템을 확인할 수 있다. drop commission info",
+        "search_text_en": "supply requests supply request overview supply request overview 상세 의뢰 information와 reward 아이템을 can be checked. drop commission info",
         "chips": [
           "drop",
           "commission",
@@ -263,9 +360,22 @@
         "source_section": "보급 의뢰 소개",
         "raw_text": "상세 의뢰 정보와 보상 아이템을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "supply request overview",
+        "value_en": "상세 의뢰 information와 reward 아이템을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "commission",
+          "info"
+        ],
+        "source_section_en": "supply request overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "bogeup_uiroe_sogae",
         "search_text": "보급 의뢰 보급 의뢰 소개 보급 의뢰 소개 상세 의뢰 정보와 보상 아이템을 확인할 수 있다. drop commission info",
+        "search_text_en": "supply requests supply request overview supply request overview 상세 의뢰 information와 reward 아이템을 can be checked. drop commission info",
         "chips": [
           "drop",
           "commission",
@@ -292,9 +402,21 @@
         "source_section": "보급 의뢰 소개",
         "raw_text": "플레이어의 의뢰 납품 기한과 전체 납품 현황을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "supply request overview",
+        "value_en": "플레이어의 의뢰 납품 기한과 전체 납품 현황을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "commission",
+          "info"
+        ],
+        "source_section_en": "supply request overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "bogeup_uiroe_sogae",
         "search_text": "보급 의뢰 보급 의뢰 소개 보급 의뢰 소개 플레이어의 의뢰 납품 기한과 전체 납품 현황을 확인할 수 있다. commission info",
+        "search_text_en": "supply requests supply request overview supply request overview 플레이어의 의뢰 납품 기한과 전체 납품 현황을 can be checked. commission info",
         "chips": [
           "commission",
           "info",

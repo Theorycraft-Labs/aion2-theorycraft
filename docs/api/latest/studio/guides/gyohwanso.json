@@ -2,16 +2,22 @@
   "metadata": {
     "guide_id": "gyohwanso",
     "guide_title": "교환소",
+    "guide_title_en": "Exchange Vendor",
     "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EA%B5%90%ED%99%98%EC%86%8C",
     "top_category": "주요 시스템",
+    "top_category_en": "Core Systems",
     "sub_category": "거래 시스템",
+    "sub_category_en": "Trade System",
     "priority": "P1",
     "action": "parse_gear_acquisition",
+    "action_label_en": "Gear Acquisition",
     "topic": "gear_acquisition",
+    "topic_label_en": "Gear Acquisition",
     "crawled_at": "2026-02-13T18:16:05+00:00",
     "referential_version": "0.1.0",
-    "schema_version": "studio_v1",
-    "generated_at": "2026-02-13T20:59:53+00:00",
+    "schema_version": "studio_v2",
+    "translation_target": "en",
+    "generated_at": "2026-02-13T21:29:44+00:00",
     "source_facts_file": "exports/facts/gear_acquisition__gear_acquisition__gyohwanso.json"
   },
   "summary": {
@@ -50,9 +56,20 @@
         "source_section": "월드 교환소",
         "raw_text": "- 월드 교환소의 특징은 서버 내에서만 거래할 수 있는 일반 교환소와는 달리, 전 서버 플레이어 대상으로 상품을 거래할 수 있습니다."
       },
+      "i18n": {
+        "entity_en": "월드 exchange vendor",
+        "value_en": "- 월드 exchange vendor의 특징은 서버 내에서만 거래할 수 있는 일반 exchange vendor와는 달리, 전 서버 플레이어 대상으로 상품을 거래할 수 있습니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "exchange"
+        ],
+        "source_section_en": "월드 exchange vendor",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "woldeu_gyohwanso",
         "search_text": "교환소 월드 교환소 월드 교환소 - 월드 교환소의 특징은 서버 내에서만 거래할 수 있는 일반 교환소와는 달리, 전 서버 플레이어 대상으로 상품을 거래할 수 있습니다. exchange",
+        "search_text_en": "exchange vendor 월드 exchange vendor 월드 exchange vendor - 월드 exchange vendor의 특징은 서버 내에서만 거래할 수 있는 일반 exchange vendor와는 달리, 전 서버 플레이어 대상으로 상품을 거래할 수 있습니다. exchange",
         "chips": [
           "exchange",
           "gear_source",
@@ -76,9 +93,20 @@
         "source_section": "월드 교환소",
         "raw_text": "- 일반 교환소와 동일한 방법으로 사용할 수 있지만, 판매 완료 시 보다 높은 정산 수수료가 부과됩니다."
       },
+      "i18n": {
+        "entity_en": "월드 exchange vendor",
+        "value_en": "- 일반 exchange vendor와 동일한 방법으로 사용할 수 있지만, 판매 완료 시 보다 높은 정산 수수료가 부과됩니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "exchange"
+        ],
+        "source_section_en": "월드 exchange vendor",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "woldeu_gyohwanso",
         "search_text": "교환소 월드 교환소 월드 교환소 - 일반 교환소와 동일한 방법으로 사용할 수 있지만, 판매 완료 시 보다 높은 정산 수수료가 부과됩니다. exchange",
+        "search_text_en": "exchange vendor 월드 exchange vendor 월드 exchange vendor - 일반 exchange vendor와 동일한 방법으로 사용할 수 있지만, 판매 완료 시 보다 높은 정산 수수료가 부과됩니다. exchange",
         "chips": [
           "exchange",
           "gear_source",
@@ -104,9 +132,22 @@
         "source_section": "월드 교환소",
         "raw_text": "※ 구매 시에는 수수료가 부과되지 않습니다."
       },
+      "i18n": {
+        "entity_en": "월드 exchange vendor",
+        "value_en": "※ 구매 시에는 수수료가 부과되지 않습니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "acquisition",
+          "source",
+          "trade"
+        ],
+        "source_section_en": "월드 exchange vendor",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "woldeu_gyohwanso",
         "search_text": "교환소 월드 교환소 월드 교환소 ※ 구매 시에는 수수료가 부과되지 않습니다. acquisition source trade",
+        "search_text_en": "exchange vendor 월드 exchange vendor 월드 exchange vendor ※ 구매 시에는 수수료가 부과되지 않습니다. acquisition source trade",
         "chips": [
           "acquisition",
           "source",
@@ -132,9 +173,20 @@
         "source_section": "월드 교환소",
         "raw_text": "- 월드 교환소는 [ESC] > [월드 거래소]를 통해 진입하여 이용할 수 있습니다."
       },
+      "i18n": {
+        "entity_en": "월드 exchange vendor",
+        "value_en": "- 월드 exchange vendor는 [ESC] > [월드 exchange house]를 통해 진입하여 이용할 수 있습니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "exchange"
+        ],
+        "source_section_en": "월드 exchange vendor",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "woldeu_gyohwanso",
         "search_text": "교환소 월드 교환소 월드 교환소 - 월드 교환소는 [esc] > [월드 거래소]를 통해 진입하여 이용할 수 있습니다. exchange",
+        "search_text_en": "exchange vendor 월드 exchange vendor 월드 exchange vendor - 월드 exchange vendor는 [esc] > [월드 exchange house]를 통해 진입하여 이용할 수 있습니다. exchange",
         "chips": [
           "exchange",
           "gear_source",
@@ -161,9 +213,23 @@
         "source_section": "월드 교환소",
         "raw_text": "- 월드 교환소 이용을 위해서는 '슈고 특급 멤버십' 혹은 '산들바람 멤버십' 구독이 필요합니다."
       },
+      "i18n": {
+        "entity_en": "월드 exchange vendor",
+        "value_en": "- 월드 exchange vendor 이용을 위해서는 '슈고 특급 멤버십' 혹은 '산들바람 멤버십' subscription이 필요합니다.",
+        "conditions_en": [
+          "- 월드 exchange vendor 이용을 위해서는 '슈고 특급 멤버십' 혹은 '산들바람 멤버십' subscription이 필요합니다."
+        ],
+        "tags_en": [
+          "exchange",
+          "membership"
+        ],
+        "source_section_en": "월드 exchange vendor",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "woldeu_gyohwanso",
         "search_text": "교환소 월드 교환소 월드 교환소 - 월드 교환소 이용을 위해서는 '슈고 특급 멤버십' 혹은 '산들바람 멤버십' 구독이 필요합니다. exchange membership - 월드 교환소 이용을 위해서는 '슈고 특급 멤버십' 혹은 '산들바람 멤버십' 구독이 필요합니다.",
+        "search_text_en": "exchange vendor 월드 exchange vendor 월드 exchange vendor - 월드 exchange vendor 이용을 위해서는 '슈고 특급 멤버십' 혹은 '산들바람 멤버십' subscription이 필요합니다. exchange membership - 월드 exchange vendor 이용을 위해서는 '슈고 특급 멤버십' 혹은 '산들바람 멤버십' subscription이 필요합니다.",
         "chips": [
           "exchange",
           "membership",

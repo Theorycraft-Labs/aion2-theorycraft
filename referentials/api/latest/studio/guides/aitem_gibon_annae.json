@@ -2,16 +2,22 @@
   "metadata": {
     "guide_id": "aitem_gibon_annae",
     "guide_title": "아이템 기본 안내",
+    "guide_title_en": "Item Basics",
     "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EC%95%84%EC%9D%B4%ED%85%9C%20%EA%B8%B0%EB%B3%B8%20%EC%95%88%EB%82%B4",
     "top_category": "아이템",
+    "top_category_en": "Items",
     "sub_category": "아이템 기본 안내",
+    "sub_category_en": "Item Basics",
     "priority": "P1",
     "action": "parse_gear_acquisition",
+    "action_label_en": "Gear Acquisition",
     "topic": "gear_acquisition",
+    "topic_label_en": "Gear Acquisition",
     "crawled_at": "2026-02-13T18:15:57+00:00",
     "referential_version": "0.1.0",
-    "schema_version": "studio_v1",
-    "generated_at": "2026-02-13T20:59:53+00:00",
+    "schema_version": "studio_v2",
+    "translation_target": "en",
+    "generated_at": "2026-02-13T21:29:44+00:00",
     "source_facts_file": "exports/facts/gear_acquisition__gear_acquisition__aitem_gibon_annae.json"
   },
   "summary": {
@@ -73,9 +79,23 @@
         "source_section": "아이템 소개",
         "raw_text": "명칭 및 종류 | 아이템 명칭과, 효과를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "명칭 및 종류",
+        "value_en": "아이템 명칭과, 효과를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "acquisition",
+          "source",
+          "info",
+          "inventory"
+        ],
+        "source_section_en": "아이템 overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "myeongching_mit_jongryu",
         "search_text": "아이템 기본 안내 아이템 소개 명칭 및 종류 아이템 명칭과, 효과를 확인할 수 있다. acquisition source info inventory",
+        "search_text_en": "item basics 아이템 overview 명칭 및 종류 아이템 명칭과, 효과를 can be checked. acquisition source info inventory",
         "chips": [
           "acquisition",
           "source",
@@ -105,9 +125,23 @@
         "source_section": "아이템 소개",
         "raw_text": "사용 | 해당 아이템을 장착/사용할 수 있다."
       },
+      "i18n": {
+        "entity_en": "사용",
+        "value_en": "해당 아이템을 장착/사용할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "acquisition",
+          "source",
+          "info",
+          "inventory"
+        ],
+        "source_section_en": "아이템 overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "sayong",
         "search_text": "아이템 기본 안내 아이템 소개 사용 해당 아이템을 장착/사용할 수 있다. acquisition source info inventory",
+        "search_text_en": "item basics 아이템 overview 사용 해당 아이템을 장착/사용할 수 있다. acquisition source info inventory",
         "chips": [
           "acquisition",
           "source",
@@ -135,9 +169,21 @@
         "source_section": "아이템 소개",
         "raw_text": "획득처 | 해당 아이템을 획득할 수 있는 경로를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "acquisition source",
+        "value_en": "해당 아이템을 획득할 수 있는 경로를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "info"
+        ],
+        "source_section_en": "아이템 overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "hoekdeukcheo",
         "search_text": "아이템 기본 안내 아이템 소개 획득처 해당 아이템을 획득할 수 있는 경로를 확인할 수 있다. drop info",
+        "search_text_en": "item basics 아이템 overview acquisition source 해당 아이템을 획득할 수 있는 경로를 can be checked. drop info",
         "chips": [
           "drop",
           "info",
@@ -163,9 +209,21 @@
         "source_section": "아이템 소개",
         "raw_text": "연금/제작 | 연금/제작 정보를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "연금/crafting",
+        "value_en": "연금/crafting information를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "craft",
+          "info"
+        ],
+        "source_section_en": "아이템 overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "yeongeum_jejak",
         "search_text": "아이템 기본 안내 아이템 소개 연금/제작 연금/제작 정보를 확인할 수 있다. craft info",
+        "search_text_en": "item basics 아이템 overview 연금/crafting 연금/crafting information를 can be checked. craft info",
         "chips": [
           "craft",
           "info",
@@ -195,9 +253,25 @@
         "source_section": "아이템 소개",
         "raw_text": "삭제 | 해당 아이템을 삭제할 수 있다. 삭제 시 복구가 불가능하다."
       },
+      "i18n": {
+        "entity_en": "삭제",
+        "value_en": "해당 아이템을 삭제할 수 있다. 삭제 시 복구가 is not available.",
+        "conditions_en": [
+          "해당 아이템을 삭제할 수 있다. 삭제 시 복구가 is not available."
+        ],
+        "tags_en": [
+          "acquisition",
+          "source",
+          "info",
+          "inventory"
+        ],
+        "source_section_en": "아이템 overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "sakje",
         "search_text": "아이템 기본 안내 아이템 소개 삭제 해당 아이템을 삭제할 수 있다. 삭제 시 복구가 불가능하다. acquisition source info inventory 해당 아이템을 삭제할 수 있다. 삭제 시 복구가 불가능하다.",
+        "search_text_en": "item basics 아이템 overview 삭제 해당 아이템을 삭제할 수 있다. 삭제 시 복구가 is not available. acquisition source info inventory 해당 아이템을 삭제할 수 있다. 삭제 시 복구가 is not available.",
         "chips": [
           "acquisition",
           "source",
@@ -226,9 +300,22 @@
         "source_section": "아이템 소개",
         "raw_text": "아이템 공유 | 해당 아이템 정보를 채팅창으로 공유할 수 있다."
       },
+      "i18n": {
+        "entity_en": "아이템 공유",
+        "value_en": "해당 아이템 information를 채팅창으로 공유할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "info",
+          "ui",
+          "inventory"
+        ],
+        "source_section_en": "아이템 overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "aitem_gongyu",
         "search_text": "아이템 기본 안내 아이템 소개 아이템 공유 해당 아이템 정보를 채팅창으로 공유할 수 있다. info ui inventory",
+        "search_text_en": "item basics 아이템 overview 아이템 공유 해당 아이템 information를 채팅창으로 공유할 수 있다. info ui inventory",
         "chips": [
           "info",
           "ui",
@@ -255,9 +342,21 @@
         "source_section": "아이템 소개",
         "raw_text": "자동사용 | 지속시간이 끝나면 자동으로 사용되도록, 아이템의 자동사용 기능을 on/off 할 수 있다."
       },
+      "i18n": {
+        "entity_en": "자동사용",
+        "value_en": "지속시간이 끝나면 자동으로 사용되도록, 아이템의 자동사용 기능을 on/off 할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "auto_use",
+          "info"
+        ],
+        "source_section_en": "아이템 overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jadongsayong",
         "search_text": "아이템 기본 안내 아이템 소개 자동사용 지속시간이 끝나면 자동으로 사용되도록, 아이템의 자동사용 기능을 on/off 할 수 있다. auto_use info",
+        "search_text_en": "item basics 아이템 overview 자동사용 지속시간이 끝나면 자동으로 사용되도록, 아이템의 자동사용 기능을 on/off 할 수 있다. auto_use info",
         "chips": [
           "auto_use",
           "info",
@@ -284,9 +383,22 @@
         "source_section": "아이템 소개",
         "raw_text": "잠금 | 아이템이 실수로 사용 및 삭제되거나, 이동되지 않도록 잠금기능을 on/off 할 수 있다."
       },
+      "i18n": {
+        "entity_en": "잠금",
+        "value_en": "아이템이 실수로 사용 및 삭제되거나, 이동되지 않도록 잠금기능을 on/off 할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "movement",
+          "lock",
+          "info"
+        ],
+        "source_section_en": "아이템 overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jamgeum",
         "search_text": "아이템 기본 안내 아이템 소개 잠금 아이템이 실수로 사용 및 삭제되거나, 이동되지 않도록 잠금기능을 on/off 할 수 있다. movement lock info",
+        "search_text_en": "item basics 아이템 overview 잠금 아이템이 실수로 사용 및 삭제되거나, 이동되지 않도록 잠금기능을 on/off 할 수 있다. movement lock info",
         "chips": [
           "movement",
           "lock",
@@ -315,9 +427,23 @@
         "source_section": "아이템 소개",
         "raw_text": "창고/거래 사용가능정보 | 개인 창고, 레기온 창고, 거래, 클래스 사용 가능여부를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "창고/거래 사용가능information",
+        "value_en": "개인 창고, 레기온 창고, 거래, 클래스 사용 가능여부를 can be checked.",
+        "conditions_en": [
+          "개인 창고, 레기온 창고, 거래, 클래스 사용 가능여부를 can be checked."
+        ],
+        "tags_en": [
+          "info",
+          "class"
+        ],
+        "source_section_en": "아이템 overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "changgo_georae_sayongganeungjeongbo",
         "search_text": "아이템 기본 안내 아이템 소개 창고/거래 사용가능정보 개인 창고, 레기온 창고, 거래, 클래스 사용 가능여부를 확인할 수 있다. info class 개인 창고, 레기온 창고, 거래, 클래스 사용 가능여부를 확인할 수 있다.",
+        "search_text_en": "item basics 아이템 overview 창고/거래 사용가능information 개인 창고, 레기온 창고, 거래, 클래스 사용 가능여부를 can be checked. info class 개인 창고, 레기온 창고, 거래, 클래스 사용 가능여부를 can be checked.",
         "chips": [
           "info",
           "class",
@@ -345,9 +471,23 @@
         "source_section": "아이템 소개",
         "raw_text": "상점 판매가 | 해당 아이템의 상점 판매가를 확인할 수 있다: 단품가(보유 수량 전체 판매가)"
       },
+      "i18n": {
+        "entity_en": "상점 판매가",
+        "value_en": "해당 아이템의 상점 판매가를 can be checked: 단품가(보유 수량 전체 판매가)",
+        "conditions_en": [],
+        "tags_en": [
+          "acquisition",
+          "source",
+          "info",
+          "inventory"
+        ],
+        "source_section_en": "아이템 overview",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "sangjeom_panmaega",
         "search_text": "아이템 기본 안내 아이템 소개 상점 판매가 해당 아이템의 상점 판매가를 확인할 수 있다: 단품가(보유 수량 전체 판매가) acquisition source info inventory",
+        "search_text_en": "item basics 아이템 overview 상점 판매가 해당 아이템의 상점 판매가를 can be checked: 단품가(보유 수량 전체 판매가) acquisition source info inventory",
         "chips": [
           "acquisition",
           "source",
@@ -375,9 +515,21 @@
         "source_section": "아이템 소개",
         "raw_text": "해당 아이템을 획득할 수 있는 경로를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "아이템 overview",
+        "value_en": "해당 아이템을 획득할 수 있는 경로를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "info"
+        ],
+        "source_section_en": "아이템 overview",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "aitem_sogae",
         "search_text": "아이템 기본 안내 아이템 소개 아이템 소개 해당 아이템을 획득할 수 있는 경로를 확인할 수 있다. drop info",
+        "search_text_en": "item basics 아이템 overview 아이템 overview 해당 아이템을 획득할 수 있는 경로를 can be checked. drop info",
         "chips": [
           "drop",
           "info",
@@ -404,9 +556,22 @@
         "source_section": "아이템 등급",
         "raw_text": "일반 등급 희귀 등급 전승 등급 유일 등급 영웅 등급 스페셜 등급"
       },
+      "i18n": {
+        "entity_en": "일반 grade 희귀 grade 전승 grade 유일 grade 영웅 grade 스페셜 grade",
+        "value_en": "일반 grade 희귀 grade 전승 grade 유일 grade 영웅 grade 스페셜 grade",
+        "conditions_en": [],
+        "tags_en": [
+          "acquisition",
+          "source",
+          "inventory"
+        ],
+        "source_section_en": "아이템 grade",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "ilban_deunggeup_huigwi_deunggeup_jeonseung_deunggeup_yuil_deunggeup_yeongung_deunggeup_seupesyeol_deunggeup",
         "search_text": "아이템 기본 안내 아이템 등급 일반 등급 희귀 등급 전승 등급 유일 등급 영웅 등급 스페셜 등급 일반 등급 희귀 등급 전승 등급 유일 등급 영웅 등급 스페셜 등급 acquisition source inventory",
+        "search_text_en": "item basics 아이템 grade 일반 grade 희귀 grade 전승 grade 유일 grade 영웅 grade 스페셜 grade 일반 grade 희귀 grade 전승 grade 유일 grade 영웅 grade 스페셜 grade acquisition source inventory",
         "chips": [
           "acquisition",
           "source",
@@ -434,9 +599,22 @@
         "source_section": "아이템 획득 방법",
         "raw_text": "몬스터 처치"
       },
+      "i18n": {
+        "entity_en": "몬스터 처치",
+        "value_en": "몬스터 처치",
+        "conditions_en": [],
+        "tags_en": [
+          "acquisition",
+          "source",
+          "inventory"
+        ],
+        "source_section_en": "아이템 획득 방법",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "monseuteo_cheochi",
         "search_text": "아이템 기본 안내 아이템 획득 방법 몬스터 처치 몬스터 처치 acquisition source inventory",
+        "search_text_en": "item basics 아이템 획득 방법 몬스터 처치 몬스터 처치 acquisition source inventory",
         "chips": [
           "acquisition",
           "source",
@@ -462,9 +640,20 @@
         "source_section": "아이템 획득 방법",
         "raw_text": "제작"
       },
+      "i18n": {
+        "entity_en": "crafting",
+        "value_en": "crafting",
+        "conditions_en": [],
+        "tags_en": [
+          "craft"
+        ],
+        "source_section_en": "아이템 획득 방법",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "jejak",
         "search_text": "아이템 기본 안내 아이템 획득 방법 제작 제작 craft",
+        "search_text_en": "item basics 아이템 획득 방법 crafting crafting craft",
         "chips": [
           "craft",
           "gear_source",
@@ -490,9 +679,22 @@
         "source_section": "아이템 획득 방법",
         "raw_text": "NPC 구매"
       },
+      "i18n": {
+        "entity_en": "NPC 구매",
+        "value_en": "NPC 구매",
+        "conditions_en": [],
+        "tags_en": [
+          "acquisition",
+          "source",
+          "inventory"
+        ],
+        "source_section_en": "아이템 획득 방법",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "npc",
         "search_text": "아이템 기본 안내 아이템 획득 방법 npc 구매 npc 구매 acquisition source inventory",
+        "search_text_en": "item basics 아이템 획득 방법 npc 구매 npc 구매 acquisition source inventory",
         "chips": [
           "acquisition",
           "source",
@@ -518,9 +720,20 @@
         "source_section": "아이템 획득 방법",
         "raw_text": "보상"
       },
+      "i18n": {
+        "entity_en": "reward",
+        "value_en": "reward",
+        "conditions_en": [],
+        "tags_en": [
+          "drop"
+        ],
+        "source_section_en": "아이템 획득 방법",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bosang",
         "search_text": "아이템 기본 안내 아이템 획득 방법 보상 보상 drop",
+        "search_text_en": "item basics 아이템 획득 방법 reward reward drop",
         "chips": [
           "drop",
           "gear_source",
@@ -544,9 +757,20 @@
         "source_section": "아이템 획득 방법",
         "raw_text": "아이템을 획득하는 방법에는 크게 네가지로 구분할 수 있습니다."
       },
+      "i18n": {
+        "entity_en": "아이템 획득 방법",
+        "value_en": "아이템을 획득하는 방법에는 크게 네가지로 구분할 수 있습니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop"
+        ],
+        "source_section_en": "아이템 획득 방법",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "aitem_hoekdeuk_bangbeop",
         "search_text": "아이템 기본 안내 아이템 획득 방법 아이템 획득 방법 아이템을 획득하는 방법에는 크게 네가지로 구분할 수 있습니다. drop",
+        "search_text_en": "item basics 아이템 획득 방법 아이템 획득 방법 아이템을 획득하는 방법에는 크게 네가지로 구분할 수 있습니다. drop",
         "chips": [
           "drop",
           "gear_source",
@@ -576,9 +800,26 @@
         "source_section": "아이템 획득 방법",
         "raw_text": "키나 및 아이템의 경우 일일 획득량 제한이 있으며, 획득량 제한에 걸릴 경우 필드 사냥 포함 봉인 던전, 주둔지, 초월, 원정 컨텐츠에서 획득할 수 없습니다."
       },
+      "i18n": {
+        "entity_en": "아이템 획득 방법",
+        "value_en": "키나 및 아이템의 경우 일일 획득량 제한이 있으며, 획득량 제한에 걸릴 경우 필드 사냥 포함 봉인 dungeon, 주둔지, 초월, expedition 컨텐츠에서 획득할 수 없습니다.",
+        "conditions_en": [
+          "키나 및 아이템의 경우 일일 획득량 제한이 있으며, 획득량 제한에 걸릴 경우 필드 사냥 포함 봉인 dungeon, 주둔지, 초월, expedition 컨텐츠에서 획득할 수 없습니다."
+        ],
+        "tags_en": [
+          "control",
+          "dungeon",
+          "drop",
+          "outpost",
+          "expedition"
+        ],
+        "source_section_en": "아이템 획득 방법",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "aitem_hoekdeuk_bangbeop",
         "search_text": "아이템 기본 안내 아이템 획득 방법 아이템 획득 방법 키나 및 아이템의 경우 일일 획득량 제한이 있으며, 획득량 제한에 걸릴 경우 필드 사냥 포함 봉인 던전, 주둔지, 초월, 원정 컨텐츠에서 획득할 수 없습니다. control dungeon drop outpost expedition 키나 및 아이템의 경우 일일 획득량 제한이 있으며, 획득량 제한에 걸릴 경우 필드 사냥 포함 봉인 던전, 주둔지, 초월, 원정 컨텐츠에서 획득할 수 없습니다.",
+        "search_text_en": "item basics 아이템 획득 방법 아이템 획득 방법 키나 및 아이템의 경우 일일 획득량 제한이 있으며, 획득량 제한에 걸릴 경우 필드 사냥 포함 봉인 dungeon, 주둔지, 초월, expedition 컨텐츠에서 획득할 수 없습니다. control dungeon drop outpost expedition 키나 및 아이템의 경우 일일 획득량 제한이 있으며, 획득량 제한에 걸릴 경우 필드 사냥 포함 봉인 dungeon, 주둔지, 초월, expedition 컨텐츠에서 획득할 수 없습니다.",
         "chips": [
           "control",
           "dungeon",
@@ -610,9 +851,24 @@
         "source_section": "아이템 추출",
         "raw_text": "아이템 추출 기능은 큐브( i ) 화면의 우측 하단에서 확인할 수 있습니다."
       },
+      "i18n": {
+        "entity_en": "아이템 extraction 기능은 큐브( i ) 화면의 우측 하단에서 can be checked.",
+        "value_en": "아이템 extraction 기능은 큐브( i ) 화면의 우측 하단에서 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "acquisition",
+          "source",
+          "ui",
+          "inventory",
+          "extraction"
+        ],
+        "source_section_en": "아이템 extraction",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "i",
         "search_text": "아이템 기본 안내 아이템 추출 아이템 추출 기능은 큐브( i ) 화면의 우측 하단에서 확인할 수 있습니다. 아이템 추출 기능은 큐브( i ) 화면의 우측 하단에서 확인할 수 있습니다. acquisition source ui inventory extraction",
+        "search_text_en": "item basics 아이템 extraction 아이템 extraction 기능은 큐브( i ) 화면의 우측 하단에서 can be checked. 아이템 extraction 기능은 큐브( i ) 화면의 우측 하단에서 can be checked. acquisition source ui inventory extraction",
         "chips": [
           "acquisition",
           "source",
@@ -642,9 +898,22 @@
         "source_section": "아이템 추출",
         "raw_text": "추출 대상 아이템 | 추출 대상으로 선택된 아이템 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "extraction 대상 아이템",
+        "value_en": "extraction 대상으로 선택된 아이템 list을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "list",
+          "inventory",
+          "extraction"
+        ],
+        "source_section_en": "아이템 extraction",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "chuchul_daesang_aitem",
         "search_text": "아이템 기본 안내 아이템 추출 추출 대상 아이템 추출 대상으로 선택된 아이템 목록을 확인할 수 있다. list inventory extraction",
+        "search_text_en": "item basics 아이템 extraction extraction 대상 아이템 extraction 대상으로 선택된 아이템 list을 can be checked. list inventory extraction",
         "chips": [
           "list",
           "inventory",
@@ -673,9 +942,23 @@
         "source_section": "아이템 추출",
         "raw_text": "추출 후 획득 가능한 아이템 | 추출 후 획득 가능한 아이템 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "extraction 후 획득 가능한 아이템",
+        "value_en": "extraction 후 획득 가능한 아이템 list을 can be checked.",
+        "conditions_en": [
+          "extraction 후 획득 가능한 아이템 list을 can be checked."
+        ],
+        "tags_en": [
+          "drop",
+          "list"
+        ],
+        "source_section_en": "아이템 extraction",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "chuchul_hu_hoekdeuk_ganeunghan_aitem",
         "search_text": "아이템 기본 안내 아이템 추출 추출 후 획득 가능한 아이템 추출 후 획득 가능한 아이템 목록을 확인할 수 있다. drop list 추출 후 획득 가능한 아이템 목록을 확인할 수 있다.",
+        "search_text_en": "item basics 아이템 extraction extraction 후 획득 가능한 아이템 extraction 후 획득 가능한 아이템 list을 can be checked. drop list extraction 후 획득 가능한 아이템 list을 can be checked.",
         "chips": [
           "drop",
           "list",
@@ -705,9 +988,25 @@
         "source_section": "아이템 추출",
         "raw_text": "추출에 필요한 재화 | 추출에 필요한 재화와 현재 보유 중인 재화를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "extraction에 필요한 재화",
+        "value_en": "extraction에 필요한 재화와 현재 보유 중인 재화를 can be checked.",
+        "conditions_en": [
+          "extraction에 필요한 재화와 현재 보유 중인 재화를 can be checked."
+        ],
+        "tags_en": [
+          "acquisition",
+          "source",
+          "inventory",
+          "extraction"
+        ],
+        "source_section_en": "아이템 extraction",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "chuchule_pilyohan_jaehwa",
         "search_text": "아이템 기본 안내 아이템 추출 추출에 필요한 재화 추출에 필요한 재화와 현재 보유 중인 재화를 확인할 수 있다. acquisition source inventory extraction 추출에 필요한 재화와 현재 보유 중인 재화를 확인할 수 있다.",
+        "search_text_en": "item basics 아이템 extraction extraction에 필요한 재화 extraction에 필요한 재화와 현재 보유 중인 재화를 can be checked. acquisition source inventory extraction extraction에 필요한 재화와 현재 보유 중인 재화를 can be checked.",
         "chips": [
           "acquisition",
           "source",
@@ -737,9 +1036,23 @@
         "source_section": "아이템 추출",
         "raw_text": "취소/추출 | 추출을 취소하거나 추출 진행여부를 확정할 수 있다."
       },
+      "i18n": {
+        "entity_en": "취소/extraction",
+        "value_en": "extraction을 취소하거나 extraction 진행여부를 확정할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "acquisition",
+          "source",
+          "inventory",
+          "extraction"
+        ],
+        "source_section_en": "아이템 extraction",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "chwiso_chuchul",
         "search_text": "아이템 기본 안내 아이템 추출 취소/추출 추출을 취소하거나 추출 진행여부를 확정할 수 있다. acquisition source inventory extraction",
+        "search_text_en": "item basics 아이템 extraction 취소/extraction extraction을 취소하거나 extraction 진행여부를 확정할 수 있다. acquisition source inventory extraction",
         "chips": [
           "acquisition",
           "source",
@@ -769,9 +1082,23 @@
         "source_section": "아이템 추출",
         "raw_text": "큐브 내 추출 선택 화면 | 큐브에서 추출을 진행할 아이템 목록을 확인할 수 있으며, 추출 대상을 선택할 수 있다."
       },
+      "i18n": {
+        "entity_en": "큐브 내 extraction 선택 화면",
+        "value_en": "큐브에서 extraction을 진행할 아이템 list을 확인할 수 있으며, extraction 대상을 선택할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "list",
+          "ui",
+          "inventory",
+          "extraction"
+        ],
+        "source_section_en": "아이템 extraction",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "kyubeu_nae_chuchul_seontaek_hwamyeon",
         "search_text": "아이템 기본 안내 아이템 추출 큐브 내 추출 선택 화면 큐브에서 추출을 진행할 아이템 목록을 확인할 수 있으며, 추출 대상을 선택할 수 있다. list ui inventory extraction",
+        "search_text_en": "item basics 아이템 extraction 큐브 내 extraction 선택 화면 큐브에서 extraction을 진행할 아이템 list을 확인할 수 있으며, extraction 대상을 선택할 수 있다. list ui inventory extraction",
         "chips": [
           "list",
           "ui",
@@ -801,9 +1128,23 @@
         "source_section": "아이템 추출",
         "raw_text": "추출 상세 설정 | 추출 간편 선택 기능을 상세 설정할 수 있다."
       },
+      "i18n": {
+        "entity_en": "extraction 상세 설정",
+        "value_en": "extraction 간편 선택 기능을 상세 can be configured.",
+        "conditions_en": [],
+        "tags_en": [
+          "acquisition",
+          "source",
+          "inventory",
+          "extraction"
+        ],
+        "source_section_en": "아이템 extraction",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "chuchul_sangse_seoljeong",
         "search_text": "아이템 기본 안내 아이템 추출 추출 상세 설정 추출 간편 선택 기능을 상세 설정할 수 있다. acquisition source inventory extraction",
+        "search_text_en": "item basics 아이템 extraction extraction 상세 설정 extraction 간편 선택 기능을 상세 can be configured. acquisition source inventory extraction",
         "chips": [
           "acquisition",
           "source",
@@ -833,9 +1174,23 @@
         "source_section": "아이템 추출",
         "raw_text": "간편 선택/선택 해제 | 간편 선택 설정한 대상 아이템을 한번에 선택하거나 해제할 수 있다."
       },
+      "i18n": {
+        "entity_en": "간편 선택/선택 해제",
+        "value_en": "간편 선택 설정한 대상 아이템을 한번에 선택하거나 해제할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "acquisition",
+          "source",
+          "inventory",
+          "extraction"
+        ],
+        "source_section_en": "아이템 extraction",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "ganpyeon_seontaek_seontaek_haeje",
         "search_text": "아이템 기본 안내 아이템 추출 간편 선택/선택 해제 간편 선택 설정한 대상 아이템을 한번에 선택하거나 해제할 수 있다. acquisition source inventory extraction",
+        "search_text_en": "item basics 아이템 extraction 간편 선택/선택 해제 간편 선택 설정한 대상 아이템을 한번에 선택하거나 해제할 수 있다. acquisition source inventory extraction",
         "chips": [
           "acquisition",
           "source",
@@ -866,9 +1221,24 @@
         "source_section": "아이템 추출",
         "raw_text": "추출 | 아이템 추출 상세 화면에서 추출 여부를 결정할 수 있다."
       },
+      "i18n": {
+        "entity_en": "extraction",
+        "value_en": "아이템 extraction 상세 화면에서 extraction 여부를 결정할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "acquisition",
+          "source",
+          "ui",
+          "inventory",
+          "extraction"
+        ],
+        "source_section_en": "아이템 extraction",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "chuchul",
         "search_text": "아이템 기본 안내 아이템 추출 추출 아이템 추출 상세 화면에서 추출 여부를 결정할 수 있다. acquisition source ui inventory extraction",
+        "search_text_en": "item basics 아이템 extraction extraction 아이템 extraction 상세 화면에서 extraction 여부를 결정할 수 있다. acquisition source ui inventory extraction",
         "chips": [
           "acquisition",
           "source",
@@ -897,9 +1267,21 @@
         "source_section": "아이템 추출",
         "raw_text": "- 추출 기능은 아이템을 파괴하여 다른 재료를 획득하는 기능입니다."
       },
+      "i18n": {
+        "entity_en": "아이템 extraction",
+        "value_en": "- extraction 기능은 아이템을 파괴하여 다른 재료를 획득하는 기능입니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "drop",
+          "material"
+        ],
+        "source_section_en": "아이템 extraction",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "aitem_chuchul",
         "search_text": "아이템 기본 안내 아이템 추출 아이템 추출 - 추출 기능은 아이템을 파괴하여 다른 재료를 획득하는 기능입니다. drop material",
+        "search_text_en": "item basics 아이템 extraction 아이템 extraction - extraction 기능은 아이템을 파괴하여 다른 재료를 획득하는 기능입니다. drop material",
         "chips": [
           "drop",
           "material",
@@ -928,9 +1310,24 @@
         "source_section": "아이템 추출",
         "raw_text": "- 아이템 추출 시, 강화석이나 아이템의 외형을 정해진 확률로 획득할 수 있습니다."
       },
+      "i18n": {
+        "entity_en": "아이템 extraction",
+        "value_en": "- 아이템 extraction 시, enhancement석이나 아이템의 외형을 정해진 확률로 can be obtained.",
+        "conditions_en": [
+          "- 아이템 extraction 시, enhancement석이나 아이템의 외형을 정해진 확률로 can be obtained."
+        ],
+        "tags_en": [
+          "drop",
+          "upgrade",
+          "chance"
+        ],
+        "source_section_en": "아이템 extraction",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "aitem_chuchul",
         "search_text": "아이템 기본 안내 아이템 추출 아이템 추출 - 아이템 추출 시, 강화석이나 아이템의 외형을 정해진 확률로 획득할 수 있습니다. drop upgrade chance - 아이템 추출 시, 강화석이나 아이템의 외형을 정해진 확률로 획득할 수 있습니다.",
+        "search_text_en": "item basics 아이템 extraction 아이템 extraction - 아이템 extraction 시, enhancement석이나 아이템의 외형을 정해진 확률로 can be obtained. drop upgrade chance - 아이템 extraction 시, enhancement석이나 아이템의 외형을 정해진 확률로 can be obtained.",
         "chips": [
           "drop",
           "upgrade",
@@ -959,9 +1356,23 @@
         "source_section": "아이템 추출",
         "raw_text": "- 강화된 아이템을 추출 시, 추출할 아이템의 각 강화 단계별로 필요한 강화석 개수를 합한 값을 획득할 수 있습니다."
       },
+      "i18n": {
+        "entity_en": "아이템 extraction",
+        "value_en": "- enhancement된 아이템을 extraction 시, extraction할 아이템의 각 enhancement 단계별로 필요한 enhancement석 개수를 합한 값을 can be obtained.",
+        "conditions_en": [
+          "- enhancement된 아이템을 extraction 시, extraction할 아이템의 각 enhancement 단계별로 필요한 enhancement석 개수를 합한 값을 can be obtained."
+        ],
+        "tags_en": [
+          "drop",
+          "upgrade"
+        ],
+        "source_section_en": "아이템 extraction",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "aitem_chuchul",
         "search_text": "아이템 기본 안내 아이템 추출 아이템 추출 - 강화된 아이템을 추출 시, 추출할 아이템의 각 강화 단계별로 필요한 강화석 개수를 합한 값을 획득할 수 있습니다. drop upgrade - 강화된 아이템을 추출 시, 추출할 아이템의 각 강화 단계별로 필요한 강화석 개수를 합한 값을 획득할 수 있습니다.",
+        "search_text_en": "item basics 아이템 extraction 아이템 extraction - enhancement된 아이템을 extraction 시, extraction할 아이템의 각 enhancement 단계별로 필요한 enhancement석 개수를 합한 값을 can be obtained. drop upgrade - enhancement된 아이템을 extraction 시, extraction할 아이템의 각 enhancement 단계별로 필요한 enhancement석 개수를 합한 값을 can be obtained.",
         "chips": [
           "drop",
           "upgrade",
@@ -988,9 +1399,22 @@
         "source_section": "아이템 추출",
         "raw_text": "추출 후 획득 가능한 아이템"
       },
+      "i18n": {
+        "entity_en": "아이템 extraction",
+        "value_en": "extraction 후 획득 가능한 아이템",
+        "conditions_en": [
+          "extraction 후 획득 가능한 아이템"
+        ],
+        "tags_en": [
+          "drop"
+        ],
+        "source_section_en": "아이템 extraction",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "aitem_chuchul",
         "search_text": "아이템 기본 안내 아이템 추출 아이템 추출 추출 후 획득 가능한 아이템 drop 추출 후 획득 가능한 아이템",
+        "search_text_en": "item basics 아이템 extraction 아이템 extraction extraction 후 획득 가능한 아이템 drop extraction 후 획득 가능한 아이템",
         "chips": [
           "drop",
           "gear_source",
@@ -1017,9 +1441,23 @@
         "source_section": "아이템 추출",
         "raw_text": "추출 후 획득 가능한 아이템 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "아이템 extraction",
+        "value_en": "extraction 후 획득 가능한 아이템 list을 can be checked.",
+        "conditions_en": [
+          "extraction 후 획득 가능한 아이템 list을 can be checked."
+        ],
+        "tags_en": [
+          "drop",
+          "list"
+        ],
+        "source_section_en": "아이템 extraction",
+        "status": "partial"
+      },
       "ui": {
         "entity_key": "aitem_chuchul",
         "search_text": "아이템 기본 안내 아이템 추출 아이템 추출 추출 후 획득 가능한 아이템 목록을 확인할 수 있다. drop list 추출 후 획득 가능한 아이템 목록을 확인할 수 있다.",
+        "search_text_en": "item basics 아이템 extraction 아이템 extraction extraction 후 획득 가능한 아이템 list을 can be checked. drop list extraction 후 획득 가능한 아이템 list을 can be checked.",
         "chips": [
           "drop",
           "list",
@@ -1046,9 +1484,22 @@
         "source_section": "창고",
         "raw_text": "캐릭터 창고 | 캐릭터 창고 목록을 확인할 수 있다. 캐릭터 창고에 보관된 물품은 해당 캐릭터만 이용할 수 있다."
       },
+      "i18n": {
+        "entity_en": "캐릭터 창고",
+        "value_en": "캐릭터 창고 list을 can be checked. 캐릭터 창고에 보관된 물품은 해당 캐릭터만 이용할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "list",
+          "ui",
+          "storage"
+        ],
+        "source_section_en": "창고",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "kaerikteo_changgo",
         "search_text": "아이템 기본 안내 창고 캐릭터 창고 캐릭터 창고 목록을 확인할 수 있다. 캐릭터 창고에 보관된 물품은 해당 캐릭터만 이용할 수 있다. list ui storage",
+        "search_text_en": "item basics 창고 캐릭터 창고 캐릭터 창고 list을 can be checked. 캐릭터 창고에 보관된 물품은 해당 캐릭터만 이용할 수 있다. list ui storage",
         "chips": [
           "list",
           "ui",
@@ -1076,9 +1527,22 @@
         "source_section": "창고",
         "raw_text": "서버 창고 | 서버 창고 목록을 확인할 수 있다. 서버 창고에 보관된 물품은 해당 서버 내 모든 캐릭터가 이용할 수 있다."
       },
+      "i18n": {
+        "entity_en": "서버 창고",
+        "value_en": "서버 창고 list을 can be checked. 서버 창고에 보관된 물품은 해당 서버 내 모든 캐릭터가 이용할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "list",
+          "ui",
+          "storage"
+        ],
+        "source_section_en": "창고",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "seobeo_changgo",
         "search_text": "아이템 기본 안내 창고 서버 창고 서버 창고 목록을 확인할 수 있다. 서버 창고에 보관된 물품은 해당 서버 내 모든 캐릭터가 이용할 수 있다. list ui storage",
+        "search_text_en": "item basics 창고 서버 창고 서버 창고 list을 can be checked. 서버 창고에 보관된 물품은 해당 서버 내 모든 캐릭터가 이용할 수 있다. list ui storage",
         "chips": [
           "list",
           "ui",
@@ -1107,9 +1571,23 @@
         "source_section": "창고",
         "raw_text": "창고 내 아이템 목록 | 창고에 보관된 아이템 목록을 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "창고 내 아이템 list",
+        "value_en": "창고에 보관된 아이템 list을 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "list",
+          "ui",
+          "inventory",
+          "storage"
+        ],
+        "source_section_en": "창고",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "changgo_nae_aitem_mokrok",
         "search_text": "아이템 기본 안내 창고 창고 내 아이템 목록 창고에 보관된 아이템 목록을 확인할 수 있다. list ui inventory storage",
+        "search_text_en": "item basics 창고 창고 내 아이템 list 창고에 보관된 아이템 list을 can be checked. list ui inventory storage",
         "chips": [
           "list",
           "ui",
@@ -1136,9 +1614,20 @@
         "source_section": "창고",
         "raw_text": "아이템 이동/자동 정렬 | 아이템을 이동하거나, 자동 정렬할 수 있다."
       },
+      "i18n": {
+        "entity_en": "아이템 이동/자동 sorting",
+        "value_en": "아이템을 이동하거나, 자동 sorting할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "movement"
+        ],
+        "source_section_en": "창고",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "aitem_idong_jadong_jeongryeol",
         "search_text": "아이템 기본 안내 창고 아이템 이동/자동 정렬 아이템을 이동하거나, 자동 정렬할 수 있다. movement",
+        "search_text_en": "item basics 창고 아이템 이동/자동 sorting 아이템을 이동하거나, 자동 sorting할 수 있다. movement",
         "chips": [
           "movement",
           "gear_source",
@@ -1166,9 +1655,24 @@
         "source_section": "창고",
         "raw_text": "캐릭터 창고/서버 창고 요약 | 캐릭터/서버 창고에 보관된 아이템 개수/최대 개수를 확인할 수 있다."
       },
+      "i18n": {
+        "entity_en": "캐릭터 창고/서버 창고 요약",
+        "value_en": "캐릭터/서버 창고에 보관된 아이템 개수/최대 개수를 can be checked.",
+        "conditions_en": [],
+        "tags_en": [
+          "acquisition",
+          "source",
+          "ui",
+          "inventory",
+          "storage"
+        ],
+        "source_section_en": "창고",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "kaerikteo_changgo_seobeo_changgo_yoyak",
         "search_text": "아이템 기본 안내 창고 캐릭터 창고/서버 창고 요약 캐릭터/서버 창고에 보관된 아이템 개수/최대 개수를 확인할 수 있다. acquisition source ui inventory storage",
+        "search_text_en": "item basics 창고 캐릭터 창고/서버 창고 요약 캐릭터/서버 창고에 보관된 아이템 개수/최대 개수를 can be checked. acquisition source ui inventory storage",
         "chips": [
           "acquisition",
           "source",
@@ -1199,9 +1703,23 @@
         "source_section": "창고",
         "raw_text": "간편 보관 | 각 창고에 간편 보관 기능을 설정하거나, 간편 보관 기능을 사용할 수 있다."
       },
+      "i18n": {
+        "entity_en": "간편 보관",
+        "value_en": "각 창고에 간편 보관 기능을 설정하거나, 간편 보관 기능을 사용할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "acquisition",
+          "source",
+          "ui",
+          "storage"
+        ],
+        "source_section_en": "창고",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "ganpyeon_bogwan",
         "search_text": "아이템 기본 안내 창고 간편 보관 각 창고에 간편 보관 기능을 설정하거나, 간편 보관 기능을 사용할 수 있다. acquisition source ui storage",
+        "search_text_en": "item basics 창고 간편 보관 각 창고에 간편 보관 기능을 설정하거나, 간편 보관 기능을 사용할 수 있다. acquisition source ui storage",
         "chips": [
           "acquisition",
           "source",
@@ -1232,9 +1750,24 @@
         "source_section": "창고",
         "raw_text": "보관 | 선택한 아이템을 보관 및 회수할 수 있다."
       },
+      "i18n": {
+        "entity_en": "보관",
+        "value_en": "선택한 아이템을 보관 및 회수할 수 있다.",
+        "conditions_en": [],
+        "tags_en": [
+          "acquisition",
+          "source",
+          "ui",
+          "inventory",
+          "storage"
+        ],
+        "source_section_en": "창고",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "bogwan",
         "search_text": "아이템 기본 안내 창고 보관 선택한 아이템을 보관 및 회수할 수 있다. acquisition source ui inventory storage",
+        "search_text_en": "item basics 창고 보관 선택한 아이템을 보관 및 회수할 수 있다. acquisition source ui inventory storage",
         "chips": [
           "acquisition",
           "source",
@@ -1266,9 +1799,24 @@
         "source_section": "창고",
         "raw_text": "서버 및 캐릭터 창고에 보관 중인 아이템은 제작, 물질 변환, 보급 의뢰, 통합 강화 시 큐브로 옮기지 않고 바로 사용할 수 있습니다."
       },
+      "i18n": {
+        "entity_en": "창고",
+        "value_en": "서버 및 캐릭터 창고에 보관 중인 아이템은 crafting, material transmutation, supply request, integrated enhancement 시 큐브로 옮기지 않고 바로 사용할 수 있습니다.",
+        "conditions_en": [],
+        "tags_en": [
+          "craft",
+          "upgrade",
+          "integrated_enhancement",
+          "transmutation",
+          "commission"
+        ],
+        "source_section_en": "창고",
+        "status": "untranslated"
+      },
       "ui": {
         "entity_key": "changgo",
         "search_text": "아이템 기본 안내 창고 창고 서버 및 캐릭터 창고에 보관 중인 아이템은 제작, 물질 변환, 보급 의뢰, 통합 강화 시 큐브로 옮기지 않고 바로 사용할 수 있습니다. craft upgrade integrated_enhancement transmutation commission",
+        "search_text_en": "item basics 창고 창고 서버 및 캐릭터 창고에 보관 중인 아이템은 crafting, material transmutation, supply request, integrated enhancement 시 큐브로 옮기지 않고 바로 사용할 수 있습니다. craft upgrade integrated_enhancement transmutation commission",
         "chips": [
           "craft",
           "upgrade",
