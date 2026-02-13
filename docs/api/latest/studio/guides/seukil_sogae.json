@@ -1,0 +1,2233 @@
+{
+  "metadata": {
+    "guide_id": "seukil_sogae",
+    "guide_title": "스킬 소개",
+    "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EC%8A%A4%ED%82%AC%20%EC%86%8C%EA%B0%9C",
+    "top_category": "스킬",
+    "sub_category": "스킬의 종류",
+    "priority": "P1",
+    "action": "parse_skills_overview",
+    "topic": "skills",
+    "crawled_at": "2026-02-13T18:15:17+00:00",
+    "referential_version": "0.1.0",
+    "schema_version": "studio_v1",
+    "generated_at": "2026-02-13T20:59:53+00:00",
+    "source_facts_file": "exports/facts/skills__skills_overview__seukil_sogae.json"
+  },
+  "summary": {
+    "facts_total": 75,
+    "by_fact_type": {
+      "recommendation": 58,
+      "constraint": 17
+    },
+    "by_topic": {
+      "skills": 75
+    },
+    "by_confidence": {
+      "medium": 75
+    },
+    "by_tag": {
+      "skill_system": 68,
+      "list": 7,
+      "info": 16,
+      "resource": 1,
+      "mastery": 9,
+      "stigma": 21,
+      "class": 4,
+      "status_effect": 2,
+      "leveling": 5,
+      "lock": 5,
+      "preset": 4,
+      "skills": 7,
+      "recommendation": 6,
+      "ui": 4,
+      "macro": 8,
+      "constraint": 1,
+      "mode": 1
+    }
+  },
+  "facts": [
+    {
+      "fact_id": "recommendation:skills:entity_40ace660",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 소개",
+      "value": "단축키 ( K ) 혹은 우측 상단 스킬 아이콘 을 클릭하여 스킬 목록을 확인할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 소개",
+        "raw_text": "단축키 ( K ) 혹은 우측 상단 스킬 아이콘 을 클릭하여 스킬 목록을 확인할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "seukil_sogae",
+        "search_text": "스킬 소개 스킬 소개 스킬 소개 단축키 ( k ) 혹은 우측 상단 스킬 아이콘 을 클릭하여 스킬 목록을 확인할 수 있습니다. skill_system list info",
+        "chips": [
+          "skill_system",
+          "list",
+          "info",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_2ea4d254",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 소개",
+      "value": "스킬은 정신력을 소모하여, 캐릭터(PC, NPC, 몬스터)가 특수한 효과를 발생시키기 위해 하는 액션 능력입니다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "resource",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 소개",
+        "raw_text": "스킬은 정신력을 소모하여, 캐릭터(PC, NPC, 몬스터)가 특수한 효과를 발생시키기 위해 하는 액션 능력입니다."
+      },
+      "ui": {
+        "entity_key": "seukil_sogae",
+        "search_text": "스킬 소개 스킬 소개 스킬 소개 스킬은 정신력을 소모하여, 캐릭터(pc, npc, 몬스터)가 특수한 효과를 발생시키기 위해 하는 액션 능력입니다. skill_system resource info",
+        "chips": [
+          "skill_system",
+          "resource",
+          "info",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_ec8ec83f",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "마스터리",
+      "value": "기본 스킬 상세 정보를 확인할 수 있는 페이지",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "mastery",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "마스터리 | 기본 스킬 상세 정보를 확인할 수 있는 페이지"
+      },
+      "ui": {
+        "entity_key": "maseuteori",
+        "search_text": "스킬 소개 마스터리 스킬 마스터리 기본 스킬 상세 정보를 확인할 수 있는 페이지 skill_system mastery info",
+        "chips": [
+          "skill_system",
+          "mastery",
+          "info",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_5b38490e",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스티그마",
+      "value": "스티그마 스킬 정보를 확인할 수 있는 페이지",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "stigma",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "스티그마 | 스티그마 스킬 정보를 확인할 수 있는 페이지"
+      },
+      "ui": {
+        "entity_key": "seutigeuma",
+        "search_text": "스킬 소개 마스터리 스킬 스티그마 스티그마 스킬 정보를 확인할 수 있는 페이지 skill_system stigma info",
+        "chips": [
+          "skill_system",
+          "stigma",
+          "info",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_c83f4d5b",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "선택된 스킬 상세 정보",
+      "value": "선택한 스킬의 상세 정보를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "선택된 스킬 상세 정보 | 선택한 스킬의 상세 정보를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "seontaekdoen_seukil_sangse_jeongbo",
+        "search_text": "스킬 소개 마스터리 스킬 선택된 스킬 상세 정보 선택한 스킬의 상세 정보를 확인할 수 있다. skill_system info",
+        "chips": [
+          "skill_system",
+          "info",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_bb56e9b9",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 모션 미리보기",
+      "value": "스킬 모션을 미리 확인해볼 수 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "스킬 모션 미리보기 | 스킬 모션을 미리 확인해볼 수 있다."
+      },
+      "ui": {
+        "entity_key": "seukil_mosyeon_miribogi",
+        "search_text": "스킬 소개 마스터리 스킬 스킬 모션 미리보기 스킬 모션을 미리 확인해볼 수 있다. skill_system",
+        "chips": [
+          "skill_system",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_f042dfcd",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 목록",
+      "value": "플레이어 클래스의 전체 스킬 목록을 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "list",
+        "class"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "스킬 목록 | 플레이어 클래스의 전체 스킬 목록을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "seukil_mokrok",
+        "search_text": "스킬 소개 마스터리 스킬 스킬 목록 플레이어 클래스의 전체 스킬 목록을 확인할 수 있다. skill_system list class",
+        "chips": [
+          "skill_system",
+          "list",
+          "class",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_43b6f72a",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 특화",
+      "value": "선택한 스킬의 스킬 특화 옵션을 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "스킬 특화 | 선택한 스킬의 스킬 특화 옵션을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "seukil_teukhwa",
+        "search_text": "스킬 소개 마스터리 스킬 스킬 특화 선택한 스킬의 스킬 특화 옵션을 확인할 수 있다. skill_system",
+        "chips": [
+          "skill_system",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_82302e8b",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 퀵 슬롯",
+      "value": "각 퀵 슬롯에 등록되어 있는 스킬 및 연계 스킬을 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "스킬 퀵 슬롯 | 각 퀵 슬롯에 등록되어 있는 스킬 및 연계 스킬을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "seukil_kwik_seulrot",
+        "search_text": "스킬 소개 마스터리 스킬 스킬 퀵 슬롯 각 퀵 슬롯에 등록되어 있는 스킬 및 연계 스킬을 확인할 수 있다. skill_system",
+        "chips": [
+          "skill_system",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_88d53b8c",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "스킬 정렬 및 상세 정보",
+      "value": "스킬 정렬 기능과, 연계 스킬, 상태 이상 효과 안내, 필터링을 확인할 수 있다.",
+      "conditions": [
+        "스킬 정렬 기능과, 연계 스킬, 상태 이상 효과 안내, 필터링을 확인할 수 있다."
+      ],
+      "tags": [
+        "skill_system",
+        "info",
+        "status_effect"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "스킬 정렬 및 상세 정보 | 스킬 정렬 기능과, 연계 스킬, 상태 이상 효과 안내, 필터링을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "seukil_jeongryeol_mit_sangse_jeongbo",
+        "search_text": "스킬 소개 마스터리 스킬 스킬 정렬 및 상세 정보 스킬 정렬 기능과, 연계 스킬, 상태 이상 효과 안내, 필터링을 확인할 수 있다. skill_system info status_effect 스킬 정렬 기능과, 연계 스킬, 상태 이상 효과 안내, 필터링을 확인할 수 있다.",
+        "chips": [
+          "skill_system",
+          "info",
+          "status_effect",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_bac13444",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "보유 포인트 및 레벨업",
+      "value": "플레이어가 보유한 스킬 포인트 수량, 스킬 초기화 및 레벨업을 진행할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "leveling"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "보유 포인트 및 레벨업 | 플레이어가 보유한 스킬 포인트 수량, 스킬 초기화 및 레벨업을 진행할 수 있다."
+      },
+      "ui": {
+        "entity_key": "boyu_pointeu_mit_rebeleop",
+        "search_text": "스킬 소개 마스터리 스킬 보유 포인트 및 레벨업 플레이어가 보유한 스킬 포인트 수량, 스킬 초기화 및 레벨업을 진행할 수 있다. skill_system leveling",
+        "chips": [
+          "skill_system",
+          "leveling",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_32a33e17",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "마스터리 스킬",
+      "value": "마스터리 스킬은 레벨 조건을 충족하면 자동으로 습득됩니다.",
+      "conditions": [
+        "마스터리 스킬은 레벨 조건을 충족하면 자동으로 습득됩니다."
+      ],
+      "tags": [
+        "skill_system",
+        "mastery"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "마스터리 스킬은 레벨 조건을 충족하면 자동으로 습득됩니다."
+      },
+      "ui": {
+        "entity_key": "maseuteori_seukil",
+        "search_text": "스킬 소개 마스터리 스킬 마스터리 스킬 마스터리 스킬은 레벨 조건을 충족하면 자동으로 습득됩니다. skill_system mastery 마스터리 스킬은 레벨 조건을 충족하면 자동으로 습득됩니다.",
+        "chips": [
+          "skill_system",
+          "mastery",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_ce61c30e",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "마스터리 스킬",
+      "value": "기본 스킬 상세 정보를 확인할 수 있는 페이지",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "기본 스킬 상세 정보를 확인할 수 있는 페이지"
+      },
+      "ui": {
+        "entity_key": "maseuteori_seukil",
+        "search_text": "스킬 소개 마스터리 스킬 마스터리 스킬 기본 스킬 상세 정보를 확인할 수 있는 페이지 skill_system info",
+        "chips": [
+          "skill_system",
+          "info",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_9a6f7300",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "마스터리 스킬",
+      "value": "스티그마 스킬 정보를 확인할 수 있는 페이지",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "stigma",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "스티그마 스킬 정보를 확인할 수 있는 페이지"
+      },
+      "ui": {
+        "entity_key": "maseuteori_seukil",
+        "search_text": "스킬 소개 마스터리 스킬 마스터리 스킬 스티그마 스킬 정보를 확인할 수 있는 페이지 skill_system stigma info",
+        "chips": [
+          "skill_system",
+          "stigma",
+          "info",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_235f6200",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "마스터리 스킬",
+      "value": "선택된 스킬 상세 정보",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "선택된 스킬 상세 정보"
+      },
+      "ui": {
+        "entity_key": "maseuteori_seukil",
+        "search_text": "스킬 소개 마스터리 스킬 마스터리 스킬 선택된 스킬 상세 정보 skill_system info",
+        "chips": [
+          "skill_system",
+          "info",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_c3ae7e1e",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "마스터리 스킬",
+      "value": "선택한 스킬의 상세 정보를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "선택한 스킬의 상세 정보를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "maseuteori_seukil",
+        "search_text": "스킬 소개 마스터리 스킬 마스터리 스킬 선택한 스킬의 상세 정보를 확인할 수 있다. skill_system info",
+        "chips": [
+          "skill_system",
+          "info",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_6bb1088b",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "마스터리 스킬",
+      "value": "스킬 모션 미리보기",
+      "conditions": [],
+      "tags": [
+        "skill_system"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "스킬 모션 미리보기"
+      },
+      "ui": {
+        "entity_key": "maseuteori_seukil",
+        "search_text": "스킬 소개 마스터리 스킬 마스터리 스킬 스킬 모션 미리보기 skill_system",
+        "chips": [
+          "skill_system",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_6dd59208",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "마스터리 스킬",
+      "value": "스킬 모션을 미리 확인해볼 수 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "스킬 모션을 미리 확인해볼 수 있다."
+      },
+      "ui": {
+        "entity_key": "maseuteori_seukil",
+        "search_text": "스킬 소개 마스터리 스킬 마스터리 스킬 스킬 모션을 미리 확인해볼 수 있다. skill_system",
+        "chips": [
+          "skill_system",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_66e2e9ef",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "마스터리 스킬",
+      "value": "플레이어 클래스의 전체 스킬 목록을 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "list",
+        "class"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "플레이어 클래스의 전체 스킬 목록을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "maseuteori_seukil",
+        "search_text": "스킬 소개 마스터리 스킬 마스터리 스킬 플레이어 클래스의 전체 스킬 목록을 확인할 수 있다. skill_system list class",
+        "chips": [
+          "skill_system",
+          "list",
+          "class",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_3362e589",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "마스터리 스킬",
+      "value": "선택한 스킬의 스킬 특화 옵션을 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "선택한 스킬의 스킬 특화 옵션을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "maseuteori_seukil",
+        "search_text": "스킬 소개 마스터리 스킬 마스터리 스킬 선택한 스킬의 스킬 특화 옵션을 확인할 수 있다. skill_system",
+        "chips": [
+          "skill_system",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_e9214ec1",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "마스터리 스킬",
+      "value": "각 퀵 슬롯에 등록되어 있는 스킬 및 연계 스킬을 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "각 퀵 슬롯에 등록되어 있는 스킬 및 연계 스킬을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "maseuteori_seukil",
+        "search_text": "스킬 소개 마스터리 스킬 마스터리 스킬 각 퀵 슬롯에 등록되어 있는 스킬 및 연계 스킬을 확인할 수 있다. skill_system",
+        "chips": [
+          "skill_system",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_bffefbeb",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "마스터리 스킬",
+      "value": "스킬 정렬 및 상세 정보",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "스킬 정렬 및 상세 정보"
+      },
+      "ui": {
+        "entity_key": "maseuteori_seukil",
+        "search_text": "스킬 소개 마스터리 스킬 마스터리 스킬 스킬 정렬 및 상세 정보 skill_system info",
+        "chips": [
+          "skill_system",
+          "info",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_6b23ecc8",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "마스터리 스킬",
+      "value": "스킬 정렬 기능과, 연계 스킬, 상태 이상 효과 안내, 필터링을 확인할 수 있다.",
+      "conditions": [
+        "스킬 정렬 기능과, 연계 스킬, 상태 이상 효과 안내, 필터링을 확인할 수 있다."
+      ],
+      "tags": [
+        "skill_system",
+        "info",
+        "status_effect"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "스킬 정렬 기능과, 연계 스킬, 상태 이상 효과 안내, 필터링을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "maseuteori_seukil",
+        "search_text": "스킬 소개 마스터리 스킬 마스터리 스킬 스킬 정렬 기능과, 연계 스킬, 상태 이상 효과 안내, 필터링을 확인할 수 있다. skill_system info status_effect 스킬 정렬 기능과, 연계 스킬, 상태 이상 효과 안내, 필터링을 확인할 수 있다.",
+        "chips": [
+          "skill_system",
+          "info",
+          "status_effect",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_b70081d8",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "마스터리 스킬",
+      "value": "보유 포인트 및 레벨업",
+      "conditions": [],
+      "tags": [
+        "leveling"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "보유 포인트 및 레벨업"
+      },
+      "ui": {
+        "entity_key": "maseuteori_seukil",
+        "search_text": "스킬 소개 마스터리 스킬 마스터리 스킬 보유 포인트 및 레벨업 leveling",
+        "chips": [
+          "leveling",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_b9494301",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "마스터리 스킬",
+      "value": "플레이어가 보유한 스킬 포인트 수량, 스킬 초기화 및 레벨업을 진행할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "leveling"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "플레이어가 보유한 스킬 포인트 수량, 스킬 초기화 및 레벨업을 진행할 수 있다."
+      },
+      "ui": {
+        "entity_key": "maseuteori_seukil",
+        "search_text": "스킬 소개 마스터리 스킬 마스터리 스킬 플레이어가 보유한 스킬 포인트 수량, 스킬 초기화 및 레벨업을 진행할 수 있다. skill_system leveling",
+        "chips": [
+          "skill_system",
+          "leveling",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_123dcf2d",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스티그마 스킬 정보",
+      "value": "스티그마 스킬의 레벨, 능력치 정보를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "stigma",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "스티그마 스킬 정보 | 스티그마 스킬의 레벨, 능력치 정보를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "seutigeuma_seukil_jeongbo",
+        "search_text": "스킬 소개 스티그마 스킬 스티그마 스킬 정보 스티그마 스킬의 레벨, 능력치 정보를 확인할 수 있다. skill_system stigma info",
+        "chips": [
+          "skill_system",
+          "stigma",
+          "info",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_0c4a6a1f",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스티그마 스킬 목록",
+      "value": "플레이어 클래스에 해당하는 스티그마 스킬 목록을 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "stigma",
+        "list",
+        "class"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "스티그마 스킬 목록 | 플레이어 클래스에 해당하는 스티그마 스킬 목록을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "seutigeuma_seukil_mokrok",
+        "search_text": "스킬 소개 스티그마 스킬 스티그마 스킬 목록 플레이어 클래스에 해당하는 스티그마 스킬 목록을 확인할 수 있다. skill_system stigma list class",
+        "chips": [
+          "skill_system",
+          "stigma",
+          "list",
+          "class",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_aba5e256",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "미습득 스킬",
+      "value": "습득하지 않은 스킬은 잠금 표기로 되어 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "lock"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "미습득 스킬 | 습득하지 않은 스킬은 잠금 표기로 되어 있다."
+      },
+      "ui": {
+        "entity_key": "miseupdeuk_seukil",
+        "search_text": "스킬 소개 스티그마 스킬 미습득 스킬 습득하지 않은 스킬은 잠금 표기로 되어 있다. skill_system lock",
+        "chips": [
+          "skill_system",
+          "lock",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_e12e6921",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "스티그마 퀵 슬롯 영역",
+      "value": "스티그마 퀵 슬롯은 4개로 제한되어 있다.",
+      "conditions": [
+        "스티그마 퀵 슬롯은 4개로 제한되어 있다."
+      ],
+      "tags": [
+        "stigma"
+      ],
+      "confidence": "medium",
+      "numeric_values": [
+        {
+          "value": 4,
+          "unit": "flat",
+          "kind": "slot_count"
+        }
+      ],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "스티그마 퀵 슬롯 영역 | 스티그마 퀵 슬롯은 4개로 제한되어 있다."
+      },
+      "ui": {
+        "entity_key": "seutigeuma_kwik_seulrot_yeongyeok",
+        "search_text": "스킬 소개 스티그마 스킬 스티그마 퀵 슬롯 영역 스티그마 퀵 슬롯은 4개로 제한되어 있다. stigma 스티그마 퀵 슬롯은 4개로 제한되어 있다.",
+        "chips": [
+          "stigma",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_c42d86f8",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "스티그마 레벨업",
+      "value": "스티그마 레벨업 조건 및 레벨업 진행이 가능하다.",
+      "conditions": [
+        "스티그마 레벨업 조건 및 레벨업 진행이 가능하다."
+      ],
+      "tags": [
+        "stigma",
+        "leveling"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "스티그마 레벨업 | 스티그마 레벨업 조건 및 레벨업 진행이 가능하다."
+      },
+      "ui": {
+        "entity_key": "seutigeuma_rebeleop",
+        "search_text": "스킬 소개 스티그마 스킬 스티그마 레벨업 스티그마 레벨업 조건 및 레벨업 진행이 가능하다. stigma leveling 스티그마 레벨업 조건 및 레벨업 진행이 가능하다.",
+        "chips": [
+          "stigma",
+          "leveling",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_e166ab8f",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스티그마 스킬",
+      "value": "스티그마 스킬 정보",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "stigma",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "스티그마 스킬 정보"
+      },
+      "ui": {
+        "entity_key": "seutigeuma_seukil",
+        "search_text": "스킬 소개 스티그마 스킬 스티그마 스킬 스티그마 스킬 정보 skill_system stigma info",
+        "chips": [
+          "skill_system",
+          "stigma",
+          "info",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_2de15ab9",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스티그마 스킬",
+      "value": "스티그마 스킬의 레벨, 능력치 정보를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "stigma",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "스티그마 스킬의 레벨, 능력치 정보를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "seutigeuma_seukil",
+        "search_text": "스킬 소개 스티그마 스킬 스티그마 스킬 스티그마 스킬의 레벨, 능력치 정보를 확인할 수 있다. skill_system stigma info",
+        "chips": [
+          "skill_system",
+          "stigma",
+          "info",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_b4556cc5",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스티그마 스킬",
+      "value": "스티그마 스킬 목록",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "stigma",
+        "list"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "스티그마 스킬 목록"
+      },
+      "ui": {
+        "entity_key": "seutigeuma_seukil",
+        "search_text": "스킬 소개 스티그마 스킬 스티그마 스킬 스티그마 스킬 목록 skill_system stigma list",
+        "chips": [
+          "skill_system",
+          "stigma",
+          "list",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_a306c8f3",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스티그마 스킬",
+      "value": "플레이어 클래스에 해당하는 스티그마 스킬 목록을 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "stigma",
+        "list",
+        "class"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "플레이어 클래스에 해당하는 스티그마 스킬 목록을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "seutigeuma_seukil",
+        "search_text": "스킬 소개 스티그마 스킬 스티그마 스킬 플레이어 클래스에 해당하는 스티그마 스킬 목록을 확인할 수 있다. skill_system stigma list class",
+        "chips": [
+          "skill_system",
+          "stigma",
+          "list",
+          "class",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_29c30e15",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스티그마 스킬",
+      "value": "습득하지 않은 스킬은 잠금 표기로 되어 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "lock"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "습득하지 않은 스킬은 잠금 표기로 되어 있다."
+      },
+      "ui": {
+        "entity_key": "seutigeuma_seukil",
+        "search_text": "스킬 소개 스티그마 스킬 스티그마 스킬 습득하지 않은 스킬은 잠금 표기로 되어 있다. skill_system lock",
+        "chips": [
+          "skill_system",
+          "lock",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_1b8929ea",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스티그마 스킬",
+      "value": "스티그마 퀵 슬롯 영역",
+      "conditions": [],
+      "tags": [
+        "stigma"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "스티그마 퀵 슬롯 영역"
+      },
+      "ui": {
+        "entity_key": "seutigeuma_seukil",
+        "search_text": "스킬 소개 스티그마 스킬 스티그마 스킬 스티그마 퀵 슬롯 영역 stigma",
+        "chips": [
+          "stigma",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_21147dec",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "스티그마 스킬",
+      "value": "스티그마 퀵 슬롯은 4개로 제한되어 있다.",
+      "conditions": [
+        "스티그마 퀵 슬롯은 4개로 제한되어 있다."
+      ],
+      "tags": [
+        "stigma"
+      ],
+      "confidence": "medium",
+      "numeric_values": [
+        {
+          "value": 4,
+          "unit": "flat",
+          "kind": "slot_count"
+        }
+      ],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "스티그마 퀵 슬롯은 4개로 제한되어 있다."
+      },
+      "ui": {
+        "entity_key": "seutigeuma_seukil",
+        "search_text": "스킬 소개 스티그마 스킬 스티그마 스킬 스티그마 퀵 슬롯은 4개로 제한되어 있다. stigma 스티그마 퀵 슬롯은 4개로 제한되어 있다.",
+        "chips": [
+          "stigma",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_b5820ab5",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "스티그마 스킬",
+      "value": "스티그마 레벨업 조건 및 레벨업 진행이 가능하다.",
+      "conditions": [
+        "스티그마 레벨업 조건 및 레벨업 진행이 가능하다."
+      ],
+      "tags": [
+        "stigma",
+        "leveling"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "스티그마 레벨업 조건 및 레벨업 진행이 가능하다."
+      },
+      "ui": {
+        "entity_key": "seutigeuma_seukil",
+        "search_text": "스킬 소개 스티그마 스킬 스티그마 스킬 스티그마 레벨업 조건 및 레벨업 진행이 가능하다. stigma leveling 스티그마 레벨업 조건 및 레벨업 진행이 가능하다.",
+        "chips": [
+          "stigma",
+          "leveling",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_fc153203",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 특화",
+      "value": "마스터리 스킬 특화화면",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "mastery"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 특화",
+        "raw_text": "마스터리 스킬 특화화면"
+      },
+      "ui": {
+        "entity_key": "seukil_teukhwa",
+        "search_text": "스킬 소개 스킬 특화 스킬 특화 마스터리 스킬 특화화면 skill_system mastery",
+        "chips": [
+          "skill_system",
+          "mastery",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_340c0179",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "부여된 마스터리 스킬 특화 슬롯",
+      "value": "슬롯에 부여된 스킬 특화를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "mastery"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 특화",
+        "raw_text": "부여된 마스터리 스킬 특화 슬롯 | 슬롯에 부여된 스킬 특화를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "buyeodoen_maseuteori_seukil_teukhwa_seulrot",
+        "search_text": "스킬 소개 스킬 특화 부여된 마스터리 스킬 특화 슬롯 슬롯에 부여된 스킬 특화를 확인할 수 있다. skill_system mastery",
+        "chips": [
+          "skill_system",
+          "mastery",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_a2ed9ab1",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "마스터리 특화 스킬 해제",
+      "value": "슬롯에 부여된 스킬 특화를 해제할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "mastery"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 특화",
+        "raw_text": "마스터리 특화 스킬 해제 | 슬롯에 부여된 스킬 특화를 해제할 수 있다."
+      },
+      "ui": {
+        "entity_key": "maseuteori_teukhwa_seukil_haeje",
+        "search_text": "스킬 소개 스킬 특화 마스터리 특화 스킬 해제 슬롯에 부여된 스킬 특화를 해제할 수 있다. skill_system mastery",
+        "chips": [
+          "skill_system",
+          "mastery",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_062612eb",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "마스터리 스킬 특화 효과 정보",
+      "value": "스킬에 부여 가능한 스킬 특화 목록을 확인할 수 있다.",
+      "conditions": [
+        "스킬에 부여 가능한 스킬 특화 목록을 확인할 수 있다."
+      ],
+      "tags": [
+        "skill_system",
+        "mastery",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 특화",
+        "raw_text": "마스터리 스킬 특화 효과 정보 | 스킬에 부여 가능한 스킬 특화 목록을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "maseuteori_seukil_teukhwa_hyogwa_jeongbo",
+        "search_text": "스킬 소개 스킬 특화 마스터리 스킬 특화 효과 정보 스킬에 부여 가능한 스킬 특화 목록을 확인할 수 있다. skill_system mastery list info 스킬에 부여 가능한 스킬 특화 목록을 확인할 수 있다.",
+        "chips": [
+          "skill_system",
+          "mastery",
+          "list",
+          "info",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_bb82ec35",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "부여된 마스터리 스킬 특화 효과",
+      "value": "현재 부여된 스킬 특화 효과는 밝은 색으로 하이라이트된다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "mastery"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 특화",
+        "raw_text": "부여된 마스터리 스킬 특화 효과 | 현재 부여된 스킬 특화 효과는 밝은 색으로 하이라이트된다."
+      },
+      "ui": {
+        "entity_key": "buyeodoen_maseuteori_seukil_teukhwa_hyogwa",
+        "search_text": "스킬 소개 스킬 특화 부여된 마스터리 스킬 특화 효과 현재 부여된 스킬 특화 효과는 밝은 색으로 하이라이트된다. skill_system mastery",
+        "chips": [
+          "skill_system",
+          "mastery",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_9ae48123",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "미해금 마스터리 스킬 특화",
+      "value": "미해금 상태의 스킬 특화는 잠금 상태에 있으며, 스킬 레벨 조건 달성 시 해금된다.",
+      "conditions": [
+        "미해금 상태의 스킬 특화는 잠금 상태에 있으며, 스킬 레벨 조건 달성 시 해금된다."
+      ],
+      "tags": [
+        "skill_system",
+        "mastery",
+        "lock"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 특화",
+        "raw_text": "미해금 마스터리 스킬 특화 | 미해금 상태의 스킬 특화는 잠금 상태에 있으며, 스킬 레벨 조건 달성 시 해금된다."
+      },
+      "ui": {
+        "entity_key": "mihaegeum_maseuteori_seukil_teukhwa",
+        "search_text": "스킬 소개 스킬 특화 미해금 마스터리 스킬 특화 미해금 상태의 스킬 특화는 잠금 상태에 있으며, 스킬 레벨 조건 달성 시 해금된다. skill_system mastery lock 미해금 상태의 스킬 특화는 잠금 상태에 있으며, 스킬 레벨 조건 달성 시 해금된다.",
+        "chips": [
+          "skill_system",
+          "mastery",
+          "lock",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_8aee7021",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 특화",
+      "value": "스티그마 스킬 특화 화면",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "stigma"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 특화",
+        "raw_text": "스티그마 스킬 특화 화면"
+      },
+      "ui": {
+        "entity_key": "seukil_teukhwa",
+        "search_text": "스킬 소개 스킬 특화 스킬 특화 스티그마 스킬 특화 화면 skill_system stigma",
+        "chips": [
+          "skill_system",
+          "stigma",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_b0cdb83a",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "적용된 스티그마 스킬 특화 효과",
+      "value": "슬롯에 부여된 스킬 특화를 확인할 수 있다. 스티그마 스킬 특화는 레벨 조건 달성 시 자동으로 부여된다. 부여된 스티그마 스킬 특화 효과는 밝은 색으로 하이라이트된다.",
+      "conditions": [
+        "슬롯에 부여된 스킬 특화를 확인할 수 있다. 스티그마 스킬 특화는 레벨 조건 달성 시 자동으로 부여된다. 부여된 스티그마 스킬 특화 효과는 밝은 색으로 하이라이트된다."
+      ],
+      "tags": [
+        "skill_system",
+        "stigma"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 특화",
+        "raw_text": "적용된 스티그마 스킬 특화 효과 | 슬롯에 부여된 스킬 특화를 확인할 수 있다. 스티그마 스킬 특화는 레벨 조건 달성 시 자동으로 부여된다. 부여된 스티그마 스킬 특화 효과는 밝은 색으로 하이라이트된다."
+      },
+      "ui": {
+        "entity_key": "jeokyongdoen_seutigeuma_seukil_teukhwa_hyogwa",
+        "search_text": "스킬 소개 스킬 특화 적용된 스티그마 스킬 특화 효과 슬롯에 부여된 스킬 특화를 확인할 수 있다. 스티그마 스킬 특화는 레벨 조건 달성 시 자동으로 부여된다. 부여된 스티그마 스킬 특화 효과는 밝은 색으로 하이라이트된다. skill_system stigma 슬롯에 부여된 스킬 특화를 확인할 수 있다. 스티그마 스킬 특화는 레벨 조건 달성 시 자동으로 부여된다. 부여된 스티그마 스킬 특화 효과는 밝은 색으로 하이라이트된다.",
+        "chips": [
+          "skill_system",
+          "stigma",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_da7eb803",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "미해금 스티그마 스킬 특화",
+      "value": "미해금 상태의 스킬 특화는 잠금 상태에 있으며, 스킬 레벨 조건 달성 시 해금된다.",
+      "conditions": [
+        "미해금 상태의 스킬 특화는 잠금 상태에 있으며, 스킬 레벨 조건 달성 시 해금된다."
+      ],
+      "tags": [
+        "skill_system",
+        "stigma",
+        "lock"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 특화",
+        "raw_text": "미해금 스티그마 스킬 특화 | 미해금 상태의 스킬 특화는 잠금 상태에 있으며, 스킬 레벨 조건 달성 시 해금된다."
+      },
+      "ui": {
+        "entity_key": "mihaegeum_seutigeuma_seukil_teukhwa",
+        "search_text": "스킬 소개 스킬 특화 미해금 스티그마 스킬 특화 미해금 상태의 스킬 특화는 잠금 상태에 있으며, 스킬 레벨 조건 달성 시 해금된다. skill_system stigma lock 미해금 상태의 스킬 특화는 잠금 상태에 있으며, 스킬 레벨 조건 달성 시 해금된다.",
+        "chips": [
+          "skill_system",
+          "stigma",
+          "lock",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_76204d04",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 특화",
+      "value": "- 스킬 레벨을 특정 수치까지 상승시키면, 스킬 특화를 부여할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "skill_system"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 특화",
+        "raw_text": "- 스킬 레벨을 특정 수치까지 상승시키면, 스킬 특화를 부여할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "seukil_teukhwa",
+        "search_text": "스킬 소개 스킬 특화 스킬 특화 - 스킬 레벨을 특정 수치까지 상승시키면, 스킬 특화를 부여할 수 있습니다. skill_system",
+        "chips": [
+          "skill_system",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_cdd91a61",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "스킬 특화",
+      "value": "- 스킬 마다 고유의 특화 능력이 있으며, 플레이어는 특화 능력이 필요한 스킬을 선택하여 전략적으로 사용할 수 있습니다.",
+      "conditions": [
+        "- 스킬 마다 고유의 특화 능력이 있으며, 플레이어는 특화 능력이 필요한 스킬을 선택하여 전략적으로 사용할 수 있습니다."
+      ],
+      "tags": [
+        "skill_system"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 특화",
+        "raw_text": "- 스킬 마다 고유의 특화 능력이 있으며, 플레이어는 특화 능력이 필요한 스킬을 선택하여 전략적으로 사용할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "seukil_teukhwa",
+        "search_text": "스킬 소개 스킬 특화 스킬 특화 - 스킬 마다 고유의 특화 능력이 있으며, 플레이어는 특화 능력이 필요한 스킬을 선택하여 전략적으로 사용할 수 있습니다. skill_system - 스킬 마다 고유의 특화 능력이 있으며, 플레이어는 특화 능력이 필요한 스킬을 선택하여 전략적으로 사용할 수 있습니다.",
+        "chips": [
+          "skill_system",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_b1757029",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 특화",
+      "value": "마스터리 스킬 특화",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "mastery"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 특화",
+        "raw_text": "마스터리 스킬 특화"
+      },
+      "ui": {
+        "entity_key": "seukil_teukhwa",
+        "search_text": "스킬 소개 스킬 특화 스킬 특화 마스터리 스킬 특화 skill_system mastery",
+        "chips": [
+          "skill_system",
+          "mastery",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_7a88c05a",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 특화",
+      "value": "스티그마 스킬 특화",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "stigma"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 특화",
+        "raw_text": "스티그마 스킬 특화"
+      },
+      "ui": {
+        "entity_key": "seukil_teukhwa",
+        "search_text": "스킬 소개 스킬 특화 스킬 특화 스티그마 스킬 특화 skill_system stigma",
+        "chips": [
+          "skill_system",
+          "stigma",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_78b1fd15",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 특화",
+      "value": "적용된 스티그마 스킬 특화 효과",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "stigma"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 특화",
+        "raw_text": "적용된 스티그마 스킬 특화 효과"
+      },
+      "ui": {
+        "entity_key": "seukil_teukhwa",
+        "search_text": "스킬 소개 스킬 특화 스킬 특화 적용된 스티그마 스킬 특화 효과 skill_system stigma",
+        "chips": [
+          "skill_system",
+          "stigma",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_c9986973",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "스킬 특화",
+      "value": "슬롯에 부여된 스킬 특화를 확인할 수 있다. 스티그마 스킬 특화는 레벨 조건 달성 시 자동으로 부여된다.",
+      "conditions": [
+        "슬롯에 부여된 스킬 특화를 확인할 수 있다. 스티그마 스킬 특화는 레벨 조건 달성 시 자동으로 부여된다."
+      ],
+      "tags": [
+        "skill_system",
+        "stigma"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 특화",
+        "raw_text": "슬롯에 부여된 스킬 특화를 확인할 수 있다. 스티그마 스킬 특화는 레벨 조건 달성 시 자동으로 부여된다."
+      },
+      "ui": {
+        "entity_key": "seukil_teukhwa",
+        "search_text": "스킬 소개 스킬 특화 스킬 특화 슬롯에 부여된 스킬 특화를 확인할 수 있다. 스티그마 스킬 특화는 레벨 조건 달성 시 자동으로 부여된다. skill_system stigma 슬롯에 부여된 스킬 특화를 확인할 수 있다. 스티그마 스킬 특화는 레벨 조건 달성 시 자동으로 부여된다.",
+        "chips": [
+          "skill_system",
+          "stigma",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_b0bf7edb",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 특화",
+      "value": "부여된 스티그마 스킬 특화 효과는 밝은 색으로 하이라이트된다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "stigma"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 특화",
+        "raw_text": "부여된 스티그마 스킬 특화 효과는 밝은 색으로 하이라이트된다."
+      },
+      "ui": {
+        "entity_key": "seukil_teukhwa",
+        "search_text": "스킬 소개 스킬 특화 스킬 특화 부여된 스티그마 스킬 특화 효과는 밝은 색으로 하이라이트된다. skill_system stigma",
+        "chips": [
+          "skill_system",
+          "stigma",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_abc5c8d2",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 특화",
+      "value": "미해금 스티그마 스킬 특화",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "stigma"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 특화",
+        "raw_text": "미해금 스티그마 스킬 특화"
+      },
+      "ui": {
+        "entity_key": "seukil_teukhwa",
+        "search_text": "스킬 소개 스킬 특화 스킬 특화 미해금 스티그마 스킬 특화 skill_system stigma",
+        "chips": [
+          "skill_system",
+          "stigma",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_6f73f2e7",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "스킬 특화",
+      "value": "미해금 상태의 스킬 특화는 잠금 상태에 있으며, 스킬 레벨 조건 달성 시 해금된다.",
+      "conditions": [
+        "미해금 상태의 스킬 특화는 잠금 상태에 있으며, 스킬 레벨 조건 달성 시 해금된다."
+      ],
+      "tags": [
+        "skill_system",
+        "lock"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 특화",
+        "raw_text": "미해금 상태의 스킬 특화는 잠금 상태에 있으며, 스킬 레벨 조건 달성 시 해금된다."
+      },
+      "ui": {
+        "entity_key": "seukil_teukhwa",
+        "search_text": "스킬 소개 스킬 특화 스킬 특화 미해금 상태의 스킬 특화는 잠금 상태에 있으며, 스킬 레벨 조건 달성 시 해금된다. skill_system lock 미해금 상태의 스킬 특화는 잠금 상태에 있으며, 스킬 레벨 조건 달성 시 해금된다.",
+        "chips": [
+          "skill_system",
+          "lock",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_e18f8f9b",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 프리셋",
+      "value": "스킬 프리셋 설정 화면 기본화면 내 프리셋 장착 화면",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "preset"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 프리셋",
+        "raw_text": "스킬 프리셋 설정 화면 기본화면 내 프리셋 장착 화면"
+      },
+      "ui": {
+        "entity_key": "seukil_peuriset",
+        "search_text": "스킬 소개 스킬 프리셋 스킬 프리셋 스킬 프리셋 설정 화면 기본화면 내 프리셋 장착 화면 skill_system preset",
+        "chips": [
+          "skill_system",
+          "preset",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_080550d6",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 프리셋",
+      "value": "스킬 프리셋은 스킬 ( K) 화면 내 우측 상단 버튼을 통해 최대 3개까지 설정할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "preset"
+      ],
+      "confidence": "medium",
+      "numeric_values": [
+        {
+          "value": 3,
+          "unit": "flat",
+          "kind": "limit"
+        }
+      ],
+      "evidence": {
+        "source_section": "스킬 프리셋",
+        "raw_text": "스킬 프리셋은 스킬 ( K) 화면 내 우측 상단 버튼을 통해 최대 3개까지 설정할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "seukil_peuriset",
+        "search_text": "스킬 소개 스킬 프리셋 스킬 프리셋 스킬 프리셋은 스킬 ( k) 화면 내 우측 상단 버튼을 통해 최대 3개까지 설정할 수 있습니다. skill_system preset",
+        "chips": [
+          "skill_system",
+          "preset",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_17e3afcb",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 프리셋",
+      "value": "추가로, 원하는 프리셋 번호에 스킬 및 특화 세팅을 해두면, 기본 화면에서도 설정된 프리셋의 스킬 빌드로 즉시 일괄 장착할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "preset"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 프리셋",
+        "raw_text": "추가로, 원하는 프리셋 번호에 스킬 및 특화 세팅을 해두면, 기본 화면에서도 설정된 프리셋의 스킬 빌드로 즉시 일괄 장착할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "seukil_peuriset",
+        "search_text": "스킬 소개 스킬 프리셋 스킬 프리셋 추가로, 원하는 프리셋 번호에 스킬 및 특화 세팅을 해두면, 기본 화면에서도 설정된 프리셋의 스킬 빌드로 즉시 일괄 장착할 수 있습니다. skill_system preset",
+        "chips": [
+          "skill_system",
+          "preset",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_196c6892",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 프리셋",
+      "value": "기본화면 내 프리셋 장착 화면",
+      "conditions": [],
+      "tags": [
+        "preset"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 프리셋",
+        "raw_text": "기본화면 내 프리셋 장착 화면"
+      },
+      "ui": {
+        "entity_key": "seukil_peuriset",
+        "search_text": "스킬 소개 스킬 프리셋 스킬 프리셋 기본화면 내 프리셋 장착 화면 preset",
+        "chips": [
+          "preset",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_62d2bac4",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 매크로 설정 창",
+      "value": "원하는 스킬의 순서와 지연 시간을 입력하여 매크로를 설정할 수 있다 각 단계마다 지연 시간을 설정하여 스킬 사용 시도 간격을 조정할 수 있다. 각 단계에서는 기본 약공격, 기본 강공격 중 한 가지 동작만 선택할 수 있다",
+      "conditions": [],
+      "tags": [
+        "skill_system"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 매크로",
+        "raw_text": "스킬 매크로 설정 창 | 원하는 스킬의 순서와 지연 시간을 입력하여 매크로를 설정할 수 있다 각 단계마다 지연 시간을 설정하여 스킬 사용 시도 간격을 조정할 수 있다. 각 단계에서는 기본 약공격, 기본 강공격 중 한 가지 동작만 선택할 수 있다"
+      },
+      "ui": {
+        "entity_key": "seukil_maekeuro_seoljeong_chang",
+        "search_text": "스킬 소개 스킬 매크로 스킬 매크로 설정 창 원하는 스킬의 순서와 지연 시간을 입력하여 매크로를 설정할 수 있다 각 단계마다 지연 시간을 설정하여 스킬 사용 시도 간격을 조정할 수 있다. 각 단계에서는 기본 약공격, 기본 강공격 중 한 가지 동작만 선택할 수 있다 skill_system",
+        "chips": [
+          "skill_system",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_b0340200",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 매크로 설정 창 열기",
+      "value": "스킬 매크로 설정 창을 열 수 있다",
+      "conditions": [],
+      "tags": [
+        "skill_system"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 매크로",
+        "raw_text": "스킬 매크로 설정 창 열기 | 스킬 매크로 설정 창을 열 수 있다"
+      },
+      "ui": {
+        "entity_key": "seukil_maekeuro_seoljeong_chang_yeolgi",
+        "search_text": "스킬 소개 스킬 매크로 스킬 매크로 설정 창 열기 스킬 매크로 설정 창을 열 수 있다 skill_system",
+        "chips": [
+          "skill_system",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_fe671a21",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "매크로 추가",
+      "value": "매크로 추가 버튼을 사용해 단계를 추가할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "skills",
+        "recommendation",
+        "skill_system",
+        "ui",
+        "macro"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 매크로",
+        "raw_text": "매크로 추가 | 매크로 추가 버튼을 사용해 단계를 추가할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "maekeuro_chuga",
+        "search_text": "스킬 소개 스킬 매크로 매크로 추가 매크로 추가 버튼을 사용해 단계를 추가할 수 있습니다. skills recommendation skill_system ui macro",
+        "chips": [
+          "skills",
+          "recommendation",
+          "skill_system",
+          "ui",
+          "macro"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_836decc5",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 매크로",
+      "value": "스킬 매크로 단축키 설정 화면",
+      "conditions": [],
+      "tags": [
+        "skill_system"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 매크로",
+        "raw_text": "스킬 매크로 단축키 설정 화면"
+      },
+      "ui": {
+        "entity_key": "seukil_maekeuro",
+        "search_text": "스킬 소개 스킬 매크로 스킬 매크로 스킬 매크로 단축키 설정 화면 skill_system",
+        "chips": [
+          "skill_system",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_fe5582ee",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 매크로",
+      "value": "스킬 매크로는 기본 공격 및 강공격 스킬을 보다 쉽게 수행할 수 있는 스킬 매크로 기능입니다.",
+      "conditions": [],
+      "tags": [
+        "skill_system"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 매크로",
+        "raw_text": "스킬 매크로는 기본 공격 및 강공격 스킬을 보다 쉽게 수행할 수 있는 스킬 매크로 기능입니다."
+      },
+      "ui": {
+        "entity_key": "seukil_maekeuro",
+        "search_text": "스킬 소개 스킬 매크로 스킬 매크로 스킬 매크로는 기본 공격 및 강공격 스킬을 보다 쉽게 수행할 수 있는 스킬 매크로 기능입니다. skill_system",
+        "chips": [
+          "skill_system",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_f7981f22",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 매크로",
+      "value": "원하는 스킬의 순서와 지연 시간을 입력하여 매크로를 설정할 수 있다",
+      "conditions": [],
+      "tags": [
+        "skill_system"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 매크로",
+        "raw_text": "원하는 스킬의 순서와 지연 시간을 입력하여 매크로를 설정할 수 있다"
+      },
+      "ui": {
+        "entity_key": "seukil_maekeuro",
+        "search_text": "스킬 소개 스킬 매크로 스킬 매크로 원하는 스킬의 순서와 지연 시간을 입력하여 매크로를 설정할 수 있다 skill_system",
+        "chips": [
+          "skill_system",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_5c3d90aa",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 매크로",
+      "value": "각 단계마다 지연 시간을 설정하여 스킬 사용 시도 간격을 조정할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "skill_system"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 매크로",
+        "raw_text": "각 단계마다 지연 시간을 설정하여 스킬 사용 시도 간격을 조정할 수 있다."
+      },
+      "ui": {
+        "entity_key": "seukil_maekeuro",
+        "search_text": "스킬 소개 스킬 매크로 스킬 매크로 각 단계마다 지연 시간을 설정하여 스킬 사용 시도 간격을 조정할 수 있다. skill_system",
+        "chips": [
+          "skill_system",
+          "recommendation",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_cf87043f",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 매크로",
+      "value": "각 단계에서는 기본 약공격, 기본 강공격 중 한 가지 동작만 선택할 수 있다",
+      "conditions": [],
+      "tags": [
+        "skills",
+        "recommendation",
+        "skill_system",
+        "macro"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 매크로",
+        "raw_text": "각 단계에서는 기본 약공격, 기본 강공격 중 한 가지 동작만 선택할 수 있다"
+      },
+      "ui": {
+        "entity_key": "seukil_maekeuro",
+        "search_text": "스킬 소개 스킬 매크로 스킬 매크로 각 단계에서는 기본 약공격, 기본 강공격 중 한 가지 동작만 선택할 수 있다 skills recommendation skill_system macro",
+        "chips": [
+          "skills",
+          "recommendation",
+          "skill_system",
+          "macro"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_33690193",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 매크로",
+      "value": "매크로 추가 버튼을 사용해 단계를 추가할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "skills",
+        "recommendation",
+        "skill_system",
+        "ui",
+        "macro"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 매크로",
+        "raw_text": "매크로 추가 버튼을 사용해 단계를 추가할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "seukil_maekeuro",
+        "search_text": "스킬 소개 스킬 매크로 스킬 매크로 매크로 추가 버튼을 사용해 단계를 추가할 수 있습니다. skills recommendation skill_system ui macro",
+        "chips": [
+          "skills",
+          "recommendation",
+          "skill_system",
+          "ui",
+          "macro"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_20d53797",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "스킬 매크로",
+      "value": "[환경설정] → [키 설정] → [일반] → [스킬 매크로]에서 단축키 설정이 가능합니다.",
+      "conditions": [
+        "[환경설정] → [키 설정] → [일반] → [스킬 매크로]에서 단축키 설정이 가능합니다."
+      ],
+      "tags": [
+        "skill_system"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 매크로",
+        "raw_text": "[환경설정] → [키 설정] → [일반] → [스킬 매크로]에서 단축키 설정이 가능합니다."
+      },
+      "ui": {
+        "entity_key": "seukil_maekeuro",
+        "search_text": "스킬 소개 스킬 매크로 스킬 매크로 [환경설정] → [키 설정] → [일반] → [스킬 매크로]에서 단축키 설정이 가능합니다. skill_system [환경설정] → [키 설정] → [일반] → [스킬 매크로]에서 단축키 설정이 가능합니다.",
+        "chips": [
+          "skill_system",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_eec9f999",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 매크로",
+      "value": "설정된 단축키를 누르고 있는 동안 매크로가 실행됩니다.",
+      "conditions": [],
+      "tags": [
+        "skills",
+        "recommendation",
+        "skill_system",
+        "macro"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 매크로",
+        "raw_text": "설정된 단축키를 누르고 있는 동안 매크로가 실행됩니다."
+      },
+      "ui": {
+        "entity_key": "seukil_maekeuro",
+        "search_text": "스킬 소개 스킬 매크로 스킬 매크로 설정된 단축키를 누르고 있는 동안 매크로가 실행됩니다. skills recommendation skill_system macro",
+        "chips": [
+          "skills",
+          "recommendation",
+          "skill_system",
+          "macro"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_05034013",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "스킬 매크로",
+      "value": "모바일의 경우 메인 HUD에 배치된 매크로 입력 버튼을 터치하여 유지하는 동안 매크로가 실행됩니다.",
+      "conditions": [
+        "모바일의 경우 메인 HUD에 배치된 매크로 입력 버튼을 터치하여 유지하는 동안 매크로가 실행됩니다."
+      ],
+      "tags": [
+        "skills",
+        "constraint",
+        "skill_system",
+        "ui",
+        "macro"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 매크로",
+        "raw_text": "모바일의 경우 메인 HUD에 배치된 매크로 입력 버튼을 터치하여 유지하는 동안 매크로가 실행됩니다."
+      },
+      "ui": {
+        "entity_key": "seukil_maekeuro",
+        "search_text": "스킬 소개 스킬 매크로 스킬 매크로 모바일의 경우 메인 hud에 배치된 매크로 입력 버튼을 터치하여 유지하는 동안 매크로가 실행됩니다. skills constraint skill_system ui macro 모바일의 경우 메인 hud에 배치된 매크로 입력 버튼을 터치하여 유지하는 동안 매크로가 실행됩니다.",
+        "chips": [
+          "skills",
+          "constraint",
+          "skill_system",
+          "ui",
+          "macro"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_61367dd0",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 매크로",
+      "value": "매크로 실행 중 수동 조작 입력이 발생하면, 항상 수동 입력이 우선 적용됩니다.",
+      "conditions": [],
+      "tags": [
+        "skills",
+        "recommendation",
+        "skill_system",
+        "macro"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 매크로",
+        "raw_text": "매크로 실행 중 수동 조작 입력이 발생하면, 항상 수동 입력이 우선 적용됩니다."
+      },
+      "ui": {
+        "entity_key": "seukil_maekeuro",
+        "search_text": "스킬 소개 스킬 매크로 스킬 매크로 매크로 실행 중 수동 조작 입력이 발생하면, 항상 수동 입력이 우선 적용됩니다. skills recommendation skill_system macro",
+        "chips": [
+          "skills",
+          "recommendation",
+          "skill_system",
+          "macro"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_0f057c78",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "스킬 매크로",
+      "value": "마우스 조작 관련 버튼을 단축키로 설정하는 경우, AION1 조작 모드에서는 해당 단축키가 동작하지 않습니다.",
+      "conditions": [
+        "마우스 조작 관련 버튼을 단축키로 설정하는 경우, AION1 조작 모드에서는 해당 단축키가 동작하지 않습니다."
+      ],
+      "tags": [
+        "mode",
+        "skill_system",
+        "ui",
+        "macro"
+      ],
+      "confidence": "medium",
+      "numeric_values": [
+        {
+          "value": 1,
+          "unit": "flat",
+          "kind": "constraint_value"
+        }
+      ],
+      "evidence": {
+        "source_section": "스킬 매크로",
+        "raw_text": "마우스 조작 관련 버튼을 단축키로 설정하는 경우, AION1 조작 모드에서는 해당 단축키가 동작하지 않습니다."
+      },
+      "ui": {
+        "entity_key": "seukil_maekeuro",
+        "search_text": "스킬 소개 스킬 매크로 스킬 매크로 마우스 조작 관련 버튼을 단축키로 설정하는 경우, aion1 조작 모드에서는 해당 단축키가 동작하지 않습니다. mode skill_system ui macro 마우스 조작 관련 버튼을 단축키로 설정하는 경우, aion1 조작 모드에서는 해당 단축키가 동작하지 않습니다.",
+        "chips": [
+          "mode",
+          "skill_system",
+          "ui",
+          "macro",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:skills:entity_a5c0b62c",
+      "fact_type": "recommendation",
+      "topic": "skills",
+      "entity": "스킬 매크로",
+      "value": "매크로는 단계가 실행되는 동안 다음 단계로 계속 넘어가며 반복적으로 사용을 시도하므로, 단계 순서가 반드시 보장되지는 않습니다.",
+      "conditions": [],
+      "tags": [
+        "skills",
+        "recommendation",
+        "skill_system",
+        "macro"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스킬 매크로",
+        "raw_text": "매크로는 단계가 실행되는 동안 다음 단계로 계속 넘어가며 반복적으로 사용을 시도하므로, 단계 순서가 반드시 보장되지는 않습니다."
+      },
+      "ui": {
+        "entity_key": "seukil_maekeuro",
+        "search_text": "스킬 소개 스킬 매크로 스킬 매크로 매크로는 단계가 실행되는 동안 다음 단계로 계속 넘어가며 반복적으로 사용을 시도하므로, 단계 순서가 반드시 보장되지는 않습니다. skills recommendation skill_system macro",
+        "chips": [
+          "skills",
+          "recommendation",
+          "skill_system",
+          "macro"
+        ]
+      }
+    }
+  ]
+}

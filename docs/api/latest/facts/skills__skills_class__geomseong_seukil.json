@@ -1,0 +1,1011 @@
+{
+  "metadata": {
+    "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EA%B2%80%EC%84%B1%20%EC%8A%A4%ED%82%AC",
+    "guide_title": "검성 스킬",
+    "top_category": "스킬",
+    "sub_category": "클래스 별 스킬 정보",
+    "crawled_at": "2026-02-13T18:15:24+00:00",
+    "parser_version": "facts_v2",
+    "schema_version": "v2",
+    "referential_version": "0.1.0",
+    "priority": "P1",
+    "action": "parse_skills_class",
+    "topic": "skills",
+    "source_file": "raw/crawled_geomseong_seukil_23adef3bcc/guide.html"
+  },
+  "facts": [
+    {
+      "fact_id": "skill:skills:entity_ead09bfd",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "예리한 일격 - 파열의 일격 - 분노의 일격",
+      "value": "적들에게 피해를 주고 적대치를 증가시킵니다. 정신력을 회복합니다.",
+      "numeric_values": [],
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "damage",
+        "heal",
+        "resource",
+        "movement",
+        "mobility_cast",
+        "no_target",
+        "mastery"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "예리한 일격 - 파열의 일격 - 분노의 일격 | 적들에게 피해를 주고 적대치를 증가시킵니다. 정신력을 회복합니다. | 논타겟/이동 가능"
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_f9841bda",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "예리한 일격 - 파열의 일격 - 분노의 일격",
+      "value": "사용 조건: 논타겟/이동 가능",
+      "numeric_values": [],
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast",
+        "no_target"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "예리한 일격 - 파열의 일격 - 분노의 일격 | 적들에게 피해를 주고 적대치를 증가시킵니다. 정신력을 회복합니다. | 논타겟/이동 가능"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_c6a4e150",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "절단의 맹타 - 격파의 맹타",
+      "value": "적들에게 피해를 주고 적대치를 증가시킵니다. 그로기 게이지 피해",
+      "numeric_values": [],
+      "conditions": [
+        "논타겟"
+      ],
+      "tags": [
+        "damage",
+        "stagger",
+        "no_target",
+        "mastery"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "절단의 맹타 - 격파의 맹타 | 적들에게 피해를 주고 적대치를 증가시킵니다. 그로기 게이지 피해 | 논타겟"
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_d486eec8",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "절단의 맹타 - 격파의 맹타",
+      "value": "사용 조건: 논타겟",
+      "numeric_values": [],
+      "conditions": [
+        "사용 조건: 논타겟"
+      ],
+      "tags": [
+        "no_target"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "절단의 맹타 - 격파의 맹타 | 적들에게 피해를 주고 적대치를 증가시킵니다. 그로기 게이지 피해 | 논타겟"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_9704fa4e",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "도약 찍기",
+      "value": "대상에게 도약하여 피해를 줍니다. 그로기 게이지 피해",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "damage",
+        "stagger",
+        "mastery"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "도약 찍기 | 대상에게 도약하여 피해를 줍니다. 그로기 게이지 피해 | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_9fd4edf5",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "유린의 검",
+      "value": "대상에게 피해를 주고 넘어짐 상태로 만듭니다. 행동불가 면역 대상일 경우 모션이 변경됩니다. 그로기 게이지 피해",
+      "numeric_values": [],
+      "conditions": [
+        "대상에게 피해를 주고 넘어짐 상태로 만듭니다. 행동불가 면역 대상일 경우 모션이 변경됩니다. 그로기 게이지 피해"
+      ],
+      "tags": [
+        "damage",
+        "stagger",
+        "mastery"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "유린의 검 | 대상에게 피해를 주고 넘어짐 상태로 만듭니다. 행동불가 면역 대상일 경우 모션이 변경됩니다. 그로기 게이지 피해 | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_b7d17064",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "내려찍기",
+      "value": "넘어짐 상태의 대상에게 피해를 줍니다.",
+      "numeric_values": [],
+      "conditions": [
+        "이동 가능"
+      ],
+      "tags": [
+        "damage",
+        "movement",
+        "mobility_cast",
+        "mastery"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "내려찍기 | 넘어짐 상태의 대상에게 피해를 줍니다. | 이동 가능"
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_01957537",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "내려찍기",
+      "value": "사용 조건: 이동 가능",
+      "numeric_values": [],
+      "conditions": [
+        "이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "내려찍기 | 넘어짐 상태의 대상에게 피해를 줍니다. | 이동 가능"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_d3972727",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "검기 난무",
+      "value": "그로기 상태인 대상에게 피해를 줍니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "damage",
+        "stagger",
+        "mastery"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "검기 난무 | 그로기 상태인 대상에게 피해를 줍니다. | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_0a9b2dd3",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "발목 베기",
+      "value": "막기 성공 시 대상을 중심으로 적들에게 피해를 주고, 일정 확률로 속박 상태로 만듭니다. 대상이 NPC일 경우 100% 확률로 속박이 적중됩니다. 그로기 게이지 피해",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "conditions": [
+        "막기 성공 시 대상을 중심으로 적들에게 피해를 주고, 일정 확률로 속박 상태로 만듭니다. 대상이 NPC일 경우 100% 확률로 속박이 적중됩니다. 그로기 게이지 피해"
+      ],
+      "tags": [
+        "damage",
+        "stagger",
+        "control",
+        "chance",
+        "mastery"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "발목 베기 | 막기 성공 시 대상을 중심으로 적들에게 피해를 주고, 일정 확률로 속박 상태로 만듭니다. 대상이 NPC일 경우 100% 확률로 속박이 적중됩니다. 그로기 게이지 피해 | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_cb3472bb",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "분쇄 파동 - 광폭 파동",
+      "value": "자신을 중심으로 적들에게 피해를 줍니다. 그로기 게이지 피해",
+      "numeric_values": [],
+      "conditions": [
+        "논타겟"
+      ],
+      "tags": [
+        "damage",
+        "stagger",
+        "no_target",
+        "mastery"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "분쇄 파동 - 광폭 파동 | 자신을 중심으로 적들에게 피해를 줍니다. 그로기 게이지 피해 | 논타겟"
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_25e9be5e",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "분쇄 파동 - 광폭 파동",
+      "value": "사용 조건: 논타겟",
+      "numeric_values": [],
+      "conditions": [
+        "사용 조건: 논타겟"
+      ],
+      "tags": [
+        "no_target"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "분쇄 파동 - 광폭 파동 | 자신을 중심으로 적들에게 피해를 줍니다. 그로기 게이지 피해 | 논타겟"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_456f45d8",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "돌진 일격",
+      "value": "긴급 회피 사용 후 대상에게 이동하여 피해를 주고, 일정 확률로 넘어짐 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "conditions": [
+        "긴급 회피 사용 후 대상에게 이동하여 피해를 주고, 일정 확률로 넘어짐 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해"
+      ],
+      "tags": [
+        "damage",
+        "stagger",
+        "movement",
+        "chance",
+        "mastery"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "돌진 일격 | 긴급 회피 사용 후 대상에게 이동하여 피해를 주고, 일정 확률로 넘어짐 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해 | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_c0302f45",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "공중 결박",
+      "value": "넘어짐 상태의 대상에게 피해를 주고, 일정 확률로 공중속박 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 공중속박이 적중됩니다.",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "conditions": [
+        "넘어짐 상태의 대상에게 피해를 주고, 일정 확률로 공중속박 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 공중속박이 적중됩니다."
+      ],
+      "tags": [
+        "damage",
+        "control",
+        "chance",
+        "mastery"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "공중 결박 | 넘어짐 상태의 대상에게 피해를 주고, 일정 확률로 공중속박 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 공중속박이 적중됩니다. | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_ef123026",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "파멸의 맹타",
+      "value": "대상에게 돌진하여 피해를 주고 자신은 전투 준비 상태가 됩니다. 최대 차지 시 범위 피해를 줍니다. [전투 준비]: 피해 증폭 및 치명타 증가 그로기 게이지 피해",
+      "numeric_values": [],
+      "conditions": [
+        "차지"
+      ],
+      "tags": [
+        "damage",
+        "stagger",
+        "charge_skill",
+        "mastery"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "파멸의 맹타 | 대상에게 돌진하여 피해를 주고 자신은 전투 준비 상태가 됩니다. 최대 차지 시 범위 피해를 줍니다. [전투 준비]: 피해 증폭 및 치명타 증가 그로기 게이지 피해 | 차지"
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_39473d1e",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "파멸의 맹타",
+      "value": "사용 조건: 차지",
+      "numeric_values": [],
+      "conditions": [
+        "사용 조건: 차지"
+      ],
+      "tags": [
+        "charge_skill"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "파멸의 맹타 | 대상에게 돌진하여 피해를 주고 자신은 전투 준비 상태가 됩니다. 최대 차지 시 범위 피해를 줍니다. [전투 준비]: 피해 증폭 및 치명타 증가 그로기 게이지 피해 | 차지"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_0aa8e403",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "충격 해제 - 분노 폭발",
+      "value": "자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. 강인함: 상태이상 저항 증가 (연계기) 분노 폭발: 대상에게 피해를 주고 넘어짐 상태로 만듭니다.",
+      "numeric_values": [],
+      "conditions": [
+        "자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. 강인함: 상태이상 저항 증가 (연계기) 분노 폭발: 대상에게 피해를 주고 넘어짐 상태로 만듭니다.",
+        "논타겟"
+      ],
+      "tags": [
+        "damage",
+        "stun",
+        "control",
+        "no_target",
+        "mastery"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "충격 해제 - 분노 폭발 | 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. 강인함: 상태이상 저항 증가 (연계기) 분노 폭발: 대상에게 피해를 주고 넘어짐 상태로 만듭니다. | 논타겟"
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_448dd1cf",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "충격 해제 - 분노 폭발",
+      "value": "사용 조건: 논타겟",
+      "numeric_values": [],
+      "conditions": [
+        "사용 조건: 논타겟"
+      ],
+      "tags": [
+        "no_target"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "충격 해제 - 분노 폭발 | 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. 강인함: 상태이상 저항 증가 (연계기) 분노 폭발: 대상에게 피해를 주고 넘어짐 상태로 만듭니다. | 논타겟"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_87abaccf",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "생존 자세",
+      "value": "자신의 최대 생명력 및 자연 생명력 회복이 증가합니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "heal",
+        "passive"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "생존 자세 | 자신의 최대 생명력 및 자연 생명력 회복이 증가합니다. | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_e3fa5981",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "보호의 갑옷",
+      "value": "자신의 막기가 증가하고, 막기 성공 시 생명력을 회복합니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "heal",
+        "passive"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "보호의 갑옷 | 자신의 막기가 증가하고, 막기 성공 시 생명력을 회복합니다. | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_b5dc211c",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "피의 흡수",
+      "value": "공격 적중 시 피의 흡수 효과를 받습니다. [피의 흡수]: 공격이 적중할 때 마다 피해의 일부만큼 생명력을 회복하고, 일정 확률로 자신의 생명력을 회복합니다.",
+      "numeric_values": [],
+      "conditions": [
+        "공격 적중 시 피의 흡수 효과를 받습니다. [피의 흡수]: 공격이 적중할 때 마다 피해의 일부만큼 생명력을 회복하고, 일정 확률로 자신의 생명력을 회복합니다."
+      ],
+      "tags": [
+        "damage",
+        "heal",
+        "chance",
+        "passive"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "피의 흡수 | 공격 적중 시 피의 흡수 효과를 받습니다. [피의 흡수]: 공격이 적중할 때 마다 피해의 일부만큼 생명력을 회복하고, 일정 확률로 자신의 생명력을 회복합니다. | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_61c46ec9",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "약점 파악",
+      "value": "자신의 치명타 및 완벽이 증가합니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "passive"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "약점 파악 | 자신의 치명타 및 완벽이 증가합니다. | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_b4ac4389",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "공격 준비",
+      "value": "자신의 피해 증폭, 방어력, 명중이 증가합니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "damage",
+        "passive"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "공격 준비 | 자신의 피해 증폭, 방어력, 명중이 증가합니다. | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_b7125027",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "충격 적중",
+      "value": "충격계 적중 및 강타가 증가합니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "passive"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "충격 적중 | 충격계 적중 및 강타가 증가합니다. | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_65a4a2c7",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "파괴 충동",
+      "value": "대상이 충격계 또는 그로기 상태일 때 추가 피해를 줍니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "damage",
+        "stagger",
+        "passive"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "파괴 충동 | 대상이 충격계 또는 그로기 상태일 때 추가 피해를 줍니다. | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_196737d0",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "노련한 반격",
+      "value": "막기 성공 시 자신의 피해 증폭이 증가합니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "damage",
+        "passive"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "노련한 반격 | 막기 성공 시 자신의 피해 증폭이 증가합니다. | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_68fd3358",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "생존 의지",
+      "value": "자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다.",
+      "numeric_values": [
+        {
+          "value": 1,
+          "unit": "sec",
+          "kind": "duration"
+        },
+        {
+          "value": 10,
+          "unit": "percent",
+          "kind": "duration"
+        }
+      ],
+      "conditions": [
+        "자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다."
+      ],
+      "tags": [
+        "damage",
+        "control",
+        "passive"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "생존 의지 | 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_a98fce26",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "살기 파열",
+      "value": "공격이 적중할 때 마다 살기를 획득합니다. 10회 중첩 시 살기를 삭제하고 자신을 중심으로 적들에게 피해를 주고, 일정 시간 동안 치명타 피해 내성이 감소합니다.",
+      "numeric_values": [
+        {
+          "value": 10,
+          "unit": "flat",
+          "kind": "damage"
+        }
+      ],
+      "conditions": [],
+      "tags": [
+        "damage",
+        "drop",
+        "passive"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "살기 파열 | 공격이 적중할 때 마다 살기를 획득합니다. 10회 중첩 시 살기를 삭제하고 자신을 중심으로 적들에게 피해를 주고, 일정 시간 동안 치명타 피해 내성이 감소합니다. | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_2909c14d",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "분노의 파동",
+      "value": "자신을 중심으로 적들에게 피해를 주고 공격력을 감소시킵니다. 적들은 일정 확률로 넘어짐 상태가 됩니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해량 감소",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "conditions": [
+        "자신을 중심으로 적들에게 피해를 주고 공격력을 감소시킵니다. 적들은 일정 확률로 넘어짐 상태가 됩니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해량 감소",
+        "논타겟"
+      ],
+      "tags": [
+        "damage",
+        "stagger",
+        "chance",
+        "no_target",
+        "stigma"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "분노의 파동 | 자신을 중심으로 적들에게 피해를 주고 공격력을 감소시킵니다. 적들은 일정 확률로 넘어짐 상태가 됩니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해량 감소 | 논타겟"
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_5cd88aab",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "분노의 파동",
+      "value": "사용 조건: 논타겟",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "conditions": [
+        "사용 조건: 논타겟"
+      ],
+      "tags": [
+        "no_target"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "분노의 파동 | 자신을 중심으로 적들에게 피해를 주고 공격력을 감소시킵니다. 적들은 일정 확률로 넘어짐 상태가 됩니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해량 감소 | 논타겟"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_c44da4ee",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "돌격 자세",
+      "value": "자신의 전투 속도가 증가합니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "movement",
+        "stigma"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "돌격 자세 | 자신의 전투 속도가 증가합니다. | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_fa56be0f",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "지켈의 축복",
+      "value": "자신과 주변에 있는 파티원들의 공격력이 증가합니다.",
+      "numeric_values": [],
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "party",
+        "mobility_cast",
+        "no_target",
+        "stigma"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "지켈의 축복 | 자신과 주변에 있는 파티원들의 공격력이 증가합니다. | 논타겟/이동 가능"
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_8ce6ae2f",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "지켈의 축복",
+      "value": "사용 조건: 논타겟/이동 가능",
+      "numeric_values": [],
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast",
+        "no_target"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "지켈의 축복 | 자신과 주변에 있는 파티원들의 공격력이 증가합니다. | 논타겟/이동 가능"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_60741326",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "집중 막기",
+      "value": "잠시 동안 전방 공격에 대한 막기 피해 감소가 증가하고 확정 무기막기를 합니다. 막기 성공 시 정신력과 행동력을 회복합니다.",
+      "numeric_values": [],
+      "conditions": [
+        "유지형 스킬"
+      ],
+      "tags": [
+        "skill_system",
+        "damage",
+        "heal",
+        "resource",
+        "toggle_skill",
+        "stigma"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "집중 막기 | 잠시 동안 전방 공격에 대한 막기 피해 감소가 증가하고 확정 무기막기를 합니다. 막기 성공 시 정신력과 행동력을 회복합니다. | 유지형 스킬"
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_22e82068",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "집중 막기",
+      "value": "사용 조건: 유지형 스킬",
+      "numeric_values": [],
+      "conditions": [
+        "사용 조건: 유지형 스킬"
+      ],
+      "tags": [
+        "skill_system",
+        "toggle_skill"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "집중 막기 | 잠시 동안 전방 공격에 대한 막기 피해 감소가 증가하고 확정 무기막기를 합니다. 막기 성공 시 정신력과 행동력을 회복합니다. | 유지형 스킬"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_df21e888",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "균형의 갑옷",
+      "value": "일정 시간 동안 충격계 저항이 증가합니다.",
+      "numeric_values": [],
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast",
+        "no_target",
+        "stigma"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "균형의 갑옷 | 일정 시간 동안 충격계 저항이 증가합니다. | 논타겟/이동 가능"
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_3ee1c9bf",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "균형의 갑옷",
+      "value": "사용 조건: 논타겟/이동 가능",
+      "numeric_values": [],
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast",
+        "no_target"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "균형의 갑옷 | 일정 시간 동안 충격계 저항이 증가합니다. | 논타겟/이동 가능"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_ec81b2e1",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "칼날 날리기 - 칼날 화무",
+      "value": "대상에게 피해를 주고 방어력을 감소시킵니다. 그로기 게이지 피해",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "damage",
+        "stagger",
+        "stigma"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "칼날 날리기 - 칼날 화무 | 대상에게 피해를 주고 방어력을 감소시킵니다. 그로기 게이지 피해 | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_6d316863",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "근성",
+      "value": "5초 동안 피해를 받지 않으며, 상태이상에 걸리지 않습니다. 일부 강력한 공격은 방어할 수 없습니다.",
+      "numeric_values": [
+        {
+          "value": 5,
+          "unit": "sec",
+          "kind": "damage"
+        }
+      ],
+      "conditions": [
+        "5초 동안 피해를 받지 않으며, 상태이상에 걸리지 않습니다. 일부 강력한 공격은 방어할 수 없습니다."
+      ],
+      "tags": [
+        "damage",
+        "stigma"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "근성 | 5초 동안 피해를 받지 않으며, 상태이상에 걸리지 않습니다. 일부 강력한 공격은 방어할 수 없습니다. | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_ccf43236",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "흡혈의 검",
+      "value": "대상을 올려치며 피해를 주고 내려치며 그 주변 적들에게 피해를 줍니다. 피해의 일부를 생명력으로 흡수합니다. 그로기 게이지 피해",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "damage",
+        "stagger",
+        "stigma"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "흡혈의 검 | 대상을 올려치며 피해를 주고 내려치며 그 주변 적들에게 피해를 줍니다. 피해의 일부를 생명력으로 흡수합니다. 그로기 게이지 피해 | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_e8e3a59e",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "격노 폭발",
+      "value": "대상에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다. 정죽 시 [내려찍기]가 활성화 됩니다. 그로기 게이지 피해",
+      "numeric_values": [],
+      "conditions": [
+        "대상에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다. 정죽 시 [내려찍기]가 활성화 됩니다. 그로기 게이지 피해"
+      ],
+      "tags": [
+        "damage",
+        "stagger",
+        "stigma"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "격노 폭발 | 대상에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다. 정죽 시 [내려찍기]가 활성화 됩니다. 그로기 게이지 피해 | -"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_8f228cc4",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "파동의 갑주",
+      "value": "자신을 중심으로 적들에게 지속적인 피해를 줍니다.",
+      "numeric_values": [],
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "damage",
+        "movement",
+        "mobility_cast",
+        "no_target",
+        "stigma"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "파동의 갑주 | 자신을 중심으로 적들에게 지속적인 피해를 줍니다. | 논타겟/이동 가능"
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_6556b5eb",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "파동의 갑주",
+      "value": "사용 조건: 논타겟/이동 가능",
+      "numeric_values": [],
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast",
+        "no_target"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "파동의 갑주 | 자신을 중심으로 적들에게 지속적인 피해를 줍니다. | 논타겟/이동 가능"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_80e28e95",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "강제 결박",
+      "value": "대상에게 피해를 주고 일정 확률로 봉인 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "conditions": [
+        "대상에게 피해를 주고 일정 확률로 봉인 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해"
+      ],
+      "tags": [
+        "damage",
+        "stagger",
+        "control",
+        "chance",
+        "stigma"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "강제 결박 | 대상에게 피해를 주고 일정 확률로 봉인 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 봉인이 적중됩니다. 그로기 게이지 피해"
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_379dc70c",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "강습 일격",
+      "value": "대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 넘어짐 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다.",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "conditions": [
+        "대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 넘어짐 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다."
+      ],
+      "tags": [
+        "damage",
+        "resource",
+        "chance",
+        "stigma"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "강습 일격 | 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 넘어짐 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다. | -"
+      }
+    }
+  ]
+}

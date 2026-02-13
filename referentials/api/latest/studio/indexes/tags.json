@@ -1,0 +1,1572 @@
+{
+  "generated_at": "2026-02-13T20:59:53+00:00",
+  "parser_version": "studio_v1",
+  "schema_version": "studio_v1",
+  "referential_version": "0.1.0",
+  "tags": [
+    {
+      "tag": "info",
+      "tag_key": "info",
+      "count": 347,
+      "guides_total": 19,
+      "guide_ids": [
+        "georaeso",
+        "gudok_mit_paeseu",
+        "nalgae",
+        "debanion",
+        "monoriseu",
+        "muljil_byeonhwan",
+        "bogeup_uiroe",
+        "bongin_deonjeon_mit_judunji",
+        "bonghonseok_siseutem",
+        "seukil_sogae",
+        "areukana",
+        "aitem_gibon_annae",
+        "eopjeok",
+        "wonjeong",
+        "ilil_deonjeon",
+        "jejak_gwanri",
+        "taiteul",
+        "tonghap_ganghwa",
+        "pildeu_neimdeu"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 216
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 58
+        },
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 57
+        },
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "tag": "damage",
+      "tag_key": "damage",
+      "count": 212,
+      "guides_total": 9,
+      "guide_ids": [
+        "geomseong_seukil",
+        "gungseong_seukil",
+        "madoseong_seukil",
+        "salseong_seukil",
+        "suhoseong_seukil",
+        "jangbi",
+        "jeongryeongseong_seukil",
+        "chiyuseong_seukil",
+        "hobeopseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 205
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "tag": "drop",
+      "tag_key": "drop",
+      "count": 202,
+      "guides_total": 16,
+      "guide_ids": [
+        "georaeso",
+        "geomseong_seukil",
+        "gudok_mit_paeseu",
+        "monoriseu",
+        "bogeup_uiroe",
+        "suhoseong_seukil",
+        "areukana",
+        "aitem_gibon_annae",
+        "eopjeok",
+        "wonjeong",
+        "ilil_deonjeon",
+        "jangbi",
+        "jeongryeongseong_seukil",
+        "jejak_gwanri",
+        "taiteul",
+        "hobeopseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 158
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 31
+        },
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 8
+        },
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "tag": "movement",
+      "tag_key": "movement",
+      "count": 143,
+      "guides_total": 11,
+      "guide_ids": [
+        "geomseong_seukil",
+        "gungseong_seukil",
+        "debanion",
+        "madoseong_seukil",
+        "salseong_seukil",
+        "suhoseong_seukil",
+        "aitem_gibon_annae",
+        "jeongryeongseong_seukil",
+        "chiyuseong_seukil",
+        "taiteul",
+        "hobeopseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 138
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 2
+        },
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 2
+        },
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "tag": "list",
+      "tag_key": "list",
+      "count": 133,
+      "guides_total": 15,
+      "guide_ids": [
+        "georaeso",
+        "gudok_mit_paeseu",
+        "nalgae",
+        "monoriseu",
+        "muljil_byeonhwan",
+        "bogeup_uiroe",
+        "seukil_sogae",
+        "areukana",
+        "aitem_gibon_annae",
+        "eopjeok",
+        "wonjeong",
+        "jejak_gwanri",
+        "taiteul",
+        "tonghap_ganghwa",
+        "pildeu_neimdeu"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 90
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 26
+        },
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 10
+        },
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "tag": "mobility_cast",
+      "tag_key": "mobility_cast",
+      "count": 120,
+      "guides_total": 8,
+      "guide_ids": [
+        "geomseong_seukil",
+        "gungseong_seukil",
+        "madoseong_seukil",
+        "salseong_seukil",
+        "suhoseong_seukil",
+        "jeongryeongseong_seukil",
+        "chiyuseong_seukil",
+        "hobeopseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 120
+        }
+      ]
+    },
+    {
+      "tag": "upgrade",
+      "tag_key": "upgrade",
+      "count": 118,
+      "guides_total": 13,
+      "guide_ids": [
+        "debanion",
+        "madoseong_seukil",
+        "monoriseu",
+        "bonghonseok_siseutem",
+        "salseong_seukil",
+        "suhoseong_seukil",
+        "areukana",
+        "aitem_gibon_annae",
+        "ilil_deonjeon",
+        "jangbi",
+        "jeongryeongseong_seukil",
+        "chiyuseong_seukil",
+        "tonghap_ganghwa"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 105
+        },
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 7
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "tag": "stigma",
+      "tag_key": "stigma",
+      "count": 117,
+      "guides_total": 9,
+      "guide_ids": [
+        "geomseong_seukil",
+        "gungseong_seukil",
+        "madoseong_seukil",
+        "salseong_seukil",
+        "suhoseong_seukil",
+        "seukil_sogae",
+        "jeongryeongseong_seukil",
+        "chiyuseong_seukil",
+        "hobeopseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 117
+        }
+      ]
+    },
+    {
+      "tag": "chance",
+      "tag_key": "chance",
+      "count": 106,
+      "guides_total": 13,
+      "guide_ids": [
+        "geomseong_seukil",
+        "gungseong_seukil",
+        "madoseong_seukil",
+        "muljil_byeonhwan",
+        "salseong_seukil",
+        "suhoseong_seukil",
+        "aitem_gibon_annae",
+        "wonjeong",
+        "jeongryeongseong_seukil",
+        "jejak_gwanri",
+        "chiyuseong_seukil",
+        "tonghap_ganghwa",
+        "hobeopseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 75
+        },
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 22
+        },
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 6
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "tag": "mastery",
+      "tag_key": "mastery",
+      "count": 105,
+      "guides_total": 9,
+      "guide_ids": [
+        "geomseong_seukil",
+        "gungseong_seukil",
+        "madoseong_seukil",
+        "salseong_seukil",
+        "suhoseong_seukil",
+        "seukil_sogae",
+        "jeongryeongseong_seukil",
+        "chiyuseong_seukil",
+        "hobeopseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 105
+        }
+      ]
+    },
+    {
+      "tag": "stagger",
+      "tag_key": "stagger",
+      "count": 101,
+      "guides_total": 8,
+      "guide_ids": [
+        "geomseong_seukil",
+        "gungseong_seukil",
+        "madoseong_seukil",
+        "salseong_seukil",
+        "suhoseong_seukil",
+        "jeongryeongseong_seukil",
+        "chiyuseong_seukil",
+        "hobeopseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 101
+        }
+      ]
+    },
+    {
+      "tag": "skill_system",
+      "tag_key": "skill_system",
+      "count": 97,
+      "guides_total": 10,
+      "guide_ids": [
+        "geomseong_seukil",
+        "gungseong_seukil",
+        "madoseong_seukil",
+        "salseong_seukil",
+        "suhoseong_seukil",
+        "seukil_sogae",
+        "wonjeong",
+        "jeongryeongseong_seukil",
+        "chiyuseong_seukil",
+        "hobeopseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 96
+        },
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "tag": "no_target",
+      "tag_key": "no_target",
+      "count": 86,
+      "guides_total": 6,
+      "guide_ids": [
+        "geomseong_seukil",
+        "madoseong_seukil",
+        "salseong_seukil",
+        "suhoseong_seukil",
+        "chiyuseong_seukil",
+        "hobeopseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 86
+        }
+      ]
+    },
+    {
+      "tag": "passive",
+      "tag_key": "passive",
+      "count": 80,
+      "guides_total": 8,
+      "guide_ids": [
+        "geomseong_seukil",
+        "gungseong_seukil",
+        "madoseong_seukil",
+        "salseong_seukil",
+        "suhoseong_seukil",
+        "jeongryeongseong_seukil",
+        "chiyuseong_seukil",
+        "hobeopseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 80
+        }
+      ]
+    },
+    {
+      "tag": "control",
+      "tag_key": "control",
+      "count": 55,
+      "guides_total": 12,
+      "guide_ids": [
+        "geomseong_seukil",
+        "gungseong_seukil",
+        "madoseong_seukil",
+        "bongin_deonjeon_mit_judunji",
+        "salseong_seukil",
+        "suhoseong_seukil",
+        "aitem_gibon_annae",
+        "eopjeok",
+        "jeongryeongseong_seukil",
+        "chiyuseong_seukil",
+        "taiteul",
+        "hobeopseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 45
+        },
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 8
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "tag": "heal",
+      "tag_key": "heal",
+      "count": 55,
+      "guides_total": 9,
+      "guide_ids": [
+        "geomseong_seukil",
+        "gungseong_seukil",
+        "madoseong_seukil",
+        "salseong_seukil",
+        "suhoseong_seukil",
+        "jangbi",
+        "jeongryeongseong_seukil",
+        "chiyuseong_seukil",
+        "hobeopseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 53
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "tag": "title_system",
+      "tag_key": "title_system",
+      "count": 49,
+      "guides_total": 1,
+      "guide_ids": [
+        "taiteul"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 49
+        }
+      ]
+    },
+    {
+      "tag": "arcana",
+      "tag_key": "arcana",
+      "count": 48,
+      "guides_total": 1,
+      "guide_ids": [
+        "areukana"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 48
+        }
+      ]
+    },
+    {
+      "tag": "dungeon",
+      "tag_key": "dungeon",
+      "count": 47,
+      "guides_total": 7,
+      "guide_ids": [
+        "gudok_mit_paeseu",
+        "bongin_deonjeon_mit_judunji",
+        "aitem_gibon_annae",
+        "eopjeok",
+        "wonjeong",
+        "ilil_deonjeon",
+        "taiteul"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 42
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "tag": "expedition",
+      "tag_key": "expedition",
+      "count": 45,
+      "guides_total": 4,
+      "guide_ids": [
+        "aitem_gibon_annae",
+        "eopjeok",
+        "wonjeong",
+        "taiteul"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 44
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "tag": "party",
+      "tag_key": "party",
+      "count": 43,
+      "guides_total": 8,
+      "guide_ids": [
+        "geomseong_seukil",
+        "gungseong_seukil",
+        "salseong_seukil",
+        "suhoseong_seukil",
+        "wonjeong",
+        "jeongryeongseong_seukil",
+        "chiyuseong_seukil",
+        "hobeopseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 25
+        },
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "tag": "membership",
+      "tag_key": "membership",
+      "count": 35,
+      "guides_total": 4,
+      "guide_ids": [
+        "georaeso",
+        "gyohwanso",
+        "gudok_mit_paeseu",
+        "wonjeong"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 32
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "tag": "resource",
+      "tag_key": "resource",
+      "count": 33,
+      "guides_total": 9,
+      "guide_ids": [
+        "geomseong_seukil",
+        "gungseong_seukil",
+        "madoseong_seukil",
+        "salseong_seukil",
+        "suhoseong_seukil",
+        "seukil_sogae",
+        "jeongryeongseong_seukil",
+        "chiyuseong_seukil",
+        "hobeopseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 33
+        }
+      ]
+    },
+    {
+      "tag": "achievement_system",
+      "tag_key": "achievement_system",
+      "count": 32,
+      "guides_total": 1,
+      "guide_ids": [
+        "eopjeok"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "tag": "inscription",
+      "tag_key": "inscription",
+      "count": 32,
+      "guides_total": 2,
+      "guide_ids": [
+        "salseong_seukil",
+        "tonghap_ganghwa"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 30
+        },
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "tag": "craft",
+      "tag_key": "craft",
+      "count": 30,
+      "guides_total": 5,
+      "guide_ids": [
+        "gudok_mit_paeseu",
+        "aitem_gibon_annae",
+        "eopjeok",
+        "jejak_gwanri",
+        "taiteul"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 18
+        },
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "tag": "stun",
+      "tag_key": "stun",
+      "count": 30,
+      "guides_total": 8,
+      "guide_ids": [
+        "geomseong_seukil",
+        "gungseong_seukil",
+        "madoseong_seukil",
+        "salseong_seukil",
+        "suhoseong_seukil",
+        "jeongryeongseong_seukil",
+        "chiyuseong_seukil",
+        "hobeopseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "tag": "inventory",
+      "tag_key": "inventory",
+      "count": 29,
+      "guides_total": 4,
+      "guide_ids": [
+        "georaeso",
+        "muljil_byeonhwan",
+        "aitem_gibon_annae",
+        "tonghap_ganghwa"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 24
+        },
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 3
+        },
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "tag": "acquisition",
+      "tag_key": "acquisition",
+      "count": 24,
+      "guides_total": 3,
+      "guide_ids": [
+        "georaeso",
+        "gyohwanso",
+        "aitem_gibon_annae"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "tag": "source",
+      "tag_key": "source",
+      "count": 24,
+      "guides_total": 3,
+      "guide_ids": [
+        "georaeso",
+        "gyohwanso",
+        "aitem_gibon_annae"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "tag": "exchange",
+      "tag_key": "exchange",
+      "count": 23,
+      "guides_total": 2,
+      "guide_ids": [
+        "georaeso",
+        "gyohwanso"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 23
+        }
+      ]
+    },
+    {
+      "tag": "material",
+      "tag_key": "material",
+      "count": 22,
+      "guides_total": 6,
+      "guide_ids": [
+        "gudok_mit_paeseu",
+        "muljil_byeonhwan",
+        "areukana",
+        "aitem_gibon_annae",
+        "jejak_gwanri",
+        "tonghap_ganghwa"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 13
+        },
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 6
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "tag": "recommendation",
+      "tag_key": "recommendation",
+      "count": 18,
+      "guides_total": 4,
+      "guide_ids": [
+        "muljil_byeonhwan",
+        "seukil_sogae",
+        "wonjeong",
+        "taiteul"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 12
+        },
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "tag": "nuance",
+      "tag_key": "nuance",
+      "count": 17,
+      "guides_total": 4,
+      "guide_ids": [
+        "debanion",
+        "muljil_byeonhwan",
+        "wonjeong",
+        "taiteul"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 16
+        },
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "tag": "mode",
+      "tag_key": "mode",
+      "count": 15,
+      "guides_total": 2,
+      "guide_ids": [
+        "seukil_sogae",
+        "wonjeong"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 14
+        },
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "tag": "transmutation",
+      "tag_key": "transmutation",
+      "count": 15,
+      "guides_total": 2,
+      "guide_ids": [
+        "muljil_byeonhwan",
+        "aitem_gibon_annae"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 14
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "tag": "charge_skill",
+      "tag_key": "charge_skill",
+      "count": 14,
+      "guides_total": 5,
+      "guide_ids": [
+        "geomseong_seukil",
+        "gungseong_seukil",
+        "madoseong_seukil",
+        "suhoseong_seukil",
+        "chiyuseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "tag": "ui",
+      "tag_key": "ui",
+      "count": 14,
+      "guides_total": 2,
+      "guide_ids": [
+        "seukil_sogae",
+        "aitem_gibon_annae"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 10
+        },
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "tag": "wing_system",
+      "tag_key": "wing_system",
+      "count": 14,
+      "guides_total": 1,
+      "guide_ids": [
+        "nalgae"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "tag": "outpost",
+      "tag_key": "outpost",
+      "count": 12,
+      "guides_total": 4,
+      "guide_ids": [
+        "bongin_deonjeon_mit_judunji",
+        "aitem_gibon_annae",
+        "eopjeok",
+        "taiteul"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 8
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "tag": "toggle_skill",
+      "tag_key": "toggle_skill",
+      "count": 12,
+      "guides_total": 4,
+      "guide_ids": [
+        "geomseong_seukil",
+        "salseong_seukil",
+        "suhoseong_seukil",
+        "hobeopseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "tag": "commission",
+      "tag_key": "commission",
+      "count": 10,
+      "guides_total": 2,
+      "guide_ids": [
+        "bogeup_uiroe",
+        "aitem_gibon_annae"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 9
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "tag": "enhancement",
+      "tag_key": "enhancement",
+      "count": 9,
+      "guides_total": 2,
+      "guide_ids": [
+        "areukana",
+        "tonghap_ganghwa"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "tag": "extraction",
+      "tag_key": "extraction",
+      "count": 8,
+      "guides_total": 1,
+      "guide_ids": [
+        "aitem_gibon_annae"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "tag": "inheritance",
+      "tag_key": "inheritance",
+      "count": 8,
+      "guides_total": 1,
+      "guide_ids": [
+        "tonghap_ganghwa"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "tag": "macro",
+      "tag_key": "macro",
+      "count": 8,
+      "guides_total": 1,
+      "guide_ids": [
+        "seukil_sogae"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "tag": "named_boss",
+      "tag_key": "named_boss",
+      "count": 8,
+      "guides_total": 1,
+      "guide_ids": [
+        "pildeu_neimdeu"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "tag": "resonance",
+      "tag_key": "resonance",
+      "count": 8,
+      "guides_total": 2,
+      "guide_ids": [
+        "monoriseu",
+        "hobeopseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 7
+        },
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "tag": "shield",
+      "tag_key": "shield",
+      "count": 7,
+      "guides_total": 4,
+      "guide_ids": [
+        "madoseong_seukil",
+        "suhoseong_seukil",
+        "chiyuseong_seukil",
+        "hobeopseong_seukil"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "tag": "skills",
+      "tag_key": "skills",
+      "count": 7,
+      "guides_total": 1,
+      "guide_ids": [
+        "seukil_sogae"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "tag": "constraint",
+      "tag_key": "constraint",
+      "count": 6,
+      "guides_total": 3,
+      "guide_ids": [
+        "debanion",
+        "seukil_sogae",
+        "wonjeong"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 4
+        },
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 1
+        },
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "tag": "filter",
+      "tag_key": "filter",
+      "count": 6,
+      "guides_total": 4,
+      "guide_ids": [
+        "georaeso",
+        "muljil_byeonhwan",
+        "areukana",
+        "taiteul"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 3
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 2
+        },
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "tag": "lock",
+      "tag_key": "lock",
+      "count": 6,
+      "guides_total": 2,
+      "guide_ids": [
+        "seukil_sogae",
+        "aitem_gibon_annae"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 5
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "tag": "monolith",
+      "tag_key": "monolith",
+      "count": 6,
+      "guides_total": 1,
+      "guide_ids": [
+        "monoriseu"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "tag": "preset",
+      "tag_key": "preset",
+      "count": 6,
+      "guides_total": 3,
+      "guide_ids": [
+        "seukil_sogae",
+        "areukana",
+        "taiteul"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 4
+        },
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 1
+        },
+        {
+          "topic_key": "gear_nuance",
+          "topic_label": "Support & Nuance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "tag": "storage",
+      "tag_key": "storage",
+      "count": 6,
+      "guides_total": 1,
+      "guide_ids": [
+        "aitem_gibon_annae"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "tag": "class",
+      "tag_key": "class",
+      "count": 5,
+      "guides_total": 2,
+      "guide_ids": [
+        "seukil_sogae",
+        "aitem_gibon_annae"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 4
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "tag": "devanion",
+      "tag_key": "devanion",
+      "count": 5,
+      "guides_total": 1,
+      "guide_ids": [
+        "debanion"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "tag": "leveling",
+      "tag_key": "leveling",
+      "count": 5,
+      "guides_total": 1,
+      "guide_ids": [
+        "seukil_sogae"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "tag": "soulstone_system",
+      "tag_key": "soulstone_system",
+      "count": 5,
+      "guides_total": 2,
+      "guide_ids": [
+        "bonghonseok_siseutem",
+        "jangbi"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 3
+        },
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "tag": "trade",
+      "tag_key": "trade",
+      "count": 5,
+      "guides_total": 2,
+      "guide_ids": [
+        "georaeso",
+        "gyohwanso"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "tag": "status_effect",
+      "tag_key": "status_effect",
+      "count": 2,
+      "guides_total": 1,
+      "guide_ids": [
+        "seukil_sogae"
+      ],
+      "topics": [
+        {
+          "topic_key": "skills",
+          "topic_label": "Skills",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "tag": "auto_use",
+      "tag_key": "auto_use",
+      "count": 1,
+      "guides_total": 1,
+      "guide_ids": [
+        "aitem_gibon_annae"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "tag": "crafting",
+      "tag_key": "crafting",
+      "count": 1,
+      "guides_total": 1,
+      "guide_ids": [
+        "jejak_gwanri"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "tag": "integrated_enhancement",
+      "tag_key": "integrated_enhancement",
+      "count": 1,
+      "guides_total": 1,
+      "guide_ids": [
+        "aitem_gibon_annae"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_acquisition",
+          "topic_label": "Gear Acquisition",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "tag": "progression",
+      "tag_key": "progression",
+      "count": 1,
+      "guides_total": 1,
+      "guide_ids": [
+        "debanion"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "tag": "set_effect",
+      "tag_key": "set_effect",
+      "count": 1,
+      "guides_total": 1,
+      "guide_ids": [
+        "areukana"
+      ],
+      "topics": [
+        {
+          "topic_key": "gear_progression",
+          "topic_label": "Gear Progression",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

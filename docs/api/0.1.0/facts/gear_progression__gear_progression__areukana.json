@@ -1,0 +1,1037 @@
+{
+  "metadata": {
+    "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EC%95%84%EB%A5%B4%EC%B9%B4%EB%82%98",
+    "guide_title": "아르카나",
+    "top_category": "성장과 수집",
+    "sub_category": "장비 및 강화",
+    "crawled_at": "2026-02-13T18:15:09+00:00",
+    "parser_version": "facts_v2",
+    "schema_version": "v2",
+    "referential_version": "0.1.0",
+    "priority": "P1",
+    "action": "parse_gear_progression",
+    "topic": "gear_progression",
+    "source_file": "raw/crawled_areukana_604e8dc0da/guide.html"
+  },
+  "facts": [
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_258ff650",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "부위",
+      "value": "세트",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "info",
+        "arcana"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "아르카나 소개",
+        "raw_text": "부위 | 세트"
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_0f730cfd",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "활력",
+      "value": "활력 / 마력",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "info",
+        "arcana"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "아르카나 소개",
+        "raw_text": "- | 활력 | 마력"
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_6d899d8e",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "성배",
+      "value": "시간[시엘] / 공간[이스라펠]",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "info",
+        "arcana"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "아르카나 소개",
+        "raw_text": "성배 | 시간[시엘] | 공간[이스라펠]"
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_fde8013c",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "양피지",
+      "value": "생명[유스티엘] / 운명[마르쿠탄]",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "info",
+        "arcana"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "아르카나 소개",
+        "raw_text": "양피지 | 생명[유스티엘] | 운명[마르쿠탄]"
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_64ebe4a2",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "나침반",
+      "value": "자유[바이젤] / 죽음[트리니엘]",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "info",
+        "arcana"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "아르카나 소개",
+        "raw_text": "나침반 | 자유[바이젤] | 죽음[트리니엘]"
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_90ab3f55",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "정의[네자칸]",
+      "value": "정의[네자칸] / 파괴[지켈]",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "info",
+        "arcana"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "아르카나 소개",
+        "raw_text": "종 | 정의[네자칸] | 파괴[지켈]"
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_75d6002d",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "거울",
+      "value": "환상[카이시넬] / 지혜[루미엘]",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "info",
+        "arcana"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "아르카나 소개",
+        "raw_text": "거울 | 환상[카이시넬] | 지혜[루미엘]"
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_b50ec980",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "아르카나",
+      "value": "장착된 아르카나의 전체적인 정보를 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "info"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "아르카나 소개",
+        "raw_text": "아르카나 | 장착된 아르카나의 전체적인 정보를 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_48c4a4e3",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "장착",
+      "value": "보유한 아르카나를 확인 및 장착할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "info"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "아르카나 소개",
+        "raw_text": "장착 | 보유한 아르카나를 확인 및 장착할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_b73d098e",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "추출",
+      "value": "보유한 아르카나를 확인 및 추출할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "info"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "아르카나 소개",
+        "raw_text": "추출 | 보유한 아르카나를 확인 및 추출할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_128105f3",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "연성",
+      "value": "보유한 아르카나의 장착 능력치를 확정으로 변경할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "info"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "아르카나 소개",
+        "raw_text": "연성 | 보유한 아르카나의 장착 능력치를 확정으로 변경할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_c837c297",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "프리셋 선택",
+      "value": "아르카나 프리셋을 최대 3개 등록하여, 즉시 변환할 수 있다.",
+      "numeric_values": [
+        {
+          "value": 3,
+          "unit": "flat",
+          "kind": "limit"
+        }
+      ],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "preset",
+        "info"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "아르카나 소개",
+        "raw_text": "프리셋 선택 | 아르카나 프리셋을 최대 3개 등록하여, 즉시 변환할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_f33508b6",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "장착 아르카나 정보",
+      "value": "아르카나의 등급, 강화도, 일러스트를 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "info"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "아르카나 소개",
+        "raw_text": "장착 아르카나 정보 | 아르카나의 등급, 강화도, 일러스트를 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_c330f02d",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "장착 능력치",
+      "value": "장착한 아르카나가 부여중인 능력치를 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "info"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "아르카나 소개",
+        "raw_text": "장착 능력치 | 장착한 아르카나가 부여중인 능력치를 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_871b0456",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "세트 효과",
+      "value": "동일한 아르카나를 장착했을 경우 발생하는 세트 효과를 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [
+        "동일한 아르카나를 장착했을 경우 발생하는 세트 효과를 확인할 수 있다."
+      ],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "info"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "아르카나 소개",
+        "raw_text": "세트 효과 | 동일한 아르카나를 장착했을 경우 발생하는 세트 효과를 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_a17d16cb",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "빠른 장착",
+      "value": "아르카나를 장착하지 않은 경우, 보유 중인 아르카나를 즉시 자동 장착한다.",
+      "numeric_values": [],
+      "conditions": [
+        "아르카나를 장착하지 않은 경우, 보유 중인 아르카나를 즉시 자동 장착한다."
+      ],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "info"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "아르카나 소개",
+        "raw_text": "빠른 장착 | 아르카나를 장착하지 않은 경우, 보유 중인 아르카나를 즉시 자동 장착한다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_16369ff6",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "아르카나 소개",
+      "value": "아르카나의 등급, 강화도, 일러스트를 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "아르카나 소개",
+        "raw_text": "아르카나의 등급, 강화도, 일러스트를 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_8ac3ddfc",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "아르카나 소개",
+      "value": "동일한 아르카나를 장착했을 경우 발생하는 세트 효과를 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [
+        "동일한 아르카나를 장착했을 경우 발생하는 세트 효과를 확인할 수 있다."
+      ],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "아르카나 소개",
+        "raw_text": "동일한 아르카나를 장착했을 경우 발생하는 세트 효과를 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_6e8d3511",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "아르카나 소개",
+      "value": "아르카나를 장착하지 않은 경우, 보유 중인 아르카나를 즉시 자동 장착한다.",
+      "numeric_values": [],
+      "conditions": [
+        "아르카나를 장착하지 않은 경우, 보유 중인 아르카나를 즉시 자동 장착한다."
+      ],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "아르카나 소개",
+        "raw_text": "아르카나를 장착하지 않은 경우, 보유 중인 아르카나를 즉시 자동 장착한다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_5e1a0f1b",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "아르카나 목록",
+      "value": "보유 아르카나 목록을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "list"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "장착",
+        "raw_text": "아르카나 목록 | 보유 아르카나 목록을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_e7952271",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "아르카나 타입",
+      "value": "총 5종(성배, 양피지, 나침반, 종, 거울)의 아르카나 유형을 필터로 확인할 수 있다.",
+      "numeric_values": [
+        {
+          "value": 5,
+          "unit": "flat",
+          "kind": "quantity"
+        }
+      ],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "장착",
+        "raw_text": "아르카나 타입 | 총 5종(성배, 양피지, 나침반, 종, 거울)의 아르카나 유형을 필터로 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_8776af9b",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "대상 아르카나 이미지",
+      "value": "클릭한 아르카나의 이미지를 보여준다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "장착",
+        "raw_text": "대상 아르카나 이미지 | 클릭한 아르카나의 이미지를 보여준다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_f8ba3b5a",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "아이템 레벨",
+      "value": "클릭한 아르카나의 레벨을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "장착",
+        "raw_text": "아이템 레벨 | 클릭한 아르카나의 레벨을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_a70cc9c4",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "대상 아르카나 정보",
+      "value": "클릭한 아르카나의 명칭, 강화도, 경험치, 장착 능력치, 세트효과 등을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "info"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "장착",
+        "raw_text": "대상 아르카나 정보 | 클릭한 아르카나의 명칭, 강화도, 경험치, 장착 능력치, 세트효과 등을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_e8fc73bf",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "필터",
+      "value": "세트 효과 유형별, 스탯 유형별 필터링을 할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "filter",
+        "set_effect"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "장착",
+        "raw_text": "필터 | 세트 효과 유형별, 스탯 유형별 필터링을 할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_e5fa2107",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "장착 해제 및 강화",
+      "value": "아르카나를 장착/장착 해제하거나, 강화할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "장착",
+        "raw_text": "장착 해제 및 강화 | 아르카나를 장착/장착 해제하거나, 강화할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_e2ff051b",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "장착",
+      "value": "클릭한 아르카나의 레벨을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "장착",
+        "raw_text": "클릭한 아르카나의 레벨을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_f7519147",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "장착",
+      "value": "클릭한 아르카나의 명칭, 강화도, 경험치, 장착 능력치, 세트효과 등을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "장착",
+        "raw_text": "클릭한 아르카나의 명칭, 강화도, 경험치, 장착 능력치, 세트효과 등을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_d997057d",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "장착",
+      "value": "장착 해제 및 강화",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "enhancement"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "장착",
+        "raw_text": "장착 해제 및 강화"
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_ee20cf30",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "장착",
+      "value": "아르카나를 장착/장착 해제하거나, 강화할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "장착",
+        "raw_text": "아르카나를 장착/장착 해제하거나, 강화할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_cc34f0ba",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "설정된 재료 아르카나",
+      "value": "아르카나 강화에 선택된 재료 아르카나 목록을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "list",
+        "material"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "강화",
+        "raw_text": "설정된 재료 아르카나 | 아르카나 강화에 선택된 재료 아르카나 목록을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_ca9a7e82",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "강화 단계",
+      "value": "강화에 선택된 아르카나의 강화 단계 및 필요 경험치 및 상승량을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [
+        "강화에 선택된 아르카나의 강화 단계 및 필요 경험치 및 상승량을 확인할 수 있다."
+      ],
+      "tags": [
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "강화",
+        "raw_text": "강화 단계 | 강화에 선택된 아르카나의 강화 단계 및 필요 경험치 및 상승량을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_d0eab34c",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "장착 효과",
+      "value": "강화에 선택된 아르카나의 현재 장착 효과를 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "강화",
+        "raw_text": "장착 효과 | 강화에 선택된 아르카나의 현재 장착 효과를 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_7629b4c5",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "편의 기능",
+      "value": "선택 재료 초기화, 동일 아르카나 일괄 선택, 다음 단계 및 최대 단계까지 강화 기능이다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "material"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "강화",
+        "raw_text": "편의 기능 | 선택 재료 초기화, 동일 아르카나 일괄 선택, 다음 단계 및 최대 단계까지 강화 기능이다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_5f8045d8",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "취소/강화",
+      "value": "강화를 진행하거나 취소할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "enhancement"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "강화",
+        "raw_text": "취소/강화 | 강화를 진행하거나 취소할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_5eab2eb3",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "강화",
+      "value": "아르카나 강화에 선택된 재료 아르카나 목록을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "list",
+        "material"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "강화",
+        "raw_text": "아르카나 강화에 선택된 재료 아르카나 목록을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_9d6bbf45",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "강화",
+      "value": "강화에 선택된 아르카나의 강화 단계 및 필요 경험치 및 상승량을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [
+        "강화에 선택된 아르카나의 강화 단계 및 필요 경험치 및 상승량을 확인할 수 있다."
+      ],
+      "tags": [
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "강화",
+        "raw_text": "강화에 선택된 아르카나의 강화 단계 및 필요 경험치 및 상승량을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_6e85d3ba",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "강화",
+      "value": "강화에 선택된 아르카나의 강화 단계 및 필요 경험치 및 상승량을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [
+        "강화에 선택된 아르카나의 강화 단계 및 필요 경험치 및 상승량을 확인할 수 있다."
+      ],
+      "tags": [
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "강화",
+        "raw_text": "강화에 선택된 아르카나의 강화 단계 및 필요 경험치 및 상승량을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_2913e467",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "강화",
+      "value": "강화에 선택된 아르카나의 현재 장착 효과를 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "강화",
+        "raw_text": "강화에 선택된 아르카나의 현재 장착 효과를 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_a68b5a8e",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "강화",
+      "value": "선택 재료 초기화, 동일 아르카나 일괄 선택, 다음 단계 및 최대 단계까지 강화 기능이다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "material"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "강화",
+        "raw_text": "선택 재료 초기화, 동일 아르카나 일괄 선택, 다음 단계 및 최대 단계까지 강화 기능이다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_dc80bc5e",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "강화",
+      "value": "강화를 진행하거나 취소할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "enhancement"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "강화",
+        "raw_text": "강화를 진행하거나 취소할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_717f7bfd",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "추출 후 획득 아이템",
+      "value": "아르카나 추출 후 획득할 아이템 이미지를 보여준다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "추출",
+        "raw_text": "추출 후 획득 아이템 | 아르카나 추출 후 획득할 아이템 이미지를 보여준다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_b7af3111",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "획득까지 추출 진행도",
+      "value": "추출 진행도를 확인할 수 있으며, 100%에 도달하면 표기된 아이템을 획득할 수 있다.",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "upgrade_value"
+        }
+      ],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "추출",
+        "raw_text": "획득까지 추출 진행도 | 추출 진행도를 확인할 수 있으며, 100%에 도달하면 표기된 아이템을 획득할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_05a526bc",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "추출 선택한 아르카나",
+      "value": "추출을 위해 선택된 아르카나 목록이며, 등급에 따라 추출 진행도가 상승한다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "list"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "추출",
+        "raw_text": "추출 선택한 아르카나 | 추출을 위해 선택된 아르카나 목록이며, 등급에 따라 추출 진행도가 상승한다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_259013eb",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "편의기능",
+      "value": "선택된 아르카나 목록을 초기화하거나, 등급별 분류 혹은 일괄 등록할 수 있다",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "list"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "추출",
+        "raw_text": "편의기능 | 선택된 아르카나 목록을 초기화하거나, 등급별 분류 혹은 일괄 등록할 수 있다"
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_9a5a6a22",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "추출",
+      "value": "버튼 클릭 시 아르카나 추출이 진행되며, 등급에 따라 진행도가 상승한다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "추출",
+        "raw_text": "추출 | 버튼 클릭 시 아르카나 추출이 진행되며, 등급에 따라 진행도가 상승한다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_e49c430b",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "대상 아르카나",
+      "value": "선택된 아르카나 이미지와 강화 등급을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "연성",
+        "raw_text": "대상 아르카나 | 선택된 아르카나 이미지와 강화 등급을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_08a4634d",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "아르카나 세부 정보",
+      "value": "선택된 아르카나의 아이템 레벨, 명칭, 강화 단계, 능력치. 세트 효과 등 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana",
+        "info"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "연성",
+        "raw_text": "아르카나 세부 정보 | 선택된 아르카나의 아이템 레벨, 명칭, 강화 단계, 능력치. 세트 효과 등 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_26e20579",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "아르카나 타입 선택",
+      "value": "연성할 아르카나 타입을 선택할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "연성",
+        "raw_text": "아르카나 타입 선택 | 연성할 아르카나 타입을 선택할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_94696ef0",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "능력치 선택",
+      "value": "선택된 아르카나의 주요 능력과 추가 능력을 설정할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "연성",
+        "raw_text": "능력치 선택 | 선택된 아르카나의 주요 능력과 추가 능력을 설정할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_e45bab1b",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "연성",
+      "value": "아르카나를 연성한다. 연성에는 ‘신비로운 결정’과 키나를 소모한다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "연성",
+        "raw_text": "연성 | 아르카나를 연성한다. 연성에는 ‘신비로운 결정’과 키나를 소모한다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_018ee6f5",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "연성",
+      "value": "선택된 아르카나 이미지와 강화 등급을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "연성",
+        "raw_text": "선택된 아르카나 이미지와 강화 등급을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_9d74a11a",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "연성",
+      "value": "선택된 아르카나의 아이템 레벨, 명칭, 강화 단계, 능력치. 세트 효과 등 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "arcana"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "연성",
+        "raw_text": "선택된 아르카나의 아이템 레벨, 명칭, 강화 단계, 능력치. 세트 효과 등 확인할 수 있다."
+      }
+    }
+  ]
+}

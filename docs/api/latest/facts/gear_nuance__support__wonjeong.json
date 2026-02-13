@@ -1,0 +1,2441 @@
+{
+  "metadata": {
+    "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EC%9B%90%EC%A0%95",
+    "guide_title": "원정",
+    "top_category": "몬스터와 던전",
+    "sub_category": "던전 콘텐츠",
+    "crawled_at": "2026-02-13T18:16:20+00:00",
+    "parser_version": "facts_v2",
+    "schema_version": "v2",
+    "referential_version": "0.1.0",
+    "priority": "P2",
+    "action": "parse_support",
+    "topic": "gear_nuance",
+    "source_file": "raw/crawled_wonjeong_9cd8466357/guide.html"
+  },
+  "facts": [
+    {
+      "fact_id": "recommendation:gear_nuance:entity_dc115fa7",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "모드 선택",
+      "value": "탐험/정복 모드 중 하나를 선택할 수 있다. 정복 모드는 탐험 모드를 클리어하면 해금된다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "mode",
+        "info",
+        "expedition"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "모드 선택 | 탐험/정복 모드 중 하나를 선택할 수 있다. 정복 모드는 탐험 모드를 클리어하면 해금된다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_634d584f",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "던전 목록",
+      "value": "던전 목록을 확인할 수 있으며, 원하는 던전을 선택하여 정보 확인 및 입장 파티를 생성할 수 있다.",
+      "numeric_values": [],
+      "conditions": [
+        "던전 목록을 확인할 수 있으며, 원하는 던전을 선택하여 정보 확인 및 입장 파티를 생성할 수 있다."
+      ],
+      "tags": [
+        "dungeon",
+        "list",
+        "info",
+        "party"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "던전 목록 | 던전 목록을 확인할 수 있으며, 원하는 던전을 선택하여 정보 확인 및 입장 파티를 생성할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_27aec115",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "던전 목록",
+      "value": "던전 목록을 확인할 수 있으며, 원하는 던전을 선택하여 정보 확인 및 입장 파티를 생성할 수 있다.",
+      "numeric_values": [],
+      "conditions": [
+        "던전 목록을 확인할 수 있으며, 원하는 던전을 선택하여 정보 확인 및 입장 파티를 생성할 수 있다."
+      ],
+      "tags": [
+        "dungeon",
+        "list",
+        "info",
+        "party"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "던전 목록 | 던전 목록을 확인할 수 있으며, 원하는 던전을 선택하여 정보 확인 및 입장 파티를 생성할 수 있다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_d52baa54",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "던전 목록",
+      "value": "던전 목록을 확인할 수 있으며, 원하는 던전을 선택하여 정보 확인 및 입장 파티를 생성할 수 있다.",
+      "numeric_values": [],
+      "conditions": [
+        "던전 목록을 확인할 수 있으며, 원하는 던전을 선택하여 정보 확인 및 입장 파티를 생성할 수 있다."
+      ],
+      "tags": [
+        "dungeon",
+        "list",
+        "info",
+        "party"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "던전 목록 | 던전 목록을 확인할 수 있으며, 원하는 던전을 선택하여 정보 확인 및 입장 파티를 생성할 수 있다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_0ab95a9e",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "던전 정보",
+      "value": "입장 조건 / 입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다.",
+      "numeric_values": [],
+      "conditions": [
+        "입장 조건 / 입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다."
+      ],
+      "tags": [
+        "dungeon",
+        "drop",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "던전 정보 | 입장 조건 | 입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_961e4305",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "던전 정보",
+      "value": "입장 조건 / 입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다.",
+      "numeric_values": [],
+      "conditions": [
+        "입장 조건 / 입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다."
+      ],
+      "tags": [
+        "dungeon",
+        "drop",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "던전 정보 | 입장 조건 | 입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_39bdc8e4",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "던전 정보",
+      "value": "입장 조건 / 입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다.",
+      "numeric_values": [],
+      "conditions": [
+        "입장 조건 / 입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다."
+      ],
+      "tags": [
+        "dungeon",
+        "drop",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "던전 정보 | 입장 조건 | 입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_669d4ec6",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "던전 정보",
+      "value": "입장 조건 / 입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다.",
+      "numeric_values": [],
+      "conditions": [
+        "입장 조건 / 입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다."
+      ],
+      "tags": [
+        "dungeon",
+        "drop",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "던전 정보 | 입장 조건 | 입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_1be4ada0",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "큐브 보상",
+      "value": "획득 가능한 보상 목록과 획득 확률을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [
+        "획득 가능한 보상 목록과 획득 확률을 확인할 수 있다."
+      ],
+      "tags": [
+        "drop",
+        "list",
+        "chance",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "큐브 보상 | 획득 가능한 보상 목록과 획득 확률을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_510c8100",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "큐브 보상",
+      "value": "획득 가능한 보상 목록과 획득 확률을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [
+        "획득 가능한 보상 목록과 획득 확률을 확인할 수 있다."
+      ],
+      "tags": [
+        "drop",
+        "list",
+        "chance",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "큐브 보상 | 획득 가능한 보상 목록과 획득 확률을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_0b301a51",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "큐브 보상",
+      "value": "획득 가능한 보상 목록과 획득 확률을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [
+        "획득 가능한 보상 목록과 획득 확률을 확인할 수 있다."
+      ],
+      "tags": [
+        "drop",
+        "list",
+        "chance",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "큐브 보상 | 획득 가능한 보상 목록과 획득 확률을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_5225a392",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "확정 보상",
+      "value": "큐브 응축 에너지가 가득 차면 보상을 획득할 수 있다. 확정 보상 게이지가 가득 찼을 경우, 확정 보상을 획득해야 던전에 재입장이 가능하다.",
+      "numeric_values": [],
+      "conditions": [
+        "큐브 응축 에너지가 가득 차면 보상을 획득할 수 있다. 확정 보상 게이지가 가득 찼을 경우, 확정 보상을 획득해야 던전에 재입장이 가능하다."
+      ],
+      "tags": [
+        "dungeon",
+        "drop",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "확정 보상 | 큐브 응축 에너지가 가득 차면 보상을 획득할 수 있다. 확정 보상 게이지가 가득 찼을 경우, 확정 보상을 획득해야 던전에 재입장이 가능하다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_b475fbca",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "확정 보상",
+      "value": "큐브 응축 에너지가 가득 차면 보상을 획득할 수 있다. 확정 보상 게이지가 가득 찼을 경우, 확정 보상을 획득해야 던전에 재입장이 가능하다.",
+      "numeric_values": [],
+      "conditions": [
+        "큐브 응축 에너지가 가득 차면 보상을 획득할 수 있다. 확정 보상 게이지가 가득 찼을 경우, 확정 보상을 획득해야 던전에 재입장이 가능하다."
+      ],
+      "tags": [
+        "dungeon",
+        "drop",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "확정 보상 | 큐브 응축 에너지가 가득 차면 보상을 획득할 수 있다. 확정 보상 게이지가 가득 찼을 경우, 확정 보상을 획득해야 던전에 재입장이 가능하다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_dd03ff2b",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "확정 보상",
+      "value": "큐브 응축 에너지가 가득 차면 보상을 획득할 수 있다. 확정 보상 게이지가 가득 찼을 경우, 확정 보상을 획득해야 던전에 재입장이 가능하다.",
+      "numeric_values": [],
+      "conditions": [
+        "큐브 응축 에너지가 가득 차면 보상을 획득할 수 있다. 확정 보상 게이지가 가득 찼을 경우, 확정 보상을 획득해야 던전에 재입장이 가능하다."
+      ],
+      "tags": [
+        "dungeon",
+        "drop",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "확정 보상 | 큐브 응축 에너지가 가득 차면 보상을 획득할 수 있다. 확정 보상 게이지가 가득 찼을 경우, 확정 보상을 획득해야 던전에 재입장이 가능하다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_12710b15",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "원정 대기방 정보",
+      "value": "대기중인 원정 파티 목록과 참여자 정보를 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "expedition",
+        "list",
+        "info",
+        "party"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "원정 대기방 정보 | 대기중인 원정 파티 목록과 참여자 정보를 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_3613e669",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "내 파티 정보",
+      "value": "내가 참여한 원정 파티의 정보와 참여자 정보를 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "expedition",
+        "info",
+        "party"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "내 파티 정보 | 내가 참여한 원정 파티의 정보와 참여자 정보를 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_6b4f02d4",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "방 설정/나가기/시작",
+      "value": "방 설정을 하거나, 파티 나가기, 원정 시작을 할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "expedition",
+        "party",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "방 설정/나가기/시작 | 방 설정을 하거나, 파티 나가기, 원정 시작을 할 수 있다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_fc2909c6",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "원정은 플레이어가 파티를 이루어, 정예 몬스터와 보스 몬스터를 공략하는 파티형 콘텐츠입니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "expedition",
+        "party",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "원정은 플레이어가 파티를 이루어, 정예 몬스터와 보스 몬스터를 공략하는 파티형 콘텐츠입니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_04a7251e",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "최대 4인의 파티를 이루어 진행할 수 있으며, 몬스터 처치 또는 완료 보상을 통해 특별한 아이템을 획득할 수 있습니다.",
+      "numeric_values": [
+        {
+          "value": 4,
+          "unit": "flat",
+          "kind": "limit"
+        }
+      ],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "party",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "최대 4인의 파티를 이루어 진행할 수 있으며, 몬스터 처치 또는 완료 보상을 통해 특별한 아이템을 획득할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_025f955d",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "원정 소개",
+      "value": "최대 4인의 파티를 이루어 진행할 수 있으며, 몬스터 처치 또는 완료 보상을 통해 특별한 아이템을 획득할 수 있습니다.",
+      "numeric_values": [
+        {
+          "value": 4,
+          "unit": "flat",
+          "kind": "limit"
+        }
+      ],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "party",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "최대 4인의 파티를 이루어 진행할 수 있으며, 몬스터 처치 또는 완료 보상을 통해 특별한 아이템을 획득할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_242002ba",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "원정은 탐험/정복 두가지 난이도로 나뉘며, 정복 모드의 경우 난이도가 높은 대신, 희귀한 보상을 획득할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "원정은 탐험/정복 두가지 난이도로 나뉘며, 정복 모드의 경우 난이도가 높은 대신, 희귀한 보상을 획득할 수 있습니다."
+      ],
+      "tags": [
+        "drop",
+        "expedition",
+        "mode",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "원정은 탐험/정복 두가지 난이도로 나뉘며, 정복 모드의 경우 난이도가 높은 대신, 희귀한 보상을 획득할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_baefa756",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "원정 소개",
+      "value": "원정은 탐험/정복 두가지 난이도로 나뉘며, 정복 모드의 경우 난이도가 높은 대신, 희귀한 보상을 획득할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "원정은 탐험/정복 두가지 난이도로 나뉘며, 정복 모드의 경우 난이도가 높은 대신, 희귀한 보상을 획득할 수 있습니다."
+      ],
+      "tags": [
+        "drop",
+        "expedition",
+        "mode",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "원정은 탐험/정복 두가지 난이도로 나뉘며, 정복 모드의 경우 난이도가 높은 대신, 희귀한 보상을 획득할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_b634b156",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "원정은 탐험/정복 두가지 난이도로 나뉘며, 정복 모드의 경우 난이도가 높은 대신, 희귀한 보상을 획득할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "원정은 탐험/정복 두가지 난이도로 나뉘며, 정복 모드의 경우 난이도가 높은 대신, 희귀한 보상을 획득할 수 있습니다."
+      ],
+      "tags": [
+        "drop",
+        "expedition",
+        "mode",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "원정은 탐험/정복 두가지 난이도로 나뉘며, 정복 모드의 경우 난이도가 높은 대신, 희귀한 보상을 획득할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_304b48a5",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "원정 별로 보상 획득 횟수가 제한되어 있으며, 횟수는 일정한 주기 마다 충전됩니다.",
+      "numeric_values": [],
+      "conditions": [
+        "원정 별로 보상 획득 횟수가 제한되어 있으며, 횟수는 일정한 주기 마다 충전됩니다."
+      ],
+      "tags": [
+        "drop",
+        "expedition",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "원정 별로 보상 획득 횟수가 제한되어 있으며, 횟수는 일정한 주기 마다 충전됩니다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_d83e7d24",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "원정 소개",
+      "value": "원정 별로 보상 획득 횟수가 제한되어 있으며, 횟수는 일정한 주기 마다 충전됩니다.",
+      "numeric_values": [],
+      "conditions": [
+        "원정 별로 보상 획득 횟수가 제한되어 있으며, 횟수는 일정한 주기 마다 충전됩니다."
+      ],
+      "tags": [
+        "drop",
+        "expedition",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "원정 별로 보상 획득 횟수가 제한되어 있으며, 횟수는 일정한 주기 마다 충전됩니다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_33f0be55",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "원정 별로 보상 획득 횟수가 제한되어 있으며, 횟수는 일정한 주기 마다 충전됩니다.",
+      "numeric_values": [],
+      "conditions": [
+        "원정 별로 보상 획득 횟수가 제한되어 있으며, 횟수는 일정한 주기 마다 충전됩니다."
+      ],
+      "tags": [
+        "drop",
+        "expedition",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "원정 별로 보상 획득 횟수가 제한되어 있으며, 횟수는 일정한 주기 마다 충전됩니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_bb7d27bc",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "원정 / 초월 / 성역에서 비정상적으로 접속 종료되었을 경우 재접속까지의 유예시간 10분이 주어지며, 10분 이내 재접속에 성공한 경우, 같은 파티원 또는 포스원이 참여한 던전 방에 횟수 차감 없이 입장이 가능합니다.",
+      "numeric_values": [
+        {
+          "value": 10,
+          "unit": "flat",
+          "kind": "duration"
+        }
+      ],
+      "conditions": [
+        "원정 / 초월 / 성역에서 비정상적으로 접속 종료되었을 경우 재접속까지의 유예시간 10분이 주어지며, 10분 이내 재접속에 성공한 경우, 같은 파티원 또는 포스원이 참여한 던전 방에 횟수 차감 없이 입장이 가능합니다."
+      ],
+      "tags": [
+        "dungeon",
+        "expedition",
+        "party",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "원정 / 초월 / 성역에서 비정상적으로 접속 종료되었을 경우 재접속까지의 유예시간 10분이 주어지며, 10분 이내 재접속에 성공한 경우, 같은 파티원 또는 포스원이 참여한 던전 방에 횟수 차감 없이 입장이 가능합니다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_bed0a27a",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "원정 소개",
+      "value": "원정 / 초월 / 성역에서 비정상적으로 접속 종료되었을 경우 재접속까지의 유예시간 10분이 주어지며, 10분 이내 재접속에 성공한 경우, 같은 파티원 또는 포스원이 참여한 던전 방에 횟수 차감 없이 입장이 가능합니다.",
+      "numeric_values": [
+        {
+          "value": 10,
+          "unit": "flat",
+          "kind": "duration"
+        }
+      ],
+      "conditions": [
+        "원정 / 초월 / 성역에서 비정상적으로 접속 종료되었을 경우 재접속까지의 유예시간 10분이 주어지며, 10분 이내 재접속에 성공한 경우, 같은 파티원 또는 포스원이 참여한 던전 방에 횟수 차감 없이 입장이 가능합니다."
+      ],
+      "tags": [
+        "dungeon",
+        "expedition",
+        "party",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "원정 / 초월 / 성역에서 비정상적으로 접속 종료되었을 경우 재접속까지의 유예시간 10분이 주어지며, 10분 이내 재접속에 성공한 경우, 같은 파티원 또는 포스원이 참여한 던전 방에 횟수 차감 없이 입장이 가능합니다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_338986fc",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "원정 / 초월 / 성역에서 비정상적으로 접속 종료되었을 경우 재접속까지의 유예시간 10분이 주어지며, 10분 이내 재접속에 성공한 경우, 같은 파티원 또는 포스원이 참여한 던전 방에 횟수 차감 없이 입장이 가능합니다.",
+      "numeric_values": [
+        {
+          "value": 10,
+          "unit": "flat",
+          "kind": "duration"
+        }
+      ],
+      "conditions": [
+        "원정 / 초월 / 성역에서 비정상적으로 접속 종료되었을 경우 재접속까지의 유예시간 10분이 주어지며, 10분 이내 재접속에 성공한 경우, 같은 파티원 또는 포스원이 참여한 던전 방에 횟수 차감 없이 입장이 가능합니다."
+      ],
+      "tags": [
+        "dungeon",
+        "expedition",
+        "party",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "원정 / 초월 / 성역에서 비정상적으로 접속 종료되었을 경우 재접속까지의 유예시간 10분이 주어지며, 10분 이내 재접속에 성공한 경우, 같은 파티원 또는 포스원이 참여한 던전 방에 횟수 차감 없이 입장이 가능합니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_fb311b54",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "탐험/정복 모드 중 하나를 선택할 수 있다. 정복 모드는 탐험 모드를 클리어하면 해금된다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "mode",
+        "info",
+        "expedition"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "탐험/정복 모드 중 하나를 선택할 수 있다. 정복 모드는 탐험 모드를 클리어하면 해금된다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_9047f6ef",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "던전 목록을 확인할 수 있으며, 원하는 던전을 선택하여 정보 확인 및 입장 파티를 생성할 수 있다.",
+      "numeric_values": [],
+      "conditions": [
+        "던전 목록을 확인할 수 있으며, 원하는 던전을 선택하여 정보 확인 및 입장 파티를 생성할 수 있다."
+      ],
+      "tags": [
+        "dungeon",
+        "list",
+        "info",
+        "party"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "던전 목록을 확인할 수 있으며, 원하는 던전을 선택하여 정보 확인 및 입장 파티를 생성할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_b4bc6d28",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "원정 소개",
+      "value": "던전 목록을 확인할 수 있으며, 원하는 던전을 선택하여 정보 확인 및 입장 파티를 생성할 수 있다.",
+      "numeric_values": [],
+      "conditions": [
+        "던전 목록을 확인할 수 있으며, 원하는 던전을 선택하여 정보 확인 및 입장 파티를 생성할 수 있다."
+      ],
+      "tags": [
+        "dungeon",
+        "list",
+        "info",
+        "party"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "던전 목록을 확인할 수 있으며, 원하는 던전을 선택하여 정보 확인 및 입장 파티를 생성할 수 있다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_c6d2b452",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "던전 목록을 확인할 수 있으며, 원하는 던전을 선택하여 정보 확인 및 입장 파티를 생성할 수 있다.",
+      "numeric_values": [],
+      "conditions": [
+        "던전 목록을 확인할 수 있으며, 원하는 던전을 선택하여 정보 확인 및 입장 파티를 생성할 수 있다."
+      ],
+      "tags": [
+        "dungeon",
+        "list",
+        "info",
+        "party"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "던전 목록을 확인할 수 있으며, 원하는 던전을 선택하여 정보 확인 및 입장 파티를 생성할 수 있다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_035d79f4",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다.",
+      "numeric_values": [],
+      "conditions": [
+        "입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다."
+      ],
+      "tags": [
+        "drop",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_d56b6a90",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "원정 소개",
+      "value": "입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다.",
+      "numeric_values": [],
+      "conditions": [
+        "입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다."
+      ],
+      "tags": [
+        "drop",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_920c350b",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "원정 소개",
+      "value": "입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다.",
+      "numeric_values": [],
+      "conditions": [
+        "입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다."
+      ],
+      "tags": [
+        "drop",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_91bf4a81",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다.",
+      "numeric_values": [],
+      "conditions": [
+        "입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다."
+      ],
+      "tags": [
+        "drop",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "입장 레벨, 아이템 레벨, 최소 인원, 보상 횟수를 확인할 수 있다. 보상 횟수를 모두 소모한 경우 입장할 수 없다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_65e0b7ce",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "획득 가능한 보상 목록과 획득 확률을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [
+        "획득 가능한 보상 목록과 획득 확률을 확인할 수 있다."
+      ],
+      "tags": [
+        "drop",
+        "list",
+        "chance",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "획득 가능한 보상 목록과 획득 확률을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_806b4cc0",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "원정 소개",
+      "value": "획득 가능한 보상 목록과 획득 확률을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [
+        "획득 가능한 보상 목록과 획득 확률을 확인할 수 있다."
+      ],
+      "tags": [
+        "drop",
+        "list",
+        "chance",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "획득 가능한 보상 목록과 획득 확률을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_182c20e9",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "획득 가능한 보상 목록과 획득 확률을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [
+        "획득 가능한 보상 목록과 획득 확률을 확인할 수 있다."
+      ],
+      "tags": [
+        "drop",
+        "list",
+        "chance",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "획득 가능한 보상 목록과 획득 확률을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_87b2cb43",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "큐브 응축 에너지가 가득 차면 보상을 획득할 수 있다. 확정 보상 게이지가 가득 찼을 경우, 확정 보상을 획득해야 던전에 재입장이 가능하다.",
+      "numeric_values": [],
+      "conditions": [
+        "큐브 응축 에너지가 가득 차면 보상을 획득할 수 있다. 확정 보상 게이지가 가득 찼을 경우, 확정 보상을 획득해야 던전에 재입장이 가능하다."
+      ],
+      "tags": [
+        "dungeon",
+        "drop",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "큐브 응축 에너지가 가득 차면 보상을 획득할 수 있다. 확정 보상 게이지가 가득 찼을 경우, 확정 보상을 획득해야 던전에 재입장이 가능하다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_7e93766b",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "원정 소개",
+      "value": "큐브 응축 에너지가 가득 차면 보상을 획득할 수 있다. 확정 보상 게이지가 가득 찼을 경우, 확정 보상을 획득해야 던전에 재입장이 가능하다.",
+      "numeric_values": [],
+      "conditions": [
+        "큐브 응축 에너지가 가득 차면 보상을 획득할 수 있다. 확정 보상 게이지가 가득 찼을 경우, 확정 보상을 획득해야 던전에 재입장이 가능하다."
+      ],
+      "tags": [
+        "dungeon",
+        "drop",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "큐브 응축 에너지가 가득 차면 보상을 획득할 수 있다. 확정 보상 게이지가 가득 찼을 경우, 확정 보상을 획득해야 던전에 재입장이 가능하다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_4970b882",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "큐브 응축 에너지가 가득 차면 보상을 획득할 수 있다. 확정 보상 게이지가 가득 찼을 경우, 확정 보상을 획득해야 던전에 재입장이 가능하다.",
+      "numeric_values": [],
+      "conditions": [
+        "큐브 응축 에너지가 가득 차면 보상을 획득할 수 있다. 확정 보상 게이지가 가득 찼을 경우, 확정 보상을 획득해야 던전에 재입장이 가능하다."
+      ],
+      "tags": [
+        "dungeon",
+        "drop",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "큐브 응축 에너지가 가득 차면 보상을 획득할 수 있다. 확정 보상 게이지가 가득 찼을 경우, 확정 보상을 획득해야 던전에 재입장이 가능하다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_2c17910f",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "대기중인 원정 파티 목록과 참여자 정보를 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "expedition",
+        "list",
+        "info",
+        "party"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "대기중인 원정 파티 목록과 참여자 정보를 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_fe635c20",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "내가 참여한 원정 파티의 정보와 참여자 정보를 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "expedition",
+        "info",
+        "party"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "내가 참여한 원정 파티의 정보와 참여자 정보를 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_29acaac3",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "방 설정/나가기/시작",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "nuance",
+        "recommendation",
+        "info",
+        "expedition"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "방 설정/나가기/시작"
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_526313ab",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "방 설정을 하거나, 파티 나가기, 원정 시작을 할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "expedition",
+        "party",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "방 설정을 하거나, 파티 나가기, 원정 시작을 할 수 있다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_d639ec8b",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "원정 입장 후, 더 이상 진행을 희망하지 않을 경우, 미니맵 좌측 ‘던전 나가기’ 버튼을 눌러 퇴장할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "원정 입장 후, 더 이상 진행을 희망하지 않을 경우, 미니맵 좌측 ‘던전 나가기’ 버튼을 눌러 퇴장할 수 있습니다."
+      ],
+      "tags": [
+        "dungeon",
+        "expedition",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "원정 입장 후, 더 이상 진행을 희망하지 않을 경우, 미니맵 좌측 ‘던전 나가기’ 버튼을 눌러 퇴장할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_6c20762c",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "원정 소개",
+      "value": "원정 입장 후, 더 이상 진행을 희망하지 않을 경우, 미니맵 좌측 ‘던전 나가기’ 버튼을 눌러 퇴장할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "원정 입장 후, 더 이상 진행을 희망하지 않을 경우, 미니맵 좌측 ‘던전 나가기’ 버튼을 눌러 퇴장할 수 있습니다."
+      ],
+      "tags": [
+        "dungeon",
+        "expedition",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "원정 입장 후, 더 이상 진행을 희망하지 않을 경우, 미니맵 좌측 ‘던전 나가기’ 버튼을 눌러 퇴장할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_c5d067b3",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "원정 소개",
+      "value": "원정 입장 후, 더 이상 진행을 희망하지 않을 경우, 미니맵 좌측 ‘던전 나가기’ 버튼을 눌러 퇴장할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "원정 입장 후, 더 이상 진행을 희망하지 않을 경우, 미니맵 좌측 ‘던전 나가기’ 버튼을 눌러 퇴장할 수 있습니다."
+      ],
+      "tags": [
+        "dungeon",
+        "expedition",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "원정 소개",
+        "raw_text": "원정 입장 후, 더 이상 진행을 희망하지 않을 경우, 미니맵 좌측 ‘던전 나가기’ 버튼을 눌러 퇴장할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_dc657819",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "처치된 보스 정보",
+      "value": "처치한 보스의 모습을 확인할 수 있으며, 해당 보스의 보상이 큐브에 추가 적용됩니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "처치된 보스 정보 | 처치한 보스의 모습을 확인할 수 있으며, 해당 보스의 보상이 큐브에 추가 적용됩니다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_f4a743c2",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "처치된 보스 정보",
+      "value": "처치한 보스의 모습을 확인할 수 있으며, 해당 보스의 보상이 큐브에 추가 적용됩니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "처치된 보스 정보 | 처치한 보스의 모습을 확인할 수 있으며, 해당 보스의 보상이 큐브에 추가 적용됩니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_a5557bca",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "보상 정보",
+      "value": "보유 에너지를 사용해서 보상을 획득할 수 있습니다. 에너지 응축 횟수가 늘어나면 소모 에너지 증가와 함께 더 많은 보상을 획득할 수 있습니다. '챈가룽 맴버십' 구독 시 오드 에너지 큐브 선택 횟수가 1회 추가됩니다.",
+      "numeric_values": [
+        {
+          "value": 1,
+          "unit": "flat",
+          "kind": "limit"
+        }
+      ],
+      "conditions": [
+        "보유 에너지를 사용해서 보상을 획득할 수 있습니다. 에너지 응축 횟수가 늘어나면 소모 에너지 증가와 함께 더 많은 보상을 획득할 수 있습니다. '챈가룽 맴버십' 구독 시 오드 에너지 큐브 선택 횟수가 1회 추가됩니다."
+      ],
+      "tags": [
+        "drop",
+        "info",
+        "membership"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "보상 정보 | 보유 에너지를 사용해서 보상을 획득할 수 있습니다. 에너지 응축 횟수가 늘어나면 소모 에너지 증가와 함께 더 많은 보상을 획득할 수 있습니다. '챈가룽 맴버십' 구독 시 오드 에너지 큐브 선택 횟수가 1회 추가됩니다."
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_471cf995",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "보상 정보",
+      "value": "보유 에너지를 사용해서 보상을 획득할 수 있습니다. 에너지 응축 횟수가 늘어나면 소모 에너지 증가와 함께 더 많은 보상을 획득할 수 있습니다. '챈가룽 맴버십' 구독 시 오드 에너지 큐브 선택 횟수가 1회 추가됩니다.",
+      "numeric_values": [
+        {
+          "value": 1,
+          "unit": "flat",
+          "kind": "limit"
+        }
+      ],
+      "conditions": [
+        "보유 에너지를 사용해서 보상을 획득할 수 있습니다. 에너지 응축 횟수가 늘어나면 소모 에너지 증가와 함께 더 많은 보상을 획득할 수 있습니다. '챈가룽 맴버십' 구독 시 오드 에너지 큐브 선택 횟수가 1회 추가됩니다."
+      ],
+      "tags": [
+        "drop",
+        "info",
+        "membership"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "보상 정보 | 보유 에너지를 사용해서 보상을 획득할 수 있습니다. 에너지 응축 횟수가 늘어나면 소모 에너지 증가와 함께 더 많은 보상을 획득할 수 있습니다. '챈가룽 맴버십' 구독 시 오드 에너지 큐브 선택 횟수가 1회 추가됩니다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_e7612ab0",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "보상 정보",
+      "value": "보유 에너지를 사용해서 보상을 획득할 수 있습니다. 에너지 응축 횟수가 늘어나면 소모 에너지 증가와 함께 더 많은 보상을 획득할 수 있습니다. '챈가룽 맴버십' 구독 시 오드 에너지 큐브 선택 횟수가 1회 추가됩니다.",
+      "numeric_values": [
+        {
+          "value": 1,
+          "unit": "flat",
+          "kind": "limit"
+        }
+      ],
+      "conditions": [
+        "보유 에너지를 사용해서 보상을 획득할 수 있습니다. 에너지 응축 횟수가 늘어나면 소모 에너지 증가와 함께 더 많은 보상을 획득할 수 있습니다. '챈가룽 맴버십' 구독 시 오드 에너지 큐브 선택 횟수가 1회 추가됩니다."
+      ],
+      "tags": [
+        "drop",
+        "info",
+        "membership"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "보상 정보 | 보유 에너지를 사용해서 보상을 획득할 수 있습니다. 에너지 응축 횟수가 늘어나면 소모 에너지 증가와 함께 더 많은 보상을 획득할 수 있습니다. '챈가룽 맴버십' 구독 시 오드 에너지 큐브 선택 횟수가 1회 추가됩니다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_5bc72b63",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "보상 정보",
+      "value": "보유 에너지를 사용해서 보상을 획득할 수 있습니다. 에너지 응축 횟수가 늘어나면 소모 에너지 증가와 함께 더 많은 보상을 획득할 수 있습니다. '챈가룽 맴버십' 구독 시 오드 에너지 큐브 선택 횟수가 1회 추가됩니다.",
+      "numeric_values": [
+        {
+          "value": 1,
+          "unit": "flat",
+          "kind": "limit"
+        }
+      ],
+      "conditions": [
+        "보유 에너지를 사용해서 보상을 획득할 수 있습니다. 에너지 응축 횟수가 늘어나면 소모 에너지 증가와 함께 더 많은 보상을 획득할 수 있습니다. '챈가룽 맴버십' 구독 시 오드 에너지 큐브 선택 횟수가 1회 추가됩니다."
+      ],
+      "tags": [
+        "drop",
+        "info",
+        "membership"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "보상 정보 | 보유 에너지를 사용해서 보상을 획득할 수 있습니다. 에너지 응축 횟수가 늘어나면 소모 에너지 증가와 함께 더 많은 보상을 획득할 수 있습니다. '챈가룽 맴버십' 구독 시 오드 에너지 큐브 선택 횟수가 1회 추가됩니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_bf95deb3",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "확정 보상",
+      "value": "큐브 응축 에너지가 가득 차면 확정 보상을 획득할 수 있습니다. 확정 보상을 획득해야 던전에 다시 입장할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "큐브 응축 에너지가 가득 차면 확정 보상을 획득할 수 있습니다. 확정 보상을 획득해야 던전에 다시 입장할 수 있습니다."
+      ],
+      "tags": [
+        "dungeon",
+        "drop"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "확정 보상 | 큐브 응축 에너지가 가득 차면 확정 보상을 획득할 수 있습니다. 확정 보상을 획득해야 던전에 다시 입장할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_445454f5",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "확정 보상",
+      "value": "큐브 응축 에너지가 가득 차면 확정 보상을 획득할 수 있습니다. 확정 보상을 획득해야 던전에 다시 입장할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "큐브 응축 에너지가 가득 차면 확정 보상을 획득할 수 있습니다. 확정 보상을 획득해야 던전에 다시 입장할 수 있습니다."
+      ],
+      "tags": [
+        "dungeon",
+        "drop"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "확정 보상 | 큐브 응축 에너지가 가득 차면 확정 보상을 획득할 수 있습니다. 확정 보상을 획득해야 던전에 다시 입장할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_a6cd2e06",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "확정 보상",
+      "value": "큐브 응축 에너지가 가득 차면 확정 보상을 획득할 수 있습니다. 확정 보상을 획득해야 던전에 다시 입장할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "큐브 응축 에너지가 가득 차면 확정 보상을 획득할 수 있습니다. 확정 보상을 획득해야 던전에 다시 입장할 수 있습니다."
+      ],
+      "tags": [
+        "dungeon",
+        "drop"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "확정 보상 | 큐브 응축 에너지가 가득 차면 확정 보상을 획득할 수 있습니다. 확정 보상을 획득해야 던전에 다시 입장할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_daa7a31a",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "열기/취소",
+      "value": "보상을 열어 전리품을 획득하거나, 취소를 눌러 보상 화면에서 나갈 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "열기/취소 | 보상을 열어 전리품을 획득하거나, 취소를 눌러 보상 화면에서 나갈 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_86df30b1",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "열기/취소",
+      "value": "보상을 열어 전리품을 획득하거나, 취소를 눌러 보상 화면에서 나갈 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "열기/취소 | 보상을 열어 전리품을 획득하거나, 취소를 눌러 보상 화면에서 나갈 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_7098a6d5",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "오드 에너지",
+      "value": "원정의 최종 보스를 클리어하면, 오드 에너지를 사용하여 보상을 획득할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "expedition"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "원정의 최종 보스를 클리어하면, 오드 에너지를 사용하여 보상을 획득할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_c672845a",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "오드 에너지",
+      "value": "원정의 최종 보스를 클리어하면, 오드 에너지를 사용하여 보상을 획득할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "expedition"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "원정의 최종 보스를 클리어하면, 오드 에너지를 사용하여 보상을 획득할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_e1cb797b",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "오드 에너지",
+      "value": "오드 에너지가 부족 시 보상을 획득할 수 없으며, 오드 에너지 충전 시간까지 대기하거나, 충전 아이템을 사용하여 획득할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "오드 에너지가 부족 시 보상을 획득할 수 없으며, 오드 에너지 충전 시간까지 대기하거나, 충전 아이템을 사용하여 획득할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_06eb26c0",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "오드 에너지",
+      "value": "오드 에너지가 부족 시 보상을 획득할 수 없으며, 오드 에너지 충전 시간까지 대기하거나, 충전 아이템을 사용하여 획득할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "오드 에너지가 부족 시 보상을 획득할 수 없으며, 오드 에너지 충전 시간까지 대기하거나, 충전 아이템을 사용하여 획득할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_bbd053f8",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "오드 에너지",
+      "value": "원정 보상 확인 방법 원정 화면 혹은 클리어 이후 오드 에너지 큐브 보상 정보를 통해 획득 가능한 아이템과 그 확률을 확인할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "원정 보상 확인 방법 원정 화면 혹은 클리어 이후 오드 에너지 큐브 보상 정보를 통해 획득 가능한 아이템과 그 확률을 확인할 수 있습니다."
+      ],
+      "tags": [
+        "drop",
+        "expedition",
+        "info",
+        "chance"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "원정 보상 확인 방법 원정 화면 혹은 클리어 이후 오드 에너지 큐브 보상 정보를 통해 획득 가능한 아이템과 그 확률을 확인할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_73dd7257",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "오드 에너지",
+      "value": "원정 보상 확인 방법 원정 화면 혹은 클리어 이후 오드 에너지 큐브 보상 정보를 통해 획득 가능한 아이템과 그 확률을 확인할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "원정 보상 확인 방법 원정 화면 혹은 클리어 이후 오드 에너지 큐브 보상 정보를 통해 획득 가능한 아이템과 그 확률을 확인할 수 있습니다."
+      ],
+      "tags": [
+        "drop",
+        "expedition",
+        "info",
+        "chance"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "원정 보상 확인 방법 원정 화면 혹은 클리어 이후 오드 에너지 큐브 보상 정보를 통해 획득 가능한 아이템과 그 확률을 확인할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_073b2b43",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "오드 에너지",
+      "value": "원정 보상 확인 방법 원정 화면 혹은 클리어 이후 오드 에너지 큐브 보상 정보를 통해 획득 가능한 아이템과 그 확률을 확인할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "원정 보상 확인 방법 원정 화면 혹은 클리어 이후 오드 에너지 큐브 보상 정보를 통해 획득 가능한 아이템과 그 확률을 확인할 수 있습니다."
+      ],
+      "tags": [
+        "drop",
+        "expedition",
+        "info",
+        "chance"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "원정 보상 확인 방법 원정 화면 혹은 클리어 이후 오드 에너지 큐브 보상 정보를 통해 획득 가능한 아이템과 그 확률을 확인할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_23f64cbf",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "오드 에너지",
+      "value": "큐브 보상과 확률 획득 원정 클리어 후 큐브 보상을 받을 때, 보상 정보에 표시된 ‘확률 획득’ 항목에 따라 아이템을 확률적으로 획득하게 됩니다.",
+      "numeric_values": [],
+      "conditions": [
+        "큐브 보상과 확률 획득 원정 클리어 후 큐브 보상을 받을 때, 보상 정보에 표시된 ‘확률 획득’ 항목에 따라 아이템을 확률적으로 획득하게 됩니다."
+      ],
+      "tags": [
+        "drop",
+        "expedition",
+        "info",
+        "chance"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "큐브 보상과 확률 획득 원정 클리어 후 큐브 보상을 받을 때, 보상 정보에 표시된 ‘확률 획득’ 항목에 따라 아이템을 확률적으로 획득하게 됩니다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_a9c2549c",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "오드 에너지",
+      "value": "큐브 보상과 확률 획득 원정 클리어 후 큐브 보상을 받을 때, 보상 정보에 표시된 ‘확률 획득’ 항목에 따라 아이템을 확률적으로 획득하게 됩니다.",
+      "numeric_values": [],
+      "conditions": [
+        "큐브 보상과 확률 획득 원정 클리어 후 큐브 보상을 받을 때, 보상 정보에 표시된 ‘확률 획득’ 항목에 따라 아이템을 확률적으로 획득하게 됩니다."
+      ],
+      "tags": [
+        "drop",
+        "expedition",
+        "info",
+        "chance"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "큐브 보상과 확률 획득 원정 클리어 후 큐브 보상을 받을 때, 보상 정보에 표시된 ‘확률 획득’ 항목에 따라 아이템을 확률적으로 획득하게 됩니다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_801f8a83",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "오드 에너지",
+      "value": "큐브 보상과 확률 획득 원정 클리어 후 큐브 보상을 받을 때, 보상 정보에 표시된 ‘확률 획득’ 항목에 따라 아이템을 확률적으로 획득하게 됩니다.",
+      "numeric_values": [],
+      "conditions": [
+        "큐브 보상과 확률 획득 원정 클리어 후 큐브 보상을 받을 때, 보상 정보에 표시된 ‘확률 획득’ 항목에 따라 아이템을 확률적으로 획득하게 됩니다."
+      ],
+      "tags": [
+        "drop",
+        "expedition",
+        "info",
+        "chance"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "큐브 보상과 확률 획득 원정 클리어 후 큐브 보상을 받을 때, 보상 정보에 표시된 ‘확률 획득’ 항목에 따라 아이템을 확률적으로 획득하게 됩니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_53793bf8",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "오드 에너지",
+      "value": "예시 설명 예를 들어, 아래와 같은 확률 획득 항목이 있을 경우:",
+      "numeric_values": [],
+      "conditions": [
+        "예시 설명 예를 들어, 아래와 같은 확률 획득 항목이 있을 경우:"
+      ],
+      "tags": [
+        "drop",
+        "chance"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "예시 설명 예를 들어, 아래와 같은 확률 획득 항목이 있을 경우:"
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_41232061",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "오드 에너지",
+      "value": "예시 설명 예를 들어, 아래와 같은 확률 획득 항목이 있을 경우:",
+      "numeric_values": [],
+      "conditions": [
+        "예시 설명 예를 들어, 아래와 같은 확률 획득 항목이 있을 경우:"
+      ],
+      "tags": [
+        "drop",
+        "chance"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "예시 설명 예를 들어, 아래와 같은 확률 획득 항목이 있을 경우:"
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_4c7a54c9",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "오드 에너지",
+      "value": "예시 설명 예를 들어, 아래와 같은 확률 획득 항목이 있을 경우:",
+      "numeric_values": [],
+      "conditions": [
+        "예시 설명 예를 들어, 아래와 같은 확률 획득 항목이 있을 경우:"
+      ],
+      "tags": [
+        "drop",
+        "chance"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "오드 에너지",
+        "raw_text": "예시 설명 예를 들어, 아래와 같은 확률 획득 항목이 있을 경우:"
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_f8a0fec4",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "큐브 응축 에너지 보상",
+      "value": "원정 성공 후 보상을 획득할 때 마다 ‘큐브 보상 획득 횟수’가 누적됩니다.",
+      "numeric_values": [],
+      "conditions": [
+        "원정 성공 후 보상을 획득할 때 마다 ‘큐브 보상 획득 횟수’가 누적됩니다."
+      ],
+      "tags": [
+        "drop",
+        "expedition"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "큐브 응축 에너지 보상",
+        "raw_text": "원정 성공 후 보상을 획득할 때 마다 ‘큐브 보상 획득 횟수’가 누적됩니다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_4d025cd9",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "큐브 응축 에너지 보상",
+      "value": "원정 성공 후 보상을 획득할 때 마다 ‘큐브 보상 획득 횟수’가 누적됩니다.",
+      "numeric_values": [],
+      "conditions": [
+        "원정 성공 후 보상을 획득할 때 마다 ‘큐브 보상 획득 횟수’가 누적됩니다."
+      ],
+      "tags": [
+        "drop",
+        "expedition"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "큐브 응축 에너지 보상",
+        "raw_text": "원정 성공 후 보상을 획득할 때 마다 ‘큐브 보상 획득 횟수’가 누적됩니다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_798f4069",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "큐브 응축 에너지 보상",
+      "value": "원정 성공 후 보상을 획득할 때 마다 ‘큐브 보상 획득 횟수’가 누적됩니다.",
+      "numeric_values": [],
+      "conditions": [
+        "원정 성공 후 보상을 획득할 때 마다 ‘큐브 보상 획득 횟수’가 누적됩니다."
+      ],
+      "tags": [
+        "drop",
+        "expedition"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "큐브 응축 에너지 보상",
+        "raw_text": "원정 성공 후 보상을 획득할 때 마다 ‘큐브 보상 획득 횟수’가 누적됩니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_e4a5e022",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "큐브 응축 에너지 보상",
+      "value": "원정에서 요구하는 보상 획득 횟수를 모두 채우면, ‘큐브 응축 에너지 보상 아이템’을 획득할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "원정에서 요구하는 보상 획득 횟수를 모두 채우면, ‘큐브 응축 에너지 보상 아이템’을 획득할 수 있습니다."
+      ],
+      "tags": [
+        "drop",
+        "expedition"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "큐브 응축 에너지 보상",
+        "raw_text": "원정에서 요구하는 보상 획득 횟수를 모두 채우면, ‘큐브 응축 에너지 보상 아이템’을 획득할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_dfc03e25",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "큐브 응축 에너지 보상",
+      "value": "원정에서 요구하는 보상 획득 횟수를 모두 채우면, ‘큐브 응축 에너지 보상 아이템’을 획득할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "원정에서 요구하는 보상 획득 횟수를 모두 채우면, ‘큐브 응축 에너지 보상 아이템’을 획득할 수 있습니다."
+      ],
+      "tags": [
+        "drop",
+        "expedition"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "큐브 응축 에너지 보상",
+        "raw_text": "원정에서 요구하는 보상 획득 횟수를 모두 채우면, ‘큐브 응축 에너지 보상 아이템’을 획득할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_777caec4",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "큐브 응축 에너지 보상",
+      "value": "원정에서 요구하는 보상 획득 횟수를 모두 채우면, ‘큐브 응축 에너지 보상 아이템’을 획득할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "원정에서 요구하는 보상 획득 횟수를 모두 채우면, ‘큐브 응축 에너지 보상 아이템’을 획득할 수 있습니다."
+      ],
+      "tags": [
+        "drop",
+        "expedition"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "큐브 응축 에너지 보상",
+        "raw_text": "원정에서 요구하는 보상 획득 횟수를 모두 채우면, ‘큐브 응축 에너지 보상 아이템’을 획득할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_dd8e7725",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "큐브 응축 에너지 보상",
+      "value": "탐험 난이도와 같은 일부 던전은 ‘큐브 응축 에너지 보상 아이템’을 획득할 수 있는 최대 횟수가 제한되어 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "탐험 난이도와 같은 일부 던전은 ‘큐브 응축 에너지 보상 아이템’을 획득할 수 있는 최대 횟수가 제한되어 있습니다."
+      ],
+      "tags": [
+        "dungeon",
+        "drop"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "큐브 응축 에너지 보상",
+        "raw_text": "탐험 난이도와 같은 일부 던전은 ‘큐브 응축 에너지 보상 아이템’을 획득할 수 있는 최대 횟수가 제한되어 있습니다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_37340689",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "큐브 응축 에너지 보상",
+      "value": "탐험 난이도와 같은 일부 던전은 ‘큐브 응축 에너지 보상 아이템’을 획득할 수 있는 최대 횟수가 제한되어 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "탐험 난이도와 같은 일부 던전은 ‘큐브 응축 에너지 보상 아이템’을 획득할 수 있는 최대 횟수가 제한되어 있습니다."
+      ],
+      "tags": [
+        "dungeon",
+        "drop"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "큐브 응축 에너지 보상",
+        "raw_text": "탐험 난이도와 같은 일부 던전은 ‘큐브 응축 에너지 보상 아이템’을 획득할 수 있는 최대 횟수가 제한되어 있습니다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_ce87b174",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "큐브 응축 에너지 보상",
+      "value": "탐험 난이도와 같은 일부 던전은 ‘큐브 응축 에너지 보상 아이템’을 획득할 수 있는 최대 횟수가 제한되어 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "탐험 난이도와 같은 일부 던전은 ‘큐브 응축 에너지 보상 아이템’을 획득할 수 있는 최대 횟수가 제한되어 있습니다."
+      ],
+      "tags": [
+        "dungeon",
+        "drop"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "큐브 응축 에너지 보상",
+        "raw_text": "탐험 난이도와 같은 일부 던전은 ‘큐브 응축 에너지 보상 아이템’을 획득할 수 있는 최대 횟수가 제한되어 있습니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_efc5e6ac",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "정복 모드",
+      "value": "정복 모드는 탐험 모드 보다 난이도가 매우 어려운 던전입니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "dungeon",
+        "mode"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "정복 모드",
+        "raw_text": "정복 모드는 탐험 모드 보다 난이도가 매우 어려운 던전입니다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_8e64cdb1",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "정복 모드",
+      "value": "정복 모드는 탐험 모드 보다 난이도가 매우 어려운 던전입니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "dungeon",
+        "mode"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "정복 모드",
+        "raw_text": "정복 모드는 탐험 모드 보다 난이도가 매우 어려운 던전입니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_ef0dbcdc",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "정복 모드",
+      "value": "정복 모드에서도 보통/어려움 모드로 나뉩니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "mode"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "정복 모드",
+        "raw_text": "정복 모드에서도 보통/어려움 모드로 나뉩니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_7a9c2685",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "정복 모드",
+      "value": "보통 모드에서는 탐험보다 높은 난이도로 구성되어 있으며, 확정 보상으로 유일 장비와 장비 변경권이 추가되어 있습니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "mode"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "정복 모드",
+        "raw_text": "보통 모드에서는 탐험보다 높은 난이도로 구성되어 있으며, 확정 보상으로 유일 장비와 장비 변경권이 추가되어 있습니다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_666fbf73",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "정복 모드",
+      "value": "보통 모드에서는 탐험보다 높은 난이도로 구성되어 있으며, 확정 보상으로 유일 장비와 장비 변경권이 추가되어 있습니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "mode"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "정복 모드",
+        "raw_text": "보통 모드에서는 탐험보다 높은 난이도로 구성되어 있으며, 확정 보상으로 유일 장비와 장비 변경권이 추가되어 있습니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_19b722d6",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "정복 모드",
+      "value": "어려움 모드는 보통 난이도 대비 보상 획득 확률이 높고, '조율석 파편 (유일)'을 추가로 획득할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "어려움 모드는 보통 난이도 대비 보상 획득 확률이 높고, '조율석 파편 (유일)'을 추가로 획득할 수 있습니다."
+      ],
+      "tags": [
+        "drop",
+        "mode",
+        "chance"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "정복 모드",
+        "raw_text": "어려움 모드는 보통 난이도 대비 보상 획득 확률이 높고, '조율석 파편 (유일)'을 추가로 획득할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_1199b62b",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "정복 모드",
+      "value": "어려움 모드는 보통 난이도 대비 보상 획득 확률이 높고, '조율석 파편 (유일)'을 추가로 획득할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "어려움 모드는 보통 난이도 대비 보상 획득 확률이 높고, '조율석 파편 (유일)'을 추가로 획득할 수 있습니다."
+      ],
+      "tags": [
+        "drop",
+        "mode",
+        "chance"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "정복 모드",
+        "raw_text": "어려움 모드는 보통 난이도 대비 보상 획득 확률이 높고, '조율석 파편 (유일)'을 추가로 획득할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_aaeb43d1",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "정복 모드",
+      "value": "어려움 모드는 보통 난이도 대비 보상 획득 확률이 높고, '조율석 파편 (유일)'을 추가로 획득할 수 있습니다.",
+      "numeric_values": [],
+      "conditions": [
+        "어려움 모드는 보통 난이도 대비 보상 획득 확률이 높고, '조율석 파편 (유일)'을 추가로 획득할 수 있습니다."
+      ],
+      "tags": [
+        "drop",
+        "mode",
+        "chance"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "정복 모드",
+        "raw_text": "어려움 모드는 보통 난이도 대비 보상 획득 확률이 높고, '조율석 파편 (유일)'을 추가로 획득할 수 있습니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_0118547f",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "정복 모드",
+      "value": "난이도가 높아질수록, 몬스터 혹은 보스들의 능력치 혹은 스킬 패턴의 변화가 있을 수 있어, 신중한 플레이가 요구됩니다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "skill_system",
+        "mode"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "정복 모드",
+        "raw_text": "난이도가 높아질수록, 몬스터 혹은 보스들의 능력치 혹은 스킬 패턴의 변화가 있을 수 있어, 신중한 플레이가 요구됩니다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_eda31bc0",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "구분",
+      "value": "키나 획득률 100% / 키나 획득률 80% / 키나 획득률 60% / 키나 획득률 40% / 키나 획득률 20% / 키나 획득률 0%",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "limit"
+        },
+        {
+          "value": 80,
+          "unit": "percent",
+          "kind": "limit"
+        },
+        {
+          "value": 60,
+          "unit": "percent",
+          "kind": "limit"
+        },
+        {
+          "value": 40,
+          "unit": "percent",
+          "kind": "limit"
+        },
+        {
+          "value": 20,
+          "unit": "percent",
+          "kind": "limit"
+        },
+        {
+          "value": 0,
+          "unit": "percent",
+          "kind": "limit"
+        }
+      ],
+      "conditions": [],
+      "tags": [
+        "drop"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "보상 및 제한 횟수",
+        "raw_text": "구분 | 키나 획득률 100% | 키나 획득률 80% | 키나 획득률 60% | 키나 획득률 40% | 키나 획득률 20% | 키나 획득률 0%"
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_c9ffee51",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "구분",
+      "value": "키나 획득률 100% / 키나 획득률 80% / 키나 획득률 60% / 키나 획득률 40% / 키나 획득률 20% / 키나 획득률 0%",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "limit"
+        },
+        {
+          "value": 80,
+          "unit": "percent",
+          "kind": "limit"
+        },
+        {
+          "value": 60,
+          "unit": "percent",
+          "kind": "limit"
+        },
+        {
+          "value": 40,
+          "unit": "percent",
+          "kind": "limit"
+        },
+        {
+          "value": 20,
+          "unit": "percent",
+          "kind": "limit"
+        },
+        {
+          "value": 0,
+          "unit": "percent",
+          "kind": "limit"
+        }
+      ],
+      "conditions": [],
+      "tags": [
+        "drop"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "보상 및 제한 횟수",
+        "raw_text": "구분 | 키나 획득률 100% | 키나 획득률 80% | 키나 획득률 60% | 키나 획득률 40% | 키나 획득률 20% | 키나 획득률 0%"
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_08b1cad3",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "탐험",
+      "value": "7회 이하 / - / 14회 이하 / - / 20회 이상 / 21회 이상",
+      "numeric_values": [
+        {
+          "value": 7,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 14,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 20,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 21,
+          "unit": "flat",
+          "kind": "limit"
+        }
+      ],
+      "conditions": [
+        "7회 이하 / - / 14회 이하 / - / 20회 이상 / 21회 이상"
+      ],
+      "tags": [
+        "nuance",
+        "recommendation"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "보상 및 제한 횟수",
+        "raw_text": "탐험 | 7회 이하 | - | 14회 이하 | - | 20회 이상 | 21회 이상"
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_a5e66fc4",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "탐험",
+      "value": "7회 이하 / - / 14회 이하 / - / 20회 이상 / 21회 이상",
+      "numeric_values": [
+        {
+          "value": 7,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 14,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 20,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 21,
+          "unit": "flat",
+          "kind": "limit"
+        }
+      ],
+      "conditions": [
+        "7회 이하 / - / 14회 이하 / - / 20회 이상 / 21회 이상"
+      ],
+      "tags": [
+        "nuance",
+        "constraint"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "보상 및 제한 횟수",
+        "raw_text": "탐험 | 7회 이하 | - | 14회 이하 | - | 20회 이상 | 21회 이상"
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_85d6868c",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "정복",
+      "value": "84회 이하 / 105회 이하 / 126회 이하 / 147회 이하 / 148회 이상 / -",
+      "numeric_values": [
+        {
+          "value": 84,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 105,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 126,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 147,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 148,
+          "unit": "flat",
+          "kind": "limit"
+        }
+      ],
+      "conditions": [
+        "84회 이하 / 105회 이하 / 126회 이하 / 147회 이하 / 148회 이상 / -"
+      ],
+      "tags": [
+        "nuance",
+        "recommendation"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "보상 및 제한 횟수",
+        "raw_text": "정복 | 84회 이하 | 105회 이하 | 126회 이하 | 147회 이하 | 148회 이상 | -"
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_c0d7f6f7",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "정복",
+      "value": "84회 이하 / 105회 이하 / 126회 이하 / 147회 이하 / 148회 이상 / -",
+      "numeric_values": [
+        {
+          "value": 84,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 105,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 126,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 147,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 148,
+          "unit": "flat",
+          "kind": "limit"
+        }
+      ],
+      "conditions": [
+        "84회 이하 / 105회 이하 / 126회 이하 / 147회 이하 / 148회 이상 / -"
+      ],
+      "tags": [
+        "nuance",
+        "constraint"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "보상 및 제한 횟수",
+        "raw_text": "정복 | 84회 이하 | 105회 이하 | 126회 이하 | 147회 이하 | 148회 이상 | -"
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_d6df18e1",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "초월",
+      "value": "56회 이하 / 70회 이하 / 84회 이하 / 98회 이하 / 99회 이상 / -",
+      "numeric_values": [
+        {
+          "value": 56,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 70,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 84,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 98,
+          "unit": "flat",
+          "kind": "duration"
+        },
+        {
+          "value": 99,
+          "unit": "flat",
+          "kind": "duration"
+        },
+        {
+          "value": 56,
+          "unit": "flat",
+          "kind": "duration"
+        },
+        {
+          "value": 70,
+          "unit": "flat",
+          "kind": "duration"
+        },
+        {
+          "value": 84,
+          "unit": "flat",
+          "kind": "duration"
+        },
+        {
+          "value": 98,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 99,
+          "unit": "flat",
+          "kind": "limit"
+        }
+      ],
+      "conditions": [
+        "56회 이하 / 70회 이하 / 84회 이하 / 98회 이하 / 99회 이상 / -"
+      ],
+      "tags": [
+        "nuance",
+        "recommendation"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "보상 및 제한 횟수",
+        "raw_text": "초월 | 56회 이하 | 70회 이하 | 84회 이하 | 98회 이하 | 99회 이상 | -"
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_0e058abe",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "초월",
+      "value": "56회 이하 / 70회 이하 / 84회 이하 / 98회 이하 / 99회 이상 / -",
+      "numeric_values": [
+        {
+          "value": 56,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 70,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 84,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 98,
+          "unit": "flat",
+          "kind": "duration"
+        },
+        {
+          "value": 99,
+          "unit": "flat",
+          "kind": "duration"
+        },
+        {
+          "value": 56,
+          "unit": "flat",
+          "kind": "duration"
+        },
+        {
+          "value": 70,
+          "unit": "flat",
+          "kind": "duration"
+        },
+        {
+          "value": 84,
+          "unit": "flat",
+          "kind": "duration"
+        },
+        {
+          "value": 98,
+          "unit": "flat",
+          "kind": "limit"
+        },
+        {
+          "value": 99,
+          "unit": "flat",
+          "kind": "limit"
+        }
+      ],
+      "conditions": [
+        "56회 이하 / 70회 이하 / 84회 이하 / 98회 이하 / 99회 이상 / -"
+      ],
+      "tags": [
+        "nuance",
+        "constraint"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "보상 및 제한 횟수",
+        "raw_text": "초월 | 56회 이하 | 70회 이하 | 84회 이하 | 98회 이하 | 99회 이상 | -"
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_9b720704",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "구분",
+      "value": "입장 제한",
+      "numeric_values": [],
+      "conditions": [
+        "입장 제한"
+      ],
+      "tags": [
+        "nuance",
+        "recommendation"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "보상 및 제한 횟수",
+        "raw_text": "구분 | 입장 제한"
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_c93084c3",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "구분",
+      "value": "입장 제한",
+      "numeric_values": [],
+      "conditions": [
+        "입장 제한"
+      ],
+      "tags": [
+        "nuance",
+        "constraint"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "보상 및 제한 횟수",
+        "raw_text": "구분 | 입장 제한"
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_1f34b06b",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "정복",
+      "value": "주 35회",
+      "numeric_values": [
+        {
+          "value": 35,
+          "unit": "flat",
+          "kind": "limit"
+        }
+      ],
+      "conditions": [],
+      "tags": [
+        "nuance",
+        "recommendation"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "보상 및 제한 횟수",
+        "raw_text": "정복 | 주 35회"
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_39b4f06a",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "초월",
+      "value": "주 28회",
+      "numeric_values": [
+        {
+          "value": 28,
+          "unit": "flat",
+          "kind": "duration"
+        }
+      ],
+      "conditions": [],
+      "tags": [
+        "nuance",
+        "recommendation"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "보상 및 제한 횟수",
+        "raw_text": "초월 | 주 28회"
+      }
+    }
+  ]
+}

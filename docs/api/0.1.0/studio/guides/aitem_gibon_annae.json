@@ -1,0 +1,1284 @@
+{
+  "metadata": {
+    "guide_id": "aitem_gibon_annae",
+    "guide_title": "아이템 기본 안내",
+    "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EC%95%84%EC%9D%B4%ED%85%9C%20%EA%B8%B0%EB%B3%B8%20%EC%95%88%EB%82%B4",
+    "top_category": "아이템",
+    "sub_category": "아이템 기본 안내",
+    "priority": "P1",
+    "action": "parse_gear_acquisition",
+    "topic": "gear_acquisition",
+    "crawled_at": "2026-02-13T18:15:57+00:00",
+    "referential_version": "0.1.0",
+    "schema_version": "studio_v1",
+    "generated_at": "2026-02-13T20:59:53+00:00",
+    "source_facts_file": "exports/facts/gear_acquisition__gear_acquisition__aitem_gibon_annae.json"
+  },
+  "summary": {
+    "facts_total": 40,
+    "by_fact_type": {
+      "gear_source": 40
+    },
+    "by_topic": {
+      "gear_acquisition": 40
+    },
+    "by_confidence": {
+      "high": 31,
+      "medium": 9
+    },
+    "by_tag": {
+      "acquisition": 16,
+      "source": 16,
+      "info": 11,
+      "inventory": 19,
+      "drop": 11,
+      "craft": 3,
+      "ui": 10,
+      "auto_use": 1,
+      "movement": 2,
+      "lock": 1,
+      "class": 1,
+      "control": 1,
+      "dungeon": 1,
+      "outpost": 1,
+      "expedition": 1,
+      "extraction": 8,
+      "list": 7,
+      "material": 1,
+      "upgrade": 3,
+      "chance": 1,
+      "storage": 6,
+      "integrated_enhancement": 1,
+      "transmutation": 1,
+      "commission": 1
+    }
+  },
+  "facts": [
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_191c4853",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "명칭 및 종류",
+      "value": "아이템 명칭과, 효과를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "info",
+        "inventory"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 소개",
+        "raw_text": "명칭 및 종류 | 아이템 명칭과, 효과를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "myeongching_mit_jongryu",
+        "search_text": "아이템 기본 안내 아이템 소개 명칭 및 종류 아이템 명칭과, 효과를 확인할 수 있다. acquisition source info inventory",
+        "chips": [
+          "acquisition",
+          "source",
+          "info",
+          "inventory",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_73f3bfe1",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "사용",
+      "value": "해당 아이템을 장착/사용할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "info",
+        "inventory"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 소개",
+        "raw_text": "사용 | 해당 아이템을 장착/사용할 수 있다."
+      },
+      "ui": {
+        "entity_key": "sayong",
+        "search_text": "아이템 기본 안내 아이템 소개 사용 해당 아이템을 장착/사용할 수 있다. acquisition source info inventory",
+        "chips": [
+          "acquisition",
+          "source",
+          "info",
+          "inventory",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_3d2e939c",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "획득처",
+      "value": "해당 아이템을 획득할 수 있는 경로를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "drop",
+        "info"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 소개",
+        "raw_text": "획득처 | 해당 아이템을 획득할 수 있는 경로를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "hoekdeukcheo",
+        "search_text": "아이템 기본 안내 아이템 소개 획득처 해당 아이템을 획득할 수 있는 경로를 확인할 수 있다. drop info",
+        "chips": [
+          "drop",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_e73a18c1",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "연금/제작",
+      "value": "연금/제작 정보를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "craft",
+        "info"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 소개",
+        "raw_text": "연금/제작 | 연금/제작 정보를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "yeongeum_jejak",
+        "search_text": "아이템 기본 안내 아이템 소개 연금/제작 연금/제작 정보를 확인할 수 있다. craft info",
+        "chips": [
+          "craft",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_87cd29e0",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "삭제",
+      "value": "해당 아이템을 삭제할 수 있다. 삭제 시 복구가 불가능하다.",
+      "conditions": [
+        "해당 아이템을 삭제할 수 있다. 삭제 시 복구가 불가능하다."
+      ],
+      "tags": [
+        "acquisition",
+        "source",
+        "info",
+        "inventory"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 소개",
+        "raw_text": "삭제 | 해당 아이템을 삭제할 수 있다. 삭제 시 복구가 불가능하다."
+      },
+      "ui": {
+        "entity_key": "sakje",
+        "search_text": "아이템 기본 안내 아이템 소개 삭제 해당 아이템을 삭제할 수 있다. 삭제 시 복구가 불가능하다. acquisition source info inventory 해당 아이템을 삭제할 수 있다. 삭제 시 복구가 불가능하다.",
+        "chips": [
+          "acquisition",
+          "source",
+          "info",
+          "inventory",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_4a68d721",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "아이템 공유",
+      "value": "해당 아이템 정보를 채팅창으로 공유할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "info",
+        "ui",
+        "inventory"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 소개",
+        "raw_text": "아이템 공유 | 해당 아이템 정보를 채팅창으로 공유할 수 있다."
+      },
+      "ui": {
+        "entity_key": "aitem_gongyu",
+        "search_text": "아이템 기본 안내 아이템 소개 아이템 공유 해당 아이템 정보를 채팅창으로 공유할 수 있다. info ui inventory",
+        "chips": [
+          "info",
+          "ui",
+          "inventory",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_ee2c0870",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "자동사용",
+      "value": "지속시간이 끝나면 자동으로 사용되도록, 아이템의 자동사용 기능을 on/off 할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "auto_use",
+        "info"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 소개",
+        "raw_text": "자동사용 | 지속시간이 끝나면 자동으로 사용되도록, 아이템의 자동사용 기능을 on/off 할 수 있다."
+      },
+      "ui": {
+        "entity_key": "jadongsayong",
+        "search_text": "아이템 기본 안내 아이템 소개 자동사용 지속시간이 끝나면 자동으로 사용되도록, 아이템의 자동사용 기능을 on/off 할 수 있다. auto_use info",
+        "chips": [
+          "auto_use",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_7487183f",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "잠금",
+      "value": "아이템이 실수로 사용 및 삭제되거나, 이동되지 않도록 잠금기능을 on/off 할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "movement",
+        "lock",
+        "info"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 소개",
+        "raw_text": "잠금 | 아이템이 실수로 사용 및 삭제되거나, 이동되지 않도록 잠금기능을 on/off 할 수 있다."
+      },
+      "ui": {
+        "entity_key": "jamgeum",
+        "search_text": "아이템 기본 안내 아이템 소개 잠금 아이템이 실수로 사용 및 삭제되거나, 이동되지 않도록 잠금기능을 on/off 할 수 있다. movement lock info",
+        "chips": [
+          "movement",
+          "lock",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_1db04732",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "창고/거래 사용가능정보",
+      "value": "개인 창고, 레기온 창고, 거래, 클래스 사용 가능여부를 확인할 수 있다.",
+      "conditions": [
+        "개인 창고, 레기온 창고, 거래, 클래스 사용 가능여부를 확인할 수 있다."
+      ],
+      "tags": [
+        "info",
+        "class"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 소개",
+        "raw_text": "창고/거래 사용가능정보 | 개인 창고, 레기온 창고, 거래, 클래스 사용 가능여부를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "changgo_georae_sayongganeungjeongbo",
+        "search_text": "아이템 기본 안내 아이템 소개 창고/거래 사용가능정보 개인 창고, 레기온 창고, 거래, 클래스 사용 가능여부를 확인할 수 있다. info class 개인 창고, 레기온 창고, 거래, 클래스 사용 가능여부를 확인할 수 있다.",
+        "chips": [
+          "info",
+          "class",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_22096cbd",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "상점 판매가",
+      "value": "해당 아이템의 상점 판매가를 확인할 수 있다: 단품가(보유 수량 전체 판매가)",
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "info",
+        "inventory"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 소개",
+        "raw_text": "상점 판매가 | 해당 아이템의 상점 판매가를 확인할 수 있다: 단품가(보유 수량 전체 판매가)"
+      },
+      "ui": {
+        "entity_key": "sangjeom_panmaega",
+        "search_text": "아이템 기본 안내 아이템 소개 상점 판매가 해당 아이템의 상점 판매가를 확인할 수 있다: 단품가(보유 수량 전체 판매가) acquisition source info inventory",
+        "chips": [
+          "acquisition",
+          "source",
+          "info",
+          "inventory",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_03b802d5",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "아이템 소개",
+      "value": "해당 아이템을 획득할 수 있는 경로를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "drop",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 소개",
+        "raw_text": "해당 아이템을 획득할 수 있는 경로를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "aitem_sogae",
+        "search_text": "아이템 기본 안내 아이템 소개 아이템 소개 해당 아이템을 획득할 수 있는 경로를 확인할 수 있다. drop info",
+        "chips": [
+          "drop",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_00ffe5c6",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "일반 등급 희귀 등급 전승 등급 유일 등급 영웅 등급 스페셜 등급",
+      "value": "일반 등급 희귀 등급 전승 등급 유일 등급 영웅 등급 스페셜 등급",
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "inventory"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 등급",
+        "raw_text": "일반 등급 희귀 등급 전승 등급 유일 등급 영웅 등급 스페셜 등급"
+      },
+      "ui": {
+        "entity_key": "ilban_deunggeup_huigwi_deunggeup_jeonseung_deunggeup_yuil_deunggeup_yeongung_deunggeup_seupesyeol_deunggeup",
+        "search_text": "아이템 기본 안내 아이템 등급 일반 등급 희귀 등급 전승 등급 유일 등급 영웅 등급 스페셜 등급 일반 등급 희귀 등급 전승 등급 유일 등급 영웅 등급 스페셜 등급 acquisition source inventory",
+        "chips": [
+          "acquisition",
+          "source",
+          "inventory",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_1bfee65f",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "몬스터 처치",
+      "value": "몬스터 처치",
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "inventory"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 획득 방법",
+        "raw_text": "몬스터 처치"
+      },
+      "ui": {
+        "entity_key": "monseuteo_cheochi",
+        "search_text": "아이템 기본 안내 아이템 획득 방법 몬스터 처치 몬스터 처치 acquisition source inventory",
+        "chips": [
+          "acquisition",
+          "source",
+          "inventory",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_11462aaf",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "제작",
+      "value": "제작",
+      "conditions": [],
+      "tags": [
+        "craft"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 획득 방법",
+        "raw_text": "제작"
+      },
+      "ui": {
+        "entity_key": "jejak",
+        "search_text": "아이템 기본 안내 아이템 획득 방법 제작 제작 craft",
+        "chips": [
+          "craft",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:npc_8128f362",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "NPC 구매",
+      "value": "NPC 구매",
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "inventory"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 획득 방법",
+        "raw_text": "NPC 구매"
+      },
+      "ui": {
+        "entity_key": "npc",
+        "search_text": "아이템 기본 안내 아이템 획득 방법 npc 구매 npc 구매 acquisition source inventory",
+        "chips": [
+          "acquisition",
+          "source",
+          "inventory",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_59cdce71",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "보상",
+      "value": "보상",
+      "conditions": [],
+      "tags": [
+        "drop"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 획득 방법",
+        "raw_text": "보상"
+      },
+      "ui": {
+        "entity_key": "bosang",
+        "search_text": "아이템 기본 안내 아이템 획득 방법 보상 보상 drop",
+        "chips": [
+          "drop",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_e8198a55",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "아이템 획득 방법",
+      "value": "아이템을 획득하는 방법에는 크게 네가지로 구분할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "drop"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 획득 방법",
+        "raw_text": "아이템을 획득하는 방법에는 크게 네가지로 구분할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "aitem_hoekdeuk_bangbeop",
+        "search_text": "아이템 기본 안내 아이템 획득 방법 아이템 획득 방법 아이템을 획득하는 방법에는 크게 네가지로 구분할 수 있습니다. drop",
+        "chips": [
+          "drop",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_cd881b75",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "아이템 획득 방법",
+      "value": "키나 및 아이템의 경우 일일 획득량 제한이 있으며, 획득량 제한에 걸릴 경우 필드 사냥 포함 봉인 던전, 주둔지, 초월, 원정 컨텐츠에서 획득할 수 없습니다.",
+      "conditions": [
+        "키나 및 아이템의 경우 일일 획득량 제한이 있으며, 획득량 제한에 걸릴 경우 필드 사냥 포함 봉인 던전, 주둔지, 초월, 원정 컨텐츠에서 획득할 수 없습니다."
+      ],
+      "tags": [
+        "control",
+        "dungeon",
+        "drop",
+        "outpost",
+        "expedition"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 획득 방법",
+        "raw_text": "키나 및 아이템의 경우 일일 획득량 제한이 있으며, 획득량 제한에 걸릴 경우 필드 사냥 포함 봉인 던전, 주둔지, 초월, 원정 컨텐츠에서 획득할 수 없습니다."
+      },
+      "ui": {
+        "entity_key": "aitem_hoekdeuk_bangbeop",
+        "search_text": "아이템 기본 안내 아이템 획득 방법 아이템 획득 방법 키나 및 아이템의 경우 일일 획득량 제한이 있으며, 획득량 제한에 걸릴 경우 필드 사냥 포함 봉인 던전, 주둔지, 초월, 원정 컨텐츠에서 획득할 수 없습니다. control dungeon drop outpost expedition 키나 및 아이템의 경우 일일 획득량 제한이 있으며, 획득량 제한에 걸릴 경우 필드 사냥 포함 봉인 던전, 주둔지, 초월, 원정 컨텐츠에서 획득할 수 없습니다.",
+        "chips": [
+          "control",
+          "dungeon",
+          "drop",
+          "outpost",
+          "expedition",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:i_4d25184f",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "아이템 추출 기능은 큐브( i ) 화면의 우측 하단에서 확인할 수 있습니다.",
+      "value": "아이템 추출 기능은 큐브( i ) 화면의 우측 하단에서 확인할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "ui",
+        "inventory",
+        "extraction"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 추출",
+        "raw_text": "아이템 추출 기능은 큐브( i ) 화면의 우측 하단에서 확인할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "i",
+        "search_text": "아이템 기본 안내 아이템 추출 아이템 추출 기능은 큐브( i ) 화면의 우측 하단에서 확인할 수 있습니다. 아이템 추출 기능은 큐브( i ) 화면의 우측 하단에서 확인할 수 있습니다. acquisition source ui inventory extraction",
+        "chips": [
+          "acquisition",
+          "source",
+          "ui",
+          "inventory",
+          "extraction",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_b52d6da1",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "추출 대상 아이템",
+      "value": "추출 대상으로 선택된 아이템 목록을 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "list",
+        "inventory",
+        "extraction"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 추출",
+        "raw_text": "추출 대상 아이템 | 추출 대상으로 선택된 아이템 목록을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "chuchul_daesang_aitem",
+        "search_text": "아이템 기본 안내 아이템 추출 추출 대상 아이템 추출 대상으로 선택된 아이템 목록을 확인할 수 있다. list inventory extraction",
+        "chips": [
+          "list",
+          "inventory",
+          "extraction",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_73a7f62c",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "추출 후 획득 가능한 아이템",
+      "value": "추출 후 획득 가능한 아이템 목록을 확인할 수 있다.",
+      "conditions": [
+        "추출 후 획득 가능한 아이템 목록을 확인할 수 있다."
+      ],
+      "tags": [
+        "drop",
+        "list"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 추출",
+        "raw_text": "추출 후 획득 가능한 아이템 | 추출 후 획득 가능한 아이템 목록을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "chuchul_hu_hoekdeuk_ganeunghan_aitem",
+        "search_text": "아이템 기본 안내 아이템 추출 추출 후 획득 가능한 아이템 추출 후 획득 가능한 아이템 목록을 확인할 수 있다. drop list 추출 후 획득 가능한 아이템 목록을 확인할 수 있다.",
+        "chips": [
+          "drop",
+          "list",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_a76d59d8",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "추출에 필요한 재화",
+      "value": "추출에 필요한 재화와 현재 보유 중인 재화를 확인할 수 있다.",
+      "conditions": [
+        "추출에 필요한 재화와 현재 보유 중인 재화를 확인할 수 있다."
+      ],
+      "tags": [
+        "acquisition",
+        "source",
+        "inventory",
+        "extraction"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 추출",
+        "raw_text": "추출에 필요한 재화 | 추출에 필요한 재화와 현재 보유 중인 재화를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "chuchule_pilyohan_jaehwa",
+        "search_text": "아이템 기본 안내 아이템 추출 추출에 필요한 재화 추출에 필요한 재화와 현재 보유 중인 재화를 확인할 수 있다. acquisition source inventory extraction 추출에 필요한 재화와 현재 보유 중인 재화를 확인할 수 있다.",
+        "chips": [
+          "acquisition",
+          "source",
+          "inventory",
+          "extraction",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_e50fb422",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "취소/추출",
+      "value": "추출을 취소하거나 추출 진행여부를 확정할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "inventory",
+        "extraction"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 추출",
+        "raw_text": "취소/추출 | 추출을 취소하거나 추출 진행여부를 확정할 수 있다."
+      },
+      "ui": {
+        "entity_key": "chwiso_chuchul",
+        "search_text": "아이템 기본 안내 아이템 추출 취소/추출 추출을 취소하거나 추출 진행여부를 확정할 수 있다. acquisition source inventory extraction",
+        "chips": [
+          "acquisition",
+          "source",
+          "inventory",
+          "extraction",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_3cbf355a",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "큐브 내 추출 선택 화면",
+      "value": "큐브에서 추출을 진행할 아이템 목록을 확인할 수 있으며, 추출 대상을 선택할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "list",
+        "ui",
+        "inventory",
+        "extraction"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 추출",
+        "raw_text": "큐브 내 추출 선택 화면 | 큐브에서 추출을 진행할 아이템 목록을 확인할 수 있으며, 추출 대상을 선택할 수 있다."
+      },
+      "ui": {
+        "entity_key": "kyubeu_nae_chuchul_seontaek_hwamyeon",
+        "search_text": "아이템 기본 안내 아이템 추출 큐브 내 추출 선택 화면 큐브에서 추출을 진행할 아이템 목록을 확인할 수 있으며, 추출 대상을 선택할 수 있다. list ui inventory extraction",
+        "chips": [
+          "list",
+          "ui",
+          "inventory",
+          "extraction",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_59affd30",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "추출 상세 설정",
+      "value": "추출 간편 선택 기능을 상세 설정할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "inventory",
+        "extraction"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 추출",
+        "raw_text": "추출 상세 설정 | 추출 간편 선택 기능을 상세 설정할 수 있다."
+      },
+      "ui": {
+        "entity_key": "chuchul_sangse_seoljeong",
+        "search_text": "아이템 기본 안내 아이템 추출 추출 상세 설정 추출 간편 선택 기능을 상세 설정할 수 있다. acquisition source inventory extraction",
+        "chips": [
+          "acquisition",
+          "source",
+          "inventory",
+          "extraction",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_b725ed7e",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "간편 선택/선택 해제",
+      "value": "간편 선택 설정한 대상 아이템을 한번에 선택하거나 해제할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "inventory",
+        "extraction"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 추출",
+        "raw_text": "간편 선택/선택 해제 | 간편 선택 설정한 대상 아이템을 한번에 선택하거나 해제할 수 있다."
+      },
+      "ui": {
+        "entity_key": "ganpyeon_seontaek_seontaek_haeje",
+        "search_text": "아이템 기본 안내 아이템 추출 간편 선택/선택 해제 간편 선택 설정한 대상 아이템을 한번에 선택하거나 해제할 수 있다. acquisition source inventory extraction",
+        "chips": [
+          "acquisition",
+          "source",
+          "inventory",
+          "extraction",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_2cb2f676",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "추출",
+      "value": "아이템 추출 상세 화면에서 추출 여부를 결정할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "ui",
+        "inventory",
+        "extraction"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 추출",
+        "raw_text": "추출 | 아이템 추출 상세 화면에서 추출 여부를 결정할 수 있다."
+      },
+      "ui": {
+        "entity_key": "chuchul",
+        "search_text": "아이템 기본 안내 아이템 추출 추출 아이템 추출 상세 화면에서 추출 여부를 결정할 수 있다. acquisition source ui inventory extraction",
+        "chips": [
+          "acquisition",
+          "source",
+          "ui",
+          "inventory",
+          "extraction",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_705d53ab",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "아이템 추출",
+      "value": "- 추출 기능은 아이템을 파괴하여 다른 재료를 획득하는 기능입니다.",
+      "conditions": [],
+      "tags": [
+        "drop",
+        "material"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 추출",
+        "raw_text": "- 추출 기능은 아이템을 파괴하여 다른 재료를 획득하는 기능입니다."
+      },
+      "ui": {
+        "entity_key": "aitem_chuchul",
+        "search_text": "아이템 기본 안내 아이템 추출 아이템 추출 - 추출 기능은 아이템을 파괴하여 다른 재료를 획득하는 기능입니다. drop material",
+        "chips": [
+          "drop",
+          "material",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_97af3da8",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "아이템 추출",
+      "value": "- 아이템 추출 시, 강화석이나 아이템의 외형을 정해진 확률로 획득할 수 있습니다.",
+      "conditions": [
+        "- 아이템 추출 시, 강화석이나 아이템의 외형을 정해진 확률로 획득할 수 있습니다."
+      ],
+      "tags": [
+        "drop",
+        "upgrade",
+        "chance"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 추출",
+        "raw_text": "- 아이템 추출 시, 강화석이나 아이템의 외형을 정해진 확률로 획득할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "aitem_chuchul",
+        "search_text": "아이템 기본 안내 아이템 추출 아이템 추출 - 아이템 추출 시, 강화석이나 아이템의 외형을 정해진 확률로 획득할 수 있습니다. drop upgrade chance - 아이템 추출 시, 강화석이나 아이템의 외형을 정해진 확률로 획득할 수 있습니다.",
+        "chips": [
+          "drop",
+          "upgrade",
+          "chance",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_4e6db3cb",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "아이템 추출",
+      "value": "- 강화된 아이템을 추출 시, 추출할 아이템의 각 강화 단계별로 필요한 강화석 개수를 합한 값을 획득할 수 있습니다.",
+      "conditions": [
+        "- 강화된 아이템을 추출 시, 추출할 아이템의 각 강화 단계별로 필요한 강화석 개수를 합한 값을 획득할 수 있습니다."
+      ],
+      "tags": [
+        "drop",
+        "upgrade"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 추출",
+        "raw_text": "- 강화된 아이템을 추출 시, 추출할 아이템의 각 강화 단계별로 필요한 강화석 개수를 합한 값을 획득할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "aitem_chuchul",
+        "search_text": "아이템 기본 안내 아이템 추출 아이템 추출 - 강화된 아이템을 추출 시, 추출할 아이템의 각 강화 단계별로 필요한 강화석 개수를 합한 값을 획득할 수 있습니다. drop upgrade - 강화된 아이템을 추출 시, 추출할 아이템의 각 강화 단계별로 필요한 강화석 개수를 합한 값을 획득할 수 있습니다.",
+        "chips": [
+          "drop",
+          "upgrade",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_ca82b292",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "아이템 추출",
+      "value": "추출 후 획득 가능한 아이템",
+      "conditions": [
+        "추출 후 획득 가능한 아이템"
+      ],
+      "tags": [
+        "drop"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 추출",
+        "raw_text": "추출 후 획득 가능한 아이템"
+      },
+      "ui": {
+        "entity_key": "aitem_chuchul",
+        "search_text": "아이템 기본 안내 아이템 추출 아이템 추출 추출 후 획득 가능한 아이템 drop 추출 후 획득 가능한 아이템",
+        "chips": [
+          "drop",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_b5294e61",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "아이템 추출",
+      "value": "추출 후 획득 가능한 아이템 목록을 확인할 수 있다.",
+      "conditions": [
+        "추출 후 획득 가능한 아이템 목록을 확인할 수 있다."
+      ],
+      "tags": [
+        "drop",
+        "list"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "아이템 추출",
+        "raw_text": "추출 후 획득 가능한 아이템 목록을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "aitem_chuchul",
+        "search_text": "아이템 기본 안내 아이템 추출 아이템 추출 추출 후 획득 가능한 아이템 목록을 확인할 수 있다. drop list 추출 후 획득 가능한 아이템 목록을 확인할 수 있다.",
+        "chips": [
+          "drop",
+          "list",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_9298a548",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "캐릭터 창고",
+      "value": "캐릭터 창고 목록을 확인할 수 있다. 캐릭터 창고에 보관된 물품은 해당 캐릭터만 이용할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "list",
+        "ui",
+        "storage"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "창고",
+        "raw_text": "캐릭터 창고 | 캐릭터 창고 목록을 확인할 수 있다. 캐릭터 창고에 보관된 물품은 해당 캐릭터만 이용할 수 있다."
+      },
+      "ui": {
+        "entity_key": "kaerikteo_changgo",
+        "search_text": "아이템 기본 안내 창고 캐릭터 창고 캐릭터 창고 목록을 확인할 수 있다. 캐릭터 창고에 보관된 물품은 해당 캐릭터만 이용할 수 있다. list ui storage",
+        "chips": [
+          "list",
+          "ui",
+          "storage",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_56bfdda0",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "서버 창고",
+      "value": "서버 창고 목록을 확인할 수 있다. 서버 창고에 보관된 물품은 해당 서버 내 모든 캐릭터가 이용할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "list",
+        "ui",
+        "storage"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "창고",
+        "raw_text": "서버 창고 | 서버 창고 목록을 확인할 수 있다. 서버 창고에 보관된 물품은 해당 서버 내 모든 캐릭터가 이용할 수 있다."
+      },
+      "ui": {
+        "entity_key": "seobeo_changgo",
+        "search_text": "아이템 기본 안내 창고 서버 창고 서버 창고 목록을 확인할 수 있다. 서버 창고에 보관된 물품은 해당 서버 내 모든 캐릭터가 이용할 수 있다. list ui storage",
+        "chips": [
+          "list",
+          "ui",
+          "storage",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_6d1b8360",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "창고 내 아이템 목록",
+      "value": "창고에 보관된 아이템 목록을 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "list",
+        "ui",
+        "inventory",
+        "storage"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "창고",
+        "raw_text": "창고 내 아이템 목록 | 창고에 보관된 아이템 목록을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "changgo_nae_aitem_mokrok",
+        "search_text": "아이템 기본 안내 창고 창고 내 아이템 목록 창고에 보관된 아이템 목록을 확인할 수 있다. list ui inventory storage",
+        "chips": [
+          "list",
+          "ui",
+          "inventory",
+          "storage",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_d4277f8d",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "아이템 이동/자동 정렬",
+      "value": "아이템을 이동하거나, 자동 정렬할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "movement"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "창고",
+        "raw_text": "아이템 이동/자동 정렬 | 아이템을 이동하거나, 자동 정렬할 수 있다."
+      },
+      "ui": {
+        "entity_key": "aitem_idong_jadong_jeongryeol",
+        "search_text": "아이템 기본 안내 창고 아이템 이동/자동 정렬 아이템을 이동하거나, 자동 정렬할 수 있다. movement",
+        "chips": [
+          "movement",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_0e104fb7",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "캐릭터 창고/서버 창고 요약",
+      "value": "캐릭터/서버 창고에 보관된 아이템 개수/최대 개수를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "ui",
+        "inventory",
+        "storage"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "창고",
+        "raw_text": "캐릭터 창고/서버 창고 요약 | 캐릭터/서버 창고에 보관된 아이템 개수/최대 개수를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "kaerikteo_changgo_seobeo_changgo_yoyak",
+        "search_text": "아이템 기본 안내 창고 캐릭터 창고/서버 창고 요약 캐릭터/서버 창고에 보관된 아이템 개수/최대 개수를 확인할 수 있다. acquisition source ui inventory storage",
+        "chips": [
+          "acquisition",
+          "source",
+          "ui",
+          "inventory",
+          "storage",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_6861c10c",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "간편 보관",
+      "value": "각 창고에 간편 보관 기능을 설정하거나, 간편 보관 기능을 사용할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "ui",
+        "storage"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "창고",
+        "raw_text": "간편 보관 | 각 창고에 간편 보관 기능을 설정하거나, 간편 보관 기능을 사용할 수 있다."
+      },
+      "ui": {
+        "entity_key": "ganpyeon_bogwan",
+        "search_text": "아이템 기본 안내 창고 간편 보관 각 창고에 간편 보관 기능을 설정하거나, 간편 보관 기능을 사용할 수 있다. acquisition source ui storage",
+        "chips": [
+          "acquisition",
+          "source",
+          "ui",
+          "storage",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_70bf35fb",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "보관",
+      "value": "선택한 아이템을 보관 및 회수할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "ui",
+        "inventory",
+        "storage"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "창고",
+        "raw_text": "보관 | 선택한 아이템을 보관 및 회수할 수 있다."
+      },
+      "ui": {
+        "entity_key": "bogwan",
+        "search_text": "아이템 기본 안내 창고 보관 선택한 아이템을 보관 및 회수할 수 있다. acquisition source ui inventory storage",
+        "chips": [
+          "acquisition",
+          "source",
+          "ui",
+          "inventory",
+          "storage",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_3390e9a9",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "창고",
+      "value": "서버 및 캐릭터 창고에 보관 중인 아이템은 제작, 물질 변환, 보급 의뢰, 통합 강화 시 큐브로 옮기지 않고 바로 사용할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "craft",
+        "upgrade",
+        "integrated_enhancement",
+        "transmutation",
+        "commission"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "창고",
+        "raw_text": "서버 및 캐릭터 창고에 보관 중인 아이템은 제작, 물질 변환, 보급 의뢰, 통합 강화 시 큐브로 옮기지 않고 바로 사용할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "changgo",
+        "search_text": "아이템 기본 안내 창고 창고 서버 및 캐릭터 창고에 보관 중인 아이템은 제작, 물질 변환, 보급 의뢰, 통합 강화 시 큐브로 옮기지 않고 바로 사용할 수 있습니다. craft upgrade integrated_enhancement transmutation commission",
+        "chips": [
+          "craft",
+          "upgrade",
+          "integrated_enhancement",
+          "transmutation",
+          "commission",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    }
+  ]
+}

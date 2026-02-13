@@ -1,0 +1,1717 @@
+{
+  "metadata": {
+    "guide_id": "chiyuseong_seukil",
+    "guide_title": "치유성 스킬",
+    "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EC%B9%98%EC%9C%A0%EC%84%B1%20%EC%8A%A4%ED%82%AC",
+    "top_category": "스킬",
+    "sub_category": "클래스 별 스킬 정보",
+    "priority": "P1",
+    "action": "parse_skills_class",
+    "topic": "skills",
+    "crawled_at": "2026-02-13T18:15:46+00:00",
+    "referential_version": "0.1.0",
+    "schema_version": "studio_v1",
+    "generated_at": "2026-02-13T20:59:53+00:00",
+    "source_facts_file": "exports/facts/skills__skills_class__chiyuseong_seukil.json"
+  },
+  "summary": {
+    "facts_total": 50,
+    "by_fact_type": {
+      "skill": 34,
+      "constraint": 16
+    },
+    "by_topic": {
+      "skills": 50
+    },
+    "by_confidence": {
+      "high": 34,
+      "medium": 16
+    },
+    "by_tag": {
+      "damage": 19,
+      "heal": 11,
+      "resource": 4,
+      "movement": 20,
+      "chance": 6,
+      "mobility_cast": 20,
+      "mastery": 12,
+      "stagger": 9,
+      "party": 10,
+      "no_target": 22,
+      "skill_system": 4,
+      "charge_skill": 4,
+      "stun": 1,
+      "control": 4,
+      "passive": 10,
+      "upgrade": 1,
+      "shield": 1,
+      "stigma": 12
+    }
+  },
+  "facts": [
+    {
+      "fact_id": "skill:skills:entity_cae8ddcf",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "대지의 응보 - 뇌전 - 방전",
+      "value": "대상에게 땅속성 피해를 주고, 정신력을 회복합니다. (연계기) 뇌전: 대상에게 바람속성 피해를 주고, 정신력을 회복합니다. (연계기) 방전: 일정확률로 발동하며, 대상에게 바람속성 피해를 주고, 정신력을 회복합니다.",
+      "conditions": [
+        "대상에게 땅속성 피해를 주고, 정신력을 회복합니다. (연계기) 뇌전: 대상에게 바람속성 피해를 주고, 정신력을 회복합니다. (연계기) 방전: 일정확률로 발동하며, 대상에게 바람속성 피해를 주고, 정신력을 회복합니다.",
+        "이동 가능"
+      ],
+      "tags": [
+        "damage",
+        "heal",
+        "resource",
+        "movement",
+        "chance",
+        "mobility_cast",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "대지의 응보 - 뇌전 - 방전 | 대상에게 땅속성 피해를 주고, 정신력을 회복합니다. (연계기) 뇌전: 대상에게 바람속성 피해를 주고, 정신력을 회복합니다. (연계기) 방전: 일정확률로 발동하며, 대상에게 바람속성 피해를 주고, 정신력을 회복합니다. | 이동 가능"
+      },
+      "ui": {
+        "entity_key": "daejiui_eungbo_noejeon_bangjeon",
+        "search_text": "치유성 스킬 마스터리 스킬 대지의 응보 - 뇌전 - 방전 대상에게 땅속성 피해를 주고, 정신력을 회복합니다. (연계기) 뇌전: 대상에게 바람속성 피해를 주고, 정신력을 회복합니다. (연계기) 방전: 일정확률로 발동하며, 대상에게 바람속성 피해를 주고, 정신력을 회복합니다. damage heal resource movement chance mobility_cast mastery 대상에게 땅속성 피해를 주고, 정신력을 회복합니다. (연계기) 뇌전: 대상에게 바람속성 피해를 주고, 정신력을 회복합니다. (연계기) 방전: 일정확률로 발동하며, 대상에게 바람속성 피해를 주고, 정신력을 회복합니다. 이동 가능",
+        "chips": [
+          "damage",
+          "heal",
+          "resource",
+          "movement",
+          "chance",
+          "mobility_cast",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_1e2eb7a0",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "대지의 응보 - 뇌전 - 방전",
+      "value": "사용 조건: 이동 가능",
+      "conditions": [
+        "이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "대지의 응보 - 뇌전 - 방전 | 대상에게 땅속성 피해를 주고, 정신력을 회복합니다. (연계기) 뇌전: 대상에게 바람속성 피해를 주고, 정신력을 회복합니다. (연계기) 방전: 일정확률로 발동하며, 대상에게 바람속성 피해를 주고, 정신력을 회복합니다. | 이동 가능"
+      },
+      "ui": {
+        "entity_key": "daejiui_eungbo_noejeon_bangjeon",
+        "search_text": "치유성 스킬 마스터리 스킬 대지의 응보 - 뇌전 - 방전 사용 조건: 이동 가능 movement mobility_cast 이동 가능",
+        "chips": [
+          "movement",
+          "mobility_cast",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_c083aebf",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "심판의 번개 - 천벌",
+      "value": "대상을 중심으로 적들에게 바람속성 피해를 줍니다. 그로기 게이지 피해",
+      "conditions": [
+        "이동 가능"
+      ],
+      "tags": [
+        "damage",
+        "stagger",
+        "movement",
+        "mobility_cast",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "심판의 번개 - 천벌 | 대상을 중심으로 적들에게 바람속성 피해를 줍니다. 그로기 게이지 피해 | 이동 가능"
+      },
+      "ui": {
+        "entity_key": "simpanui_beongae_cheonbeol",
+        "search_text": "치유성 스킬 마스터리 스킬 심판의 번개 - 천벌 대상을 중심으로 적들에게 바람속성 피해를 줍니다. 그로기 게이지 피해 damage stagger movement mobility_cast mastery 이동 가능",
+        "chips": [
+          "damage",
+          "stagger",
+          "movement",
+          "mobility_cast",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_f4c53719",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "심판의 번개 - 천벌",
+      "value": "사용 조건: 이동 가능",
+      "conditions": [
+        "이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "심판의 번개 - 천벌 | 대상을 중심으로 적들에게 바람속성 피해를 줍니다. 그로기 게이지 피해 | 이동 가능"
+      },
+      "ui": {
+        "entity_key": "simpanui_beongae_cheonbeol",
+        "search_text": "치유성 스킬 마스터리 스킬 심판의 번개 - 천벌 사용 조건: 이동 가능 movement mobility_cast 이동 가능",
+        "chips": [
+          "movement",
+          "mobility_cast",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_33e31cdc",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "약화의 낙인",
+      "value": "대상을 중심으로 적들에게 바람속성 피해를 줍니다. 적들은 일정 시간 동안 피해 내성이 감소하고, 일정 간격으로 지속 피해를 받습니다. 그로기 게이지 피해",
+      "conditions": [],
+      "tags": [
+        "damage",
+        "stagger",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "약화의 낙인 | 대상을 중심으로 적들에게 바람속성 피해를 줍니다. 적들은 일정 시간 동안 피해 내성이 감소하고, 일정 간격으로 지속 피해를 받습니다. 그로기 게이지 피해 | -"
+      },
+      "ui": {
+        "entity_key": "yakhwaui_nakin",
+        "search_text": "치유성 스킬 마스터리 스킬 약화의 낙인 대상을 중심으로 적들에게 바람속성 피해를 줍니다. 적들은 일정 시간 동안 피해 내성이 감소하고, 일정 간격으로 지속 피해를 받습니다. 그로기 게이지 피해 damage stagger mastery",
+        "chips": [
+          "damage",
+          "stagger",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_39b1dd92",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "신성한 기운",
+      "value": "자신 근처에 신성한 기운을 소환합니다. 기운은 움직이지 못하며 일정 간격으로 시전자가 지정한 대상에게 땅속성 피해를 줍니다. 기운은 공격을 적중시킬 때마다 자신의 생명력을 소모합니다.",
+      "conditions": [],
+      "tags": [
+        "damage",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "신성한 기운 | 자신 근처에 신성한 기운을 소환합니다. 기운은 움직이지 못하며 일정 간격으로 시전자가 지정한 대상에게 땅속성 피해를 줍니다. 기운은 공격을 적중시킬 때마다 자신의 생명력을 소모합니다. | -"
+      },
+      "ui": {
+        "entity_key": "sinseonghan_giun",
+        "search_text": "치유성 스킬 마스터리 스킬 신성한 기운 자신 근처에 신성한 기운을 소환합니다. 기운은 움직이지 못하며 일정 간격으로 시전자가 지정한 대상에게 땅속성 피해를 줍니다. 기운은 공격을 적중시킬 때마다 자신의 생명력을 소모합니다. damage mastery",
+        "chips": [
+          "damage",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_f7d3d281",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "고통의 연쇄",
+      "value": "대상을 중심으로 적들에게 땅속성 피해를 줍니다. 적들은 일정 시간 동안 피해 내성이 감소하고, 일정 간격으로 지속 피해를 받습니다. 그로기 게이지 피해",
+      "conditions": [
+        "이동 가능"
+      ],
+      "tags": [
+        "damage",
+        "stagger",
+        "movement",
+        "mobility_cast",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "고통의 연쇄 | 대상을 중심으로 적들에게 땅속성 피해를 줍니다. 적들은 일정 시간 동안 피해 내성이 감소하고, 일정 간격으로 지속 피해를 받습니다. 그로기 게이지 피해 | 이동 가능"
+      },
+      "ui": {
+        "entity_key": "gotongui_yeonswae",
+        "search_text": "치유성 스킬 마스터리 스킬 고통의 연쇄 대상을 중심으로 적들에게 땅속성 피해를 줍니다. 적들은 일정 시간 동안 피해 내성이 감소하고, 일정 간격으로 지속 피해를 받습니다. 그로기 게이지 피해 damage stagger movement mobility_cast mastery 이동 가능",
+        "chips": [
+          "damage",
+          "stagger",
+          "movement",
+          "mobility_cast",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_05e4c3b2",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "고통의 연쇄",
+      "value": "사용 조건: 이동 가능",
+      "conditions": [
+        "이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "고통의 연쇄 | 대상을 중심으로 적들에게 땅속성 피해를 줍니다. 적들은 일정 시간 동안 피해 내성이 감소하고, 일정 간격으로 지속 피해를 받습니다. 그로기 게이지 피해 | 이동 가능"
+      },
+      "ui": {
+        "entity_key": "gotongui_yeonswae",
+        "search_text": "치유성 스킬 마스터리 스킬 고통의 연쇄 사용 조건: 이동 가능 movement mobility_cast 이동 가능",
+        "chips": [
+          "movement",
+          "mobility_cast",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_7e3ea4aa",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "벼락 난사",
+      "value": "그로기 상태인 대상에게 피해를 줍니다.",
+      "conditions": [],
+      "tags": [
+        "damage",
+        "stagger",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "벼락 난사 | 그로기 상태인 대상에게 피해를 줍니다. | -"
+      },
+      "ui": {
+        "entity_key": "byeorak_nansa",
+        "search_text": "치유성 스킬 마스터리 스킬 벼락 난사 그로기 상태인 대상에게 피해를 줍니다. damage stagger mastery",
+        "chips": [
+          "damage",
+          "stagger",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_caa59b1a",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "재생의 빛",
+      "value": "자신과 주변 파티원들에게 일정 간격으로 생명력을 회복합니다.",
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "heal",
+        "movement",
+        "party",
+        "mobility_cast",
+        "no_target",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "재생의 빛 | 자신과 주변 파티원들에게 일정 간격으로 생명력을 회복합니다. | 논타겟/이동 가능"
+      },
+      "ui": {
+        "entity_key": "jaesaengui_bit",
+        "search_text": "치유성 스킬 마스터리 스킬 재생의 빛 자신과 주변 파티원들에게 일정 간격으로 생명력을 회복합니다. heal movement party mobility_cast no_target mastery 논타겟/이동 가능",
+        "chips": [
+          "heal",
+          "movement",
+          "party",
+          "mobility_cast",
+          "no_target",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_c635d590",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "재생의 빛",
+      "value": "사용 조건: 논타겟/이동 가능",
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast",
+        "no_target"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "재생의 빛 | 자신과 주변 파티원들에게 일정 간격으로 생명력을 회복합니다. | 논타겟/이동 가능"
+      },
+      "ui": {
+        "entity_key": "jaesaengui_bit",
+        "search_text": "치유성 스킬 마스터리 스킬 재생의 빛 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target 논타겟/이동 가능",
+        "chips": [
+          "movement",
+          "mobility_cast",
+          "no_target",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_6a636e4e",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "단죄",
+      "value": "고통의 연쇄 효과를 받는 대상을 중심으로 적들에게 땅속성 피해를 줍니다. 그로기 게이지 피해",
+      "conditions": [],
+      "tags": [
+        "damage",
+        "stagger",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "단죄 | 고통의 연쇄 효과를 받는 대상을 중심으로 적들에게 땅속성 피해를 줍니다. 그로기 게이지 피해 | -"
+      },
+      "ui": {
+        "entity_key": "danjoe",
+        "search_text": "치유성 스킬 마스터리 스킬 단죄 고통의 연쇄 효과를 받는 대상을 중심으로 적들에게 땅속성 피해를 줍니다. 그로기 게이지 피해 damage stagger mastery",
+        "chips": [
+          "damage",
+          "stagger",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_5afd3578",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "치유의 빛",
+      "value": "주변 파티원들 중 생명력이 가장 낮은 대상과 자신의 생명력을 회복시킵니다. 재생의 빛 효과가 적용되는 동안 사용할 수 있습니다.",
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "heal",
+        "movement",
+        "party",
+        "mobility_cast",
+        "no_target",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "치유의 빛 | 주변 파티원들 중 생명력이 가장 낮은 대상과 자신의 생명력을 회복시킵니다. 재생의 빛 효과가 적용되는 동안 사용할 수 있습니다. | 논타겟/이동 가능"
+      },
+      "ui": {
+        "entity_key": "chiyuui_bit",
+        "search_text": "치유성 스킬 마스터리 스킬 치유의 빛 주변 파티원들 중 생명력이 가장 낮은 대상과 자신의 생명력을 회복시킵니다. 재생의 빛 효과가 적용되는 동안 사용할 수 있습니다. heal movement party mobility_cast no_target mastery 논타겟/이동 가능",
+        "chips": [
+          "heal",
+          "movement",
+          "party",
+          "mobility_cast",
+          "no_target",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_087a63cb",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "치유의 빛",
+      "value": "사용 조건: 논타겟/이동 가능",
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast",
+        "no_target"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "치유의 빛 | 주변 파티원들 중 생명력이 가장 낮은 대상과 자신의 생명력을 회복시킵니다. 재생의 빛 효과가 적용되는 동안 사용할 수 있습니다. | 논타겟/이동 가능"
+      },
+      "ui": {
+        "entity_key": "chiyuui_bit",
+        "search_text": "치유성 스킬 마스터리 스킬 치유의 빛 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target 논타겟/이동 가능",
+        "chips": [
+          "movement",
+          "mobility_cast",
+          "no_target",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_94f35a40",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "쾌유의 광휘",
+      "value": "자신과 주변 파티원들의 생명력을 회복시킵니다. 최대 차지 시 추가 회복합니다.",
+      "conditions": [
+        "논타겟/차지 스킬"
+      ],
+      "tags": [
+        "skill_system",
+        "heal",
+        "party",
+        "no_target",
+        "charge_skill",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "쾌유의 광휘 | 자신과 주변 파티원들의 생명력을 회복시킵니다. 최대 차지 시 추가 회복합니다. | 논타겟/차지 스킬"
+      },
+      "ui": {
+        "entity_key": "kwaeyuui_gwanghwi",
+        "search_text": "치유성 스킬 마스터리 스킬 쾌유의 광휘 자신과 주변 파티원들의 생명력을 회복시킵니다. 최대 차지 시 추가 회복합니다. skill_system heal party no_target charge_skill mastery 논타겟/차지 스킬",
+        "chips": [
+          "skill_system",
+          "heal",
+          "party",
+          "no_target",
+          "charge_skill",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_f2a9ec1e",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "쾌유의 광휘",
+      "value": "사용 조건: 논타겟/차지 스킬",
+      "conditions": [
+        "사용 조건: 논타겟/차지 스킬"
+      ],
+      "tags": [
+        "skill_system",
+        "no_target",
+        "charge_skill"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "쾌유의 광휘 | 자신과 주변 파티원들의 생명력을 회복시킵니다. 최대 차지 시 추가 회복합니다. | 논타겟/차지 스킬"
+      },
+      "ui": {
+        "entity_key": "kwaeyuui_gwanghwi",
+        "search_text": "치유성 스킬 마스터리 스킬 쾌유의 광휘 사용 조건: 논타겟/차지 스킬 skill_system no_target charge_skill 사용 조건: 논타겟/차지 스킬",
+        "chips": [
+          "skill_system",
+          "no_target",
+          "charge_skill",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_8cd7eb8b",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "벽력",
+      "value": "대상을 중심으로 적들에게 바람속성 피해를 줍니다. 그로기 게이지 피해",
+      "conditions": [
+        "차지 스킬"
+      ],
+      "tags": [
+        "skill_system",
+        "damage",
+        "stagger",
+        "charge_skill",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "벽력 | 대상을 중심으로 적들에게 바람속성 피해를 줍니다. 그로기 게이지 피해 | 차지 스킬"
+      },
+      "ui": {
+        "entity_key": "byeokryeok",
+        "search_text": "치유성 스킬 마스터리 스킬 벽력 대상을 중심으로 적들에게 바람속성 피해를 줍니다. 그로기 게이지 피해 skill_system damage stagger charge_skill mastery 차지 스킬",
+        "chips": [
+          "skill_system",
+          "damage",
+          "stagger",
+          "charge_skill",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_6fee15db",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "벽력",
+      "value": "사용 조건: 차지 스킬",
+      "conditions": [
+        "사용 조건: 차지 스킬"
+      ],
+      "tags": [
+        "skill_system",
+        "charge_skill"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "벽력 | 대상을 중심으로 적들에게 바람속성 피해를 줍니다. 그로기 게이지 피해 | 차지 스킬"
+      },
+      "ui": {
+        "entity_key": "byeokryeok",
+        "search_text": "치유성 스킬 마스터리 스킬 벽력 사용 조건: 차지 스킬 skill_system charge_skill 사용 조건: 차지 스킬",
+        "chips": [
+          "skill_system",
+          "charge_skill",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_3cbb2324",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "충격 해제 - 재생의 축복",
+      "value": "자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 재생의 축복: 자신의 생명력과 정신력을 회복합니다.",
+      "conditions": [
+        "자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 재생의 축복: 자신의 생명력과 정신력을 회복합니다.",
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "stun",
+        "control",
+        "heal",
+        "resource",
+        "movement",
+        "mobility_cast",
+        "no_target",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "충격 해제 - 재생의 축복 | 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 재생의 축복: 자신의 생명력과 정신력을 회복합니다. | 논타겟/이동 가능"
+      },
+      "ui": {
+        "entity_key": "chunggyeok_haeje_jaesaengui_chukbok",
+        "search_text": "치유성 스킬 마스터리 스킬 충격 해제 - 재생의 축복 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 재생의 축복: 자신의 생명력과 정신력을 회복합니다. stun control heal resource movement mobility_cast no_target mastery 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 재생의 축복: 자신의 생명력과 정신력을 회복합니다. 논타겟/이동 가능",
+        "chips": [
+          "stun",
+          "control",
+          "heal",
+          "resource",
+          "movement",
+          "mobility_cast",
+          "no_target",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_52fa98f0",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "충격 해제 - 재생의 축복",
+      "value": "사용 조건: 논타겟/이동 가능",
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast",
+        "no_target"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "충격 해제 - 재생의 축복 | 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 재생의 축복: 자신의 생명력과 정신력을 회복합니다. | 논타겟/이동 가능"
+      },
+      "ui": {
+        "entity_key": "chunggyeok_haeje_jaesaengui_chukbok",
+        "search_text": "치유성 스킬 마스터리 스킬 충격 해제 - 재생의 축복 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target 논타겟/이동 가능",
+        "chips": [
+          "movement",
+          "mobility_cast",
+          "no_target",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_8db37c58",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "따뜻한 가호",
+      "value": "자신의 최대 생명력 및 정신력이 증가합니다.",
+      "conditions": [],
+      "tags": [
+        "resource",
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "따뜻한 가호 | 자신의 최대 생명력 및 정신력이 증가합니다. | -"
+      },
+      "ui": {
+        "entity_key": "ttatteuthan_gaho",
+        "search_text": "치유성 스킬 패시브 스킬 따뜻한 가호 자신의 최대 생명력 및 정신력이 증가합니다. resource passive",
+        "chips": [
+          "resource",
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_2e251aae",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "주신의 가호",
+      "value": "자신의 막기가 증가하고, 막기 성공 후 생명력을 회복합니다.",
+      "conditions": [],
+      "tags": [
+        "heal",
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "주신의 가호 | 자신의 막기가 증가하고, 막기 성공 후 생명력을 회복합니다. | -"
+      },
+      "ui": {
+        "entity_key": "jusinui_gaho",
+        "search_text": "치유성 스킬 패시브 스킬 주신의 가호 자신의 막기가 증가하고, 막기 성공 후 생명력을 회복합니다. heal passive",
+        "chips": [
+          "heal",
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_c198ab63",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "주신의 은총",
+      "value": "자신의 치명타가 증가하고, 지속 피해를 입는 대상에게 공격을 적중시킬 때마다 일정 확률로 추가 피해를 줍니다.",
+      "conditions": [
+        "자신의 치명타가 증가하고, 지속 피해를 입는 대상에게 공격을 적중시킬 때마다 일정 확률로 추가 피해를 줍니다."
+      ],
+      "tags": [
+        "damage",
+        "chance",
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "주신의 은총 | 자신의 치명타가 증가하고, 지속 피해를 입는 대상에게 공격을 적중시킬 때마다 일정 확률로 추가 피해를 줍니다. | -"
+      },
+      "ui": {
+        "entity_key": "jusinui_eunchong",
+        "search_text": "치유성 스킬 패시브 스킬 주신의 은총 자신의 치명타가 증가하고, 지속 피해를 입는 대상에게 공격을 적중시킬 때마다 일정 확률로 추가 피해를 줍니다. damage chance passive 자신의 치명타가 증가하고, 지속 피해를 입는 대상에게 공격을 적중시킬 때마다 일정 확률로 추가 피해를 줍니다.",
+        "chips": [
+          "damage",
+          "chance",
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_5ff57e0a",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "치유력 강화",
+      "value": "자신의 치유 증폭이 증가합니다.",
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "치유력 강화 | 자신의 치유 증폭이 증가합니다. | -"
+      },
+      "ui": {
+        "entity_key": "chiyuryeok_ganghwa",
+        "search_text": "치유성 스킬 패시브 스킬 치유력 강화 자신의 치유 증폭이 증가합니다. upgrade passive",
+        "chips": [
+          "upgrade",
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_cd19f352",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "불사의 장막",
+      "value": "자신의 방어력 및 치명타 저항이 증가합니다.",
+      "conditions": [],
+      "tags": [
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "불사의 장막 | 자신의 방어력 및 치명타 저항이 증가합니다. | -"
+      },
+      "ui": {
+        "entity_key": "bulsaui_jangmak",
+        "search_text": "치유성 스킬 패시브 스킬 불사의 장막 자신의 방어력 및 치명타 저항이 증가합니다. passive",
+        "chips": [
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_78e54f91",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "회복 차단",
+      "value": "공격이 적중할 때마다 일정 확률로 대상의 받는 치유량을 감소시킵니다.",
+      "conditions": [
+        "공격이 적중할 때마다 일정 확률로 대상의 받는 치유량을 감소시킵니다."
+      ],
+      "tags": [
+        "heal",
+        "chance",
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "회복 차단 | 공격이 적중할 때마다 일정 확률로 대상의 받는 치유량을 감소시킵니다. | -"
+      },
+      "ui": {
+        "entity_key": "hoebok_chadan",
+        "search_text": "치유성 스킬 패시브 스킬 회복 차단 공격이 적중할 때마다 일정 확률로 대상의 받는 치유량을 감소시킵니다. heal chance passive 공격이 적중할 때마다 일정 확률로 대상의 받는 치유량을 감소시킵니다.",
+        "chips": [
+          "heal",
+          "chance",
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_343353f2",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "집중의 기도",
+      "value": "자신의 생명력이 일정량 이하일 때 보호막을 생성하고 치유 증폭이 증가합니다.",
+      "conditions": [
+        "자신의 생명력이 일정량 이하일 때 보호막을 생성하고 치유 증폭이 증가합니다."
+      ],
+      "tags": [
+        "shield",
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "집중의 기도 | 자신의 생명력이 일정량 이하일 때 보호막을 생성하고 치유 증폭이 증가합니다. | -"
+      },
+      "ui": {
+        "entity_key": "jipjungui_gido",
+        "search_text": "치유성 스킬 패시브 스킬 집중의 기도 자신의 생명력이 일정량 이하일 때 보호막을 생성하고 치유 증폭이 증가합니다. shield passive 자신의 생명력이 일정량 이하일 때 보호막을 생성하고 치유 증폭이 증가합니다.",
+        "chips": [
+          "shield",
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_c9aefd8c",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "대지의 은총",
+      "value": "자신의 생명력이 일정량 이상일 때, 공격 적중 시 자신과 주변 파티원들의 피해 증폭이 증가합니다.",
+      "conditions": [
+        "자신의 생명력이 일정량 이상일 때, 공격 적중 시 자신과 주변 파티원들의 피해 증폭이 증가합니다."
+      ],
+      "tags": [
+        "damage",
+        "party",
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "대지의 은총 | 자신의 생명력이 일정량 이상일 때, 공격 적중 시 자신과 주변 파티원들의 피해 증폭이 증가합니다. | -"
+      },
+      "ui": {
+        "entity_key": "daejiui_eunchong",
+        "search_text": "치유성 스킬 패시브 스킬 대지의 은총 자신의 생명력이 일정량 이상일 때, 공격 적중 시 자신과 주변 파티원들의 피해 증폭이 증가합니다. damage party passive 자신의 생명력이 일정량 이상일 때, 공격 적중 시 자신과 주변 파티원들의 피해 증폭이 증가합니다.",
+        "chips": [
+          "damage",
+          "party",
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_34f43852",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "생존 의지",
+      "value": "자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다",
+      "conditions": [
+        "자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다"
+      ],
+      "tags": [
+        "damage",
+        "control",
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [
+        {
+          "value": 1,
+          "unit": "sec",
+          "kind": "duration"
+        },
+        {
+          "value": 10,
+          "unit": "percent",
+          "kind": "duration"
+        }
+      ],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "생존 의지 | 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다 | -"
+      },
+      "ui": {
+        "entity_key": "saengjon_uiji",
+        "search_text": "치유성 스킬 패시브 스킬 생존 의지 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다 damage control passive 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 상태에서 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다",
+        "chips": [
+          "damage",
+          "control",
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_9bc37b57",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "찬란한 가호",
+      "value": "공격이 적중할 때마다 일정 확률로 자신과 주변 파티원들의 생명력을 회복시킵니다.",
+      "conditions": [
+        "공격이 적중할 때마다 일정 확률로 자신과 주변 파티원들의 생명력을 회복시킵니다."
+      ],
+      "tags": [
+        "heal",
+        "party",
+        "chance",
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "찬란한 가호 | 공격이 적중할 때마다 일정 확률로 자신과 주변 파티원들의 생명력을 회복시킵니다. | -"
+      },
+      "ui": {
+        "entity_key": "chanranhan_gaho",
+        "search_text": "치유성 스킬 패시브 스킬 찬란한 가호 공격이 적중할 때마다 일정 확률로 자신과 주변 파티원들의 생명력을 회복시킵니다. heal party chance passive 공격이 적중할 때마다 일정 확률로 자신과 주변 파티원들의 생명력을 회복시킵니다.",
+        "chips": [
+          "heal",
+          "party",
+          "chance",
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_6ce96b98",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "권능 폭발",
+      "value": "대상에게 땅속성 피해를 줍니다. 그로기 게이지 피해",
+      "conditions": [],
+      "tags": [
+        "damage",
+        "stagger",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "권능 폭발 | 대상에게 땅속성 피해를 줍니다. 그로기 게이지 피해 | -"
+      },
+      "ui": {
+        "entity_key": "gwonneung_pokbal",
+        "search_text": "치유성 스킬 스티그마 스킬 권능 폭발 대상에게 땅속성 피해를 줍니다. 그로기 게이지 피해 damage stagger stigma",
+        "chips": [
+          "damage",
+          "stagger",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_78606753",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "면죄",
+      "value": "자신과 주변 파티원들의 약화 마법을 최대 2개 제거하고, 생명력을 회복시킵니다.",
+      "conditions": [
+        "논타겟"
+      ],
+      "tags": [
+        "heal",
+        "party",
+        "no_target",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [
+        {
+          "value": 2,
+          "unit": "flat",
+          "kind": "heal"
+        }
+      ],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "면죄 | 자신과 주변 파티원들의 약화 마법을 최대 2개 제거하고, 생명력을 회복시킵니다. | 논타겟"
+      },
+      "ui": {
+        "entity_key": "myeonjoe",
+        "search_text": "치유성 스킬 스티그마 스킬 면죄 자신과 주변 파티원들의 약화 마법을 최대 2개 제거하고, 생명력을 회복시킵니다. heal party no_target stigma 논타겟",
+        "chips": [
+          "heal",
+          "party",
+          "no_target",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_12f8c56c",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "면죄",
+      "value": "사용 조건: 논타겟",
+      "conditions": [
+        "사용 조건: 논타겟"
+      ],
+      "tags": [
+        "no_target"
+      ],
+      "confidence": "medium",
+      "numeric_values": [
+        {
+          "value": 2,
+          "unit": "flat",
+          "kind": "heal"
+        }
+      ],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "면죄 | 자신과 주변 파티원들의 약화 마법을 최대 2개 제거하고, 생명력을 회복시킵니다. | 논타겟"
+      },
+      "ui": {
+        "entity_key": "myeonjoe",
+        "search_text": "치유성 스킬 스티그마 스킬 면죄 사용 조건: 논타겟 no_target 사용 조건: 논타겟",
+        "chips": [
+          "no_target",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_7f710a78",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "치유의 기운",
+      "value": "자신 근처에 치유의 기운을 소환합니다. 기운은 움직이지 못하며 일정 간격으로 시전자와 파티원의 생명력을 회복시킵니다.",
+      "conditions": [
+        "논타겟"
+      ],
+      "tags": [
+        "heal",
+        "party",
+        "no_target",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "치유의 기운 | 자신 근처에 치유의 기운을 소환합니다. 기운은 움직이지 못하며 일정 간격으로 시전자와 파티원의 생명력을 회복시킵니다. | 논타겟"
+      },
+      "ui": {
+        "entity_key": "chiyuui_giun",
+        "search_text": "치유성 스킬 스티그마 스킬 치유의 기운 자신 근처에 치유의 기운을 소환합니다. 기운은 움직이지 못하며 일정 간격으로 시전자와 파티원의 생명력을 회복시킵니다. heal party no_target stigma 논타겟",
+        "chips": [
+          "heal",
+          "party",
+          "no_target",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_8f10c313",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "치유의 기운",
+      "value": "사용 조건: 논타겟",
+      "conditions": [
+        "사용 조건: 논타겟"
+      ],
+      "tags": [
+        "no_target"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "치유의 기운 | 자신 근처에 치유의 기운을 소환합니다. 기운은 움직이지 못하며 일정 간격으로 시전자와 파티원의 생명력을 회복시킵니다. | 논타겟"
+      },
+      "ui": {
+        "entity_key": "chiyuui_giun",
+        "search_text": "치유성 스킬 스티그마 스킬 치유의 기운 사용 조건: 논타겟 no_target 사용 조건: 논타겟",
+        "chips": [
+          "no_target",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_dc7a45de",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "증폭의 기도",
+      "value": "일정 시간 동안 공격력이 증가합니다.",
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast",
+        "no_target",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "증폭의 기도 | 일정 시간 동안 공격력이 증가합니다. | 논타겟/이동 가능"
+      },
+      "ui": {
+        "entity_key": "jeungpokui_gido",
+        "search_text": "치유성 스킬 스티그마 스킬 증폭의 기도 일정 시간 동안 공격력이 증가합니다. movement mobility_cast no_target stigma 논타겟/이동 가능",
+        "chips": [
+          "movement",
+          "mobility_cast",
+          "no_target",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_c852b585",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "증폭의 기도",
+      "value": "사용 조건: 논타겟/이동 가능",
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast",
+        "no_target"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "증폭의 기도 | 일정 시간 동안 공격력이 증가합니다. | 논타겟/이동 가능"
+      },
+      "ui": {
+        "entity_key": "jeungpokui_gido",
+        "search_text": "치유성 스킬 스티그마 스킬 증폭의 기도 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target 논타겟/이동 가능",
+        "chips": [
+          "movement",
+          "mobility_cast",
+          "no_target",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_9444571b",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "소환 부활",
+      "value": "자신을 중심으로 일정 거리 내 사망한 파티원을 자신 근처에서 부활시킵니다..",
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "party",
+        "mobility_cast",
+        "no_target",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "소환 부활 | 자신을 중심으로 일정 거리 내 사망한 파티원을 자신 근처에서 부활시킵니다.. | 논타겟/이동 가능"
+      },
+      "ui": {
+        "entity_key": "sohwan_buhwal",
+        "search_text": "치유성 스킬 스티그마 스킬 소환 부활 자신을 중심으로 일정 거리 내 사망한 파티원을 자신 근처에서 부활시킵니다.. movement party mobility_cast no_target stigma 논타겟/이동 가능",
+        "chips": [
+          "movement",
+          "party",
+          "mobility_cast",
+          "no_target",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_182f359e",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "소환 부활",
+      "value": "사용 조건: 논타겟/이동 가능",
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast",
+        "no_target"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "소환 부활 | 자신을 중심으로 일정 거리 내 사망한 파티원을 자신 근처에서 부활시킵니다.. | 논타겟/이동 가능"
+      },
+      "ui": {
+        "entity_key": "sohwan_buhwal",
+        "search_text": "치유성 스킬 스티그마 스킬 소환 부활 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target 논타겟/이동 가능",
+        "chips": [
+          "movement",
+          "mobility_cast",
+          "no_target",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_b69edfe6",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "대지의 징벌",
+      "value": "대상에게 땅속성 피해를 주고 막기 및 회피를 감소시키며, 일정 간격으로 피해를 줍니다. 그로기 게이지 피해",
+      "conditions": [],
+      "tags": [
+        "damage",
+        "stagger",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "대지의 징벌 | 대상에게 땅속성 피해를 주고 막기 및 회피를 감소시키며, 일정 간격으로 피해를 줍니다. 그로기 게이지 피해 | -"
+      },
+      "ui": {
+        "entity_key": "daejiui_jingbeol",
+        "search_text": "치유성 스킬 스티그마 스킬 대지의 징벌 대상에게 땅속성 피해를 주고 막기 및 회피를 감소시키며, 일정 간격으로 피해를 줍니다. 그로기 게이지 피해 damage stagger stigma",
+        "chips": [
+          "damage",
+          "stagger",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_1ba32dcd",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "구원",
+      "value": "일정 시간 동안 모든 피해를 무효화하고, 상태이상에 걸리지 않습니다. 일부 강력한 공격은 방어할 수 없습니다.",
+      "conditions": [
+        "일정 시간 동안 모든 피해를 무효화하고, 상태이상에 걸리지 않습니다. 일부 강력한 공격은 방어할 수 없습니다.",
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "damage",
+        "movement",
+        "mobility_cast",
+        "no_target",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "구원 | 일정 시간 동안 모든 피해를 무효화하고, 상태이상에 걸리지 않습니다. 일부 강력한 공격은 방어할 수 없습니다. | 논타겟/이동 가능"
+      },
+      "ui": {
+        "entity_key": "guwon",
+        "search_text": "치유성 스킬 스티그마 스킬 구원 일정 시간 동안 모든 피해를 무효화하고, 상태이상에 걸리지 않습니다. 일부 강력한 공격은 방어할 수 없습니다. damage movement mobility_cast no_target stigma 일정 시간 동안 모든 피해를 무효화하고, 상태이상에 걸리지 않습니다. 일부 강력한 공격은 방어할 수 없습니다. 논타겟/이동 가능",
+        "chips": [
+          "damage",
+          "movement",
+          "mobility_cast",
+          "no_target",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_225c8f97",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "구원",
+      "value": "사용 조건: 논타겟/이동 가능",
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast",
+        "no_target"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "구원 | 일정 시간 동안 모든 피해를 무효화하고, 상태이상에 걸리지 않습니다. 일부 강력한 공격은 방어할 수 없습니다. | 논타겟/이동 가능"
+      },
+      "ui": {
+        "entity_key": "guwon",
+        "search_text": "치유성 스킬 스티그마 스킬 구원 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target 논타겟/이동 가능",
+        "chips": [
+          "movement",
+          "mobility_cast",
+          "no_target",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_a5632f40",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "속박",
+      "value": "대상을 중심으로 적들에게 땅속성 피해를 주고, 일정 확률로 속박 상태로 만듭니다 대상이 NPC일 경우 100%의 확률로 속박이 적중됩니다. 그로기 게이지 피해",
+      "conditions": [
+        "대상을 중심으로 적들에게 땅속성 피해를 주고, 일정 확률로 속박 상태로 만듭니다 대상이 NPC일 경우 100%의 확률로 속박이 적중됩니다. 그로기 게이지 피해",
+        "이동 가능"
+      ],
+      "tags": [
+        "damage",
+        "stagger",
+        "control",
+        "movement",
+        "chance",
+        "mobility_cast",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "속박 | 대상을 중심으로 적들에게 땅속성 피해를 주고, 일정 확률로 속박 상태로 만듭니다 대상이 NPC일 경우 100%의 확률로 속박이 적중됩니다. 그로기 게이지 피해 | 이동 가능"
+      },
+      "ui": {
+        "entity_key": "sokbak",
+        "search_text": "치유성 스킬 스티그마 스킬 속박 대상을 중심으로 적들에게 땅속성 피해를 주고, 일정 확률로 속박 상태로 만듭니다 대상이 npc일 경우 100%의 확률로 속박이 적중됩니다. 그로기 게이지 피해 damage stagger control movement chance mobility_cast stigma 대상을 중심으로 적들에게 땅속성 피해를 주고, 일정 확률로 속박 상태로 만듭니다 대상이 npc일 경우 100%의 확률로 속박이 적중됩니다. 그로기 게이지 피해 이동 가능",
+        "chips": [
+          "damage",
+          "stagger",
+          "control",
+          "movement",
+          "chance",
+          "mobility_cast",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_b863819a",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "속박",
+      "value": "사용 조건: 이동 가능",
+      "conditions": [
+        "이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast"
+      ],
+      "confidence": "medium",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "속박 | 대상을 중심으로 적들에게 땅속성 피해를 주고, 일정 확률로 속박 상태로 만듭니다 대상이 NPC일 경우 100%의 확률로 속박이 적중됩니다. 그로기 게이지 피해 | 이동 가능"
+      },
+      "ui": {
+        "entity_key": "sokbak",
+        "search_text": "치유성 스킬 스티그마 스킬 속박 사용 조건: 이동 가능 movement mobility_cast 이동 가능",
+        "chips": [
+          "movement",
+          "mobility_cast",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_4d441aea",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "보호의 빛",
+      "value": "일정 시간 동안 자신과 주변 파티원들의 최대 생명력과 피해 증폭을 증가시키고, 생명력을 즉시 회복합니다. 불패의 진언과 동시에 사용할 경우, 보호의 빛의 피해 증폭 효과가 적용되지 않습니다. 사망으로 인해 효과가 해제되지 않습니다.",
+      "conditions": [
+        "일정 시간 동안 자신과 주변 파티원들의 최대 생명력과 피해 증폭을 증가시키고, 생명력을 즉시 회복합니다. 불패의 진언과 동시에 사용할 경우, 보호의 빛의 피해 증폭 효과가 적용되지 않습니다. 사망으로 인해 효과가 해제되지 않습니다.",
+        "논타겟"
+      ],
+      "tags": [
+        "damage",
+        "heal",
+        "party",
+        "no_target",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "보호의 빛 | 일정 시간 동안 자신과 주변 파티원들의 최대 생명력과 피해 증폭을 증가시키고, 생명력을 즉시 회복합니다. 불패의 진언과 동시에 사용할 경우, 보호의 빛의 피해 증폭 효과가 적용되지 않습니다. 사망으로 인해 효과가 해제되지 않습니다. | 논타겟"
+      },
+      "ui": {
+        "entity_key": "bohoui_bit",
+        "search_text": "치유성 스킬 스티그마 스킬 보호의 빛 일정 시간 동안 자신과 주변 파티원들의 최대 생명력과 피해 증폭을 증가시키고, 생명력을 즉시 회복합니다. 불패의 진언과 동시에 사용할 경우, 보호의 빛의 피해 증폭 효과가 적용되지 않습니다. 사망으로 인해 효과가 해제되지 않습니다. damage heal party no_target stigma 일정 시간 동안 자신과 주변 파티원들의 최대 생명력과 피해 증폭을 증가시키고, 생명력을 즉시 회복합니다. 불패의 진언과 동시에 사용할 경우, 보호의 빛의 피해 증폭 효과가 적용되지 않습니다. 사망으로 인해 효과가 해제되지 않습니다. 논타겟",
+        "chips": [
+          "damage",
+          "heal",
+          "party",
+          "no_target",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_f62afa7d",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "보호의 빛",
+      "value": "사용 조건: 논타겟",
+      "conditions": [
+        "사용 조건: 논타겟"
+      ],
+      "tags": [
+        "no_target"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "보호의 빛 | 일정 시간 동안 자신과 주변 파티원들의 최대 생명력과 피해 증폭을 증가시키고, 생명력을 즉시 회복합니다. 불패의 진언과 동시에 사용할 경우, 보호의 빛의 피해 증폭 효과가 적용되지 않습니다. 사망으로 인해 효과가 해제되지 않습니다. | 논타겟"
+      },
+      "ui": {
+        "entity_key": "bohoui_bit",
+        "search_text": "치유성 스킬 스티그마 스킬 보호의 빛 사용 조건: 논타겟 no_target 사용 조건: 논타겟",
+        "chips": [
+          "no_target",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_887a6fb0",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "유스티엘의 권능",
+      "value": "일정 시간 동안 자신과 주변 파티원들의 피해 내성을 증가시킵니다.",
+      "conditions": [
+        "논타겟"
+      ],
+      "tags": [
+        "damage",
+        "party",
+        "no_target",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "유스티엘의 권능 | 일정 시간 동안 자신과 주변 파티원들의 피해 내성을 증가시킵니다. | 논타겟"
+      },
+      "ui": {
+        "entity_key": "yuseutielui_gwonneung",
+        "search_text": "치유성 스킬 스티그마 스킬 유스티엘의 권능 일정 시간 동안 자신과 주변 파티원들의 피해 내성을 증가시킵니다. damage party no_target stigma 논타겟",
+        "chips": [
+          "damage",
+          "party",
+          "no_target",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_c3246e96",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "유스티엘의 권능",
+      "value": "사용 조건: 논타겟",
+      "conditions": [
+        "사용 조건: 논타겟"
+      ],
+      "tags": [
+        "no_target"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "유스티엘의 권능 | 일정 시간 동안 자신과 주변 파티원들의 피해 내성을 증가시킵니다. | 논타겟"
+      },
+      "ui": {
+        "entity_key": "yuseutielui_gwonneung",
+        "search_text": "치유성 스킬 스티그마 스킬 유스티엘의 권능 사용 조건: 논타겟 no_target 사용 조건: 논타겟",
+        "chips": [
+          "no_target",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_7572e8a2",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "파멸의 목소리",
+      "value": "대상을 중심으로 적들에게 땅속성 피해를 줍니다. 적들은 일정 간격으로 지속적으로 피해를 받고, 받는 치유량이 감소합니다.",
+      "conditions": [],
+      "tags": [
+        "damage",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "파멸의 목소리 | 대상을 중심으로 적들에게 땅속성 피해를 줍니다. 적들은 일정 간격으로 지속적으로 피해를 받고, 받는 치유량이 감소합니다. | -"
+      },
+      "ui": {
+        "entity_key": "pamyeolui_moksori",
+        "search_text": "치유성 스킬 스티그마 스킬 파멸의 목소리 대상을 중심으로 적들에게 땅속성 피해를 줍니다. 적들은 일정 간격으로 지속적으로 피해를 받고, 받는 치유량이 감소합니다. damage stigma",
+        "chips": [
+          "damage",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_04e401ff",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "강습 낙인",
+      "value": "대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 속박 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 속박이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다.",
+      "conditions": [
+        "대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 속박 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 속박이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다."
+      ],
+      "tags": [
+        "damage",
+        "control",
+        "resource",
+        "chance",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "강습 낙인 | 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 속박 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 속박이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다. | -"
+      },
+      "ui": {
+        "entity_key": "gangseup_nakin",
+        "search_text": "치유성 스킬 스티그마 스킬 강습 낙인 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 속박 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 속박이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다. damage control resource chance stigma 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 속박 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 속박이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다.",
+        "chips": [
+          "damage",
+          "control",
+          "resource",
+          "chance",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    }
+  ]
+}

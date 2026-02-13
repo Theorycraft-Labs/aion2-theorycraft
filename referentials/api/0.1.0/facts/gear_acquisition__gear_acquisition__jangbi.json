@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EC%9E%A5%EB%B9%84",
+    "guide_title": "장비",
+    "top_category": "아이템",
+    "sub_category": "장비",
+    "crawled_at": "2026-02-13T18:16:00+00:00",
+    "parser_version": "facts_v2",
+    "schema_version": "v2",
+    "referential_version": "0.1.0",
+    "priority": "P1",
+    "action": "parse_gear_acquisition",
+    "topic": "gear_acquisition",
+    "source_file": "raw/crawled_jangbi_1c4be240d0/guide.html"
+  },
+  "facts": [
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_c818c412",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "귀걸이",
+      "value": "공격력/방어력/피해 증폭 등의 효과를 획득할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "damage",
+        "drop"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "장신구",
+        "raw_text": "귀걸이 | 공격력/방어력/피해 증폭 등의 효과를 획득할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_c8e03a0a",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "목걸이",
+      "value": "공격력/방어력/피해 증폭 등의 효과를 획득할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "damage",
+        "drop"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "장신구",
+        "raw_text": "목걸이 | 공격력/방어력/피해 증폭 등의 효과를 획득할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_f9b7969c",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "반지",
+      "value": "공격력/방어력 등의 효과를 획득할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "장신구",
+        "raw_text": "반지 | 공격력/방어력 등의 효과를 획득할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_86fd348e",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "팔찌",
+      "value": "피해 증폭/피해 내성 등의 효과를 획득할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "damage",
+        "drop"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "장신구",
+        "raw_text": "팔찌 | 피해 증폭/피해 내성 등의 효과를 획득할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_a5f26f7e",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "장신구",
+      "value": "공격력/방어력/피해 증폭 등의 효과를 획득할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "damage",
+        "drop"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "장신구",
+        "raw_text": "공격력/방어력/피해 증폭 등의 효과를 획득할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_3b43820b",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "장신구",
+      "value": "공격력/방어력 등의 효과를 획득할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "장신구",
+        "raw_text": "공격력/방어력 등의 효과를 획득할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_31429bde",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "장신구",
+      "value": "피해 증폭/피해 내성 등의 효과를 획득할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "damage",
+        "drop"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "장신구",
+        "raw_text": "피해 증폭/피해 내성 등의 효과를 획득할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_d07bcc54",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "허리띠",
+      "value": "생명력/생명력 물약 회복 증가 등의 효과를 획득할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "heal",
+        "drop"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "허리띠/아뮬렛",
+        "raw_text": "허리띠 | 생명력/생명력 물약 회복 증가 등의 효과를 획득할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_46090c1b",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "아뮬렛",
+      "value": "무기 피해 증폭/관통/봉혼석 추가 피해 등의 효과를 획득할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "damage",
+        "drop",
+        "upgrade",
+        "soulstone_system"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "허리띠/아뮬렛",
+        "raw_text": "아뮬렛 | 무기 피해 증폭/관통/봉혼석 추가 피해 등의 효과를 획득할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_e8c07e42",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "허리띠/아뮬렛",
+      "value": "생명력/생명력 물약 회복 증가 등의 효과를 획득할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "heal",
+        "drop"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "허리띠/아뮬렛",
+        "raw_text": "생명력/생명력 물약 회복 증가 등의 효과를 획득할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_28af6fd8",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "허리띠/아뮬렛",
+      "value": "무기 피해 증폭/관통/봉혼석 추가 피해 등의 효과를 획득할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "damage",
+        "drop",
+        "upgrade",
+        "soulstone_system"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "허리띠/아뮬렛",
+        "raw_text": "무기 피해 증폭/관통/봉혼석 추가 피해 등의 효과를 획득할 수 있다."
+      }
+    }
+  ]
+}

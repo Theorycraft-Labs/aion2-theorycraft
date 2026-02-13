@@ -3,13 +3,48 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Aion2 Theorycraft</title>
+  <title>Aion2 Theorycraft API</title>
+  <style>
+    :root { color-scheme: light; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif;
+      background: #f5f7fb;
+      color: #0f172a;
+    }
+    main {
+      max-width: 900px;
+      margin: 48px auto;
+      padding: 0 20px;
+    }
+    h1 { margin-bottom: 8px; }
+    code, pre {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      background: #e2e8f0;
+      border-radius: 6px;
+    }
+    code { padding: 2px 6px; }
+    pre {
+      padding: 14px;
+      overflow: auto;
+    }
+    a { color: #0a66c2; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
 </head>
 <body>
   <main>
-    <h1>Aion2 Theorycraft</h1>
-    <p><a href="./gamelexengine-api.html">GameLexEngine API</a></p>
-    <p><a href="./api/gamelexengine/latest/facts/index.json">Latest facts index JSON</a></p>
+    <h1>Aion2 Theorycraft API</h1>
+    <p>Static JSON API published from GameLexEngine referentials for web clients.</p>
+    <p>API metadata: <a href="./api/index.json"><code>/api/index.json</code></a></p>
+    <p>Latest facts index: <a href="./api/latest/facts/index.json"><code>/api/latest/facts/index.json</code></a></p>
+    <p>Versioned facts index: <a href="./api/0.1.0/facts/index.json"><code>/api/0.1.0/facts/index.json</code></a></p>
+    <p>Latest Theorycraft Studio index: <a href="./api/latest/studio/index.json"><code>/api/latest/studio/index.json</code></a></p>
+    <p>Versioned Theorycraft Studio index: <a href="./api/0.1.0/studio/index.json"><code>/api/0.1.0/studio/index.json</code></a></p>
+    <h2>Client fetch example</h2>
+    <pre><code>fetch("/api/latest/facts/index.json")
+  .then((r) => r.json())
+  .then(console.log);</code></pre>
   </main>
 </body>
 </html>

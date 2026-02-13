@@ -1,9 +1,0 @@
-{
-  "service": "gamelexengine-facts",
-  "schemaVersion": "v1",
-  "latestVersion": "0.1.0",
-  "endpoints": {
-    "latestFactsIndex": "/api/gamelexengine/latest/facts/index.json",
-    "versionFactsIndex": "/api/gamelexengine/0.1.0/facts/index.json"
-  }
-}

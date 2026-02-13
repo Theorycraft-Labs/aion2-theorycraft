@@ -1,0 +1,1553 @@
+{
+  "metadata": {
+    "guide_id": "suhoseong_seukil",
+    "guide_title": "수호성 스킬",
+    "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EC%88%98%ED%98%B8%EC%84%B1%20%EC%8A%A4%ED%82%AC",
+    "top_category": "스킬",
+    "sub_category": "클래스 별 스킬 정보",
+    "priority": "P1",
+    "action": "parse_skills_class",
+    "topic": "skills",
+    "crawled_at": "2026-02-13T18:15:39+00:00",
+    "referential_version": "0.1.0",
+    "schema_version": "studio_v1",
+    "generated_at": "2026-02-13T20:59:53+00:00",
+    "source_facts_file": "exports/facts/skills__skills_class__suhoseong_seukil.json"
+  },
+  "summary": {
+    "facts_total": 44,
+    "by_fact_type": {
+      "skill": 34,
+      "constraint": 10
+    },
+    "by_topic": {
+      "skills": 44
+    },
+    "by_confidence": {
+      "high": 34,
+      "medium": 10
+    },
+    "by_tag": {
+      "damage": 26,
+      "heal": 6,
+      "resource": 3,
+      "movement": 14,
+      "mobility_cast": 14,
+      "no_target": 8,
+      "mastery": 12,
+      "stagger": 11,
+      "control": 4,
+      "chance": 10,
+      "stun": 7,
+      "skill_system": 4,
+      "charge_skill": 2,
+      "upgrade": 1,
+      "passive": 10,
+      "shield": 3,
+      "party": 3,
+      "drop": 1,
+      "stigma": 12,
+      "toggle_skill": 2
+    }
+  },
+  "facts": [
+    {
+      "fact_id": "skill:skills:entity_2e3cbb23",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "맹렬한 일격 - 회심의 일격 - 필사의 일격",
+      "value": "적들에게 피해를 주고 적대치를 증가시킵니다. 정신력을 회복합니다.",
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "damage",
+        "heal",
+        "resource",
+        "movement",
+        "mobility_cast",
+        "no_target",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "맹렬한 일격 - 회심의 일격 - 필사의 일격 | 적들에게 피해를 주고 적대치를 증가시킵니다. 정신력을 회복합니다. | 논타겟/이동 가능"
+      },
+      "ui": {
+        "entity_key": "maengryeolhan_ilgyeok_hoesimui_ilgyeok_pilsaui_ilgyeok",
+        "search_text": "수호성 스킬 마스터리 스킬 맹렬한 일격 - 회심의 일격 - 필사의 일격 적들에게 피해를 주고 적대치를 증가시킵니다. 정신력을 회복합니다. damage heal resource movement mobility_cast no_target mastery 논타겟/이동 가능",
+        "chips": [
+          "damage",
+          "heal",
+          "resource",
+          "movement",
+          "mobility_cast",
+          "no_target",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_32e81cb5",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "맹렬한 일격 - 회심의 일격 - 필사의 일격",
+      "value": "사용 조건: 논타겟/이동 가능",
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast",
+        "no_target"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "맹렬한 일격 - 회심의 일격 - 필사의 일격 | 적들에게 피해를 주고 적대치를 증가시킵니다. 정신력을 회복합니다. | 논타겟/이동 가능"
+      },
+      "ui": {
+        "entity_key": "maengryeolhan_ilgyeok_hoesimui_ilgyeok_pilsaui_ilgyeok",
+        "search_text": "수호성 스킬 마스터리 스킬 맹렬한 일격 - 회심의 일격 - 필사의 일격 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target 논타겟/이동 가능",
+        "chips": [
+          "movement",
+          "mobility_cast",
+          "no_target",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_aca79768",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "연속 난타 - 응징의 일격",
+      "value": "적들에게 피해를 주고 적대치를 증가시킵니다. 그로기 게이지 피해",
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "damage",
+        "stagger",
+        "movement",
+        "mobility_cast",
+        "no_target",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "연속 난타 - 응징의 일격 | 적들에게 피해를 주고 적대치를 증가시킵니다. 그로기 게이지 피해 | 논타겟/이동 가능"
+      },
+      "ui": {
+        "entity_key": "yeonsok_nanta_eungjingui_ilgyeok",
+        "search_text": "수호성 스킬 마스터리 스킬 연속 난타 - 응징의 일격 적들에게 피해를 주고 적대치를 증가시킵니다. 그로기 게이지 피해 damage stagger movement mobility_cast no_target mastery 논타겟/이동 가능",
+        "chips": [
+          "damage",
+          "stagger",
+          "movement",
+          "mobility_cast",
+          "no_target",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_24fafab3",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "연속 난타 - 응징의 일격",
+      "value": "사용 조건: 논타겟/이동 가능",
+      "conditions": [
+        "논타겟/이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast",
+        "no_target"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "연속 난타 - 응징의 일격 | 적들에게 피해를 주고 적대치를 증가시킵니다. 그로기 게이지 피해 | 논타겟/이동 가능"
+      },
+      "ui": {
+        "entity_key": "yeonsok_nanta_eungjingui_ilgyeok",
+        "search_text": "수호성 스킬 마스터리 스킬 연속 난타 - 응징의 일격 사용 조건: 논타겟/이동 가능 movement mobility_cast no_target 논타겟/이동 가능",
+        "chips": [
+          "movement",
+          "mobility_cast",
+          "no_target",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_dbedf734",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "포획",
+      "value": "대상에게 피해를 주고, 자신의 앞으로 끌어당기며 일정 확률로 속박 상태로 만듭니다. 대상이 NPC일 경우 100% 확률로 속박이 적중됩니다. 그로기 게이지 피해",
+      "conditions": [
+        "대상에게 피해를 주고, 자신의 앞으로 끌어당기며 일정 확률로 속박 상태로 만듭니다. 대상이 NPC일 경우 100% 확률로 속박이 적중됩니다. 그로기 게이지 피해"
+      ],
+      "tags": [
+        "damage",
+        "stagger",
+        "control",
+        "chance",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "포획 | 대상에게 피해를 주고, 자신의 앞으로 끌어당기며 일정 확률로 속박 상태로 만듭니다. 대상이 NPC일 경우 100% 확률로 속박이 적중됩니다. 그로기 게이지 피해 | -"
+      },
+      "ui": {
+        "entity_key": "pohoek",
+        "search_text": "수호성 스킬 마스터리 스킬 포획 대상에게 피해를 주고, 자신의 앞으로 끌어당기며 일정 확률로 속박 상태로 만듭니다. 대상이 npc일 경우 100% 확률로 속박이 적중됩니다. 그로기 게이지 피해 damage stagger control chance mastery 대상에게 피해를 주고, 자신의 앞으로 끌어당기며 일정 확률로 속박 상태로 만듭니다. 대상이 npc일 경우 100% 확률로 속박이 적중됩니다. 그로기 게이지 피해",
+        "chips": [
+          "damage",
+          "stagger",
+          "control",
+          "chance",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_11bc6568",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "방패 강타",
+      "value": "적들에게 피해를 줍니다. 대상은 일정 확률로 기절 상태가 됩니다. 대상이 NPC일 경우 100% 확률로 기절이 적중됩니다. 그로기 게이지 피해",
+      "conditions": [
+        "적들에게 피해를 줍니다. 대상은 일정 확률로 기절 상태가 됩니다. 대상이 NPC일 경우 100% 확률로 기절이 적중됩니다. 그로기 게이지 피해"
+      ],
+      "tags": [
+        "damage",
+        "stagger",
+        "stun",
+        "chance",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "방패 강타 | 적들에게 피해를 줍니다. 대상은 일정 확률로 기절 상태가 됩니다. 대상이 NPC일 경우 100% 확률로 기절이 적중됩니다. 그로기 게이지 피해 | -"
+      },
+      "ui": {
+        "entity_key": "bangpae_gangta",
+        "search_text": "수호성 스킬 마스터리 스킬 방패 강타 적들에게 피해를 줍니다. 대상은 일정 확률로 기절 상태가 됩니다. 대상이 npc일 경우 100% 확률로 기절이 적중됩니다. 그로기 게이지 피해 damage stagger stun chance mastery 적들에게 피해를 줍니다. 대상은 일정 확률로 기절 상태가 됩니다. 대상이 npc일 경우 100% 확률로 기절이 적중됩니다. 그로기 게이지 피해",
+        "chips": [
+          "damage",
+          "stagger",
+          "stun",
+          "chance",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_91179b22",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "심판",
+      "value": "기절, 넘어짐 상태의 대상에게 피해를 주고, 적대치를 증가시킵니다.",
+      "conditions": [
+        "이동 가능"
+      ],
+      "tags": [
+        "damage",
+        "stun",
+        "movement",
+        "mobility_cast",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "심판 | 기절, 넘어짐 상태의 대상에게 피해를 주고, 적대치를 증가시킵니다. | 이동 가능"
+      },
+      "ui": {
+        "entity_key": "simpan",
+        "search_text": "수호성 스킬 마스터리 스킬 심판 기절, 넘어짐 상태의 대상에게 피해를 주고, 적대치를 증가시킵니다. damage stun movement mobility_cast mastery 이동 가능",
+        "chips": [
+          "damage",
+          "stun",
+          "movement",
+          "mobility_cast",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_6d9c03be",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "심판",
+      "value": "사용 조건: 이동 가능",
+      "conditions": [
+        "이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "심판 | 기절, 넘어짐 상태의 대상에게 피해를 주고, 적대치를 증가시킵니다. | 이동 가능"
+      },
+      "ui": {
+        "entity_key": "simpan",
+        "search_text": "수호성 스킬 마스터리 스킬 심판 사용 조건: 이동 가능 movement mobility_cast 이동 가능",
+        "chips": [
+          "movement",
+          "mobility_cast",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_1e58c98a",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "섬광 난무",
+      "value": "그로기 상태인 대상에게 피해를 주고, 적대치를 증가시킵니다..",
+      "conditions": [],
+      "tags": [
+        "damage",
+        "stagger",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "섬광 난무 | 그로기 상태인 대상에게 피해를 주고, 적대치를 증가시킵니다.. | -"
+      },
+      "ui": {
+        "entity_key": "seomgwang_nanmu",
+        "search_text": "수호성 스킬 마스터리 스킬 섬광 난무 그로기 상태인 대상에게 피해를 주고, 적대치를 증가시킵니다.. damage stagger mastery",
+        "chips": [
+          "damage",
+          "stagger",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_a5770dd3",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "쇠약의 맹타",
+      "value": "막기 성공 시 대상을 중심으로 적들에게 피해를 주고, 쇠약 상태로 만듭니다. [쇠약]: 방어력 감소 그로기 게이지 피해",
+      "conditions": [],
+      "tags": [
+        "damage",
+        "stagger",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "쇠약의 맹타 | 막기 성공 시 대상을 중심으로 적들에게 피해를 주고, 쇠약 상태로 만듭니다. [쇠약]: 방어력 감소 그로기 게이지 피해 | -"
+      },
+      "ui": {
+        "entity_key": "soeyakui_maengta",
+        "search_text": "수호성 스킬 마스터리 스킬 쇠약의 맹타 막기 성공 시 대상을 중심으로 적들에게 피해를 주고, 쇠약 상태로 만듭니다. [쇠약]: 방어력 감소 그로기 게이지 피해 damage stagger mastery",
+        "chips": [
+          "damage",
+          "stagger",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_7202bc07",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "비호의 일격",
+      "value": "자신을 중심으로 적들에게 피해를 줍니다. 자신은 생명력을 즉시 회복하고, 비호 효과를 받습니다. [비호]: 피해 내성 증가",
+      "conditions": [
+        "논타겟"
+      ],
+      "tags": [
+        "damage",
+        "heal",
+        "no_target",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "비호의 일격 | 자신을 중심으로 적들에게 피해를 줍니다. 자신은 생명력을 즉시 회복하고, 비호 효과를 받습니다. [비호]: 피해 내성 증가 | 논타겟"
+      },
+      "ui": {
+        "entity_key": "bihoui_ilgyeok",
+        "search_text": "수호성 스킬 마스터리 스킬 비호의 일격 자신을 중심으로 적들에게 피해를 줍니다. 자신은 생명력을 즉시 회복하고, 비호 효과를 받습니다. [비호]: 피해 내성 증가 damage heal no_target mastery 논타겟",
+        "chips": [
+          "damage",
+          "heal",
+          "no_target",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_19718594",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "비호의 일격",
+      "value": "사용 조건: 논타겟",
+      "conditions": [
+        "사용 조건: 논타겟"
+      ],
+      "tags": [
+        "no_target"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "비호의 일격 | 자신을 중심으로 적들에게 피해를 줍니다. 자신은 생명력을 즉시 회복하고, 비호 효과를 받습니다. [비호]: 피해 내성 증가 | 논타겟"
+      },
+      "ui": {
+        "entity_key": "bihoui_ilgyeok",
+        "search_text": "수호성 스킬 마스터리 스킬 비호의 일격 사용 조건: 논타겟 no_target 사용 조건: 논타겟",
+        "chips": [
+          "no_target",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_f4da54db",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "방패 돌격",
+      "value": "긴급 회피 사용 후 대상에게 돌진하여 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해",
+      "conditions": [
+        "긴급 회피 사용 후 대상에게 돌진하여 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해"
+      ],
+      "tags": [
+        "damage",
+        "stagger",
+        "stun",
+        "chance",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "방패 돌격 | 긴급 회피 사용 후 대상에게 돌진하여 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해 | -"
+      },
+      "ui": {
+        "entity_key": "bangpae_dolgyeok",
+        "search_text": "수호성 스킬 마스터리 스킬 방패 돌격 긴급 회피 사용 후 대상에게 돌진하여 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해 damage stagger stun chance mastery 긴급 회피 사용 후 대상에게 돌진하여 피해를 주고, 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해",
+        "chips": [
+          "damage",
+          "stagger",
+          "stun",
+          "chance",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_8b918805",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "섬멸",
+      "value": "기절, 넘어짐 상태의 대상에게 피해를 주고, 일정 확률로 넘어짐 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다.",
+      "conditions": [
+        "기절, 넘어짐 상태의 대상에게 피해를 주고, 일정 확률로 넘어짐 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다."
+      ],
+      "tags": [
+        "damage",
+        "stun",
+        "chance",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "섬멸 | 기절, 넘어짐 상태의 대상에게 피해를 주고, 일정 확률로 넘어짐 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. | -"
+      },
+      "ui": {
+        "entity_key": "seommyeol",
+        "search_text": "수호성 스킬 마스터리 스킬 섬멸 기절, 넘어짐 상태의 대상에게 피해를 주고, 일정 확률로 넘어짐 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 넘어짐이 적중됩니다. damage stun chance mastery 기절, 넘어짐 상태의 대상에게 피해를 주고, 일정 확률로 넘어짐 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 넘어짐이 적중됩니다.",
+        "chips": [
+          "damage",
+          "stun",
+          "chance",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_52eada81",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "징벌",
+      "value": "자신을 중심으로 적들에게 피해를 주고, 자신은 일정 시간 동안 집행자 효과를 받습니다. [집행자]: 명중, 피해 증폭 증가 그로기 게이지 피해",
+      "conditions": [
+        "논타겟/차지 스킬"
+      ],
+      "tags": [
+        "skill_system",
+        "damage",
+        "stagger",
+        "no_target",
+        "charge_skill",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "징벌 | 자신을 중심으로 적들에게 피해를 주고, 자신은 일정 시간 동안 집행자 효과를 받습니다. [집행자]: 명중, 피해 증폭 증가 그로기 게이지 피해 | 논타겟/차지 스킬"
+      },
+      "ui": {
+        "entity_key": "jingbeol",
+        "search_text": "수호성 스킬 마스터리 스킬 징벌 자신을 중심으로 적들에게 피해를 주고, 자신은 일정 시간 동안 집행자 효과를 받습니다. [집행자]: 명중, 피해 증폭 증가 그로기 게이지 피해 skill_system damage stagger no_target charge_skill mastery 논타겟/차지 스킬",
+        "chips": [
+          "skill_system",
+          "damage",
+          "stagger",
+          "no_target",
+          "charge_skill",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_de346cce",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "징벌",
+      "value": "사용 조건: 논타겟/차지 스킬",
+      "conditions": [
+        "사용 조건: 논타겟/차지 스킬"
+      ],
+      "tags": [
+        "skill_system",
+        "no_target",
+        "charge_skill"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "징벌 | 자신을 중심으로 적들에게 피해를 주고, 자신은 일정 시간 동안 집행자 효과를 받습니다. [집행자]: 명중, 피해 증폭 증가 그로기 게이지 피해 | 논타겟/차지 스킬"
+      },
+      "ui": {
+        "entity_key": "jingbeol",
+        "search_text": "수호성 스킬 마스터리 스킬 징벌 사용 조건: 논타겟/차지 스킬 skill_system no_target charge_skill 사용 조건: 논타겟/차지 스킬",
+        "chips": [
+          "skill_system",
+          "no_target",
+          "charge_skill",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_d034f855",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "충격 해제 - 생포",
+      "value": "자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 생포: 대상에게 피해를 주고, 자신의 앞으로 끌어당겨 속박 상태로 만든 후, 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다.",
+      "conditions": [
+        "자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 생포: 대상에게 피해를 주고, 자신의 앞으로 끌어당겨 속박 상태로 만든 후, 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다."
+      ],
+      "tags": [
+        "damage",
+        "stun",
+        "control",
+        "chance",
+        "mastery"
+      ],
+      "confidence": "high",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "evidence": {
+        "source_section": "마스터리 스킬",
+        "raw_text": "충격 해제 - 생포 | 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 생포: 대상에게 피해를 주고, 자신의 앞으로 끌어당겨 속박 상태로 만든 후, 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. | -"
+      },
+      "ui": {
+        "entity_key": "chunggyeok_haeje_saengpo",
+        "search_text": "수호성 스킬 마스터리 스킬 충격 해제 - 생포 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 생포: 대상에게 피해를 주고, 자신의 앞으로 끌어당겨 속박 상태로 만든 후, 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. damage stun control chance mastery 자신의 기절, 넘어짐, 공중 속박, 잡기, 빙결, 공포 상태를 해제하고 강인함 상태가 됩니다. [강인함]: 상태이상 저항 증가 (연계기) 생포: 대상에게 피해를 주고, 자신의 앞으로 끌어당겨 속박 상태로 만든 후, 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다.",
+        "chips": [
+          "damage",
+          "stun",
+          "control",
+          "chance",
+          "mastery",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_0d982ada",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "체력 강화",
+      "value": "자신의 최대 생명력 및 받는 회복량이 증가합니다.",
+      "conditions": [],
+      "tags": [
+        "heal",
+        "upgrade",
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "체력 강화 | 자신의 최대 생명력 및 받는 회복량이 증가합니다. | -"
+      },
+      "ui": {
+        "entity_key": "cheryeok_ganghwa",
+        "search_text": "수호성 스킬 패시브 스킬 체력 강화 자신의 최대 생명력 및 받는 회복량이 증가합니다. heal upgrade passive",
+        "chips": [
+          "heal",
+          "upgrade",
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_a40fa209",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "비호의 방패",
+      "value": "자신의 막기가 증가하고, 막기 성공 시 생명력을 회복합니다.",
+      "conditions": [],
+      "tags": [
+        "heal",
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "비호의 방패 | 자신의 막기가 증가하고, 막기 성공 시 생명력을 회복합니다. | -"
+      },
+      "ui": {
+        "entity_key": "bihoui_bangpae",
+        "search_text": "수호성 스킬 패시브 스킬 비호의 방패 자신의 막기가 증가하고, 막기 성공 시 생명력을 회복합니다. heal passive",
+        "chips": [
+          "heal",
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_e9525a82",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "단죄의 가호",
+      "value": "자신의 치명타가 증가하고, 공격 적중 시 일정 시간 동안 단죄의 가호 효과를 받습니다. [단죄의 가호]: 공격이 적중할 때 마다 일정 확률로 추가 피해를 줍니다.",
+      "conditions": [
+        "자신의 치명타가 증가하고, 공격 적중 시 일정 시간 동안 단죄의 가호 효과를 받습니다. [단죄의 가호]: 공격이 적중할 때 마다 일정 확률로 추가 피해를 줍니다."
+      ],
+      "tags": [
+        "damage",
+        "chance",
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "단죄의 가호 | 자신의 치명타가 증가하고, 공격 적중 시 일정 시간 동안 단죄의 가호 효과를 받습니다. [단죄의 가호]: 공격이 적중할 때 마다 일정 확률로 추가 피해를 줍니다. | -"
+      },
+      "ui": {
+        "entity_key": "danjoeui_gaho",
+        "search_text": "수호성 스킬 패시브 스킬 단죄의 가호 자신의 치명타가 증가하고, 공격 적중 시 일정 시간 동안 단죄의 가호 효과를 받습니다. [단죄의 가호]: 공격이 적중할 때 마다 일정 확률로 추가 피해를 줍니다. damage chance passive 자신의 치명타가 증가하고, 공격 적중 시 일정 시간 동안 단죄의 가호 효과를 받습니다. [단죄의 가호]: 공격이 적중할 때 마다 일정 확률로 추가 피해를 줍니다.",
+        "chips": [
+          "damage",
+          "chance",
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_4c43d1ec",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "철벽 방어",
+      "value": "자신의 방어력과 철벽 수치가 증가합니다.",
+      "conditions": [],
+      "tags": [
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "철벽 방어 | 자신의 방어력과 철벽 수치가 증가합니다. | -"
+      },
+      "ui": {
+        "entity_key": "cheolbyeok_bangeo",
+        "search_text": "수호성 스킬 패시브 스킬 철벽 방어 자신의 방어력과 철벽 수치가 증가합니다. passive",
+        "chips": [
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_9ef5c71c",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "수호의 인장",
+      "value": "생명력이 50% 이하일 때 보호막을 생성합니다.",
+      "conditions": [
+        "생명력이 50% 이하일 때 보호막을 생성합니다."
+      ],
+      "tags": [
+        "shield",
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [
+        {
+          "value": 50,
+          "unit": "percent",
+          "kind": "effect_value"
+        }
+      ],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "수호의 인장 | 생명력이 50% 이하일 때 보호막을 생성합니다. | -"
+      },
+      "ui": {
+        "entity_key": "suhoui_injang",
+        "search_text": "수호성 스킬 패시브 스킬 수호의 인장 생명력이 50% 이하일 때 보호막을 생성합니다. shield passive 생명력이 50% 이하일 때 보호막을 생성합니다.",
+        "chips": [
+          "shield",
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_b7125027",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "충격 적중",
+      "value": "충격계 적중 및 강타가 증가합니다.",
+      "conditions": [],
+      "tags": [
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "충격 적중 | 충격계 적중 및 강타가 증가합니다. | -"
+      },
+      "ui": {
+        "entity_key": "chunggyeok_jeokjung",
+        "search_text": "수호성 스킬 패시브 스킬 충격 적중 충격계 적중 및 강타가 증가합니다. passive",
+        "chips": [
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_15d225e3",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "모욕의 포효",
+      "value": "자신의 적대치 증폭이 증가하고 막기 시 대상에게 피해를 주며 적대치를 큰 폭으로 증가시킵니다.",
+      "conditions": [],
+      "tags": [
+        "damage",
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "모욕의 포효 | 자신의 적대치 증폭이 증가하고 막기 시 대상에게 피해를 주며 적대치를 큰 폭으로 증가시킵니다. | -"
+      },
+      "ui": {
+        "entity_key": "moyokui_pohyo",
+        "search_text": "수호성 스킬 패시브 스킬 모욕의 포효 자신의 적대치 증폭이 증가하고 막기 시 대상에게 피해를 주며 적대치를 큰 폭으로 증가시킵니다. damage passive",
+        "chips": [
+          "damage",
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_b59f1346",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "격앙",
+      "value": "막기 성공 시 자신 및 파티원의 피해 증폭이 증가합니다.",
+      "conditions": [],
+      "tags": [
+        "damage",
+        "party",
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "격앙 | 막기 성공 시 자신 및 파티원의 피해 증폭이 증가합니다. | -"
+      },
+      "ui": {
+        "entity_key": "gyeokang",
+        "search_text": "수호성 스킬 패시브 스킬 격앙 막기 성공 시 자신 및 파티원의 피해 증폭이 증가합니다. damage party passive",
+        "chips": [
+          "damage",
+          "party",
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_04a12c8e",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "생존 의지",
+      "value": "자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다.",
+      "conditions": [
+        "자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다."
+      ],
+      "tags": [
+        "damage",
+        "control",
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [
+        {
+          "value": 1,
+          "unit": "sec",
+          "kind": "duration"
+        },
+        {
+          "value": 10,
+          "unit": "percent",
+          "kind": "duration"
+        }
+      ],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "생존 의지 | 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. | -"
+      },
+      "ui": {
+        "entity_key": "saengjon_uiji",
+        "search_text": "수호성 스킬 패시브 스킬 생존 의지 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다. damage control passive 자신의 상태이상 저항이 증가하고, 충격계, 빙결, 공포 효과 피격 시 피해 내성 및 상태이상 저항이 증가합니다. 이후, 1초 간격으로 상태이상 저항 증가량이 10%씩 감소합니다.",
+        "chips": [
+          "damage",
+          "control",
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_1001071b",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "고통 차단",
+      "value": "공격을 받을 때마다 유지되는 고통 차단 효과를 획득합니다. 10회 중첩이 되면 고통 차단 효과를 삭제하고 인내 효과를 받습니다. [인내]: 피해 내성 증가",
+      "conditions": [],
+      "tags": [
+        "damage",
+        "drop",
+        "passive"
+      ],
+      "confidence": "high",
+      "numeric_values": [
+        {
+          "value": 10,
+          "unit": "flat",
+          "kind": "effect_value"
+        }
+      ],
+      "evidence": {
+        "source_section": "패시브 스킬",
+        "raw_text": "고통 차단 | 공격을 받을 때마다 유지되는 고통 차단 효과를 획득합니다. 10회 중첩이 되면 고통 차단 효과를 삭제하고 인내 효과를 받습니다. [인내]: 피해 내성 증가 | -"
+      },
+      "ui": {
+        "entity_key": "gotong_chadan",
+        "search_text": "수호성 스킬 패시브 스킬 고통 차단 공격을 받을 때마다 유지되는 고통 차단 효과를 획득합니다. 10회 중첩이 되면 고통 차단 효과를 삭제하고 인내 효과를 받습니다. [인내]: 피해 내성 증가 damage drop passive",
+        "chips": [
+          "damage",
+          "drop",
+          "passive",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_b6406e80",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "주신의 징벌",
+      "value": "대상을 줌심으로 적들에게 피해를 주고, 일정 확률로 기절 상태가 됩니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해",
+      "conditions": [
+        "대상을 줌심으로 적들에게 피해를 주고, 일정 확률로 기절 상태가 됩니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해"
+      ],
+      "tags": [
+        "damage",
+        "stagger",
+        "stun",
+        "chance",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "주신의 징벌 | 대상을 줌심으로 적들에게 피해를 주고, 일정 확률로 기절 상태가 됩니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해 | -"
+      },
+      "ui": {
+        "entity_key": "jusinui_jingbeol",
+        "search_text": "수호성 스킬 스티그마 스킬 주신의 징벌 대상을 줌심으로 적들에게 피해를 주고, 일정 확률로 기절 상태가 됩니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해 damage stagger stun chance stigma 대상을 줌심으로 적들에게 피해를 주고, 일정 확률로 기절 상태가 됩니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 그로기 게이지 피해",
+        "chips": [
+          "damage",
+          "stagger",
+          "stun",
+          "chance",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_ac6dae8f",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "네자칸의 방패",
+      "value": "자신과 주변 파티원들에게 보호막을 생성합니다.",
+      "conditions": [],
+      "tags": [
+        "shield",
+        "party",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "네자칸의 방패 | 자신과 주변 파티원들에게 보호막을 생성합니다. | -"
+      },
+      "ui": {
+        "entity_key": "nejakanui_bangpae",
+        "search_text": "수호성 스킬 스티그마 스킬 네자칸의 방패 자신과 주변 파티원들에게 보호막을 생성합니다. shield party stigma",
+        "chips": [
+          "shield",
+          "party",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_37c79e85",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "보호의 방패",
+      "value": "잠시 동안 전방 공격에 대한 막기 피해 감소가 증가하고 확정 방패막기를 합니다. 막기 성공 시 정신력과 행동력을 회복합니다.",
+      "conditions": [
+        "유지형 스킬"
+      ],
+      "tags": [
+        "skill_system",
+        "damage",
+        "heal",
+        "resource",
+        "toggle_skill",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "보호의 방패 | 잠시 동안 전방 공격에 대한 막기 피해 감소가 증가하고 확정 방패막기를 합니다. 막기 성공 시 정신력과 행동력을 회복합니다. | 유지형 스킬"
+      },
+      "ui": {
+        "entity_key": "bohoui_bangpae",
+        "search_text": "수호성 스킬 스티그마 스킬 보호의 방패 잠시 동안 전방 공격에 대한 막기 피해 감소가 증가하고 확정 방패막기를 합니다. 막기 성공 시 정신력과 행동력을 회복합니다. skill_system damage heal resource toggle_skill stigma 유지형 스킬",
+        "chips": [
+          "skill_system",
+          "damage",
+          "heal",
+          "resource",
+          "toggle_skill",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_cfc98516",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "보호의 방패",
+      "value": "사용 조건: 유지형 스킬",
+      "conditions": [
+        "사용 조건: 유지형 스킬"
+      ],
+      "tags": [
+        "skill_system",
+        "toggle_skill"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "보호의 방패 | 잠시 동안 전방 공격에 대한 막기 피해 감소가 증가하고 확정 방패막기를 합니다. 막기 성공 시 정신력과 행동력을 회복합니다. | 유지형 스킬"
+      },
+      "ui": {
+        "entity_key": "bohoui_bangpae",
+        "search_text": "수호성 스킬 스티그마 스킬 보호의 방패 사용 조건: 유지형 스킬 skill_system toggle_skill 사용 조건: 유지형 스킬",
+        "chips": [
+          "skill_system",
+          "toggle_skill",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_10440445",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "도발",
+      "value": "대상에게 피해를 주고 적대치를 증가시킵니다. 대상이 NPC인 경우 일정 시간 동안 [위축] 효과를 받습니다. [위축]: 위축 대상의 공격력 감소 대상이 PC인 경우 일정 확률로 도발 상태로 만듭니다. 그로기 게이지 피해",
+      "conditions": [
+        "대상에게 피해를 주고 적대치를 증가시킵니다. 대상이 NPC인 경우 일정 시간 동안 [위축] 효과를 받습니다. [위축]: 위축 대상의 공격력 감소 대상이 PC인 경우 일정 확률로 도발 상태로 만듭니다. 그로기 게이지 피해",
+        "이동가능"
+      ],
+      "tags": [
+        "damage",
+        "stagger",
+        "movement",
+        "chance",
+        "mobility_cast",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "도발 | 대상에게 피해를 주고 적대치를 증가시킵니다. 대상이 NPC인 경우 일정 시간 동안 [위축] 효과를 받습니다. [위축]: 위축 대상의 공격력 감소 대상이 PC인 경우 일정 확률로 도발 상태로 만듭니다. 그로기 게이지 피해 | 이동가능"
+      },
+      "ui": {
+        "entity_key": "dobal",
+        "search_text": "수호성 스킬 스티그마 스킬 도발 대상에게 피해를 주고 적대치를 증가시킵니다. 대상이 npc인 경우 일정 시간 동안 [위축] 효과를 받습니다. [위축]: 위축 대상의 공격력 감소 대상이 pc인 경우 일정 확률로 도발 상태로 만듭니다. 그로기 게이지 피해 damage stagger movement chance mobility_cast stigma 대상에게 피해를 주고 적대치를 증가시킵니다. 대상이 npc인 경우 일정 시간 동안 [위축] 효과를 받습니다. [위축]: 위축 대상의 공격력 감소 대상이 pc인 경우 일정 확률로 도발 상태로 만듭니다. 그로기 게이지 피해 이동가능",
+        "chips": [
+          "damage",
+          "stagger",
+          "movement",
+          "chance",
+          "mobility_cast",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_ce19e843",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "도발",
+      "value": "사용 조건: 이동가능",
+      "conditions": [
+        "이동가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "도발 | 대상에게 피해를 주고 적대치를 증가시킵니다. 대상이 NPC인 경우 일정 시간 동안 [위축] 효과를 받습니다. [위축]: 위축 대상의 공격력 감소 대상이 PC인 경우 일정 확률로 도발 상태로 만듭니다. 그로기 게이지 피해 | 이동가능"
+      },
+      "ui": {
+        "entity_key": "dobal",
+        "search_text": "수호성 스킬 스티그마 스킬 도발 사용 조건: 이동가능 movement mobility_cast 이동가능",
+        "chips": [
+          "movement",
+          "mobility_cast",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_1ea956de",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "균형의 갑옷",
+      "value": "일정 시간 동안 충격계 저항이 증가합니다.",
+      "conditions": [
+        "이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "균형의 갑옷 | 일정 시간 동안 충격계 저항이 증가합니다. | 이동 가능"
+      },
+      "ui": {
+        "entity_key": "gyunhyeongui_gapot",
+        "search_text": "수호성 스킬 스티그마 스킬 균형의 갑옷 일정 시간 동안 충격계 저항이 증가합니다. movement mobility_cast stigma 이동 가능",
+        "chips": [
+          "movement",
+          "mobility_cast",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_c349afb3",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "균형의 갑옷",
+      "value": "사용 조건: 이동 가능",
+      "conditions": [
+        "이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "균형의 갑옷 | 일정 시간 동안 충격계 저항이 증가합니다. | 이동 가능"
+      },
+      "ui": {
+        "entity_key": "gyunhyeongui_gapot",
+        "search_text": "수호성 스킬 스티그마 스킬 균형의 갑옷 사용 조건: 이동 가능 movement mobility_cast 이동 가능",
+        "chips": [
+          "movement",
+          "mobility_cast",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_0403eb83",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "이중 갑옷",
+      "value": "일정 시간 동안 피해 내성이 증가합니다.",
+      "conditions": [
+        "이동가능"
+      ],
+      "tags": [
+        "damage",
+        "movement",
+        "mobility_cast",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "이중 갑옷 | 일정 시간 동안 피해 내성이 증가합니다. | 이동가능"
+      },
+      "ui": {
+        "entity_key": "ijung_gapot",
+        "search_text": "수호성 스킬 스티그마 스킬 이중 갑옷 일정 시간 동안 피해 내성이 증가합니다. damage movement mobility_cast stigma 이동가능",
+        "chips": [
+          "damage",
+          "movement",
+          "mobility_cast",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_33716a82",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "이중 갑옷",
+      "value": "사용 조건: 이동가능",
+      "conditions": [
+        "이동가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "이중 갑옷 | 일정 시간 동안 피해 내성이 증가합니다. | 이동가능"
+      },
+      "ui": {
+        "entity_key": "ijung_gapot",
+        "search_text": "수호성 스킬 스티그마 스킬 이중 갑옷 사용 조건: 이동가능 movement mobility_cast 이동가능",
+        "chips": [
+          "movement",
+          "mobility_cast",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_736553cd",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "파멸의 방패",
+      "value": "대상에게 돌진하며 피해를 줍니다. 적들은 지속적으로 밀려나고 마지막 피해를 받은 경우 일정 확률로 넘어짐 상태가 됩니다. 자신은 보호막 효과를 받습니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해",
+      "conditions": [
+        "대상에게 돌진하며 피해를 줍니다. 적들은 지속적으로 밀려나고 마지막 피해를 받은 경우 일정 확률로 넘어짐 상태가 됩니다. 자신은 보호막 효과를 받습니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해"
+      ],
+      "tags": [
+        "damage",
+        "stagger",
+        "shield",
+        "chance",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "파멸의 방패 | 대상에게 돌진하며 피해를 줍니다. 적들은 지속적으로 밀려나고 마지막 피해를 받은 경우 일정 확률로 넘어짐 상태가 됩니다. 자신은 보호막 효과를 받습니다. 대상이 NPC일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해 | -"
+      },
+      "ui": {
+        "entity_key": "pamyeolui_bangpae",
+        "search_text": "수호성 스킬 스티그마 스킬 파멸의 방패 대상에게 돌진하며 피해를 줍니다. 적들은 지속적으로 밀려나고 마지막 피해를 받은 경우 일정 확률로 넘어짐 상태가 됩니다. 자신은 보호막 효과를 받습니다. 대상이 npc일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해 damage stagger shield chance stigma 대상에게 돌진하며 피해를 줍니다. 적들은 지속적으로 밀려나고 마지막 피해를 받은 경우 일정 확률로 넘어짐 상태가 됩니다. 자신은 보호막 효과를 받습니다. 대상이 npc일 경우 100%의 확률로 넘어짐이 적중됩니다. 그로기 게이지 피해",
+        "chips": [
+          "damage",
+          "stagger",
+          "shield",
+          "chance",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_e51e550f",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "고결의 갑주",
+      "value": "일정 시간 동안 최대 생명력이 증가하고, 생명력을 즉시 회복합니다. 사망으로 인해 효과가 해제되지 않습니다.",
+      "conditions": [
+        "이동 가능"
+      ],
+      "tags": [
+        "heal",
+        "movement",
+        "mobility_cast",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "고결의 갑주 | 일정 시간 동안 최대 생명력이 증가하고, 생명력을 즉시 회복합니다. 사망으로 인해 효과가 해제되지 않습니다. | 이동 가능"
+      },
+      "ui": {
+        "entity_key": "gogyeolui_gapju",
+        "search_text": "수호성 스킬 스티그마 스킬 고결의 갑주 일정 시간 동안 최대 생명력이 증가하고, 생명력을 즉시 회복합니다. 사망으로 인해 효과가 해제되지 않습니다. heal movement mobility_cast stigma 이동 가능",
+        "chips": [
+          "heal",
+          "movement",
+          "mobility_cast",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:skills:entity_7e0863be",
+      "fact_type": "constraint",
+      "topic": "skills",
+      "entity": "고결의 갑주",
+      "value": "사용 조건: 이동 가능",
+      "conditions": [
+        "이동 가능"
+      ],
+      "tags": [
+        "movement",
+        "mobility_cast"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "고결의 갑주 | 일정 시간 동안 최대 생명력이 증가하고, 생명력을 즉시 회복합니다. 사망으로 인해 효과가 해제되지 않습니다. | 이동 가능"
+      },
+      "ui": {
+        "entity_key": "gogyeolui_gapju",
+        "search_text": "수호성 스킬 스티그마 스킬 고결의 갑주 사용 조건: 이동 가능 movement mobility_cast 이동 가능",
+        "chips": [
+          "movement",
+          "mobility_cast",
+          "constraint",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_aa32f6dd",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "처형의 검",
+      "value": "적들에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다.",
+      "conditions": [
+        "적들에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다."
+      ],
+      "tags": [
+        "damage",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "처형의 검 | 적들에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다. | -"
+      },
+      "ui": {
+        "entity_key": "cheohyeongui_geom",
+        "search_text": "수호성 스킬 스티그마 스킬 처형의 검 적들에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다. damage stigma 적들에게 피해를 줍니다. 대상이 충격계 상태일 경우 피해가 증가합니다.",
+        "chips": [
+          "damage",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_1d43eb0e",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "전우 보호",
+      "value": "파티원이 공격을 받을 때마다 피해의 일부를 자신과 피격받은 파티원이 나누어 받습니다.",
+      "conditions": [],
+      "tags": [
+        "damage",
+        "party",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "전우 보호 | 파티원이 공격을 받을 때마다 피해의 일부를 자신과 피격받은 파티원이 나누어 받습니다. | -"
+      },
+      "ui": {
+        "entity_key": "jeonu_boho",
+        "search_text": "수호성 스킬 스티그마 스킬 전우 보호 파티원이 공격을 받을 때마다 피해의 일부를 자신과 피격받은 파티원이 나누어 받습니다. damage party stigma",
+        "chips": [
+          "damage",
+          "party",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_9c712997",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "나포",
+      "value": "대상을 중심으로 적들에게 피해를 주고 자신의 앞으로 끌어당깁니다. 적들은 일정 시간 동안 속박 상태가 됩니다. 그로기 게이지 피해",
+      "conditions": [],
+      "tags": [
+        "damage",
+        "stagger",
+        "control",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "나포 | 대상을 중심으로 적들에게 피해를 주고 자신의 앞으로 끌어당깁니다. 적들은 일정 시간 동안 속박 상태가 됩니다. 그로기 게이지 피해 | -"
+      },
+      "ui": {
+        "entity_key": "napo",
+        "search_text": "수호성 스킬 스티그마 스킬 나포 대상을 중심으로 적들에게 피해를 주고 자신의 앞으로 끌어당깁니다. 적들은 일정 시간 동안 속박 상태가 됩니다. 그로기 게이지 피해 damage stagger control stigma",
+        "chips": [
+          "damage",
+          "stagger",
+          "control",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    },
+    {
+      "fact_id": "skill:skills:entity_4a8ff63f",
+      "fact_type": "skill",
+      "topic": "skills",
+      "entity": "강습 맹격",
+      "value": "대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다.",
+      "conditions": [
+        "대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다."
+      ],
+      "tags": [
+        "damage",
+        "stun",
+        "resource",
+        "chance",
+        "stigma"
+      ],
+      "confidence": "high",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "evidence": {
+        "source_section": "스티그마 스킬",
+        "raw_text": "강습 맹격 | 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 기절 상태로 만듭니다. 대상이 NPC일 경우 100%의 확률로 기절이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다. | -"
+      },
+      "ui": {
+        "entity_key": "gangseup_maenggyeok",
+        "search_text": "수호성 스킬 스티그마 스킬 강습 맹격 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다. damage stun resource chance stigma 대상을 중심으로 적들에게 피해 및 정신력 피해를 주고 일정 확률로 기절 상태로 만듭니다. 대상이 npc일 경우 100%의 확률로 기절이 적중됩니다. 적중 인원 수에 비례하여 방어력이 증가합니다.",
+        "chips": [
+          "damage",
+          "stun",
+          "resource",
+          "chance",
+          "stigma",
+          "skill",
+          "skills"
+        ]
+      }
+    }
+  ]
+}

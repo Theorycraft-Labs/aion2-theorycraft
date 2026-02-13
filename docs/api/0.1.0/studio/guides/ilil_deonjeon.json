@@ -1,0 +1,290 @@
+{
+  "metadata": {
+    "guide_id": "ilil_deonjeon",
+    "guide_title": "일일 던전",
+    "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EC%9D%BC%EC%9D%BC%20%EB%8D%98%EC%A0%84",
+    "top_category": "몬스터와 던전",
+    "sub_category": "던전 콘텐츠",
+    "priority": "P1",
+    "action": "parse_gear_acquisition",
+    "topic": "gear_acquisition",
+    "crawled_at": "2026-02-13T18:14:55+00:00",
+    "referential_version": "0.1.0",
+    "schema_version": "studio_v1",
+    "generated_at": "2026-02-13T20:59:53+00:00",
+    "source_facts_file": "exports/facts/gear_acquisition__gear_acquisition__ilil_deonjeon.json"
+  },
+  "summary": {
+    "facts_total": 9,
+    "by_fact_type": {
+      "gear_source": 9
+    },
+    "by_topic": {
+      "gear_acquisition": 9
+    },
+    "by_confidence": {
+      "medium": 7,
+      "high": 2
+    },
+    "by_tag": {
+      "dungeon": 3,
+      "info": 2,
+      "drop": 6,
+      "upgrade": 1
+    }
+  },
+  "facts": [
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_e6a3432d",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "일일 던전 소개",
+      "value": "일일 던전은 매일 플레이 할 수 있는 콘텐츠로 반복 진행을 통해 다양한 재화를 수급할 수 있습니다.",
+      "conditions": [
+        "일일 던전은 매일 플레이 할 수 있는 콘텐츠로 반복 진행을 통해 다양한 재화를 수급할 수 있습니다."
+      ],
+      "tags": [
+        "dungeon",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "일일 던전 소개",
+        "raw_text": "일일 던전은 매일 플레이 할 수 있는 콘텐츠로 반복 진행을 통해 다양한 재화를 수급할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "ilil_deonjeon_sogae",
+        "search_text": "일일 던전 일일 던전 소개 일일 던전 소개 일일 던전은 매일 플레이 할 수 있는 콘텐츠로 반복 진행을 통해 다양한 재화를 수급할 수 있습니다. dungeon info 일일 던전은 매일 플레이 할 수 있는 콘텐츠로 반복 진행을 통해 다양한 재화를 수급할 수 있습니다.",
+        "chips": [
+          "dungeon",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_b5845767",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "일일 던전 소개",
+      "value": "'미지의 틈새'는 매주 7회의 도전 횟수가 제공되며, 목표 달성도에 따라 보상이 주어집니다.",
+      "conditions": [
+        "'미지의 틈새'는 매주 7회의 도전 횟수가 제공되며, 목표 달성도에 따라 보상이 주어집니다."
+      ],
+      "tags": [
+        "drop",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [
+        {
+          "value": 7,
+          "unit": "flat",
+          "kind": "limit"
+        }
+      ],
+      "evidence": {
+        "source_section": "일일 던전 소개",
+        "raw_text": "'미지의 틈새'는 매주 7회의 도전 횟수가 제공되며, 목표 달성도에 따라 보상이 주어집니다."
+      },
+      "ui": {
+        "entity_key": "ilil_deonjeon_sogae",
+        "search_text": "일일 던전 일일 던전 소개 일일 던전 소개 '미지의 틈새'는 매주 7회의 도전 횟수가 제공되며, 목표 달성도에 따라 보상이 주어집니다. drop info '미지의 틈새'는 매주 7회의 도전 횟수가 제공되며, 목표 달성도에 따라 보상이 주어집니다.",
+        "chips": [
+          "drop",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_727985a9",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "데바 생체 연구기지의 선택 효과 시스템 진행시간 동안 적들이 몰려오며, 많이 처치해낼수록 높은 점수를 획득합니다.",
+      "value": "데바 생체 연구기지의 선택 효과 시스템 진행시간 동안 적들이 몰려오며, 많이 처치해낼수록 높은 점수를 획득합니다.",
+      "conditions": [],
+      "tags": [
+        "drop"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "데바 생체 연구기지",
+        "raw_text": "데바 생체 연구기지의 선택 효과 시스템 진행시간 동안 적들이 몰려오며, 많이 처치해낼수록 높은 점수를 획득합니다."
+      },
+      "ui": {
+        "entity_key": "deba_saengche_yeongugijiui_seontaek_hyogwa_siseutem_jinhaengsigan_dongan_jeokdeuli_molryeoomyeo_mani_cheochihaenaelsurok_nopeun_jeomsureul_hoekdeukhapnida",
+        "search_text": "일일 던전 데바 생체 연구기지 데바 생체 연구기지의 선택 효과 시스템 진행시간 동안 적들이 몰려오며, 많이 처치해낼수록 높은 점수를 획득합니다. 데바 생체 연구기지의 선택 효과 시스템 진행시간 동안 적들이 몰려오며, 많이 처치해낼수록 높은 점수를 획득합니다. drop",
+        "chips": [
+          "drop",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_aed68128",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "데바 생체 연구기지",
+      "value": "‘데바 생체 연구기지’ 던전은 사방에서 몰려오는 적들을 처치해내는 던전입니다.",
+      "conditions": [],
+      "tags": [
+        "dungeon"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "데바 생체 연구기지",
+        "raw_text": "‘데바 생체 연구기지’ 던전은 사방에서 몰려오는 적들을 처치해내는 던전입니다."
+      },
+      "ui": {
+        "entity_key": "deba_saengche_yeongugiji",
+        "search_text": "일일 던전 데바 생체 연구기지 데바 생체 연구기지 ‘데바 생체 연구기지’ 던전은 사방에서 몰려오는 적들을 처치해내는 던전입니다. dungeon",
+        "chips": [
+          "dungeon",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_262aff07",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "데바 생체 연구기지",
+      "value": "'데바 생체 연구기지'의 주요 보상은 '강화석'입니다.",
+      "conditions": [],
+      "tags": [
+        "drop",
+        "upgrade"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "데바 생체 연구기지",
+        "raw_text": "'데바 생체 연구기지'의 주요 보상은 '강화석'입니다."
+      },
+      "ui": {
+        "entity_key": "deba_saengche_yeongugiji",
+        "search_text": "일일 던전 데바 생체 연구기지 데바 생체 연구기지 '데바 생체 연구기지'의 주요 보상은 '강화석'입니다. drop upgrade",
+        "chips": [
+          "drop",
+          "upgrade",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_2d5e40ca",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "불안정한 오디움 원석을 파괴시키는 동안 생성되는 구슬을 획득하여 점수를 높일 수 있습니다.",
+      "value": "불안정한 오디움 원석을 파괴시키는 동안 생성되는 구슬을 획득하여 점수를 높일 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "drop"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "오디움 저장소",
+        "raw_text": "불안정한 오디움 원석을 파괴시키는 동안 생성되는 구슬을 획득하여 점수를 높일 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "bulanjeonghan_odium_wonseokeul_pagoesikineun_dongan_saengseongdoeneun_guseuleul_hoekdeukhayeo_jeomsureul_nopil_su_itseupnida",
+        "search_text": "일일 던전 오디움 저장소 불안정한 오디움 원석을 파괴시키는 동안 생성되는 구슬을 획득하여 점수를 높일 수 있습니다. 불안정한 오디움 원석을 파괴시키는 동안 생성되는 구슬을 획득하여 점수를 높일 수 있습니다. drop",
+        "chips": [
+          "drop",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_72567e91",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "오디움 저장소",
+      "value": "‘오디움 저장소’ 던전 입장 시 '불안정한 오디움 원석'이 생성됩니다.",
+      "conditions": [
+        "‘오디움 저장소’ 던전 입장 시 '불안정한 오디움 원석'이 생성됩니다."
+      ],
+      "tags": [
+        "dungeon"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "오디움 저장소",
+        "raw_text": "‘오디움 저장소’ 던전 입장 시 '불안정한 오디움 원석'이 생성됩니다."
+      },
+      "ui": {
+        "entity_key": "odium_jeojangso",
+        "search_text": "일일 던전 오디움 저장소 오디움 저장소 ‘오디움 저장소’ 던전 입장 시 '불안정한 오디움 원석'이 생성됩니다. dungeon ‘오디움 저장소’ 던전 입장 시 '불안정한 오디움 원석'이 생성됩니다.",
+        "chips": [
+          "dungeon",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_6765ef0c",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "오디움 저장소",
+      "value": "'불안정한 오디움 원석'을 파괴하는 것이 목표이며, 진행 중 생성되는 구슬을 많이 획득할 수록 높은 점수를 얻게 됩니다.",
+      "conditions": [],
+      "tags": [
+        "drop"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "오디움 저장소",
+        "raw_text": "'불안정한 오디움 원석'을 파괴하는 것이 목표이며, 진행 중 생성되는 구슬을 많이 획득할 수록 높은 점수를 얻게 됩니다."
+      },
+      "ui": {
+        "entity_key": "odium_jeojangso",
+        "search_text": "일일 던전 오디움 저장소 오디움 저장소 '불안정한 오디움 원석'을 파괴하는 것이 목표이며, 진행 중 생성되는 구슬을 많이 획득할 수록 높은 점수를 얻게 됩니다. drop",
+        "chips": [
+          "drop",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_906a3354",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "오디움 저장소",
+      "value": "'오디움 저장소'의 주요 보상은 '성장의 펫 상자'입니다.",
+      "conditions": [],
+      "tags": [
+        "drop"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "오디움 저장소",
+        "raw_text": "'오디움 저장소'의 주요 보상은 '성장의 펫 상자'입니다."
+      },
+      "ui": {
+        "entity_key": "odium_jeojangso",
+        "search_text": "일일 던전 오디움 저장소 오디움 저장소 '오디움 저장소'의 주요 보상은 '성장의 펫 상자'입니다. drop",
+        "chips": [
+          "drop",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    }
+  ]
+}

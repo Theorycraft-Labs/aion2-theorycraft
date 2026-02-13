@@ -1,0 +1,475 @@
+{
+  "generated_at": "2026-02-13T20:59:53+00:00",
+  "parser_version": "studio_v1",
+  "schema_version": "studio_v1",
+  "referential_version": "0.1.0",
+  "actions": [
+    {
+      "action_key": "parse_gear_acquisition",
+      "action_label": "Gear Acquisition",
+      "guides_total": 8,
+      "facts_total": 124,
+      "guide_ids": [
+        "georaeso",
+        "gyohwanso",
+        "bongin_deonjeon_mit_judunji",
+        "aitem_gibon_annae",
+        "ilil_deonjeon",
+        "jangbi",
+        "jejak_gwanri",
+        "pildeu_neimdeu"
+      ],
+      "top_tags": [
+        {
+          "key": "info",
+          "count": 58
+        },
+        {
+          "key": "drop",
+          "count": 31
+        },
+        {
+          "key": "list",
+          "count": 26
+        },
+        {
+          "key": "inventory",
+          "count": 24
+        },
+        {
+          "key": "acquisition",
+          "count": 24
+        },
+        {
+          "key": "source",
+          "count": 24
+        },
+        {
+          "key": "exchange",
+          "count": 23
+        },
+        {
+          "key": "craft",
+          "count": 18
+        },
+        {
+          "key": "ui",
+          "count": 10
+        },
+        {
+          "key": "extraction",
+          "count": 8
+        },
+        {
+          "key": "named_boss",
+          "count": 8
+        },
+        {
+          "key": "damage",
+          "count": 7
+        },
+        {
+          "key": "upgrade",
+          "count": 6
+        },
+        {
+          "key": "storage",
+          "count": 6
+        },
+        {
+          "key": "trade",
+          "count": 5
+        },
+        {
+          "key": "dungeon",
+          "count": 5
+        },
+        {
+          "key": "outpost",
+          "count": 4
+        },
+        {
+          "key": "membership",
+          "count": 3
+        },
+        {
+          "key": "material",
+          "count": 3
+        },
+        {
+          "key": "chance",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "action_key": "parse_gear_progression",
+      "action_label": "Gear Progression",
+      "guides_total": 5,
+      "facts_total": 120,
+      "guide_ids": [
+        "debanion",
+        "monoriseu",
+        "bonghonseok_siseutem",
+        "areukana",
+        "tonghap_ganghwa"
+      ],
+      "top_tags": [
+        {
+          "key": "upgrade",
+          "count": 105
+        },
+        {
+          "key": "info",
+          "count": 57
+        },
+        {
+          "key": "arcana",
+          "count": 48
+        },
+        {
+          "key": "inscription",
+          "count": 30
+        },
+        {
+          "key": "material",
+          "count": 13
+        },
+        {
+          "key": "list",
+          "count": 10
+        },
+        {
+          "key": "enhancement",
+          "count": 9
+        },
+        {
+          "key": "drop",
+          "count": 8
+        },
+        {
+          "key": "inheritance",
+          "count": 8
+        },
+        {
+          "key": "resonance",
+          "count": 7
+        },
+        {
+          "key": "monolith",
+          "count": 6
+        },
+        {
+          "key": "chance",
+          "count": 6
+        },
+        {
+          "key": "devanion",
+          "count": 5
+        },
+        {
+          "key": "soulstone_system",
+          "count": 3
+        },
+        {
+          "key": "inventory",
+          "count": 3
+        },
+        {
+          "key": "movement",
+          "count": 1
+        },
+        {
+          "key": "progression",
+          "count": 1
+        },
+        {
+          "key": "nuance",
+          "count": 1
+        },
+        {
+          "key": "constraint",
+          "count": 1
+        },
+        {
+          "key": "preset",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "action_key": "parse_skills_class",
+      "action_label": "Skills Class",
+      "guides_total": 8,
+      "facts_total": 365,
+      "guide_ids": [
+        "geomseong_seukil",
+        "gungseong_seukil",
+        "madoseong_seukil",
+        "salseong_seukil",
+        "suhoseong_seukil",
+        "jeongryeongseong_seukil",
+        "chiyuseong_seukil",
+        "hobeopseong_seukil"
+      ],
+      "top_tags": [
+        {
+          "key": "damage",
+          "count": 205
+        },
+        {
+          "key": "movement",
+          "count": 138
+        },
+        {
+          "key": "mobility_cast",
+          "count": 120
+        },
+        {
+          "key": "stagger",
+          "count": 101
+        },
+        {
+          "key": "mastery",
+          "count": 96
+        },
+        {
+          "key": "stigma",
+          "count": 96
+        },
+        {
+          "key": "no_target",
+          "count": 86
+        },
+        {
+          "key": "passive",
+          "count": 80
+        },
+        {
+          "key": "chance",
+          "count": 75
+        },
+        {
+          "key": "heal",
+          "count": 53
+        },
+        {
+          "key": "control",
+          "count": 45
+        },
+        {
+          "key": "resource",
+          "count": 32
+        },
+        {
+          "key": "stun",
+          "count": 30
+        },
+        {
+          "key": "skill_system",
+          "count": 28
+        },
+        {
+          "key": "party",
+          "count": 25
+        },
+        {
+          "key": "charge_skill",
+          "count": 14
+        },
+        {
+          "key": "toggle_skill",
+          "count": 12
+        },
+        {
+          "key": "upgrade",
+          "count": 7
+        },
+        {
+          "key": "shield",
+          "count": 7
+        },
+        {
+          "key": "drop",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "action_key": "parse_skills_overview",
+      "action_label": "Skills Overview",
+      "guides_total": 1,
+      "facts_total": 75,
+      "guide_ids": [
+        "seukil_sogae"
+      ],
+      "top_tags": [
+        {
+          "key": "skill_system",
+          "count": 68
+        },
+        {
+          "key": "stigma",
+          "count": 21
+        },
+        {
+          "key": "info",
+          "count": 16
+        },
+        {
+          "key": "mastery",
+          "count": 9
+        },
+        {
+          "key": "macro",
+          "count": 8
+        },
+        {
+          "key": "list",
+          "count": 7
+        },
+        {
+          "key": "skills",
+          "count": 7
+        },
+        {
+          "key": "recommendation",
+          "count": 6
+        },
+        {
+          "key": "leveling",
+          "count": 5
+        },
+        {
+          "key": "lock",
+          "count": 5
+        },
+        {
+          "key": "class",
+          "count": 4
+        },
+        {
+          "key": "preset",
+          "count": 4
+        },
+        {
+          "key": "ui",
+          "count": 4
+        },
+        {
+          "key": "status_effect",
+          "count": 2
+        },
+        {
+          "key": "resource",
+          "count": 1
+        },
+        {
+          "key": "constraint",
+          "count": 1
+        },
+        {
+          "key": "mode",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "action_key": "parse_support",
+      "action_label": "Support",
+      "guides_total": 7,
+      "facts_total": 263,
+      "guide_ids": [
+        "gudok_mit_paeseu",
+        "nalgae",
+        "muljil_byeonhwan",
+        "bogeup_uiroe",
+        "eopjeok",
+        "wonjeong",
+        "taiteul"
+      ],
+      "top_tags": [
+        {
+          "key": "info",
+          "count": 216
+        },
+        {
+          "key": "drop",
+          "count": 158
+        },
+        {
+          "key": "list",
+          "count": 90
+        },
+        {
+          "key": "title_system",
+          "count": 49
+        },
+        {
+          "key": "expedition",
+          "count": 44
+        },
+        {
+          "key": "dungeon",
+          "count": 42
+        },
+        {
+          "key": "membership",
+          "count": 32
+        },
+        {
+          "key": "achievement_system",
+          "count": 32
+        },
+        {
+          "key": "chance",
+          "count": 22
+        },
+        {
+          "key": "party",
+          "count": 18
+        },
+        {
+          "key": "nuance",
+          "count": 16
+        },
+        {
+          "key": "wing_system",
+          "count": 14
+        },
+        {
+          "key": "transmutation",
+          "count": 14
+        },
+        {
+          "key": "mode",
+          "count": 14
+        },
+        {
+          "key": "craft",
+          "count": 12
+        },
+        {
+          "key": "recommendation",
+          "count": 12
+        },
+        {
+          "key": "commission",
+          "count": 9
+        },
+        {
+          "key": "control",
+          "count": 8
+        },
+        {
+          "key": "outpost",
+          "count": 8
+        },
+        {
+          "key": "material",
+          "count": 6
+        }
+      ]
+    }
+  ]
+}

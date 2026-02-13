@@ -1,0 +1,996 @@
+{
+  "metadata": {
+    "guide_id": "georaeso",
+    "guide_title": "거래소",
+    "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EA%B1%B0%EB%9E%98%EC%86%8C",
+    "top_category": "주요 시스템",
+    "sub_category": "거래 시스템",
+    "priority": "P1",
+    "action": "parse_gear_acquisition",
+    "topic": "gear_acquisition",
+    "crawled_at": "2026-02-13T18:16:03+00:00",
+    "referential_version": "0.1.0",
+    "schema_version": "studio_v1",
+    "generated_at": "2026-02-13T20:59:53+00:00",
+    "source_facts_file": "exports/facts/gear_acquisition__gear_acquisition__georaeso.json"
+  },
+  "summary": {
+    "facts_total": 32,
+    "by_fact_type": {
+      "gear_source": 32
+    },
+    "by_topic": {
+      "gear_acquisition": 32
+    },
+    "by_confidence": {
+      "high": 17,
+      "medium": 15
+    },
+    "by_tag": {
+      "exchange": 19,
+      "info": 18,
+      "list": 8,
+      "inventory": 5,
+      "trade": 4,
+      "acquisition": 7,
+      "source": 7,
+      "filter": 2,
+      "membership": 2,
+      "drop": 1
+    }
+  },
+  "facts": [
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_fcb72103",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "거래소/교환소 바로가기",
+      "value": "거래소/교환소로 바로가기할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "exchange",
+        "info"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "거래소 소개",
+        "raw_text": "거래소/교환소 바로가기 | 거래소/교환소로 바로가기할 수 있다."
+      },
+      "ui": {
+        "entity_key": "georaeso_gyohwanso_barogagi",
+        "search_text": "거래소 거래소 소개 거래소/교환소 바로가기 거래소/교환소로 바로가기할 수 있다. exchange info",
+        "chips": [
+          "exchange",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_8f5e9590",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "월드 거래소 바로가기",
+      "value": "월드 거래소로 바로가기할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "exchange",
+        "info"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "거래소 소개",
+        "raw_text": "월드 거래소 바로가기 | 월드 거래소로 바로가기할 수 있다."
+      },
+      "ui": {
+        "entity_key": "woldeu_georaeso_barogagi",
+        "search_text": "거래소 거래소 소개 월드 거래소 바로가기 월드 거래소로 바로가기할 수 있다. exchange info",
+        "chips": [
+          "exchange",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_9b52d55e",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "아이템 종류",
+      "value": "메인, 전체, 무기, 방어구, 장신구, 소모품, 기타 분류 목록을 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "list",
+        "info",
+        "inventory",
+        "trade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "거래소 소개",
+        "raw_text": "아이템 종류 | 메인, 전체, 무기, 방어구, 장신구, 소모품, 기타 분류 목록을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "aitem_jongryu",
+        "search_text": "거래소 거래소 소개 아이템 종류 메인, 전체, 무기, 방어구, 장신구, 소모품, 기타 분류 목록을 확인할 수 있다. list info inventory trade",
+        "chips": [
+          "list",
+          "info",
+          "inventory",
+          "trade",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_6013673e",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "검색 필터",
+      "value": "천족/마족 아이템을 분류하거나, 등급 및 아이템명으로 검색할 수 있는 기능이다.",
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "info",
+        "inventory",
+        "filter",
+        "trade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "거래소 소개",
+        "raw_text": "검색 필터 | 천족/마족 아이템을 분류하거나, 등급 및 아이템명으로 검색할 수 있는 기능이다."
+      },
+      "ui": {
+        "entity_key": "geomsaek_pilteo",
+        "search_text": "거래소 거래소 소개 검색 필터 천족/마족 아이템을 분류하거나, 등급 및 아이템명으로 검색할 수 있는 기능이다. acquisition source info inventory filter trade",
+        "chips": [
+          "acquisition",
+          "source",
+          "info",
+          "inventory",
+          "filter",
+          "trade",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_219f01f4",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "즐겨찾기",
+      "value": "자주 확인이 필요한 상품을 즐겨찾기로 등록하거나, 즐겨찾기 등록한 물품만 필터링 할 수 있다.",
+      "conditions": [
+        "자주 확인이 필요한 상품을 즐겨찾기로 등록하거나, 즐겨찾기 등록한 물품만 필터링 할 수 있다."
+      ],
+      "tags": [
+        "acquisition",
+        "source",
+        "info",
+        "filter",
+        "trade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "거래소 소개",
+        "raw_text": "즐겨찾기 | 자주 확인이 필요한 상품을 즐겨찾기로 등록하거나, 즐겨찾기 등록한 물품만 필터링 할 수 있다."
+      },
+      "ui": {
+        "entity_key": "jeulgyeochatgi",
+        "search_text": "거래소 거래소 소개 즐겨찾기 자주 확인이 필요한 상품을 즐겨찾기로 등록하거나, 즐겨찾기 등록한 물품만 필터링 할 수 있다. acquisition source info filter trade 자주 확인이 필요한 상품을 즐겨찾기로 등록하거나, 즐겨찾기 등록한 물품만 필터링 할 수 있다.",
+        "chips": [
+          "acquisition",
+          "source",
+          "info",
+          "filter",
+          "trade",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_98267eef",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "거래소 등록 아이템 목록",
+      "value": "현재 거래소에 판매 등록된 상품을 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "exchange",
+        "list",
+        "info"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "거래소 소개",
+        "raw_text": "거래소 등록 아이템 목록 | 현재 거래소에 판매 등록된 상품을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "georaeso_deungrok_aitem_mokrok",
+        "search_text": "거래소 거래소 소개 거래소 등록 아이템 목록 현재 거래소에 판매 등록된 상품을 확인할 수 있다. exchange list info",
+        "chips": [
+          "exchange",
+          "list",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_414f255b",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "새로고침",
+      "value": "최신 기준의 거래소 목록으로 새로고침할 수 있다. 새로고침은 30초의 재사용 대기 시간을 가지고 있다.",
+      "conditions": [],
+      "tags": [
+        "exchange",
+        "list",
+        "info"
+      ],
+      "confidence": "high",
+      "numeric_values": [
+        {
+          "value": 30,
+          "unit": "sec",
+          "kind": "cooldown"
+        }
+      ],
+      "evidence": {
+        "source_section": "거래소 소개",
+        "raw_text": "새로고침 | 최신 기준의 거래소 목록으로 새로고침할 수 있다. 새로고침은 30초의 재사용 대기 시간을 가지고 있다."
+      },
+      "ui": {
+        "entity_key": "saerogochim",
+        "search_text": "거래소 거래소 소개 새로고침 최신 기준의 거래소 목록으로 새로고침할 수 있다. 새로고침은 30초의 재사용 대기 시간을 가지고 있다. exchange list info",
+        "chips": [
+          "exchange",
+          "list",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_90eae833",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "거래소 소개",
+      "value": "거래소는 유저간의 물품 거래 서비스를 지원해주는 기능입니다.",
+      "conditions": [],
+      "tags": [
+        "exchange",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "거래소 소개",
+        "raw_text": "거래소는 유저간의 물품 거래 서비스를 지원해주는 기능입니다."
+      },
+      "ui": {
+        "entity_key": "georaeso_sogae",
+        "search_text": "거래소 거래소 소개 거래소 소개 거래소는 유저간의 물품 거래 서비스를 지원해주는 기능입니다. exchange info",
+        "chips": [
+          "exchange",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_9601321a",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "거래소 소개",
+      "value": "거래소는 거래소와 월드 거래소 2가지로 나뉘어 있으며, 편의에 따라 알맞는 거래소를 사용할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "exchange",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [
+        {
+          "value": 2,
+          "unit": "flat",
+          "kind": "acquisition_value"
+        }
+      ],
+      "evidence": {
+        "source_section": "거래소 소개",
+        "raw_text": "거래소는 거래소와 월드 거래소 2가지로 나뉘어 있으며, 편의에 따라 알맞는 거래소를 사용할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "georaeso_sogae",
+        "search_text": "거래소 거래소 소개 거래소 소개 거래소는 거래소와 월드 거래소 2가지로 나뉘어 있으며, 편의에 따라 알맞는 거래소를 사용할 수 있습니다. exchange info",
+        "chips": [
+          "exchange",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_24d8c7c3",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "거래소 소개",
+      "value": "거래소 내 구매 기능은 실명인증 및 보안서비스 가입 계정이라면 누구나 이용 가능합니다.",
+      "conditions": [
+        "거래소 내 구매 기능은 실명인증 및 보안서비스 가입 계정이라면 누구나 이용 가능합니다."
+      ],
+      "tags": [
+        "exchange",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "거래소 소개",
+        "raw_text": "거래소 내 구매 기능은 실명인증 및 보안서비스 가입 계정이라면 누구나 이용 가능합니다."
+      },
+      "ui": {
+        "entity_key": "georaeso_sogae",
+        "search_text": "거래소 거래소 소개 거래소 소개 거래소 내 구매 기능은 실명인증 및 보안서비스 가입 계정이라면 누구나 이용 가능합니다. exchange info 거래소 내 구매 기능은 실명인증 및 보안서비스 가입 계정이라면 누구나 이용 가능합니다.",
+        "chips": [
+          "exchange",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_69748e31",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "거래소 소개",
+      "value": "거래소 기능 이용을 위해서는 ‘산들바람 멤버십’ 혹은 '슈고 특급 멤버십' 구독이 필요합니다.",
+      "conditions": [
+        "거래소 기능 이용을 위해서는 ‘산들바람 멤버십’ 혹은 '슈고 특급 멤버십' 구독이 필요합니다."
+      ],
+      "tags": [
+        "exchange",
+        "membership",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "거래소 소개",
+        "raw_text": "거래소 기능 이용을 위해서는 ‘산들바람 멤버십’ 혹은 '슈고 특급 멤버십' 구독이 필요합니다."
+      },
+      "ui": {
+        "entity_key": "georaeso_sogae",
+        "search_text": "거래소 거래소 소개 거래소 소개 거래소 기능 이용을 위해서는 ‘산들바람 멤버십’ 혹은 '슈고 특급 멤버십' 구독이 필요합니다. exchange membership info 거래소 기능 이용을 위해서는 ‘산들바람 멤버십’ 혹은 '슈고 특급 멤버십' 구독이 필요합니다.",
+        "chips": [
+          "exchange",
+          "membership",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_6bd555a7",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "거래소 소개",
+      "value": "거래소는 동일한 서버 내 유저간 거래가 가능하며, 종족 아이템 구분 없이 판매 등록 및 구매가 가능합니다.",
+      "conditions": [
+        "거래소는 동일한 서버 내 유저간 거래가 가능하며, 종족 아이템 구분 없이 판매 등록 및 구매가 가능합니다."
+      ],
+      "tags": [
+        "exchange",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "거래소 소개",
+        "raw_text": "거래소는 동일한 서버 내 유저간 거래가 가능하며, 종족 아이템 구분 없이 판매 등록 및 구매가 가능합니다."
+      },
+      "ui": {
+        "entity_key": "georaeso_sogae",
+        "search_text": "거래소 거래소 소개 거래소 소개 거래소는 동일한 서버 내 유저간 거래가 가능하며, 종족 아이템 구분 없이 판매 등록 및 구매가 가능합니다. exchange info 거래소는 동일한 서버 내 유저간 거래가 가능하며, 종족 아이템 구분 없이 판매 등록 및 구매가 가능합니다.",
+        "chips": [
+          "exchange",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_554b1d8c",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "거래소 소개",
+      "value": "판매 등록 후, 아이템이 거래소에 등록되는 시간은 72시간이며, 판매 되지 않은 아이템은 반환할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "exchange",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [
+        {
+          "value": 72,
+          "unit": "flat",
+          "kind": "duration"
+        }
+      ],
+      "evidence": {
+        "source_section": "거래소 소개",
+        "raw_text": "판매 등록 후, 아이템이 거래소에 등록되는 시간은 72시간이며, 판매 되지 않은 아이템은 반환할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "georaeso_sogae",
+        "search_text": "거래소 거래소 소개 거래소 소개 판매 등록 후, 아이템이 거래소에 등록되는 시간은 72시간이며, 판매 되지 않은 아이템은 반환할 수 있습니다. exchange info",
+        "chips": [
+          "exchange",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_da6e27e4",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "거래소 소개",
+      "value": "거래소 등록 아이템 목록",
+      "conditions": [],
+      "tags": [
+        "exchange",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "거래소 소개",
+        "raw_text": "거래소 등록 아이템 목록"
+      },
+      "ui": {
+        "entity_key": "georaeso_sogae",
+        "search_text": "거래소 거래소 소개 거래소 소개 거래소 등록 아이템 목록 exchange list info",
+        "chips": [
+          "exchange",
+          "list",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_cee1a0ce",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "거래소 소개",
+      "value": "현재 거래소에 판매 등록된 상품을 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "exchange",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "거래소 소개",
+        "raw_text": "현재 거래소에 판매 등록된 상품을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "georaeso_sogae",
+        "search_text": "거래소 거래소 소개 거래소 소개 현재 거래소에 판매 등록된 상품을 확인할 수 있다. exchange info",
+        "chips": [
+          "exchange",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_36937cb9",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "거래소 소개",
+      "value": "최신 기준의 거래소 목록으로 새로고침할 수 있다. 새로고침은 30초의 재사용 대기 시간을 가지고 있다.",
+      "conditions": [],
+      "tags": [
+        "exchange",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [
+        {
+          "value": 30,
+          "unit": "sec",
+          "kind": "cooldown"
+        }
+      ],
+      "evidence": {
+        "source_section": "거래소 소개",
+        "raw_text": "최신 기준의 거래소 목록으로 새로고침할 수 있다. 새로고침은 30초의 재사용 대기 시간을 가지고 있다."
+      },
+      "ui": {
+        "entity_key": "georaeso_sogae",
+        "search_text": "거래소 거래소 소개 거래소 소개 최신 기준의 거래소 목록으로 새로고침할 수 있다. 새로고침은 30초의 재사용 대기 시간을 가지고 있다. exchange list info",
+        "chips": [
+          "exchange",
+          "list",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_442d3859",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "판매 등록 목록",
+      "value": "플레이어가 판매등록한 아이템 목록을 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "list",
+        "inventory"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "판매 등록",
+        "raw_text": "판매 등록 목록 | 플레이어가 판매등록한 아이템 목록을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "panmae_deungrok_mokrok",
+        "search_text": "거래소 판매 등록 판매 등록 목록 플레이어가 판매등록한 아이템 목록을 확인할 수 있다. list inventory",
+        "chips": [
+          "list",
+          "inventory",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_d094d92f",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "판매기간 및 취소",
+      "value": "등록된 상품의 거래소 등록기간을 확인할 수 있으며, 판매취소를 할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "exchange"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "판매 등록",
+        "raw_text": "판매기간 및 취소 | 등록된 상품의 거래소 등록기간을 확인할 수 있으며, 판매취소를 할 수 있다."
+      },
+      "ui": {
+        "entity_key": "panmaegigan_mit_chwiso",
+        "search_text": "거래소 판매 등록 판매기간 및 취소 등록된 상품의 거래소 등록기간을 확인할 수 있으며, 판매취소를 할 수 있다. exchange",
+        "chips": [
+          "exchange",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_ca7985b3",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "큐브",
+      "value": "큐브 아이템 목록과 판매등록 가능한 아이템을 확인할 수 있다.",
+      "conditions": [
+        "큐브 아이템 목록과 판매등록 가능한 아이템을 확인할 수 있다."
+      ],
+      "tags": [
+        "list",
+        "inventory"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "판매 등록",
+        "raw_text": "큐브 | 큐브 아이템 목록과 판매등록 가능한 아이템을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "kyubeu",
+        "search_text": "거래소 판매 등록 큐브 큐브 아이템 목록과 판매등록 가능한 아이템을 확인할 수 있다. list inventory 큐브 아이템 목록과 판매등록 가능한 아이템을 확인할 수 있다.",
+        "chips": [
+          "list",
+          "inventory",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_08d88296",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "판매 등록 정보",
+      "value": "판매 등록된 상품 개수와 판매 등록된 상품의 총액을 확인 할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "info"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "판매 등록",
+        "raw_text": "판매 등록 정보 | 판매 등록된 상품 개수와 판매 등록된 상품의 총액을 확인 할 수 있다."
+      },
+      "ui": {
+        "entity_key": "panmae_deungrok_jeongbo",
+        "search_text": "거래소 판매 등록 판매 등록 정보 판매 등록된 상품 개수와 판매 등록된 상품의 총액을 확인 할 수 있다. info",
+        "chips": [
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_aba62f6d",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "모두 선택",
+      "value": "일정 기간이 지나 판매 실패된 아이템을 모두 선택 할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "inventory"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "판매 등록",
+        "raw_text": "모두 선택 | 일정 기간이 지나 판매 실패된 아이템을 모두 선택 할 수 있다."
+      },
+      "ui": {
+        "entity_key": "modu_seontaek",
+        "search_text": "거래소 판매 등록 모두 선택 일정 기간이 지나 판매 실패된 아이템을 모두 선택 할 수 있다. acquisition source inventory",
+        "chips": [
+          "acquisition",
+          "source",
+          "inventory",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_895dd857",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "선택 회수",
+      "value": "선택된 상품을 회수(판매 취소)할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "판매 등록",
+        "raw_text": "선택 회수 | 선택된 상품을 회수(판매 취소)할 수 있다."
+      },
+      "ui": {
+        "entity_key": "seontaek_hoesu",
+        "search_text": "거래소 판매 등록 선택 회수 선택된 상품을 회수(판매 취소)할 수 있다. acquisition source",
+        "chips": [
+          "acquisition",
+          "source",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_d1ba05d9",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "판매 등록",
+      "value": "등록된 상품의 거래소 등록기간을 확인할 수 있으며, 판매취소를 할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "exchange"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "판매 등록",
+        "raw_text": "등록된 상품의 거래소 등록기간을 확인할 수 있으며, 판매취소를 할 수 있다."
+      },
+      "ui": {
+        "entity_key": "panmae_deungrok",
+        "search_text": "거래소 판매 등록 판매 등록 등록된 상품의 거래소 등록기간을 확인할 수 있으며, 판매취소를 할 수 있다. exchange",
+        "chips": [
+          "exchange",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_96f971be",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "판매된 상품 목록",
+      "value": "판매가 완료된 상품 정보를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "list",
+        "info"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "정산",
+        "raw_text": "판매된 상품 목록 | 판매가 완료된 상품 정보를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "panmaedoen_sangpum_mokrok",
+        "search_text": "거래소 정산 판매된 상품 목록 판매가 완료된 상품 정보를 확인할 수 있다. list info",
+        "chips": [
+          "list",
+          "info",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_287b4e4e",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "판매 완료 건수",
+      "value": "판매완료된 총 건수를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "정산",
+        "raw_text": "판매 완료 건수 | 판매완료된 총 건수를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "panmae_wanryo_geonsu",
+        "search_text": "거래소 정산 판매 완료 건수 판매완료된 총 건수를 확인할 수 있다. acquisition source",
+        "chips": [
+          "acquisition",
+          "source",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_1b055c63",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "정산 총액",
+      "value": "정산 가능한 총액을 확인할 수 있다.",
+      "conditions": [
+        "정산 가능한 총액을 확인할 수 있다."
+      ],
+      "tags": [
+        "acquisition",
+        "source"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "정산",
+        "raw_text": "정산 총액 | 정산 가능한 총액을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "jeongsan_chongaek",
+        "search_text": "거래소 정산 정산 총액 정산 가능한 총액을 확인할 수 있다. acquisition source 정산 가능한 총액을 확인할 수 있다.",
+        "chips": [
+          "acquisition",
+          "source",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_e3b2ba38",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "정산",
+      "value": "판매완료된 상품을 정산하여 키나를 획득한다.",
+      "conditions": [],
+      "tags": [
+        "drop"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "정산",
+        "raw_text": "정산 | 판매완료된 상품을 정산하여 키나를 획득한다."
+      },
+      "ui": {
+        "entity_key": "jeongsan",
+        "search_text": "거래소 정산 정산 판매완료된 상품을 정산하여 키나를 획득한다. drop",
+        "chips": [
+          "drop",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_a439f493",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "월드 거래소",
+      "value": "월드 거래소의 특징은 서버 내에서만 거래할 수 있는 일반 거래소와는 달리, 전 서버 플레이어 대상으로 상품을 거래할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "exchange"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "월드 거래소",
+        "raw_text": "월드 거래소의 특징은 서버 내에서만 거래할 수 있는 일반 거래소와는 달리, 전 서버 플레이어 대상으로 상품을 거래할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "woldeu_georaeso",
+        "search_text": "거래소 월드 거래소 월드 거래소 월드 거래소의 특징은 서버 내에서만 거래할 수 있는 일반 거래소와는 달리, 전 서버 플레이어 대상으로 상품을 거래할 수 있습니다. exchange",
+        "chips": [
+          "exchange",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_a10ad9dd",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "월드 거래소",
+      "value": "일반 거래소와 동일한 방법으로 사용할 수 있지만, 판매 완료 시 보다 높은 정산 수수료가 부과됩니다.",
+      "conditions": [],
+      "tags": [
+        "exchange"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "월드 거래소",
+        "raw_text": "일반 거래소와 동일한 방법으로 사용할 수 있지만, 판매 완료 시 보다 높은 정산 수수료가 부과됩니다."
+      },
+      "ui": {
+        "entity_key": "woldeu_georaeso",
+        "search_text": "거래소 월드 거래소 월드 거래소 일반 거래소와 동일한 방법으로 사용할 수 있지만, 판매 완료 시 보다 높은 정산 수수료가 부과됩니다. exchange",
+        "chips": [
+          "exchange",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_17ea695d",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "월드 거래소",
+      "value": "※ 구매 시에는 수수료가 부과되지 않습니다.",
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "trade"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "월드 거래소",
+        "raw_text": "※ 구매 시에는 수수료가 부과되지 않습니다."
+      },
+      "ui": {
+        "entity_key": "woldeu_georaeso",
+        "search_text": "거래소 월드 거래소 월드 거래소 ※ 구매 시에는 수수료가 부과되지 않습니다. acquisition source trade",
+        "chips": [
+          "acquisition",
+          "source",
+          "trade",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_882a0805",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "월드 거래소",
+      "value": "월드 거래소는 [ESC] > [월드 거래소]를 통해 진입하여 이용할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "exchange"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "월드 거래소",
+        "raw_text": "월드 거래소는 [ESC] > [월드 거래소]를 통해 진입하여 이용할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "woldeu_georaeso",
+        "search_text": "거래소 월드 거래소 월드 거래소 월드 거래소는 [esc] > [월드 거래소]를 통해 진입하여 이용할 수 있습니다. exchange",
+        "chips": [
+          "exchange",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_a534a70d",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "월드 거래소",
+      "value": "월드 거래소 이용을 위해서는 '슈고 특급 멤버십' 혹은 '산들바람 멤버십' 구독이 필요합니다.",
+      "conditions": [
+        "월드 거래소 이용을 위해서는 '슈고 특급 멤버십' 혹은 '산들바람 멤버십' 구독이 필요합니다."
+      ],
+      "tags": [
+        "exchange",
+        "membership"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "월드 거래소",
+        "raw_text": "월드 거래소 이용을 위해서는 '슈고 특급 멤버십' 혹은 '산들바람 멤버십' 구독이 필요합니다."
+      },
+      "ui": {
+        "entity_key": "woldeu_georaeso",
+        "search_text": "거래소 월드 거래소 월드 거래소 월드 거래소 이용을 위해서는 '슈고 특급 멤버십' 혹은 '산들바람 멤버십' 구독이 필요합니다. exchange membership 월드 거래소 이용을 위해서는 '슈고 특급 멤버십' 혹은 '산들바람 멤버십' 구독이 필요합니다.",
+        "chips": [
+          "exchange",
+          "membership",
+          "gear_source",
+          "gear_acquisition"
+        ]
+      }
+    }
+  ]
+}

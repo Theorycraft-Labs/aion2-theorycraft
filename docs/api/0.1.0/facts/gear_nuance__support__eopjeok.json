@@ -1,0 +1,666 @@
+{
+  "metadata": {
+    "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EC%97%85%EC%A0%81",
+    "guide_title": "업적",
+    "top_category": "성장과 수집",
+    "sub_category": "수집 콘텐츠",
+    "crawled_at": "2026-02-13T18:16:24+00:00",
+    "parser_version": "facts_v2",
+    "schema_version": "v2",
+    "referential_version": "0.1.0",
+    "priority": "P2",
+    "action": "parse_support",
+    "topic": "gear_nuance",
+    "source_file": "raw/crawled_eopjeok_f697bacce7/guide.html"
+  },
+  "facts": [
+    {
+      "fact_id": "recommendation:gear_nuance:entity_c23f65a2",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "카테고리",
+      "value": "전체 / 전체 업적 진행도를 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "achievement_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "카테고리 | 전체 | 전체 업적 진행도를 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_e07ec8ef",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "성장",
+      "value": "캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 업적 목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "성장 | 캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 업적 목록"
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_07422cf8",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "성장",
+      "value": "캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 업적 목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "성장 | 캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 업적 목록"
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_3ade93cf",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "성장",
+      "value": "캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 업적 목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "성장 | 캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 업적 목록"
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_1f5e2a87",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "도전",
+      "value": "전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 업적목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "도전 | 전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 업적목록"
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_fa39127e",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "도전",
+      "value": "전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 업적목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "도전 | 전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 업적목록"
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_7d1a4f21",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "탐험",
+      "value": "주둔지, 봉인던전 등 클리어를 통해 획득할 수 있는 업적 목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "control",
+        "dungeon",
+        "drop",
+        "outpost",
+        "achievement_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "탐험 | 주둔지, 봉인던전 등 클리어를 통해 획득할 수 있는 업적 목록"
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_f83e5352",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "탐험",
+      "value": "주둔지, 봉인던전 등 클리어를 통해 획득할 수 있는 업적 목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "control",
+        "dungeon",
+        "drop",
+        "outpost",
+        "achievement_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "탐험 | 주둔지, 봉인던전 등 클리어를 통해 획득할 수 있는 업적 목록"
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_4bebbc43",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "격돌",
+      "value": "원정 콘텐츠 클리어를 통해 획득할 수 있는 업적 목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "expedition",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "격돌 | 원정 콘텐츠 클리어를 통해 획득할 수 있는 업적 목록"
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_1451b974",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "격돌",
+      "value": "원정 콘텐츠 클리어를 통해 획득할 수 있는 업적 목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "expedition",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "격돌 | 원정 콘텐츠 클리어를 통해 획득할 수 있는 업적 목록"
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_83e53f73",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "자원",
+      "value": "기타 경제 활동이나, 제작, 채집 등 활동으로 획득할 수 있는 업적 목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "craft",
+        "achievement_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "자원 | 기타 경제 활동이나, 제작, 채집 등 활동으로 획득할 수 있는 업적 목록"
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_92979012",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "자원",
+      "value": "기타 경제 활동이나, 제작, 채집 등 활동으로 획득할 수 있는 업적 목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "craft",
+        "achievement_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "자원 | 기타 경제 활동이나, 제작, 채집 등 활동으로 획득할 수 있는 업적 목록"
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_185ec55b",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "업적 진행도",
+      "value": "진행중인 업적 진행 현황과 보상 정보 등을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "업적 진행도 | 진행중인 업적 진행 현황과 보상 정보 등을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_100929f3",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "업적 진행도",
+      "value": "진행중인 업적 진행 현황과 보상 정보 등을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "업적 진행도 | 진행중인 업적 진행 현황과 보상 정보 등을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_f16d16ec",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "모든 보상 받기",
+      "value": "미수령 상태의 업적 보상을 일괄 수령할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "모든 보상 받기 | 미수령 상태의 업적 보상을 일괄 수령할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_9d6ee0a2",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "모든 보상 받기",
+      "value": "미수령 상태의 업적 보상을 일괄 수령할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "모든 보상 받기 | 미수령 상태의 업적 보상을 일괄 수령할 수 있다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_2b11b030",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "업적 소개",
+      "value": "전체 업적 진행도를 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "achievement_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "전체 업적 진행도를 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_bb803c07",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "업적 소개",
+      "value": "캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 업적 목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 업적 목록"
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_fd916314",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "업적 소개",
+      "value": "캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 업적 목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 업적 목록"
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_8cdcd29e",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "업적 소개",
+      "value": "캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 업적 목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "캐릭터 성장 관련 활동을 진행하여 획득할 수 있는 업적 목록"
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_5390db5b",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "업적 소개",
+      "value": "전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 업적목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 업적목록"
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_bd3b5483",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "업적 소개",
+      "value": "전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 업적목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "전투, 콘텐츠 체험 등 특정 행위를 통해 획득할 수 있는 업적목록"
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_bb0b6441",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "업적 소개",
+      "value": "주둔지, 봉인던전 등 클리어를 통해 획득할 수 있는 업적 목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "control",
+        "dungeon",
+        "drop",
+        "outpost",
+        "achievement_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "주둔지, 봉인던전 등 클리어를 통해 획득할 수 있는 업적 목록"
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_4ead5c13",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "업적 소개",
+      "value": "주둔지, 봉인던전 등 클리어를 통해 획득할 수 있는 업적 목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "control",
+        "dungeon",
+        "drop",
+        "outpost",
+        "achievement_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "주둔지, 봉인던전 등 클리어를 통해 획득할 수 있는 업적 목록"
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_a335d948",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "업적 소개",
+      "value": "원정 콘텐츠 클리어를 통해 획득할 수 있는 업적 목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "expedition",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "원정 콘텐츠 클리어를 통해 획득할 수 있는 업적 목록"
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_7bcc397a",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "업적 소개",
+      "value": "원정 콘텐츠 클리어를 통해 획득할 수 있는 업적 목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "expedition",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "원정 콘텐츠 클리어를 통해 획득할 수 있는 업적 목록"
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_aad6c9d3",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "업적 소개",
+      "value": "기타 경제 활동이나, 제작, 채집 등 활동으로 획득할 수 있는 업적 목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "craft",
+        "achievement_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "기타 경제 활동이나, 제작, 채집 등 활동으로 획득할 수 있는 업적 목록"
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_fa99c5af",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "업적 소개",
+      "value": "기타 경제 활동이나, 제작, 채집 등 활동으로 획득할 수 있는 업적 목록",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "craft",
+        "achievement_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "기타 경제 활동이나, 제작, 채집 등 활동으로 획득할 수 있는 업적 목록"
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_cb22bff7",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "업적 소개",
+      "value": "진행중인 업적 진행 현황과 보상 정보 등을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "진행중인 업적 진행 현황과 보상 정보 등을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_091c2859",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "업적 소개",
+      "value": "진행중인 업적 진행 현황과 보상 정보 등을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "진행중인 업적 진행 현황과 보상 정보 등을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_92ad5ee5",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "업적 소개",
+      "value": "미수령 상태의 업적 보상을 일괄 수령할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "미수령 상태의 업적 보상을 일괄 수령할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_e1802bf9",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "업적 소개",
+      "value": "미수령 상태의 업적 보상을 일괄 수령할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "drop",
+        "achievement_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "업적 소개",
+        "raw_text": "미수령 상태의 업적 보상을 일괄 수령할 수 있다."
+      }
+    }
+  ]
+}

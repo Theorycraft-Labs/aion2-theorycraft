@@ -1,0 +1,1409 @@
+{
+  "metadata": {
+    "guide_id": "tonghap_ganghwa",
+    "guide_title": "통합 강화",
+    "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%ED%86%B5%ED%95%A9%20%EA%B0%95%ED%99%94",
+    "top_category": "성장과 수집",
+    "sub_category": "장비 및 강화",
+    "priority": "P1",
+    "action": "parse_gear_progression",
+    "topic": "gear_progression",
+    "crawled_at": "2026-02-13T18:15:14+00:00",
+    "referential_version": "0.1.0",
+    "schema_version": "studio_v1",
+    "generated_at": "2026-02-13T20:59:53+00:00",
+    "source_facts_file": "exports/facts/gear_progression__gear_progression__tonghap_ganghwa.json"
+  },
+  "summary": {
+    "facts_total": 44,
+    "by_fact_type": {
+      "gear_upgrade": 36,
+      "constraint": 8
+    },
+    "by_topic": {
+      "gear_progression": 36,
+      "gear_nuance": 8
+    },
+    "by_confidence": {
+      "high": 32,
+      "medium": 12
+    },
+    "by_tag": {
+      "upgrade": 37,
+      "info": 16,
+      "inventory": 3,
+      "enhancement": 6,
+      "list": 3,
+      "material": 9,
+      "inscription": 30,
+      "chance": 6,
+      "inheritance": 8
+    }
+  },
+  "facts": [
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_3563297b",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "강화 대상 아이템",
+      "value": "큐브 혹은 장착 장비에서 강화를 위해 선택된 아이템 정보가 표기됩니다.",
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "info",
+        "inventory",
+        "enhancement"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "강화",
+        "raw_text": "강화 대상 아이템 | 큐브 혹은 장착 장비에서 강화를 위해 선택된 아이템 정보가 표기됩니다."
+      },
+      "ui": {
+        "entity_key": "ganghwa_daesang_aitem",
+        "search_text": "통합 강화 강화 강화 대상 아이템 큐브 혹은 장착 장비에서 강화를 위해 선택된 아이템 정보가 표기됩니다. upgrade info inventory enhancement",
+        "chips": [
+          "upgrade",
+          "info",
+          "inventory",
+          "enhancement",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_51d1c168",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "장착 장비 및 큐브",
+      "value": "현재 플레이어가 장착한 장비와 큐브에 소지한 아이템 목록을 확인할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "list",
+        "upgrade",
+        "inventory",
+        "enhancement"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "강화",
+        "raw_text": "장착 장비 및 큐브 | 현재 플레이어가 장착한 장비와 큐브에 소지한 아이템 목록을 확인할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "jangchak_jangbi_mit_kyubeu",
+        "search_text": "통합 강화 강화 장착 장비 및 큐브 현재 플레이어가 장착한 장비와 큐브에 소지한 아이템 목록을 확인할 수 있습니다. list upgrade inventory enhancement",
+        "chips": [
+          "list",
+          "upgrade",
+          "inventory",
+          "enhancement",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_75d50934",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "다음 강화 정보",
+      "value": "강화 진행 시 변경(상승)하는 능력치를 미리 확인할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "info",
+        "enhancement"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "강화",
+        "raw_text": "다음 강화 정보 | 강화 진행 시 변경(상승)하는 능력치를 미리 확인할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "daeum_ganghwa_jeongbo",
+        "search_text": "통합 강화 강화 다음 강화 정보 강화 진행 시 변경(상승)하는 능력치를 미리 확인할 수 있습니다. upgrade info enhancement",
+        "chips": [
+          "upgrade",
+          "info",
+          "enhancement",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_2c218b63",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "강화 재료",
+      "value": "강화를 위해 요구되는 재료 및 개수와 현재 보유 개수를 확인할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "material"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "강화",
+        "raw_text": "강화 재료 | 강화를 위해 요구되는 재료 및 개수와 현재 보유 개수를 확인할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "ganghwa_jaeryo",
+        "search_text": "통합 강화 강화 강화 재료 강화를 위해 요구되는 재료 및 개수와 현재 보유 개수를 확인할 수 있습니다. upgrade material",
+        "chips": [
+          "upgrade",
+          "material",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_185719b4",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "강화",
+      "value": "강화를 시도합니다. 강화에는 일정량의 키나가 소모됩니다.",
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "enhancement"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "강화",
+        "raw_text": "강화 | 강화를 시도합니다. 강화에는 일정량의 키나가 소모됩니다."
+      },
+      "ui": {
+        "entity_key": "ganghwa",
+        "search_text": "통합 강화 강화 강화 강화를 시도합니다. 강화에는 일정량의 키나가 소모됩니다. upgrade enhancement",
+        "chips": [
+          "upgrade",
+          "enhancement",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_69c12799",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "강화",
+      "value": "큐브 혹은 장착 장비에서 강화를 위해 선택된 아이템 정보가 표기됩니다.",
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "info",
+        "inventory",
+        "enhancement"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "강화",
+        "raw_text": "큐브 혹은 장착 장비에서 강화를 위해 선택된 아이템 정보가 표기됩니다."
+      },
+      "ui": {
+        "entity_key": "ganghwa",
+        "search_text": "통합 강화 강화 강화 큐브 혹은 장착 장비에서 강화를 위해 선택된 아이템 정보가 표기됩니다. upgrade info inventory enhancement",
+        "chips": [
+          "upgrade",
+          "info",
+          "inventory",
+          "enhancement",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_a1637414",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "강화",
+      "value": "강화 진행 시 변경(상승)하는 능력치를 미리 확인할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "enhancement"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "강화",
+        "raw_text": "강화 진행 시 변경(상승)하는 능력치를 미리 확인할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "ganghwa",
+        "search_text": "통합 강화 강화 강화 강화 진행 시 변경(상승)하는 능력치를 미리 확인할 수 있습니다. upgrade enhancement",
+        "chips": [
+          "upgrade",
+          "enhancement",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_5d8dc1df",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "강화",
+      "value": "강화를 위해 요구되는 재료 및 개수와 현재 보유 개수를 확인할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "upgrade",
+        "material"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "강화",
+        "raw_text": "강화를 위해 요구되는 재료 및 개수와 현재 보유 개수를 확인할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "ganghwa",
+        "search_text": "통합 강화 강화 강화 강화를 위해 요구되는 재료 및 개수와 현재 보유 개수를 확인할 수 있습니다. upgrade material",
+        "chips": [
+          "upgrade",
+          "material",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_9c86fb58",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "각인 대상 아이템",
+      "value": "큐브 혹은 장착 장비에서 마석 각인을 위해 선택된 아이템 정보가 표기된다.",
+      "conditions": [],
+      "tags": [
+        "inscription",
+        "info",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마석/영석 각인",
+        "raw_text": "각인 대상 아이템 | 큐브 혹은 장착 장비에서 마석 각인을 위해 선택된 아이템 정보가 표기된다."
+      },
+      "ui": {
+        "entity_key": "gakin_daesang_aitem",
+        "search_text": "통합 강화 마석/영석 각인 각인 대상 아이템 큐브 혹은 장착 장비에서 마석 각인을 위해 선택된 아이템 정보가 표기된다. inscription info upgrade",
+        "chips": [
+          "inscription",
+          "info",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_9dea7e88",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "마석 및 보유 아이템",
+      "value": "각인에 사용할 마석 및 보유 아이템 정보를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "inscription",
+        "info",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마석/영석 각인",
+        "raw_text": "마석 및 보유 아이템 | 각인에 사용할 마석 및 보유 아이템 정보를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "maseok_mit_boyu_aitem",
+        "search_text": "통합 강화 마석/영석 각인 마석 및 보유 아이템 각인에 사용할 마석 및 보유 아이템 정보를 확인할 수 있다. inscription info upgrade",
+        "chips": [
+          "inscription",
+          "info",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_8a985e25",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "등록된 마석/확률",
+      "value": "마석 각인을 위해 현재 등록된 마석 및 확률 정보가 표기된다.",
+      "conditions": [
+        "마석 각인을 위해 현재 등록된 마석 및 확률 정보가 표기된다."
+      ],
+      "tags": [
+        "inscription",
+        "info",
+        "chance",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마석/영석 각인",
+        "raw_text": "등록된 마석/확률 | 마석 각인을 위해 현재 등록된 마석 및 확률 정보가 표기된다."
+      },
+      "ui": {
+        "entity_key": "deungrokdoen_maseok_hwakryul",
+        "search_text": "통합 강화 마석/영석 각인 등록된 마석/확률 마석 각인을 위해 현재 등록된 마석 및 확률 정보가 표기된다. inscription info chance upgrade 마석 각인을 위해 현재 등록된 마석 및 확률 정보가 표기된다.",
+        "chips": [
+          "inscription",
+          "info",
+          "chance",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_7e831607",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "각인된 능력치",
+      "value": "등록된 장비에 현재 각인된 마석 각인 능력치를 확인할 수 있다. 재각인시 신규 능력치로 덮어씌워진다",
+      "conditions": [],
+      "tags": [
+        "inscription",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마석/영석 각인",
+        "raw_text": "각인된 능력치 | 등록된 장비에 현재 각인된 마석 각인 능력치를 확인할 수 있다. 재각인시 신규 능력치로 덮어씌워진다"
+      },
+      "ui": {
+        "entity_key": "gakindoen_neungryeokchi",
+        "search_text": "통합 강화 마석/영석 각인 각인된 능력치 등록된 장비에 현재 각인된 마석 각인 능력치를 확인할 수 있다. 재각인시 신규 능력치로 덮어씌워진다 inscription upgrade",
+        "chips": [
+          "inscription",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_82dea527",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "자동 각인 및 각인",
+      "value": "원하는 능력치가 나올 때까지 자동 각인하는 기능을 설정하거나 각인 시도할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "inscription",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마석/영석 각인",
+        "raw_text": "자동 각인 및 각인 | 원하는 능력치가 나올 때까지 자동 각인하는 기능을 설정하거나 각인 시도할 수 있다."
+      },
+      "ui": {
+        "entity_key": "jadong_gakin_mit_gakin",
+        "search_text": "통합 강화 마석/영석 각인 자동 각인 및 각인 원하는 능력치가 나올 때까지 자동 각인하는 기능을 설정하거나 각인 시도할 수 있다. inscription upgrade",
+        "chips": [
+          "inscription",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_fa5a4317",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "마석/영석 각인",
+      "value": "마석 각인을 위해 현재 등록된 마석 및 확률 정보가 표기된다.",
+      "conditions": [
+        "마석 각인을 위해 현재 등록된 마석 및 확률 정보가 표기된다."
+      ],
+      "tags": [
+        "inscription",
+        "info",
+        "chance"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "마석/영석 각인",
+        "raw_text": "마석 각인을 위해 현재 등록된 마석 및 확률 정보가 표기된다."
+      },
+      "ui": {
+        "entity_key": "maseok_yeongseok_gakin",
+        "search_text": "통합 강화 마석/영석 각인 마석/영석 각인 마석 각인을 위해 현재 등록된 마석 및 확률 정보가 표기된다. inscription info chance 마석 각인을 위해 현재 등록된 마석 및 확률 정보가 표기된다.",
+        "chips": [
+          "inscription",
+          "info",
+          "chance",
+          "constraint",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_b0e3debd",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "각인 대상 아이템",
+      "value": "큐브 혹은 장착 장비에서 신석 각인을 위해 선택된 아이템 정보가 표기된다.",
+      "conditions": [],
+      "tags": [
+        "inscription",
+        "info",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "신석 각인",
+        "raw_text": "각인 대상 아이템 | 큐브 혹은 장착 장비에서 신석 각인을 위해 선택된 아이템 정보가 표기된다."
+      },
+      "ui": {
+        "entity_key": "gakin_daesang_aitem",
+        "search_text": "통합 강화 신석 각인 각인 대상 아이템 큐브 혹은 장착 장비에서 신석 각인을 위해 선택된 아이템 정보가 표기된다. inscription info upgrade",
+        "chips": [
+          "inscription",
+          "info",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_fd023d8b",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "신석 정보",
+      "value": "신석을 클릭하면 각인에 사용할 신석 정보를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "inscription",
+        "info",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "신석 각인",
+        "raw_text": "신석 정보 | 신석을 클릭하면 각인에 사용할 신석 정보를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "sinseok_jeongbo",
+        "search_text": "통합 강화 신석 각인 신석 정보 신석을 클릭하면 각인에 사용할 신석 정보를 확인할 수 있다. inscription info upgrade",
+        "chips": [
+          "inscription",
+          "info",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_79447892",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "보유 신석 정보",
+      "value": "보유하고 있는 신석, 장착 장비, 큐브 내 장비를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "info",
+        "upgrade",
+        "inscription"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "신석 각인",
+        "raw_text": "보유 신석 정보 | 보유하고 있는 신석, 장착 장비, 큐브 내 장비를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "boyu_sinseok_jeongbo",
+        "search_text": "통합 강화 신석 각인 보유 신석 정보 보유하고 있는 신석, 장착 장비, 큐브 내 장비를 확인할 수 있다. info upgrade inscription",
+        "chips": [
+          "info",
+          "upgrade",
+          "inscription",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_7e0445df",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "등록된 신석",
+      "value": "신석 각인을 위해 현재 등록된 신석 정보가 표기된다.",
+      "conditions": [],
+      "tags": [
+        "inscription",
+        "info",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "신석 각인",
+        "raw_text": "등록된 신석 | 신석 각인을 위해 현재 등록된 신석 정보가 표기된다."
+      },
+      "ui": {
+        "entity_key": "deungrokdoen_sinseok",
+        "search_text": "통합 강화 신석 각인 등록된 신석 신석 각인을 위해 현재 등록된 신석 정보가 표기된다. inscription info upgrade",
+        "chips": [
+          "inscription",
+          "info",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_4fff0ac6",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "각인된 신석 제거",
+      "value": "현재 장비에 각인된 신석 효과를 제거할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "inscription",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "신석 각인",
+        "raw_text": "각인된 신석 제거 | 현재 장비에 각인된 신석 효과를 제거할 수 있다."
+      },
+      "ui": {
+        "entity_key": "gakindoen_sinseok_jegeo",
+        "search_text": "통합 강화 신석 각인 각인된 신석 제거 현재 장비에 각인된 신석 효과를 제거할 수 있다. inscription upgrade",
+        "chips": [
+          "inscription",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_4835a012",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "등록된 신성 정보",
+      "value": "각인을 위해 등록된 신석 상세 정보를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "inscription",
+        "info",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "신석 각인",
+        "raw_text": "등록된 신성 정보 | 각인을 위해 등록된 신석 상세 정보를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "deungrokdoen_sinseong_jeongbo",
+        "search_text": "통합 강화 신석 각인 등록된 신성 정보 각인을 위해 등록된 신석 상세 정보를 확인할 수 있다. inscription info upgrade",
+        "chips": [
+          "inscription",
+          "info",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_ef257130",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "합성",
+      "value": "보유 신석 4개를 소모하여 정해진 확률로 새로운 신석 1개로 합성한다.",
+      "conditions": [
+        "보유 신석 4개를 소모하여 정해진 확률로 새로운 신석 1개로 합성한다."
+      ],
+      "tags": [
+        "chance",
+        "upgrade",
+        "inscription"
+      ],
+      "confidence": "high",
+      "numeric_values": [
+        {
+          "value": 4,
+          "unit": "flat",
+          "kind": "chance"
+        },
+        {
+          "value": 1,
+          "unit": "flat",
+          "kind": "chance"
+        }
+      ],
+      "evidence": {
+        "source_section": "신석 각인",
+        "raw_text": "합성 | 보유 신석 4개를 소모하여 정해진 확률로 새로운 신석 1개로 합성한다."
+      },
+      "ui": {
+        "entity_key": "hapseong",
+        "search_text": "통합 강화 신석 각인 합성 보유 신석 4개를 소모하여 정해진 확률로 새로운 신석 1개로 합성한다. chance upgrade inscription 보유 신석 4개를 소모하여 정해진 확률로 새로운 신석 1개로 합성한다.",
+        "chips": [
+          "chance",
+          "upgrade",
+          "inscription",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_e7905b69",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "각인",
+      "value": "신석 각인을 시도할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "inscription",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "신석 각인",
+        "raw_text": "각인 | 신석 각인을 시도할 수 있다."
+      },
+      "ui": {
+        "entity_key": "gakin",
+        "search_text": "통합 강화 신석 각인 각인 신석 각인을 시도할 수 있다. inscription upgrade",
+        "chips": [
+          "inscription",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_44ca812c",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "신석 각인",
+      "value": "보유 신석 4개를 소모하여 정해진 확률로 새로운 신석 1개로 합성한다.",
+      "conditions": [
+        "보유 신석 4개를 소모하여 정해진 확률로 새로운 신석 1개로 합성한다."
+      ],
+      "tags": [
+        "chance",
+        "inscription"
+      ],
+      "confidence": "medium",
+      "numeric_values": [
+        {
+          "value": 4,
+          "unit": "flat",
+          "kind": "chance"
+        },
+        {
+          "value": 1,
+          "unit": "flat",
+          "kind": "chance"
+        }
+      ],
+      "evidence": {
+        "source_section": "신석 각인",
+        "raw_text": "보유 신석 4개를 소모하여 정해진 확률로 새로운 신석 1개로 합성한다."
+      },
+      "ui": {
+        "entity_key": "sinseok_gakin",
+        "search_text": "통합 강화 신석 각인 신석 각인 보유 신석 4개를 소모하여 정해진 확률로 새로운 신석 1개로 합성한다. chance inscription 보유 신석 4개를 소모하여 정해진 확률로 새로운 신석 1개로 합성한다.",
+        "chips": [
+          "chance",
+          "inscription",
+          "constraint",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_9b3b637f",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "각인 대상 아이템",
+      "value": "큐브 혹은 장착 장비에서 영혼 각인을 위해 선택된 아이템 정보가 표기된다.",
+      "conditions": [],
+      "tags": [
+        "inscription",
+        "info",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "영혼 각인",
+        "raw_text": "각인 대상 아이템 | 큐브 혹은 장착 장비에서 영혼 각인을 위해 선택된 아이템 정보가 표기된다."
+      },
+      "ui": {
+        "entity_key": "gakin_daesang_aitem",
+        "search_text": "통합 강화 영혼 각인 각인 대상 아이템 큐브 혹은 장착 장비에서 영혼 각인을 위해 선택된 아이템 정보가 표기된다. inscription info upgrade",
+        "chips": [
+          "inscription",
+          "info",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_b5e62231",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "각인 재료 목록",
+      "value": "보유 중인 영혼 각인 재료 목록을 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "inscription",
+        "list",
+        "material",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "영혼 각인",
+        "raw_text": "각인 재료 목록 | 보유 중인 영혼 각인 재료 목록을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "gakin_jaeryo_mokrok",
+        "search_text": "통합 강화 영혼 각인 각인 재료 목록 보유 중인 영혼 각인 재료 목록을 확인할 수 있다. inscription list material upgrade",
+        "chips": [
+          "inscription",
+          "list",
+          "material",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_424bd6c8",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "각인",
+      "value": "‘영혼의 서’를 사용하여 각인을 할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "inscription",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "영혼 각인",
+        "raw_text": "각인 | ‘영혼의 서’를 사용하여 각인을 할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "gakin",
+        "search_text": "통합 강화 영혼 각인 각인 ‘영혼의 서’를 사용하여 각인을 할 수 있습니다. inscription upgrade",
+        "chips": [
+          "inscription",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_b82bcdd7",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "조율",
+      "value": "일정 등급의 재료 또는 조율 재료로 각인 효과 중 하나를 무작위 효과로 변경할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "inscription",
+        "material",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "영혼 각인",
+        "raw_text": "조율 | 일정 등급의 재료 또는 조율 재료로 각인 효과 중 하나를 무작위 효과로 변경할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "joyul",
+        "search_text": "통합 강화 영혼 각인 조율 일정 등급의 재료 또는 조율 재료로 각인 효과 중 하나를 무작위 효과로 변경할 수 있습니다. inscription material upgrade",
+        "chips": [
+          "inscription",
+          "material",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_a68e34af",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "초기화",
+      "value": "‘영혼의 서: 초기화’를 사용하여, 각인 효과를 초기화하고 재각인할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "inscription",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "영혼 각인",
+        "raw_text": "초기화 | ‘영혼의 서: 초기화’를 사용하여, 각인 효과를 초기화하고 재각인할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "chogihwa",
+        "search_text": "통합 강화 영혼 각인 초기화 ‘영혼의 서: 초기화’를 사용하여, 각인 효과를 초기화하고 재각인할 수 있습니다. inscription upgrade",
+        "chips": [
+          "inscription",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_d993f423",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "재료 아이템",
+      "value": "각인을 위해 등록된 재료 아이템 수량이 표기된다.",
+      "conditions": [],
+      "tags": [
+        "inscription",
+        "material",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "영혼 각인",
+        "raw_text": "재료 아이템 | 각인을 위해 등록된 재료 아이템 수량이 표기된다."
+      },
+      "ui": {
+        "entity_key": "jaeryo_aitem",
+        "search_text": "통합 강화 영혼 각인 재료 아이템 각인을 위해 등록된 재료 아이템 수량이 표기된다. inscription material upgrade",
+        "chips": [
+          "inscription",
+          "material",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_413d73d0",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "장비 영혼 각인 정보",
+      "value": "등록된 장비의 영혼 각인률과 각인 능력치 정보를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "inscription",
+        "info",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "영혼 각인",
+        "raw_text": "장비 영혼 각인 정보 | 등록된 장비의 영혼 각인률과 각인 능력치 정보를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "jangbi_yeonghon_gakin_jeongbo",
+        "search_text": "통합 강화 영혼 각인 장비 영혼 각인 정보 등록된 장비의 영혼 각인률과 각인 능력치 정보를 확인할 수 있다. inscription info upgrade",
+        "chips": [
+          "inscription",
+          "info",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_33c619c6",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "각인",
+      "value": "일정 키나를 소모하여, 각인을 시도할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "inscription",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "영혼 각인",
+        "raw_text": "각인 | 일정 키나를 소모하여, 각인을 시도할 수 있다."
+      },
+      "ui": {
+        "entity_key": "gakin",
+        "search_text": "통합 강화 영혼 각인 각인 일정 키나를 소모하여, 각인을 시도할 수 있다. inscription upgrade",
+        "chips": [
+          "inscription",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:100_112a7ba2",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "장비의 영혼 각인율이 100%에 도달하면, 하단에 영혼 결속 가능 슬롯을 개방할 수 있다.",
+      "value": "장비의 영혼 각인율이 100%에 도달하면, 하단에 영혼 결속 가능 슬롯을 개방할 수 있다.",
+      "conditions": [
+        "장비의 영혼 각인율이 100%에 도달하면, 하단에 영혼 결속 가능 슬롯을 개방할 수 있다."
+      ],
+      "tags": [
+        "inscription",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "slot_count"
+        }
+      ],
+      "evidence": {
+        "source_section": "영혼 결속",
+        "raw_text": "장비의 영혼 각인율이 100%에 도달하면, 하단에 영혼 결속 가능 슬롯을 개방할 수 있다."
+      },
+      "ui": {
+        "entity_key": "100",
+        "search_text": "통합 강화 영혼 결속 장비의 영혼 각인율이 100%에 도달하면, 하단에 영혼 결속 가능 슬롯을 개방할 수 있다. 장비의 영혼 각인율이 100%에 도달하면, 하단에 영혼 결속 가능 슬롯을 개방할 수 있다. inscription upgrade 장비의 영혼 각인율이 100%에 도달하면, 하단에 영혼 결속 가능 슬롯을 개방할 수 있다.",
+        "chips": [
+          "inscription",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_1e434735",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "영혼 결속",
+      "value": "유일 등급 이상의 장비 영혼 각인율이 100%에 도달한 경우, ‘현자의 돌: 계시'와 키나를 사용하여 진행할 수 있습니다.",
+      "conditions": [
+        "유일 등급 이상의 장비 영혼 각인율이 100%에 도달한 경우, ‘현자의 돌: 계시'와 키나를 사용하여 진행할 수 있습니다."
+      ],
+      "tags": [
+        "inscription"
+      ],
+      "confidence": "medium",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "level_requirement"
+        }
+      ],
+      "evidence": {
+        "source_section": "영혼 결속",
+        "raw_text": "유일 등급 이상의 장비 영혼 각인율이 100%에 도달한 경우, ‘현자의 돌: 계시'와 키나를 사용하여 진행할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "yeonghon_gyeolsok",
+        "search_text": "통합 강화 영혼 결속 영혼 결속 유일 등급 이상의 장비 영혼 각인율이 100%에 도달한 경우, ‘현자의 돌: 계시'와 키나를 사용하여 진행할 수 있습니다. inscription 유일 등급 이상의 장비 영혼 각인율이 100%에 도달한 경우, ‘현자의 돌: 계시'와 키나를 사용하여 진행할 수 있습니다.",
+        "chips": [
+          "inscription",
+          "constraint",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_30258dfc",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "영혼 결속",
+      "value": "영혼 결속으로 추가된 효과는 장비에 부여 가능한 영혼 각인 효과 중에서 확률적으로 선택되며, 각인율은 100%로 부여됩니다.",
+      "conditions": [
+        "영혼 결속으로 추가된 효과는 장비에 부여 가능한 영혼 각인 효과 중에서 확률적으로 선택되며, 각인율은 100%로 부여됩니다."
+      ],
+      "tags": [
+        "inscription",
+        "chance"
+      ],
+      "confidence": "medium",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "evidence": {
+        "source_section": "영혼 결속",
+        "raw_text": "영혼 결속으로 추가된 효과는 장비에 부여 가능한 영혼 각인 효과 중에서 확률적으로 선택되며, 각인율은 100%로 부여됩니다."
+      },
+      "ui": {
+        "entity_key": "yeonghon_gyeolsok",
+        "search_text": "통합 강화 영혼 결속 영혼 결속 영혼 결속으로 추가된 효과는 장비에 부여 가능한 영혼 각인 효과 중에서 확률적으로 선택되며, 각인율은 100%로 부여됩니다. inscription chance 영혼 결속으로 추가된 효과는 장비에 부여 가능한 영혼 각인 효과 중에서 확률적으로 선택되며, 각인율은 100%로 부여됩니다.",
+        "chips": [
+          "inscription",
+          "chance",
+          "constraint",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_6445f8f8",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "영혼 결속",
+      "value": "영혼 결속으로 추가된 효과는 기존 영혼 각인 효과와 동일하게 각인 강화, 조율, 초기화가 가능합니다.",
+      "conditions": [
+        "영혼 결속으로 추가된 효과는 기존 영혼 각인 효과와 동일하게 각인 강화, 조율, 초기화가 가능합니다."
+      ],
+      "tags": [
+        "upgrade",
+        "inscription"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "영혼 결속",
+        "raw_text": "영혼 결속으로 추가된 효과는 기존 영혼 각인 효과와 동일하게 각인 강화, 조율, 초기화가 가능합니다."
+      },
+      "ui": {
+        "entity_key": "yeonghon_gyeolsok",
+        "search_text": "통합 강화 영혼 결속 영혼 결속 영혼 결속으로 추가된 효과는 기존 영혼 각인 효과와 동일하게 각인 강화, 조율, 초기화가 가능합니다. upgrade inscription 영혼 결속으로 추가된 효과는 기존 영혼 각인 효과와 동일하게 각인 강화, 조율, 초기화가 가능합니다.",
+        "chips": [
+          "upgrade",
+          "inscription",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_de4cce51",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "영혼 결속",
+      "value": "영혼 결속으로 추가된 효과는 기존 영혼 각인 효과와 동일하게 각인 강화, 조율, 초기화가 가능합니다.",
+      "conditions": [
+        "영혼 결속으로 추가된 효과는 기존 영혼 각인 효과와 동일하게 각인 강화, 조율, 초기화가 가능합니다."
+      ],
+      "tags": [
+        "upgrade",
+        "inscription"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "영혼 결속",
+        "raw_text": "영혼 결속으로 추가된 효과는 기존 영혼 각인 효과와 동일하게 각인 강화, 조율, 초기화가 가능합니다."
+      },
+      "ui": {
+        "entity_key": "yeonghon_gyeolsok",
+        "search_text": "통합 강화 영혼 결속 영혼 결속 영혼 결속으로 추가된 효과는 기존 영혼 각인 효과와 동일하게 각인 강화, 조율, 초기화가 가능합니다. upgrade inscription 영혼 결속으로 추가된 효과는 기존 영혼 각인 효과와 동일하게 각인 강화, 조율, 초기화가 가능합니다.",
+        "chips": [
+          "upgrade",
+          "inscription",
+          "constraint",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_82af29d6",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "영혼 결속",
+      "value": "단, 조율 또는 초기화 진행 시 100%였던 각인율은 확률에 따라 변경되며, 영혼 결속 효과는 계승되지 않습니다.",
+      "conditions": [
+        "단, 조율 또는 초기화 진행 시 100%였던 각인율은 확률에 따라 변경되며, 영혼 결속 효과는 계승되지 않습니다."
+      ],
+      "tags": [
+        "inscription",
+        "inheritance",
+        "chance"
+      ],
+      "confidence": "medium",
+      "numeric_values": [
+        {
+          "value": 100,
+          "unit": "percent",
+          "kind": "chance"
+        }
+      ],
+      "evidence": {
+        "source_section": "영혼 결속",
+        "raw_text": "단, 조율 또는 초기화 진행 시 100%였던 각인율은 확률에 따라 변경되며, 영혼 결속 효과는 계승되지 않습니다."
+      },
+      "ui": {
+        "entity_key": "yeonghon_gyeolsok",
+        "search_text": "통합 강화 영혼 결속 영혼 결속 단, 조율 또는 초기화 진행 시 100%였던 각인율은 확률에 따라 변경되며, 영혼 결속 효과는 계승되지 않습니다. inscription inheritance chance 단, 조율 또는 초기화 진행 시 100%였던 각인율은 확률에 따라 변경되며, 영혼 결속 효과는 계승되지 않습니다.",
+        "chips": [
+          "inscription",
+          "inheritance",
+          "chance",
+          "constraint",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_e5bcce40",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "영혼 결속",
+      "value": "계승 진행 시, 계승 재료 장비의 영혼 각인 효과가 계승 대상 장비의 영혼 결속 효과와 동일한 경우, 해당 효과는 제외되고 계승됩니다.",
+      "conditions": [
+        "계승 진행 시, 계승 재료 장비의 영혼 각인 효과가 계승 대상 장비의 영혼 결속 효과와 동일한 경우, 해당 효과는 제외되고 계승됩니다."
+      ],
+      "tags": [
+        "inscription",
+        "inheritance",
+        "material"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "영혼 결속",
+        "raw_text": "계승 진행 시, 계승 재료 장비의 영혼 각인 효과가 계승 대상 장비의 영혼 결속 효과와 동일한 경우, 해당 효과는 제외되고 계승됩니다."
+      },
+      "ui": {
+        "entity_key": "yeonghon_gyeolsok",
+        "search_text": "통합 강화 영혼 결속 영혼 결속 계승 진행 시, 계승 재료 장비의 영혼 각인 효과가 계승 대상 장비의 영혼 결속 효과와 동일한 경우, 해당 효과는 제외되고 계승됩니다. inscription inheritance material 계승 진행 시, 계승 재료 장비의 영혼 각인 효과가 계승 대상 장비의 영혼 결속 효과와 동일한 경우, 해당 효과는 제외되고 계승됩니다.",
+        "chips": [
+          "inscription",
+          "inheritance",
+          "material",
+          "constraint",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_d0923cca",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "계승 대상 아이템",
+      "value": "계승을 위해 사용자가 선택한 장비 정보를 확인할 수 있습니다.",
+      "conditions": [],
+      "tags": [
+        "inheritance",
+        "info",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "계승",
+        "raw_text": "계승 대상 아이템 | 계승을 위해 사용자가 선택한 장비 정보를 확인할 수 있습니다."
+      },
+      "ui": {
+        "entity_key": "gyeseung_daesang_aitem",
+        "search_text": "통합 강화 계승 계승 대상 아이템 계승을 위해 사용자가 선택한 장비 정보를 확인할 수 있습니다. inheritance info upgrade",
+        "chips": [
+          "inheritance",
+          "info",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_c6fd76fd",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "계승 장비 재료 아이템",
+      "value": "계승 재료 아이템의 정보를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "inheritance",
+        "info",
+        "material",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "계승",
+        "raw_text": "계승 장비 재료 아이템 | 계승 재료 아이템의 정보를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "gyeseung_jangbi_jaeryo_aitem",
+        "search_text": "통합 강화 계승 계승 장비 재료 아이템 계승 재료 아이템의 정보를 확인할 수 있다. inheritance info material upgrade",
+        "chips": [
+          "inheritance",
+          "info",
+          "material",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_6c075654",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "보유 장비 재료 목록",
+      "value": "보유하고 있는 계승 장비 재료를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "inheritance",
+        "list",
+        "material",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "계승",
+        "raw_text": "보유 장비 재료 목록 | 보유하고 있는 계승 장비 재료를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "boyu_jangbi_jaeryo_mokrok",
+        "search_text": "통합 강화 계승 보유 장비 재료 목록 보유하고 있는 계승 장비 재료를 확인할 수 있다. inheritance list material upgrade",
+        "chips": [
+          "inheritance",
+          "list",
+          "material",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_2fa0f103",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "계승 재료",
+      "value": "계승에 필요한 계승석 필요 개수와 보유 개수를 확인할 수 있다.",
+      "conditions": [
+        "계승에 필요한 계승석 필요 개수와 보유 개수를 확인할 수 있다."
+      ],
+      "tags": [
+        "inheritance",
+        "material",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "계승",
+        "raw_text": "계승 재료 | 계승에 필요한 계승석 필요 개수와 보유 개수를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "gyeseung_jaeryo",
+        "search_text": "통합 강화 계승 계승 재료 계승에 필요한 계승석 필요 개수와 보유 개수를 확인할 수 있다. inheritance material upgrade 계승에 필요한 계승석 필요 개수와 보유 개수를 확인할 수 있다.",
+        "chips": [
+          "inheritance",
+          "material",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "gear_upgrade:gear_progression:entity_64973371",
+      "fact_type": "gear_upgrade",
+      "topic": "gear_progression",
+      "entity": "계승",
+      "value": "일정 키나를 소모하여 계승을 시도할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "inheritance",
+        "upgrade"
+      ],
+      "confidence": "high",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "계승",
+        "raw_text": "계승 | 일정 키나를 소모하여 계승을 시도할 수 있다."
+      },
+      "ui": {
+        "entity_key": "gyeseung",
+        "search_text": "통합 강화 계승 계승 일정 키나를 소모하여 계승을 시도할 수 있다. inheritance upgrade",
+        "chips": [
+          "inheritance",
+          "upgrade",
+          "gear_upgrade",
+          "gear_progression"
+        ]
+      }
+    },
+    {
+      "fact_id": "constraint:gear_nuance:entity_abf631a9",
+      "fact_type": "constraint",
+      "topic": "gear_nuance",
+      "entity": "계승",
+      "value": "계승에 필요한 계승석 필요 개수와 보유 개수를 확인할 수 있다.",
+      "conditions": [
+        "계승에 필요한 계승석 필요 개수와 보유 개수를 확인할 수 있다."
+      ],
+      "tags": [
+        "inheritance"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "계승",
+        "raw_text": "계승에 필요한 계승석 필요 개수와 보유 개수를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "gyeseung",
+        "search_text": "통합 강화 계승 계승 계승에 필요한 계승석 필요 개수와 보유 개수를 확인할 수 있다. inheritance 계승에 필요한 계승석 필요 개수와 보유 개수를 확인할 수 있다.",
+        "chips": [
+          "inheritance",
+          "constraint",
+          "gear_nuance"
+        ]
+      }
+    }
+  ]
+}

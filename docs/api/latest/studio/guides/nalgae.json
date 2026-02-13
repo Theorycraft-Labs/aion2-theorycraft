@@ -1,0 +1,436 @@
+{
+  "metadata": {
+    "guide_id": "nalgae",
+    "guide_title": "날개",
+    "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EB%82%A0%EA%B0%9C",
+    "top_category": "성장과 수집",
+    "sub_category": "수집 콘텐츠",
+    "priority": "P2",
+    "action": "parse_support",
+    "topic": "gear_nuance",
+    "crawled_at": "2026-02-13T18:16:22+00:00",
+    "referential_version": "0.1.0",
+    "schema_version": "studio_v1",
+    "generated_at": "2026-02-13T20:59:53+00:00",
+    "source_facts_file": "exports/facts/gear_nuance__support__nalgae.json"
+  },
+  "summary": {
+    "facts_total": 14,
+    "by_fact_type": {
+      "recommendation": 14
+    },
+    "by_topic": {
+      "gear_nuance": 14
+    },
+    "by_confidence": {
+      "medium": 14
+    },
+    "by_tag": {
+      "wing_system": 14,
+      "list": 4,
+      "info": 14
+    }
+  },
+  "facts": [
+    {
+      "fact_id": "recommendation:gear_nuance:entity_31d81ac8",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "날개 목록",
+      "value": "전체 날개 목록을 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "wing_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "날개 소개",
+        "raw_text": "날개 목록 | 전체 날개 목록을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "nalgae_mokrok",
+        "search_text": "날개 날개 소개 날개 목록 전체 날개 목록을 확인할 수 있다. wing_system list info",
+        "chips": [
+          "wing_system",
+          "list",
+          "info",
+          "recommendation",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_f9d546d7",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "날개 외형 미리 보기",
+      "value": "날개 목록 중 선택한 날개의 외형을 미리 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "wing_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "날개 소개",
+        "raw_text": "날개 외형 미리 보기 | 날개 목록 중 선택한 날개의 외형을 미리 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "nalgae_oehyeong_miri_bogi",
+        "search_text": "날개 날개 소개 날개 외형 미리 보기 날개 목록 중 선택한 날개의 외형을 미리 확인할 수 있다. wing_system list info",
+        "chips": [
+          "wing_system",
+          "list",
+          "info",
+          "recommendation",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_c613b3a3",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "날개 정보 및 보유 효과",
+      "value": "날개 상세 정보와 보유 효과를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "wing_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "날개 소개",
+        "raw_text": "날개 정보 및 보유 효과 | 날개 상세 정보와 보유 효과를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "nalgae_jeongbo_mit_boyu_hyogwa",
+        "search_text": "날개 날개 소개 날개 정보 및 보유 효과 날개 상세 정보와 보유 효과를 확인할 수 있다. wing_system info",
+        "chips": [
+          "wing_system",
+          "info",
+          "recommendation",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_43154333",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "날개 정보",
+      "value": "날개 상세 정보를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "wing_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "날개 소개",
+        "raw_text": "날개 정보 | 날개 상세 정보를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "nalgae_jeongbo",
+        "search_text": "날개 날개 소개 날개 정보 날개 상세 정보를 확인할 수 있다. wing_system info",
+        "chips": [
+          "wing_system",
+          "info",
+          "recommendation",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_ff07bb29",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "외형 장착/해제",
+      "value": "날개의 외형만 장착/해제할 수 있다. (장착 효과 미적용)",
+      "conditions": [],
+      "tags": [
+        "wing_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "날개 소개",
+        "raw_text": "외형 장착/해제 | 날개의 외형만 장착/해제할 수 있다. (장착 효과 미적용)"
+      },
+      "ui": {
+        "entity_key": "oehyeong_jangchak_haeje",
+        "search_text": "날개 날개 소개 외형 장착/해제 날개의 외형만 장착/해제할 수 있다. (장착 효과 미적용) wing_system info",
+        "chips": [
+          "wing_system",
+          "info",
+          "recommendation",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_68a207c6",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "장착",
+      "value": "날개를 장착할 수 있다. (장착 효과 적용)",
+      "conditions": [],
+      "tags": [
+        "wing_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "날개 소개",
+        "raw_text": "장착 | 날개를 장착할 수 있다. (장착 효과 적용)"
+      },
+      "ui": {
+        "entity_key": "jangchak",
+        "search_text": "날개 날개 소개 장착 날개를 장착할 수 있다. (장착 효과 적용) wing_system info",
+        "chips": [
+          "wing_system",
+          "info",
+          "recommendation",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_db61ecd0",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "날개 소개",
+      "value": "전체 날개 목록을 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "wing_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "날개 소개",
+        "raw_text": "전체 날개 목록을 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "nalgae_sogae",
+        "search_text": "날개 날개 소개 날개 소개 전체 날개 목록을 확인할 수 있다. wing_system list info",
+        "chips": [
+          "wing_system",
+          "list",
+          "info",
+          "recommendation",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_9b756af6",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "날개 소개",
+      "value": "날개 외형 미리 보기",
+      "conditions": [],
+      "tags": [
+        "wing_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "날개 소개",
+        "raw_text": "날개 외형 미리 보기"
+      },
+      "ui": {
+        "entity_key": "nalgae_sogae",
+        "search_text": "날개 날개 소개 날개 소개 날개 외형 미리 보기 wing_system info",
+        "chips": [
+          "wing_system",
+          "info",
+          "recommendation",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_0bf4583d",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "날개 소개",
+      "value": "날개 목록 중 선택한 날개의 외형을 미리 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "wing_system",
+        "list",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "날개 소개",
+        "raw_text": "날개 목록 중 선택한 날개의 외형을 미리 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "nalgae_sogae",
+        "search_text": "날개 날개 소개 날개 소개 날개 목록 중 선택한 날개의 외형을 미리 확인할 수 있다. wing_system list info",
+        "chips": [
+          "wing_system",
+          "list",
+          "info",
+          "recommendation",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_da24d27d",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "날개 소개",
+      "value": "날개 정보 및 보유 효과",
+      "conditions": [],
+      "tags": [
+        "wing_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "날개 소개",
+        "raw_text": "날개 정보 및 보유 효과"
+      },
+      "ui": {
+        "entity_key": "nalgae_sogae",
+        "search_text": "날개 날개 소개 날개 소개 날개 정보 및 보유 효과 wing_system info",
+        "chips": [
+          "wing_system",
+          "info",
+          "recommendation",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_aa9bafc8",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "날개 소개",
+      "value": "날개 상세 정보와 보유 효과를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "wing_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "날개 소개",
+        "raw_text": "날개 상세 정보와 보유 효과를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "nalgae_sogae",
+        "search_text": "날개 날개 소개 날개 소개 날개 상세 정보와 보유 효과를 확인할 수 있다. wing_system info",
+        "chips": [
+          "wing_system",
+          "info",
+          "recommendation",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_24d909d0",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "날개 소개",
+      "value": "날개 상세 정보를 확인할 수 있다.",
+      "conditions": [],
+      "tags": [
+        "wing_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "날개 소개",
+        "raw_text": "날개 상세 정보를 확인할 수 있다."
+      },
+      "ui": {
+        "entity_key": "nalgae_sogae",
+        "search_text": "날개 날개 소개 날개 소개 날개 상세 정보를 확인할 수 있다. wing_system info",
+        "chips": [
+          "wing_system",
+          "info",
+          "recommendation",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_b82018e5",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "날개 소개",
+      "value": "날개의 외형만 장착/해제할 수 있다. (장착 효과 미적용)",
+      "conditions": [],
+      "tags": [
+        "wing_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "날개 소개",
+        "raw_text": "날개의 외형만 장착/해제할 수 있다. (장착 효과 미적용)"
+      },
+      "ui": {
+        "entity_key": "nalgae_sogae",
+        "search_text": "날개 날개 소개 날개 소개 날개의 외형만 장착/해제할 수 있다. (장착 효과 미적용) wing_system info",
+        "chips": [
+          "wing_system",
+          "info",
+          "recommendation",
+          "gear_nuance"
+        ]
+      }
+    },
+    {
+      "fact_id": "recommendation:gear_nuance:entity_591118ee",
+      "fact_type": "recommendation",
+      "topic": "gear_nuance",
+      "entity": "날개 소개",
+      "value": "날개를 장착할 수 있다. (장착 효과 적용)",
+      "conditions": [],
+      "tags": [
+        "wing_system",
+        "info"
+      ],
+      "confidence": "medium",
+      "numeric_values": [],
+      "evidence": {
+        "source_section": "날개 소개",
+        "raw_text": "날개를 장착할 수 있다. (장착 효과 적용)"
+      },
+      "ui": {
+        "entity_key": "nalgae_sogae",
+        "search_text": "날개 날개 소개 날개 소개 날개를 장착할 수 있다. (장착 효과 적용) wing_system info",
+        "chips": [
+          "wing_system",
+          "info",
+          "recommendation",
+          "gear_nuance"
+        ]
+      }
+    }
+  ]
+}
