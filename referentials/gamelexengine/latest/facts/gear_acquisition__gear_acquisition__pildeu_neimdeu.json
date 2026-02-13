@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%ED%95%84%EB%93%9C%20%EB%84%A4%EC%9E%84%EB%93%9C",
+    "guide_title": "필드 네임드",
+    "top_category": "몬스터와 던전",
+    "sub_category": "필드 콘텐츠",
+    "crawled_at": "2026-02-13T18:14:58+00:00",
+    "parser_version": "facts_v2",
+    "schema_version": "v2",
+    "referential_version": "0.1.0",
+    "priority": "P1",
+    "action": "parse_gear_acquisition",
+    "topic": "gear_acquisition",
+    "source_file": "raw/crawled_pildeu_neimdeu_ba31f2d488/guide.html"
+  },
+  "facts": [
+    {
+      "fact_id": "gear_source:gear_acquisition:1_7ee7bbf5",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "1",
+      "value": "필드 네임드 목록 / 필드 네임드 목록과 위치, 출현까지 남은 시간을 확인할 수 있다.",
+      "numeric_values": [
+        {
+          "value": 1,
+          "unit": "flat",
+          "kind": "duration"
+        }
+      ],
+      "conditions": [],
+      "tags": [
+        "list"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "필드 네임드 소개",
+        "raw_text": "1 | 필드 네임드 목록 | 필드 네임드 목록과 위치, 출현까지 남은 시간을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:2_3a08820a",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "2",
+      "value": "필드 네임드 아이콘 / 지도에서 필드 네임드가 위치한 장소에 아이콘으로 확인할 수 있다.",
+      "numeric_values": [
+        {
+          "value": 2,
+          "unit": "flat",
+          "kind": "gear_source_metric"
+        }
+      ],
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "info"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "필드 네임드 소개",
+        "raw_text": "2 | 필드 네임드 아이콘 | 지도에서 필드 네임드가 위치한 장소에 아이콘으로 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:3_4ae6f894",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "3",
+      "value": "필드 네임드 전리품 정보 / 선택된 필드 네임드의 주요 전리품 정보를 확인할 수 있다.",
+      "numeric_values": [
+        {
+          "value": 3,
+          "unit": "flat",
+          "kind": "gear_source_metric"
+        }
+      ],
+      "conditions": [],
+      "tags": [
+        "info"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "필드 네임드 소개",
+        "raw_text": "3 | 필드 네임드 전리품 정보 | 선택된 필드 네임드의 주요 전리품 정보를 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_a9d9f480",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "필드 네임드 소개",
+      "value": "필드 네임드 목록과 위치, 출현까지 남은 시간을 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "list"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "필드 네임드 소개",
+        "raw_text": "필드 네임드 목록과 위치, 출현까지 남은 시간을 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_526e375d",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "필드 네임드 소개",
+      "value": "필드 네임드 아이콘",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "필드 네임드 소개",
+        "raw_text": "필드 네임드 아이콘"
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_a0ca8ea2",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "필드 네임드 소개",
+      "value": "지도에서 필드 네임드가 위치한 장소에 아이콘으로 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "필드 네임드 소개",
+        "raw_text": "지도에서 필드 네임드가 위치한 장소에 아이콘으로 확인할 수 있다."
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_cada5327",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "필드 네임드 소개",
+      "value": "필드 네임드 전리품 정보",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "필드 네임드 소개",
+        "raw_text": "필드 네임드 전리품 정보"
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_b4272314",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "필드 네임드 소개",
+      "value": "선택된 필드 네임드의 주요 전리품 정보를 확인할 수 있다.",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "info"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "source_section": "필드 네임드 소개",
+        "raw_text": "선택된 필드 네임드의 주요 전리품 정보를 확인할 수 있다."
+      }
+    }
+  ]
+}
