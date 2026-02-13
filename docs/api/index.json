@@ -3,9 +3,9 @@
   "schemaVersion": "v1",
   "latestVersion": "0.1.0",
   "endpoints": {
-    "latestFactsIndex": "/api/latest/facts/index.json",
-    "versionFactsIndex": "/api/0.1.0/facts/index.json",
-    "latestStudioIndex": "/api/latest/studio/index.json",
-    "versionStudioIndex": "/api/0.1.0/studio/index.json"
+    "latestFactsIndex": "./latest/facts/index.json",
+    "versionFactsIndex": "./0.1.0/facts/index.json",
+    "latestStudioIndex": "./latest/studio/index.json",
+    "versionStudioIndex": "./0.1.0/studio/index.json"
   }
 }
