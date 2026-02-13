@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "source_url": "https://aion2.plaync.com/ko-kr/guidebook/view?title=%EB%B4%89%EC%9D%B8%20%EB%8D%98%EC%A0%84%20%EB%B0%8F%20%EC%A3%BC%EB%91%94%EC%A7%80",
+    "guide_title": "봉인 던전 및 주둔지",
+    "top_category": "몬스터와 던전",
+    "sub_category": "던전 콘텐츠",
+    "crawled_at": "2026-02-13T18:14:21+00:00",
+    "parser_version": "facts_v2",
+    "schema_version": "v2",
+    "referential_version": "0.1.0",
+    "priority": "P1",
+    "action": "parse_gear_acquisition",
+    "topic": "gear_acquisition",
+    "source_file": "raw/crawled_bongin_deonjeon_mit_judunji_f3fabaf4d9/guide.html"
+  },
+  "facts": [
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_41e474a7",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "월드맵 내 다양한 장소에서 발견할 수 있는 봉인 던전과 주둔지 발견된 봉인 던전 봉인 던전 입구의 모습",
+      "value": "월드맵 내 다양한 장소에서 발견할 수 있는 봉인 던전과 주둔지 발견된 봉인 던전 봉인 던전 입구의 모습",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "control",
+        "dungeon"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "봉인 던전 소개",
+        "raw_text": "월드맵 내 다양한 장소에서 발견할 수 있는 봉인 던전과 주둔지 발견된 봉인 던전 봉인 던전 입구의 모습"
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_77eda6df",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "발견된 주둔지",
+      "value": "발견된 주둔지",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "info"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "봉인 던전 소개",
+        "raw_text": "발견된 주둔지"
+      }
+    },
+    {
+      "fact_id": "gear_source:gear_acquisition:entity_bad72182",
+      "fact_type": "gear_source",
+      "topic": "gear_acquisition",
+      "entity": "주둔지 입구의 모습",
+      "value": "주둔지 입구의 모습",
+      "numeric_values": [],
+      "conditions": [],
+      "tags": [
+        "acquisition",
+        "source",
+        "info"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "source_section": "봉인 던전 소개",
+        "raw_text": "주둔지 입구의 모습"
+      }
+    }
+  ]
+}
